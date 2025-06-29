@@ -1,0 +1,549 @@
+{
+  "test_category": "Academic",
+  "class": "Undergraduate",
+  "stream": "Science",
+  "course": "BCS",
+  "description": "Assesses General Knowledge, Science, and History for undergraduate students pursuing BCS to guide academic and career choices.",
+  "questions": [
+    {
+      "question_id": "ACAD_UGBCS_001",
+      "question_text": "Which Indian body accredits computer science programs, including BCS?",
+      "options": [
+        {"option_id": "A", "text": "National Board of Accreditation"},
+        {"option_id": "B", "text": "Institute of Chartered Accountants of India"},
+        {"option_id": "C", "text": "Bar Council of India"},
+        {"option_id": "D", "text": "Medical Council of India"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "NBA accredits technical programs like BCS. Accreditation knowledge is essential for BCS (Education Quality)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_002",
+      "question_text": "Which Indian city is a hub for computer science education, hosting IITs?",
+      "options": [
+        {"option_id": "A", "text": "Mumbai"},
+        {"option_id": "B", "text": "Chennai"},
+        {"option_id": "C", "text": "Kanpur"},
+        {"option_id": "D", "text": "Lucknow"}
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 4},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Kanpur hosts IIT Kanpur, a computer science hub. Regional knowledge is key for BCS (Technical Education)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_003",
+      "question_text": "What does the acronym ‘TCP/IP’ stand for in networking?",
+      "options": [
+        {"option_id": "A", "text": "Transmission Control Protocol/Internet Protocol"},
+        {"option_id": "B", "text": "Technical Communication Protocol/Information Protocol"},
+        {"option_id": "C", "text": "Transfer Control Process/Internet Process"},
+        {"option_id": "D", "text": "Terminal Connection Protocol/Interface Protocol"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "TCP/IP is Transmission Control Protocol/Internet Protocol. Networking knowledge supports BCS (Computer Networks)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_004",
+      "question_text": "Which Indian institute is renowned for computer science, like BITS Pilani?",
+      "options": [
+        {"option_id": "A", "text": "Birla Institute of Technology and Science, Pilani"},
+        {"option_id": "B", "text": "Indian Institute of Management, Ahmedabad"},
+        {"option_id": "C", "text": "National Institute of Fashion Technology, Delhi"},
+        {"option_id": "D", "text": "Indian Veterinary Research Institute, Izatnagar"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "BITS Pilani is renowned for computer science. Institutional knowledge is vital for BCS students."
+    },
+    {
+      "question_id": "ACAD_UGBCS_005",
+      "question_text": "Which global body develops standards for computing, like IEEE?",
+      "options": [
+        {"option_id": "A", "text": "Institute of Electrical and Electronics Engineers"},
+        {"option_id": "B", "text": "World Health Organization"},
+        {"option_id": "C", "text": "International Labour Organization"},
+        {"option_id": "D", "text": "United Nations Development Programme"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "IEEE develops computing standards. Standards knowledge is key for BCS (Computer Standards)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_006",
+      "question_text": "Which Indian state is known for its IT institutes, like NIT Karnataka?",
+      "options": [
+        {"option_id": "A", "text": "Karnataka"},
+        {"option_id": "B", "text": "Gujarat"},
+        {"option_id": "C", "text": "Rajasthan"},
+        {"option_id": "D", "text": "Punjab"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Karnataka hosts NIT Karnataka. Regional knowledge supports BCS (Technical Education)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_007",
+      "question_text": "Which Indian policy supports IT innovation, like Startup India?",
+      "options": [
+        {"option_id": "A", "text": "Startup India"},
+        {"option_id": "B", "text": "Swachh Bharat Abhiyan"},
+        {"option_id": "C", "text": "Ayushman Bharat"},
+        {"option_id": "D", "text": "Beti Bachao Beti Padhao"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Startup India supports IT innovation. Policy knowledge is essential for BCS (IT Entrepreneurship)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_008",
+      "question_text": "Which Indian company is known for its AI and cloud computing solutions, like Infosys?",
+      "options": [
+        {"option_id": "A", "text": "Infosys"},
+        {"option_id": "B", "text": "Aditya Birla Group"},
+        {"option_id": "C", "text": "Hero MotoCorp"},
+        {"option_id": "D", "text": "Dr. Reddy’s Laboratories"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Infosys leads in AI and cloud computing. Corporate knowledge is vital for BCS (IT Industry)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_009",
+      "question_text": "Which global tech company developed the C++ programming language?",
+      "options": [
+        {"option_id": "A", "text": "Microsoft"},
+        {"option_id": "B", "text": "Bell Labs"},
+        {"option_id": "C", "text": "Google"},
+        {"option_id": "D", "text": "IBM"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "C++ was developed by Bjarne Stroustrup at Bell Labs. Programming knowledge supports BCS (Programming)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_010",
+      "question_text": "Which Indian city hosts the headquarters of the Centre for Development of Advanced Computing (C-DAC)?",
+      "options": [
+        {"option_id": "A", "text": "Pune"},
+        {"option_id": "B", "text": "Mumbai"},
+        {"option_id": "C", "text": "Delhi"},
+        {"option_id": "D", "text": "Chennai"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "C-DAC is headquartered in Pune. Organizational knowledge is key for BCS (Advanced Computing)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_011",
+      "question_text": "What is a binary search tree in computer science?",
+      "options": [
+        {"option_id": "A", "text": "A tree data structure with ordered nodes"},
+        {"option_id": "B", "text": "A network protocol"},
+        {"option_id": "C", "text": "A sorting algorithm"},
+        {"option_id": "D", "text": "A database schema"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "A binary search tree has ordered nodes. Data structure knowledge is crucial for BCS (Data Structures)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_012",
+      "question_text": "What is the time complexity of a binary search algorithm?",
+      "options": [
+        {"option_id": "A", "text": "O(n)"},
+        {"option_id": "B", "text": "O(log n)"},
+        {"option_id": "C", "text": "O(n²)"},
+        {"option_id": "D", "text": "O(n log n)"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Binary search has O(log n) complexity. Algorithm knowledge is essential for BCS (Algorithms)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_013",
+      "question_text": "What is the primary purpose of a hash table?",
+      "options": [
+        {"option_id": "A", "text": "Store key-value pairs with fast retrieval"},
+        {"option_id": "B", "text": "Design user interfaces"},
+        {"option_id": "C", "text": "Manage network traffic"},
+        {"option_id": "D", "text": "Compile code"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Hash tables enable fast data retrieval. Data structure knowledge is key for BCS (Data Structures)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_014",
+      "question_text": "What is a finite automaton in computer science?",
+      "options": [
+        {"option_id": "A", "text": "A model of computation with states and transitions"},
+        {"option_id": "B", "text": "A programming language"},
+        {"option_id": "C", "text": "A network protocol"},
+        {"option_id": "D", "text": "A database system"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Finite automata model computation. Theoretical knowledge is vital for BCS (Theory of Computation)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_015",
+      "question_text": "What is the primary function of a linker in software development?",
+      "options": [
+        {"option_id": "A", "text": "Combine object code into an executable"},
+        {"option_id": "B", "text": "Design network topologies"},
+        {"option_id": "C", "text": "Manage database queries"},
+        {"option_id": "D", "text": "Create web interfaces"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "A linker creates executables. Programming knowledge is essential for BCS (Software Development)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_016",
+      "question_text": "What does NP stand for in computational complexity?",
+      "options": [
+        {"option_id": "A", "text": "Nondeterministic Polynomial"},
+        {"option_id": "B", "text": "Network Protocol"},
+        {"option_id": "C", "text": "Numerical Processing"},
+        {"option_id": "D", "text": "Node Partition"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "NP is Nondeterministic Polynomial. Complexity knowledge is key for BCS (Algorithms)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_017",
+      "question_text": "What is the primary purpose of a depth-first search (DFS)?",
+      "options": [
+        {"option_id": "A", "text": "Explore graph nodes deeply before backtracking"},
+        {"option_id": "B", "text": "Manage database records"},
+        {"option_id": "C", "text": "Compile software code"},
+        {"option_id": "D", "text": "Design user interfaces"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "DFS explores deeply. Algorithm knowledge is vital for BCS (Algorithms)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_018",
+      "question_text": "What is a Turing machine?",
+      "options": [
+        {"option_id": "A", "text": "A theoretical model of computation"},
+        {"option_id": "B", "text": "A hardware processor"},
+        {"option_id": "C", "text": "A programming language"},
+        {"option_id": "D", "text": "A network router"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "A Turing machine models computation. Theoretical knowledge is essential for BCS (Theory of Computation)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_019",
+      "question_text": "What is the primary role of a garbage collector in programming?",
+      "options": [
+        {"option_id": "A", "text": "Automatically free unused memory"},
+        {"option_id": "B", "text": "Optimize network traffic"},
+        {"option_id": "C", "text": "Create database indexes"},
+        {"option_id": "D", "text": "Design web layouts"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Garbage collectors free memory. Programming knowledge is key for BCS (Software Development)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_020",
+      "question_text": "What is the primary purpose of a greedy algorithm?",
+      "options": [
+        {"option_id": "A", "text": "Make locally optimal choices for a global solution"},
+        {"option_id": "B", "text": "Manage hardware resources"},
+        {"option_id": "C", "text": "Create user interfaces"},
+        {"option_id": "D", "text": "Analyze financial data"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Greedy algorithms optimize locally. Algorithm knowledge is vital for BCS (Algorithms)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_021",
+      "question_text": "In which year was the Centre for Development of Advanced Computing (C-DAC) established?",
+      "options": [
+        {"option_id": "A", "text": "1988"},
+        {"option_id": "B", "text": "1978"},
+        {"option_id": "C", "text": "1998"},
+        {"option_id": "D", "text": "1968"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "C-DAC was established in 1988. Institutional history is relevant for BCS (Advanced Computing)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_022",
+      "question_text": "Who founded Infosys?",
+      "options": [
+        {"option_id": "A", "text": "N.R. Narayana Murthy"},
+        {"option_id": "B", "text": "Azim Premji"},
+        {"option_id": "C", "text": "Shiv Nadar"},
+        {"option_id": "D", "text": "Mukesh Ambani"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "N.R. Narayana Murthy founded Infosys in 1981. Corporate history is key for BCS (IT Industry)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_023",
+      "question_text": "In which year was the National Informatics Centre (NIC) established in India?",
+      "options": [
+        {"option_id": "A", "text": "1976"},
+        {"option_id": "B", "text": "1966"},
+        {"option_id": "C", "text": "1986"},
+        {"option_id": "D", "text": "1996"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "NIC was established in 1976. Institutional history is relevant for BCS (IT Policy)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_024",
+      "question_text": "In which year was the C++ programming language first released?",
+      "options": [
+        {"option_id": "A", "text": "1985"},
+        {"option_id": "B", "text": "1975"},
+        {"option_id": "C", "text": "1995"},
+        {"option_id": "D", "text": "1965"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "C++ was released in 1985. Programming history is key for BCS (Programming)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_025",
+      "question_text": "Who proposed the concept of the Turing machine?",
+      "options": [
+        {"option_id": "A", "text": "Alan Turing"},
+        {"option_id": "B", "text": "John von Neumann"},
+        {"option_id": "C", "text": "Claude Shannon"},
+        {"option_id": "D", "text": "Ada Lovelace"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Alan Turing proposed the Turing machine in 1936. Theoretical history is relevant for BCS (Theory of Computation)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_026",
+      "question_text": "In which year was the first IIT established in India?",
+      "options": [
+        {"option_id": "A", "text": "1951"},
+        {"option_id": "B", "text": "1941"},
+        {"option_id": "C", "text": "1961"},
+        {"option_id": "D", "text": "1971"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The first IIT (Kharagpur) was established in 1951. Institutional history is key for BCS (Technical Education)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_027",
+      "question_text": "In which year was the JavaScript programming language first released?",
+      "options": [
+        {"option_id": "A", "text": "1995"},
+        {"option_id": "B", "text": "1985"},
+        {"option_id": "C", "text": "2005"},
+        {"option_id": "D", "text": "1975"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "JavaScript was released in 1995. Programming history is key for BCS (Programming)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_028",
+      "question_text": "Who developed the Linux kernel?",
+      "options": [
+        {"option_id": "A", "text": "Linus Torvalds"},
+        {"option_id": "B", "text": "Bill Gates"},
+        {"option_id": "C", "text": "Steve Jobs"},
+        {"option_id": "D", "text": "Mark Zuckerberg"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Linus Torvalds developed Linux in 1991. System history is key for BCS (Operating Systems)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_029",
+      "question_text": "In which year was the World Wide Web invented?",
+      "options": [
+        {"option_id": "A", "text": "1989"},
+        {"option_id": "B", "text": "1979"},
+        {"option_id": "C", "text": "1999"},
+        {"option_id": "D", "text": "1969"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The World Wide Web was invented in 1989 by Tim Berners-Lee. Technology history is key for BCS (Web Technologies)."
+    },
+    {
+      "question_id": "ACAD_UGBCS_030",
+      "question_text": "In which year was the first Indian supercomputer, PARAM, launched?",
+      "options": [
+        {"option_id": "A", "text": "1991"},
+        {"option_id": "B", "text": "1981"},
+        {"option_id": "C", "text": "2001"},
+        {"option_id": "D", "text": "1971"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "PARAM was launched in 1991 by C-DAC. Technology history is key for BCS (Advanced Computing)."
+    }
+  ]
+}

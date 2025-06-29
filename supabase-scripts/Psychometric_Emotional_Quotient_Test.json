@@ -1,0 +1,457 @@
+{
+  "test_category": "Psychometric",
+  "factor": "Emotional Quotient",
+  "description": "Assesses emotional intelligence traits (self-awareness, self-regulation, empathy, social skills, motivation) to guide academic and career choices for students in 10th, 11th/12th, and UG levels.",
+  "questions": [
+    {
+      "question_id": "EQ_001",
+      "question_text": "How well do you recognize your emotions when facing a challenge?",
+      "options": [
+        {"option_id": "A", "text": "I always recognize and understand my emotions."},
+        {"option_id": "B", "text": "I usually recognize my emotions with some effort."},
+        {"option_id": "C", "text": "I rarely notice my emotions during challenges."},
+        {"option_id": "D", "text": "It depends on the situation."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Self-Awareness", "score": 4},
+        "B": {"trait": "Self-Awareness", "score": 3},
+        "C": {"trait": "Self-Awareness", "score": 1},
+        "D": {"trait": "Self-Awareness", "score": 2}
+      },
+      "explanation": "High self-awareness suits fields requiring emotional resilience, like MBBS or B.Ed; moderate suits BBA; low may align with technical fields like BCA."
+    },
+    {
+      "question_id": "EQ_002",
+      "question_text": "How do you manage stress during tight deadlines?",
+      "options": [
+        {"option_id": "A", "text": "I stay calm and use effective coping strategies."},
+        {"option_id": "B", "text": "I manage but sometimes feel overwhelmed."},
+        {"option_id": "C", "text": "I often struggle to stay calm."},
+        {"option_id": "D", "text": "I use specific techniques like planning or breathing."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Self-Regulation", "score": 4},
+        "B": {"trait": "Self-Regulation", "score": 3},
+        "C": {"trait": "Self-Regulation", "score": 1},
+        "D": {"trait": "Self-Regulation", "score": 3}
+      },
+      "explanation": "Strong self-regulation is key for high-pressure fields like CA or MBBS; moderate suits B.Com; techniques suit collaborative fields like BBA."
+    },
+    {
+      "question_id": "EQ_003",
+      "question_text": "How do you respond when a friend is upset?",
+      "options": [
+        {"option_id": "A", "text": "I listen carefully and offer support."},
+        {"option_id": "B", "text": "I try to help but may not fully understand."},
+        {"option_id": "C", "text": "I find it hard to relate and may avoid it."},
+        {"option_id": "D", "text": "I offer advice based on the situation."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Empathy", "score": 4},
+        "B": {"trait": "Empathy", "score": 3},
+        "C": {"trait": "Empathy", "score": 1},
+        "D": {"trait": "Empathy", "score": 2}
+      },
+      "explanation": "High empathy suits supportive roles like B.Ed or MSW; moderate suits BBA; low may align with analytical fields like BCA."
+    },
+    {
+      "question_id": "EQ_004",
+      "question_text": "How comfortable are you working in a team?",
+      "options": [
+        {"option_id": "A", "text": "Very comfortable, I thrive in teams."},
+        {"option_id": "B", "text": "Somewhat comfortable, I prefer a balance."},
+        {"option_id": "C", "text": "Not comfortable, I prefer working alone."},
+        {"option_id": "D", "text": "It depends on the team dynamics."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Social Skills", "score": 4},
+        "B": {"trait": "Social Skills", "score": 3},
+        "C": {"trait": "Social Skills", "score": 1},
+        "D": {"trait": "Social Skills", "score": 2}
+      },
+      "explanation": "Strong social skills suit collaborative fields like BBA or Mass Communication; low suits independent roles like BCS or B.Tech."
+    },
+    {
+      "question_id": "EQ_005",
+      "question_text": "How motivated are you to achieve your academic goals?",
+      "options": [
+        {"option_id": "A", "text": "Highly motivated, I set and pursue clear goals."},
+        {"option_id": "B", "text": "Moderately motivated, I work steadily."},
+        {"option_id": "C", "text": "Not very motivated, I need external push."},
+        {"option_id": "D", "text": "My motivation depends on the subject."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Motivation", "score": 4},
+        "B": {"trait": "Motivation", "score": 3},
+        "C": {"trait": "Motivation", "score": 1},
+        "D": {"trait": "Motivation", "score": 2}
+      },
+      "explanation": "High motivation suits demanding fields like MBBS or CA; moderate suits B.Com; context-dependent suits creative fields like BFA."
+    },
+    {
+      "question_id": "EQ_006",
+      "question_text": "How often do you reflect on your feelings after a disagreement?",
+      "options": [
+        {"option_id": "A", "text": "Always, I analyze my emotions carefully."},
+        {"option_id": "B", "text": "Sometimes, if the disagreement was significant."},
+        {"option_id": "C", "text": "Rarely, I move on quickly."},
+        {"option_id": "D", "text": "It depends on the situation."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Self-Awareness", "score": 4},
+        "B": {"trait": "Self-Awareness", "score": 3},
+        "C": {"trait": "Self-Awareness", "score": 1},
+        "D": {"trait": "Self-Awareness", "score": 2}
+      },
+      "explanation": "High self-awareness suits fields like B.Ed or MSW; moderate suits BBA; low may align with technical fields like BCA."
+    },
+    {
+      "question_id": "EQ_007",
+      "question_text": "How do you control impulsive reactions during arguments?",
+      "options": [
+        {"option_id": "A", "text": "I stay calm and think before responding."},
+        {"option_id": "B", "text": "I try to stay calm but sometimes react."},
+        {"option_id": "C", "text": "I often react impulsively."},
+        {"option_id": "D", "text": "I use techniques like pausing or breathing."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Self-Regulation", "score": 4},
+        "B": {"trait": "Self-Regulation", "score": 3},
+        "C": {"trait": "Self-Regulation", "score": 1},
+        "D": {"trait": "Self-Regulation", "score": 3}
+      },
+      "explanation": "Strong self-regulation is key for high-stakes fields like MBBS or CA; moderate suits B.Com; techniques suit collaborative fields like BBA."
+    },
+    {
+      "question_id": "EQ_008",
+      "question_text": "How do you understand a classmate’s perspective during a group project?",
+      "options": [
+        {"option_id": "A", "text": "I actively listen and empathize fully."},
+        {"option_id": "B", "text": "I try to understand but may miss nuances."},
+        {"option_id": "C", "text": "I focus on my own perspective."},
+        {"option_id": "D", "text": "I ask questions to clarify their view."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Empathy", "score": 4},
+        "B": {"trait": "Empathy", "score": 3},
+        "C": {"trait": "Empathy", "score": 1},
+        "D": {"trait": "Empathy", "score": 3}
+      },
+      "explanation": "High empathy suits supportive roles like B.Ed or MSW; moderate suits BBA; low may align with analytical fields like BCS."
+    },
+    {
+      "question_id": "EQ_009",
+      "question_text": "How do you handle conflicts with peers?",
+      "options": [
+        {"option_id": "A", "text": "I resolve conflicts calmly and diplomatically."},
+        {"option_id": "B", "text": "I try to resolve but may get frustrated."},
+        {"option_id": "C", "text": "I avoid conflicts or struggle to resolve them."},
+        {"option_id": "D", "text": "I address conflicts based on the situation."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Social Skills", "score": 4},
+        "B": {"trait": "Social Skills", "score": 3},
+        "C": {"trait": "Social Skills", "score": 1},
+        "D": {"trait": "Social Skills", "score": 2}
+      },
+      "explanation": "Strong social skills suit collaborative fields like BBA or Mass Communication; low suits independent roles like BCA."
+    },
+    {
+      "question_id": "EQ_010",
+      "question_text": "How driven are you to complete challenging tasks?",
+      "options": [
+        {"option_id": "A", "text": "Very driven, I push through obstacles."},
+        {"option_id": "B", "text": "Somewhat driven, I need some motivation."},
+        {"option_id": "C", "text": "Not very driven, I may give up."},
+        {"option_id": "D", "text": "My drive depends on the task’s importance."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Motivation", "score": 4},
+        "B": {"trait": "Motivation", "score": 3},
+        "C": {"trait": "Motivation", "score": 1},
+        "D": {"trait": "Motivation", "score": 2}
+      },
+      "explanation": "High motivation suits rigorous fields like MBBS or CA; moderate suits B.Com; context-dependent suits creative fields like BFA."
+    },
+    {
+      "question_id": "EQ_011",
+      "question_text": "How aware are you of your strengths and weaknesses?",
+      "options": [
+        {"option_id": "A", "text": "Very aware, I reflect regularly."},
+        {"option_id": "B", "text": "Somewhat aware, I notice occasionally."},
+        {"option_id": "C", "text": "Not very aware, I don’t think about it."},
+        {"option_id": "D", "text": "It depends on the context."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Self-Awareness", "score": 4},
+        "B": {"trait": "Self-Awareness", "score": 3},
+        "C": {"trait": "Self-Awareness", "score": 1},
+        "D": {"trait": "Self-Awareness", "score": 2}
+      },
+      "explanation": "High self-awareness suits fields like B.Ed or MSW; moderate suits BBA; low may align with technical fields like B.Tech."
+    },
+    {
+      "question_id": "EQ_012",
+      "question_text": "How do you handle frustration when a task is not going well?",
+      "options": [
+        {"option_id": "A", "text": "I stay calm and refocus on solutions."},
+        {"option_id": "B", "text": "I get frustrated but try to push through."},
+        {"option_id": "C", "text": "I often lose patience and give up."},
+        {"option_id": "D", "text": "I take a break and reassess."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Self-Regulation", "score": 4},
+        "B": {"trait": "Self-Regulation", "score": 3},
+        "C": {"trait": "Self-Regulation", "score": 1},
+        "D": {"trait": "Self-Regulation", "score": 3}
+      },
+      "explanation": "Strong self-regulation suits high-pressure fields like MBBS or CA; moderate suits B.Com; reassessment suits BBA."
+    },
+    {
+      "question_id": "EQ_013",
+      "question_text": "How do you respond to a classmate’s failure?",
+      "options": [
+        {"option_id": "A", "text": "I offer support and encouragement."},
+        {"option_id": "B", "text": "I sympathize but don’t get involved."},
+        {"option_id": "C", "text": "I don’t pay much attention."},
+        {"option_id": "D", "text": "I suggest ways to improve."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Empathy", "score": 4},
+        "B": {"trait": "Empathy", "score": 3},
+        "C": {"trait": "Empathy", "score": 1},
+        "D": {"trait": "Empathy", "score": 3}
+      },
+      "explanation": "High empathy suits supportive roles like B.Ed or MSW; moderate suits BBA; low may align with analytical fields like BCS."
+    },
+    {
+      "question_id": "EQ_014",
+      "question_text": "How do you build relationships with new classmates?",
+      "options": [
+        {"option_id": "A", "text": "I actively connect and build trust."},
+        {"option_id": "B", "text": "I connect if we share interests."},
+        {"option_id": "C", "text": "I prefer to keep to myself."},
+        {"option_id": "D", "text": "It depends on the situation."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Social Skills", "score": 4},
+        "B": {"trait": "Social Skills", "score": 3},
+        "C": {"trait": "Social Skills", "score": 1},
+        "D": {"trait": "Social Skills", "score": 2}
+      },
+      "explanation": "Strong social skills suit collaborative fields like BBA or Mass Communication; low suits independent roles like BCA."
+    },
+    {
+      "question_id": "EQ_015",
+      "question_text": "How do you stay motivated during repetitive tasks?",
+      "options": [
+        {"option_id": "A", "text": "I focus on long-term goals."},
+        {"option_id": "B", "text": "I find ways to stay engaged."},
+        {"option_id": "C", "text": "I lose interest quickly."},
+        {"option_id": "D", "text": "It depends on the task’s purpose."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Motivation", "score": 4},
+        "B": {"trait": "Motivation", "score": 3},
+        "C": {"trait": "Motivation", "score": 1},
+        "D": {"trait": "Motivation", "score": 2}
+      },
+      "explanation": "High motivation suits rigorous fields like MBBS or CA; moderate suits B.Com; context-dependent suits creative fields like BFA."
+    },
+    {
+      "question_id": "EQ_016",
+      "question_text": "How often do you notice your emotional triggers?",
+      "options": [
+        {"option_id": "A", "text": "Frequently, I’m very aware of them."},
+        {"option_id": "B", "text": "Sometimes, if I reflect on it."},
+        {"option_id": "C", "text": "Rarely, I don’t focus on triggers."},
+        {"option_id": "D", "text": "It depends on the situation."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Self-Awareness", "score": 4},
+        "B": {"trait": "Self-Awareness", "score": 3},
+        "C": {"trait": "Self-Awareness", "score": 1},
+        "D": {"trait": "Self-Awareness", "score": 2}
+      },
+      "explanation": "High self-awareness suits fields like B.Ed or MSW; moderate suits BBA; low may align with technical fields like B.Tech."
+    },
+    {
+      "question_id": "EQ_017",
+      "question_text": "How do you handle criticism from a teacher?",
+      "options": [
+        {"option_id": "A", "text": "I accept it calmly and improve."},
+        {"option_id": "B", "text": "I consider it but may feel upset."},
+        {"option_id": "C", "text": "I find it hard to accept and get defensive."},
+        {"option_id": "D", "text": "I analyze it before responding."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Self-Regulation", "score": 4},
+        "B": {"trait": "Self-Regulation", "score": 3},
+        "C": {"trait": "Self-Regulation", "score": 1},
+        "D": {"trait": "Self-Regulation", "score": 3}
+      },
+      "explanation": "Strong self-regulation suits high-pressure fields like MBBS or CA; moderate suits B.Com; analytical response suits BBA."
+    },
+    {
+      "question_id": "EQ_018",
+      "question_text": "How do you support a struggling team member?",
+      "options": [
+        {"option_id": "A", "text": "I offer empathetic support and guidance."},
+        {"option_id": "B", "text": "I help if asked but focus on my tasks."},
+        {"option_id": "C", "text": "I don’t get involved."},
+        {"option_id": "D", "text": "I suggest practical solutions."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Empathy", "score": 4},
+        "B": {"trait": "Empathy", "score": 3},
+        "C": {"trait": "Empathy", "score": 1},
+        "D": {"trait": "Empathy", "score": 3}
+      },
+      "explanation": "High empathy suits supportive roles like B.Ed or MSW; moderate suits BBA; low may align with analytical fields like BCS."
+    },
+    {
+      "question_id": "EQ_019",
+      "question_text": "How do you persuade others to agree with your ideas?",
+      "options": [
+        {"option_id": "A", "text": "I communicate clearly and build consensus."},
+        {"option_id": "B", "text": "I try to persuade but may struggle."},
+        {"option_id": "C", "text": "I avoid persuading and stick to my views."},
+        {"option_id": "D", "text": "I adapt my approach based on the audience."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Social Skills", "score": 4},
+        "B": {"trait": "Social Skills", "score": 3},
+        "C": {"trait": "Social Skills", "score": 1},
+        "D": {"trait": "Social Skills", "score": 3}
+      },
+      "explanation": "Strong social skills suit collaborative fields like BBA or Mass Communication; moderate suits B.Com; adaptive suits MBA."
+    },
+    {
+      "question_id": "EQ_020",
+      "question_text": "How do you stay motivated after a setback?",
+      "options": [
+        {"option_id": "A", "text": "I refocus on my goals and push forward."},
+        {"option_id": "B", "text": "I recover slowly but keep going."},
+        {"option_id": "C", "text": "I struggle to regain motivation."},
+        {"option_id": "D", "text": "I seek inspiration to move forward."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Motivation", "score": 4},
+        "B": {"trait": "Motivation", "score": 3},
+        "C": {"trait": "Motivation", "score": 1},
+        "D": {"trait": "Motivation", "score": 2}
+      },
+      "explanation": "High motivation suits rigorous fields like MBBS or CA; moderate suits B.Com; inspiration-seeking suits creative fields like BFA."
+    },
+    {
+      "question_id": "EQ_021",
+      "question_text": "How do you identify your emotions during group discussions?",
+      "options": [
+        {"option_id": "A", "text": "I’m very aware and manage them well."},
+        {"option_id": "B", "text": "I notice them but may not manage well."},
+        {"option_id": "C", "text": "I don’t focus on my emotions."},
+        {"option_id": "D", "text": "It depends on the discussion."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Self-Awareness", "score": 4},
+        "B": {"trait": "Self-Awareness", "score": 3},
+        "C": {"trait": "Self-Awareness", "score": 1},
+        "D": {"trait": "Self-Awareness", "score": 2}
+      },
+      "explanation": "High self-awareness suits fields like B.Ed or MSW; moderate suits BBA; low may align with technical fields like BCA."
+    },
+    {
+      "question_id": "EQ_022",
+      "question_text": "How do you manage anger during a disagreement?",
+      "options": [
+        {"option_id": "A", "text": "I stay calm and express myself clearly."},
+        {"option_id": "B", "text": "I try to stay calm but may show frustration."},
+        {"option_id": "C", "text": "I often get angry and react strongly."},
+        {"option_id": "D", "text": "I step back to cool off before responding."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Self-Regulation", "score": 4},
+        "B": {"trait": "Self-Regulation", "score": 3},
+        "C": {"trait": "Self-Regulation", "score": 1},
+        "D": {"trait": "Self-Regulation", "score": 3}
+      },
+      "explanation": "Strong self-regulation suits high-pressure fields like MBBS or CA; moderate suits B.Com; stepping back suits BBA."
+    },
+    {
+      "question_id": "EQ_023",
+      "question_text": "How do you understand a teacher’s perspective when they give feedback?",
+      "options": [
+        {"option_id": "A", "text": "I empathize and see their point of view."},
+        {"option_id": "B", "text": "I try to understand but focus on my perspective."},
+        {"option_id": "C", "text": "I don’t consider their perspective much."},
+        {"option_id": "D", "text": "I ask for clarification to understand."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Empathy", "score": 4},
+        "B": {"trait": "Empathy", "score": 3},
+        "C": {"trait": "Empathy", "score": 1},
+        "D": {"trait": "Empathy", "score": 3}
+      },
+      "explanation": "High empathy suits supportive roles like B.Ed or MSW; moderate suits BBA; low may align with analytical fields like BCS."
+    },
+    {
+      "question_id": "EQ_024",
+      "question_text": "How do you lead a group discussion?",
+      "options": [
+        {"option_id": "A", "text": "I guide it effectively and include everyone."},
+        {"option_id": "B", "text": "I try to lead but may overlook some voices."},
+        {"option_id": "C", "text": "I avoid leading and let others take charge."},
+        {"option_id": "D", "text": "I lead only when necessary."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Social Skills", "score": 4},
+        "B": {"trait": "Social Skills", "score": 3},
+        "C": {"trait": "Social Skills", "score": 1},
+        "D": {"trait": "Social Skills", "score": 2}
+      },
+      "explanation": "Strong social skills suit leadership fields like BBA or MBA; moderate suits B.Com; low suits independent roles like BCA."
+    },
+    {
+      "question_id": "EQ_025",
+      "question_text": "How do you stay motivated for long-term goals?",
+      "options": [
+        {"option_id": "A", "text": "I set clear goals and stay focused."},
+        {"option_id": "B", "text": "I work toward goals but may lose focus."},
+        {"option_id": "C", "text": "I struggle to stay motivated long-term."},
+        {"option_id": "D", "text": "I find motivation through milestones."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Motivation", "score": 4},
+        "B": {"trait": "Motivation", "score": 3},
+        "C": {"trait": "Motivation", "score": 1},
+        "D": {"trait": "Motivation", "score": 3}
+      },
+      "explanation": "High motivation suits rigorous fields like MBBS or CA; moderate suits B.Com; milestone-driven suits creative fields like BFA."
+    }
+  ]
+}

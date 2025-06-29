@@ -1,0 +1,307 @@
+{
+  "stream": "UG",
+  "course": "BFA",
+  "category": "Arts",
+  "questions": [
+    {
+      "question": "Which of the following is a primary color?",
+      "options": [
+        "Green",
+        "Purple",
+        "Red",
+        "Orange"
+      ],
+      "answer": "Red"
+    },
+    {
+      "question": "What medium is traditionally used in oil painting?",
+      "options": [
+        "Water",
+        "Turpentine",
+        "Acrylic",
+        "Ink"
+      ],
+      "answer": "Turpentine"
+    },
+    {
+      "question": "Which artist is known for the painting 'Starry Night'?",
+      "options": [
+        "Pablo Picasso",
+        "Vincent van Gogh",
+        "Claude Monet",
+        "Leonardo da Vinci"
+      ],
+      "answer": "Vincent van Gogh"
+    },
+    {
+      "question": "Which technique involves carving into a surface to make prints?",
+      "options": [
+        "Etching",
+        "Watercolor",
+        "Tempera",
+        "Collage"
+      ],
+      "answer": "Etching"
+    },
+    {
+      "question": "What is the term for the lightness or darkness of a color?",
+      "options": [
+        "Hue",
+        "Tone",
+        "Saturation",
+        "Value"
+      ],
+      "answer": "Value"
+    },
+    {
+      "question": "In art, what is a 'still life'?",
+      "options": [
+        "A painting of people",
+        "A landscape",
+        "A composition of inanimate objects",
+        "A sculpture"
+      ],
+      "answer": "A composition of inanimate objects"
+    },
+    {
+      "question": "What is the common binder used in acrylic paints?",
+      "options": [
+        "Egg yolk",
+        "Oil",
+        "Polymer emulsion",
+        "Water"
+      ],
+      "answer": "Polymer emulsion"
+    },
+    {
+      "question": "Who painted the ceiling of the Sistine Chapel?",
+      "options": [
+        "Michelangelo",
+        "Raphael",
+        "Donatello",
+        "Caravaggio"
+      ],
+      "answer": "Michelangelo"
+    },
+    {
+      "question": "Which is not a printmaking technique?",
+      "options": [
+        "Lithography",
+        "Relief",
+        "Intaglio",
+        "Encaustic"
+      ],
+      "answer": "Encaustic"
+    },
+    {
+      "question": "Which sculpture method involves adding material?",
+      "options": [
+        "Carving",
+        "Casting",
+        "Modeling",
+        "Etching"
+      ],
+      "answer": "Modeling"
+    },
+    {
+      "question": "Which of these is a famous art movement?",
+      "options": [
+        "Cubism",
+        "Idealism",
+        "Literalism",
+        "Modernism"
+      ],
+      "answer": "Cubism"
+    },
+    {
+      "question": "Perspective in drawing helps to create:",
+      "options": [
+        "Flatness",
+        "Depth",
+        "Texture",
+        "Color"
+      ],
+      "answer": "Depth"
+    },
+    {
+      "question": "Which artist is known for surrealist paintings?",
+      "options": [
+        "Frida Kahlo",
+        "Salvador Dal\u00ed",
+        "Henri Matisse",
+        "Edgar Degas"
+      ],
+      "answer": "Salvador Dal\u00ed"
+    },
+    {
+      "question": "What is chiaroscuro?",
+      "options": [
+        "A type of perspective",
+        "A color theory",
+        "A shading technique",
+        "A sculpting method"
+      ],
+      "answer": "A shading technique"
+    },
+    {
+      "question": "Which tool is commonly used in charcoal drawing?",
+      "options": [
+        "Palette knife",
+        "Easel",
+        "Tortillon",
+        "Chisel"
+      ],
+      "answer": "Tortillon"
+    },
+    {
+      "question": "Which material is used in fresco painting?",
+      "options": [
+        "Canvas",
+        "Wet plaster",
+        "Wood",
+        "Paper"
+      ],
+      "answer": "Wet plaster"
+    },
+    {
+      "question": "A triptych artwork has how many panels?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "One"
+      ],
+      "answer": "Three"
+    },
+    {
+      "question": "Which Renaissance artist was also an inventor and scientist?",
+      "options": [
+        "Raphael",
+        "Leonardo da Vinci",
+        "Titian",
+        "Botticelli"
+      ],
+      "answer": "Leonardo da Vinci"
+    },
+    {
+      "question": "Which color scheme uses colors opposite each other on the color wheel?",
+      "options": [
+        "Analogous",
+        "Monochromatic",
+        "Complementary",
+        "Triadic"
+      ],
+      "answer": "Complementary"
+    },
+    {
+      "question": "In graphic design, which software is commonly used for vector art?",
+      "options": [
+        "Photoshop",
+        "Illustrator",
+        "Lightroom",
+        "Paint"
+      ],
+      "answer": "Illustrator"
+    },
+    {
+      "question": "What is the main ingredient in tempera paint?",
+      "options": [
+        "Oil",
+        "Egg yolk",
+        "Acrylic",
+        "Gum arabic"
+      ],
+      "answer": "Egg yolk"
+    },
+    {
+      "question": "Which artist is famous for abstract expressionism?",
+      "options": [
+        "Jackson Pollock",
+        "Andy Warhol",
+        "Marc Chagall",
+        "Joan Mir\u00f3"
+      ],
+      "answer": "Jackson Pollock"
+    },
+    {
+      "question": "Which element refers to the surface quality in art?",
+      "options": [
+        "Texture",
+        "Line",
+        "Form",
+        "Space"
+      ],
+      "answer": "Texture"
+    },
+    {
+      "question": "What does a color wheel show?",
+      "options": [
+        "Brush types",
+        "Shades of grey",
+        "Relationships between colors",
+        "Drawing techniques"
+      ],
+      "answer": "Relationships between colors"
+    },
+    {
+      "question": "Which period followed the Baroque era?",
+      "options": [
+        "Rococo",
+        "Renaissance",
+        "Modernism",
+        "Impressionism"
+      ],
+      "answer": "Rococo"
+    },
+    {
+      "question": "Which is not a sculpture material?",
+      "options": [
+        "Bronze",
+        "Clay",
+        "Marble",
+        "Canvas"
+      ],
+      "answer": "Canvas"
+    },
+    {
+      "question": "What is negative space?",
+      "options": [
+        "Unpainted canvas",
+        "Background",
+        "Space around objects",
+        "Unused palette area"
+      ],
+      "answer": "Space around objects"
+    },
+    {
+      "question": "Which medium is used in batik art?",
+      "options": [
+        "Wax",
+        "Charcoal",
+        "Ink",
+        "Oil"
+      ],
+      "answer": "Wax"
+    },
+    {
+      "question": "What is 'hatching' in drawing?",
+      "options": [
+        "Coloring",
+        "Blending",
+        "Shading using lines",
+        "Sketching outlines"
+      ],
+      "answer": "Shading using lines"
+    },
+    {
+      "question": "Which design principle refers to equal visual weight?",
+      "options": [
+        "Balance",
+        "Contrast",
+        "Emphasis",
+        "Unity"
+      ],
+      "answer": "Balance"
+    }
+  ]
+}

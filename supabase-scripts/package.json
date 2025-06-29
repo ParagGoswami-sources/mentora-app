@@ -1,0 +1,12 @@
+{
+  "name": "supabase-scripts",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "upload-assessments.js",
+  "scripts": {
+    "start": "node upload-assessments.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.50.0"
+  }
+}

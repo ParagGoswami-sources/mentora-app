@@ -1,0 +1,152 @@
+[
+    {
+        "question": "Who is known as the 'Father of the Indian Constitution'?",
+        "options": [
+            "Mahatma Gandhi",
+            "B. R. Ambedkar",
+            "Jawaharlal Nehru",
+            "Sardar Patel"
+        ],
+        "correct_answer": "B. R. Ambedkar"
+    },
+    {
+        "question": "Which is the largest planet in our solar system?",
+        "options": [
+            "Earth",
+            "Saturn",
+            "Jupiter",
+            "Mars"
+        ],
+        "correct_answer": "Jupiter"
+    },
+    {
+        "question": "Who wrote the national anthem of India?",
+        "options": [
+            "Rabindranath Tagore",
+            "Bankim Chandra Chatterjee",
+            "Sarojini Naidu",
+            "Subhas Chandra Bose"
+        ],
+        "correct_answer": "Rabindranath Tagore"
+    },
+    {
+        "question": "Which organ of the body purifies blood?",
+        "options": [
+            "Heart",
+            "Lungs",
+            "Kidney",
+            "Liver"
+        ],
+        "correct_answer": "Kidney"
+    },
+    {
+        "question": "Which is the longest river in India?",
+        "options": [
+            "Yamuna",
+            "Godavari",
+            "Ganga",
+            "Brahmaputra"
+        ],
+        "correct_answer": "Ganga"
+    },
+    {
+        "question": "In which year did India gain independence?",
+        "options": [
+            "1945",
+            "1946",
+            "1947",
+            "1948"
+        ],
+        "correct_answer": "1947"
+    },
+    {
+        "question": "Who was the first President of India?",
+        "options": [
+            "Rajendra Prasad",
+            "Nehru",
+            "Indira Gandhi",
+            "Abdul Kalam"
+        ],
+        "correct_answer": "Rajendra Prasad"
+    },
+    {
+        "question": "Which state is known as the 'Land of Five Rivers'?",
+        "options": [
+            "Uttar Pradesh",
+            "Punjab",
+            "Haryana",
+            "Bihar"
+        ],
+        "correct_answer": "Punjab"
+    },
+    {
+        "question": "Which gas is most abundant in Earth\u2019s atmosphere?",
+        "options": [
+            "Oxygen",
+            "Hydrogen",
+            "Carbon Dioxide",
+            "Nitrogen"
+        ],
+        "correct_answer": "Nitrogen"
+    },
+    {
+        "question": "Who discovered gravity?",
+        "options": [
+            "Albert Einstein",
+            "Galileo Galilei",
+            "Isaac Newton",
+            "Stephen Hawking"
+        ],
+        "correct_answer": "Isaac Newton"
+    },
+    {
+        "question": "Which festival is also known as the festival of lights?",
+        "options": [
+            "Holi",
+            "Diwali",
+            "Eid",
+            "Christmas"
+        ],
+        "correct_answer": "Diwali"
+    },
+    {
+        "question": "What is the capital of Maharashtra?",
+        "options": [
+            "Nagpur",
+            "Pune",
+            "Mumbai",
+            "Nashik"
+        ],
+        "correct_answer": "Mumbai"
+    },
+    {
+        "question": "What is the national animal of India?",
+        "options": [
+            "Lion",
+            "Tiger",
+            "Elephant",
+            "Leopard"
+        ],
+        "correct_answer": "Tiger"
+    },
+    {
+        "question": "Which continent is the largest by area?",
+        "options": [
+            "Africa",
+            "North America",
+            "Asia",
+            "Europe"
+        ],
+        "correct_answer": "Asia"
+    },
+    {
+        "question": "Who invented the telephone?",
+        "options": [
+            "Thomas Edison",
+            "Alexander Graham Bell",
+            "Nikola Tesla",
+            "Isaac Newton"
+        ],
+        "correct_answer": "Alexander Graham Bell"
+    }
+]

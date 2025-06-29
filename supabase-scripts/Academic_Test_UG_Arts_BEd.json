@@ -1,0 +1,549 @@
+{
+  "test_category": "Academic",
+  "class": "Undergraduate",
+  "stream": "Arts",
+  "course": "B.Ed",
+  "description": "Assesses General Knowledge, Humanities, and History for undergraduate students pursuing B.Ed to guide academic and career choices in education.",
+  "questions": [
+    {
+      "question_id": "ACAD_UGBED_001",
+      "question_text": "Which Indian body regulates teacher education programs, including B.Ed?",
+      "options": [
+        {"option_id": "A", "text": "National Council for Teacher Education"},
+        {"option_id": "B", "text": "University Grants Commission"},
+        {"option_id": "C", "text": "All India Council for Technical Education"},
+        {"option_id": "D", "text": "National Medical Commission"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "NCTE regulates B.Ed programs. Regulatory knowledge is essential for B.Ed (Education Policy)."
+    },
+    {
+      "question_id": "ACAD_UGBED_002",
+      "question_text": "Which Indian city is known for education programs, hosting Regional College of Education, Bhopal?",
+      "options": [
+        {"option_id": "A", "text": "Bhopal"},
+        {"option_id": "B", "text": "Ahmedabad"},
+        {"option_id": "C", "text": "Patna"},
+        {"option_id": "D", "text": "Kochi"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Bhopal hosts RCE. Regional knowledge is key for B.Ed (Teacher Training)."
+    },
+    {
+      "question_id": "ACAD_UGBED_003",
+      "question_text": "What does the acronym ‘NEP’ stand for in Indian education?",
+      "options": [
+        {"option_id": "A", "text": "National Education Policy"},
+        {"option_id": "B", "text": "National Employment Program"},
+        {"option_id": "C", "text": "National Evaluation Plan"},
+        {"option_id": "D", "text": "National Enrichment Project"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "NEP is National Education Policy. Policy knowledge supports B.Ed (Education Reform)."
+    },
+    {
+      "question_id": "ACAD_UGBED_004",
+      "question_text": "Which Indian institute is renowned for B.Ed programs, like Regional Institute of Education, Mysore?",
+      "options": [
+        {"option_id": "A", "text": "Regional Institute of Education, Mysore"},
+        {"option_id": "B", "text": "Indian Institute of Technology, Roorkee"},
+        {"option_id": "C", "text": "National Law School, Bengaluru"},
+        {"option_id": "D", "text": "All India Institute of Medical Sciences, Delhi"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "RIE Mysore is renowned for B.Ed. Institutional knowledge is vital for B.Ed students."
+    },
+    {
+      "question_id": "ACAD_UGBED_005",
+      "question_text": "Which global organization promotes education worldwide, like UNESCO?",
+      "options": [
+        {"option_id": "A", "text": "United Nations Educational, Scientific and Cultural Organization"},
+        {"option_id": "B", "text": "World Bank"},
+        {"option_id": "C", "text": "International Monetary Fund"},
+        {"option_id": "D", "text": "World Trade Organization"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "UNESCO promotes education. Global knowledge is key for B.Ed (International Education)."
+    },
+    {
+      "question_id": "ACAD_UGBED_006",
+      "question_text": "Which Indian state is known for its teacher training institutes, like SCERT Kerala?",
+      "options": [
+        {"option_id": "A", "text": "Kerala"},
+        {"option_id": "B", "text": "Gujarat"},
+        {"option_id": "C", "text": "Bihar"},
+        {"option_id": "D", "text": "Assam"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Kerala hosts SCERT. Regional knowledge supports B.Ed (Teacher Training)."
+    },
+    {
+      "question_id": "ACAD_UGBED_007",
+      "question_text": "Which Indian initiative promotes universal education, like Sarva Shiksha Abhiyan?",
+      "options": [
+        {"option_id": "A", "text": "Sarva Shiksha Abhiyan"},
+        {"option_id": "B", "text": "Make in India"},
+        {"option_id": "C", "text": "Swachh Bharat Abhiyan"},
+        {"option_id": "D", "text": "Digital India"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Sarva Shiksha promotes education. Policy knowledge is essential for B.Ed (Education Access)."
+    },
+    {
+      "question_id": "ACAD_UGBED_008",
+      "question_text": "Which Indian organization oversees school curriculum, like NCERT?",
+      "options": [
+        {"option_id": "A", "text": "National Council of Educational Research and Training"},
+        {"option_id": "B", "text": "Indian Space Research Organisation"},
+        {"option_id": "C", "text": "National Testing Agency"},
+        {"option_id": "D", "text": "Defence Research and Development Organisation"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "NCERT oversees curriculum. Organizational knowledge is vital for B.Ed (Curriculum Development)."
+    },
+    {
+      "question_id": "ACAD_UGBED_009",
+      "question_text": "Which global educator is known for the Montessori method?",
+      "options": [
+        {"option_id": "A", "text": "Maria Montessori"},
+        {"option_id": "B", "text": "John Dewey"},
+        {"option_id": "C", "text": "Jean Piaget"},
+        {"option_id": "D", "text": "Lev Vygotsky"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Montessori developed the Montessori method. Pedagogical knowledge supports B.Ed (Teaching Methods)."
+    },
+    {
+      "question_id": "ACAD_UGBED_010",
+      "question_text": "Which Indian city hosts the headquarters of the National Council for Teacher Education (NCTE)?",
+      "options": [
+        {"option_id": "A", "text": "New Delhi"},
+        {"option_id": "B", "text": "Mumbai"},
+        {"option_id": "C", "text": "Chennai"},
+        {"option_id": "D", "text": "Kolkata"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "NCTE is headquartered in New Delhi. Organizational knowledge is key for B.Ed (Education Policy)."
+    },
+    {
+      "question_id": "ACAD_UGBED_011",
+      "question_text": "What is the primary focus of pedagogy in education?",
+      "options": [
+        {"option_id": "A", "text": "Methods and practices of teaching"},
+        {"option_id": "B", "text": "Financial management of schools"},
+        {"option_id": "C", "text": "Construction of school buildings"},
+        {"option_id": "D", "text": "Medical care for students"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Pedagogy focuses on teaching methods. Educational knowledge is crucial for B.Ed (Teaching)."
+    },
+    {
+      "question_id": "ACAD_UGBED_012",
+      "question_text": "Who developed the theory of multiple intelligences in education?",
+      "options": [
+        {"option_id": "A", "text": "Howard Gardner"},
+        {"option_id": "B", "text": "Sigmund Freud"},
+        {"option_id": "C", "text": "Erik Erikson"},
+        {"option_id": "D", "text": "B.F. Skinner"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Gardner developed multiple intelligences. Psychological knowledge is essential for B.Ed (Educational Psychology)."
+    },
+    {
+      "question_id": "ACAD_UGBED_013",
+      "question_text": "What is the primary purpose of formative assessment in education?",
+      "options": [
+        {"option_id": "A", "text": "Monitor student progress during learning"},
+        {"option_id": "B", "text": "Assign final grades"},
+        {"option_id": "C", "text": "Select school principals"},
+        {"option_id": "D", "text": "Design school uniforms"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Formative assessment monitors progress. Assessment knowledge is key for B.Ed (Teaching)."
+    },
+    {
+      "question_id": "ACAD_UGBED_014",
+      "question_text": "What is the primary focus of educational psychology?",
+      "options": [
+        {"option_id": "A", "text": "Study of learning and behavior in education"},
+        {"option_id": "B", "text": "Study of physical education"},
+        {"option_id": "C", "text": "Study of school architecture"},
+        {"option_id": "D", "text": "Study of financial planning"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Educational psychology studies learning. Psychological knowledge is vital for B.Ed (Educational Psychology)."
+    },
+    {
+      "question_id": "ACAD_UGBED_015",
+      "question_text": "Who is known as the ‘Father of Progressive Education’?",
+      "options": [
+        {"option_id": "A", "text": "John Dewey"},
+        {"option_id": "B", "text": "Jean Piaget"},
+        {"option_id": "C", "text": "Maria Montessori"},
+        {"option_id": "D", "text": "Lev Vygotsky"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Dewey pioneered progressive education. Pedagogical knowledge is essential for B.Ed (Teaching Methods)."
+    },
+    {
+      "question_id": "ACAD_UGBED_016",
+      "question_text": "What is the primary goal of inclusive education?",
+      "options": [
+        {"option_id": "A", "text": "Provide equal learning opportunities for all"},
+        {"option_id": "B", "text": "Focus on elite students"},
+        {"option_id": "C", "text": "Reduce school infrastructure costs"},
+        {"option_id": "D", "text": "Limit curriculum diversity"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Inclusive education ensures equality. Educational knowledge is key for B.Ed (Special Education)."
+    },
+    {
+      "question_id": "ACAD_UGBED_017",
+      "question_text": "What is the primary purpose of a lesson plan in teaching?",
+      "options": [
+        {"option_id": "A", "text": "Guide instruction and objectives"},
+        {"option_id": "B", "text": "Design school furniture"},
+        {"option_id": "C", "text": "Manage school finances"},
+        {"option_id": "D", "text": "Organize sports events"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Lesson plans guide teaching. Pedagogical knowledge is vital for B.Ed (Teaching)."
+    },
+    {
+      "question_id": "ACAD_UGBED_018",
+      "question_text": "What is the primary focus of curriculum development?",
+      "options": [
+        {"option_id": "A", "text": "Design educational content and goals"},
+        {"option_id": "B", "text": "Construct school buildings"},
+        {"option_id": "C", "text": "Plan school transportation"},
+        {"option_id": "D", "text": "Manage student health"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Curriculum development designs content. Educational knowledge is essential for B.Ed (Curriculum Development)."
+    },
+    {
+      "question_id": "ACAD_UGBED_019",
+      "question_text": "Who developed the concept of ‘Zone of Proximal Development’ in education?",
+      "options": [
+        {"option_id": "A", "text": "Lev Vygotsky"},
+        {"option_id": "B", "text": "Jean Piaget"},
+        {"option_id": "C", "text": "Maria Montessori"},
+        {"option_id": "D", "text": "Howard Gardner"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Vygotsky developed ZPD. Psychological knowledge is key for B.Ed (Educational Psychology)."
+    },
+    {
+      "question_id": "ACAD_UGBED_020",
+      "question_text": "What is the primary purpose of classroom management?",
+      "options": [
+        {"option_id": "A", "text": "Create a conducive learning environment"},
+        {"option_id": "B", "text": "Design school logos"},
+        {"option_id": "C", "text": "Plan school budgets"},
+        {"option_id": "D", "text": "Organize parent meetings"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Classroom management supports learning. Pedagogical knowledge is vital for B.Ed (Teaching)."
+    },
+    {
+      "question_id": "ACAD_UGBED_021",
+      "question_text": "In which year was the National Council for Teacher Education (NCTE) established?",
+      "options": [
+        {"option_id": "A", "text": "1995"},
+        {"option_id": "B", "text": "1985"},
+        {"option_id": "C", "text": "2005"},
+        {"option_id": "D", "text": "1975"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "NCTE was established in 1995. Institutional history is relevant for B.Ed (Education Policy)."
+    },
+    {
+      "question_id": "ACAD_UGBED_022",
+      "question_text": "Who founded the first normal school for teacher training in the West?",
+      "options": [
+        {"option_id": "A", "text": "Horace Mann"},
+        {"option_id": "B", "text": "John Dewey"},
+        {"option_id": "C", "text": "Maria Montessori"},
+        {"option_id": "D", "text": "Jean Piaget"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Mann founded a normal school in 1839. Educational history is key for B.Ed (Teacher Training)."
+    },
+    {
+      "question_id": "ACAD_UGBED_023",
+      "question_text": "In which year was the Sarva Shiksha Abhiyan launched in India?",
+      "options": [
+        {"option_id": "A", "text": "2001"},
+        {"option_id": "B", "text": "1991"},
+        {"option_id": "C", "text": "2011"},
+        {"option_id": "D", "text": "1981"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Sarva Shiksha was launched in 2001. Policy history is key for B.Ed (Education Access)."
+    },
+    {
+      "question_id": "ACAD_UGBED_024",
+      "question_text": "In which year was the National Council of Educational Research and Training (NCERT) established?",
+      "options": [
+        {"option_id": "A", "text": "1961"},
+        {"option_id": "B", "text": "1951"},
+        {"option_id": "C", "text": "1971"},
+        {"option_id": "D", "text": "1941"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "NCERT was established in 1961. Institutional history is key for B.Ed (Curriculum Development)."
+    },
+    {
+      "question_id": "ACAD_UGBED_025",
+      "question_text": "Who founded the first kindergarten, influencing early education?",
+      "options": [
+        {"option_id": "A", "text": "Friedrich Froebel"},
+        {"option_id": "B", "text": "John Dewey"},
+        {"option_id": "C", "text": "Maria Montessori"},
+        {"option_id": "D", "text": "Lev Vygotsky"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Froebel founded kindergarten in 1837. Educational history is key for B.Ed (Early Education)."
+    },
+    {
+      "question_id": "ACAD_UGBED_026",
+      "question_text": "In which year was the Right to Education Act passed in India?",
+      "options": [
+        {"option_id": "A", "text": "2009"},
+        {"option_id": "B", "text": "1999"},
+        {"option_id": "C", "text": "2019"},
+        {"option_id": "D", "text": "1989"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "RTE Act was passed in 2009. Policy history is key for B.Ed (Education Policy)."
+    },
+    {
+      "question_id": "ACAD_UGBED_027",
+      "question_text": "Who introduced the concept of ‘scaffolding’ in education?",
+      "options": [
+        {"option_id": "A", "text": "Jerome Bruner"},
+        {"option_id": "B", "text": "Jean Piaget"},
+        {"option_id": "C", "text": "Howard Gardner"},
+        {"option_id": "D", "text": "John Dewey"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Bruner introduced scaffolding in 1960s. Educational history is key for B.Ed (Educational Psychology)."
+    },
+    {
+      "question_id": "ACAD_UGBED_028",
+      "question_text": "In which year was the first National Education Policy (NEP) introduced in India?",
+      "options": [
+        {"option_id": "A", "text": "1968"},
+        {"option_id": "B", "text": "1958"},
+        {"option_id": "C", "text": "1978"},
+        {"option_id": "D", "text": "1948"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "NEP was introduced in 1968. Policy history is key for B.Ed (Education Reform)."
+    },
+    {
+      "question_id": "ACAD_UGBED_029",
+      "question_text": "Who founded the Waldorf education system?",
+      "options": [
+        {"option_id": "A", "text": "Rudolf Steiner"},
+        {"option_id": "B", "text": "Maria Montessori"},
+        {"option_id": "C", "text": "John Dewey"},
+        {"option_id": "D", "text": "Friedrich Froebel"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Steiner founded Waldorf in 1919. Educational history is key for B.Ed (Alternative Education)."
+    },
+    {
+      "question_id": "ACAD_UGBED_030",
+      "question_text": "In which year was the District Primary Education Programme (DPEP) launched in India?",
+      "options": [
+        {"option_id": "A", "text": "1994"},
+        {"option_id": "B", "text": "1984"},
+        {"option_id": "C", "text": "2004"},
+        {"option_id": "D", "text": "1974"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "DPEP was launched in 1994. Policy history is key for B.Ed (Primary Education)."
+    }
+  ]
+}

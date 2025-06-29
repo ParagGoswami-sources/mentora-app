@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Which gas is most abundant in Earth's atmosphere?",
+    "options": [
+      "Oxygen",
+      "Hydrogen",
+      "Nitrogen",
+      "Carbon Dioxide"
+    ],
+    "answer": "Nitrogen"
+  },
+  {
+    "question": "What is the chemical symbol for Sodium?",
+    "options": [
+      "Na",
+      "So",
+      "S",
+      "Sm"
+    ],
+    "answer": "Na"
+  },
+  {
+    "question": "Which part of the plant conducts photosynthesis?",
+    "options": [
+      "Root",
+      "Stem",
+      "Leaf",
+      "Flower"
+    ],
+    "answer": "Leaf"
+  },
+  {
+    "question": "Which vitamin is produced when skin is exposed to sunlight?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "answer": "Vitamin D"
+  },
+  {
+    "question": "What is the main function of the large intestine?",
+    "options": [
+      "Digest proteins",
+      "Absorb water",
+      "Digest fats",
+      "Produce enzymes"
+    ],
+    "answer": "Absorb water"
+  },
+  {
+    "question": "Which organ in the human body purifies blood?",
+    "options": [
+      "Heart",
+      "Kidney",
+      "Lungs",
+      "Liver"
+    ],
+    "answer": "Kidney"
+  },
+  {
+    "question": "Water boils at what temperature under normal atmospheric pressure?",
+    "options": [
+      "90\u00b0C",
+      "100\u00b0C",
+      "110\u00b0C",
+      "120\u00b0C"
+    ],
+    "answer": "100\u00b0C"
+  },
+  {
+    "question": "Which of the following is a non-renewable source of energy?",
+    "options": [
+      "Solar",
+      "Wind",
+      "Coal",
+      "Hydro"
+    ],
+    "answer": "Coal"
+  },
+  {
+    "question": "Which acid is found in the stomach?",
+    "options": [
+      "Sulfuric acid",
+      "Hydrochloric acid",
+      "Acetic acid",
+      "Nitric acid"
+    ],
+    "answer": "Hydrochloric acid"
+  },
+  {
+    "question": "What is the SI unit of force?",
+    "options": [
+      "Watt",
+      "Pascal",
+      "Newton",
+      "Joule"
+    ],
+    "answer": "Newton"
+  },
+  {
+    "question": "Which gas is released during photosynthesis?",
+    "options": [
+      "Carbon dioxide",
+      "Oxygen",
+      "Nitrogen",
+      "Methane"
+    ],
+    "answer": "Oxygen"
+  },
+  {
+    "question": "Which blood cells help in clotting?",
+    "options": [
+      "Red blood cells",
+      "White blood cells",
+      "Platelets",
+      "Plasma"
+    ],
+    "answer": "Platelets"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "Venus",
+      "Saturn",
+      "Mars",
+      "Jupiter"
+    ],
+    "answer": "Mars"
+  },
+  {
+    "question": "What kind of mirror is used in a vehicle's rear-view mirror?",
+    "options": [
+      "Plane mirror",
+      "Concave mirror",
+      "Convex mirror",
+      "Parabolic mirror"
+    ],
+    "answer": "Convex mirror"
+  },
+  {
+    "question": "Which process turns liquid into vapor?",
+    "options": [
+      "Condensation",
+      "Sublimation",
+      "Evaporation",
+      "Precipitation"
+    ],
+    "answer": "Evaporation"
+  }
+]

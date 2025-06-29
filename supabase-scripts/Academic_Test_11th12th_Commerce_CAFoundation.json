@@ -1,0 +1,549 @@
+{
+  "test_category": "Academic",
+  "class": "11th/12th Standard",
+  "stream": "Commerce",
+  "course": "CA Foundation",
+  "description": "Assesses General Knowledge, Commerce, and History for 11th/12th-grade students in the Commerce stream pursuing CA Foundation to guide academic and career choices.",
+  "questions": [
+    {
+      "question_id": "ACAD_11CAF_001",
+      "question_text": "What does the acronym 'ICAI' stand for in the context of Indian accountancy?",
+      "options": [
+        {"option_id": "A", "text": "Institute of Chartered Accountants of India"},
+        {"option_id": "B", "text": "Indian Council of Accounting Institutes"},
+        {"option_id": "C", "text": "International Certified Accounting Institution"},
+        {"option_id": "D", "text": "Indian Chamber of Auditors and Inspectors"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "ICAI stands for Institute of Chartered Accountants of India, the body overseeing CA exams. Professional knowledge is essential for CA Foundation."
+    },
+    {
+      "question_id": "ACAD_11CAF_002",
+      "question_text": "Which Indian city is the headquarters of the Securities and Exchange Board of India (SEBI)?",
+      "options": [
+        {"option_id": "A", "text": "Delhi"},
+        {"option_id": "B", "text": "Mumbai"},
+        {"option_id": "C", "text": "Kolkata"},
+        {"option_id": "D", "text": "Chennai"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "SEBI is headquartered in Mumbai. Regulatory knowledge is key for CA Foundation (Business Laws)."
+    },
+    {
+      "question_id": "ACAD_11CAF_003",
+      "question_text": "What is the currency of the United Arab Emirates, a key market for Indian CAs?",
+      "options": [
+        {"option_id": "A", "text": "Riyal"},
+        {"option_id": "B", "text": "Dirham"},
+        {"option_id": "C", "text": "Dinar"},
+        {"option_id": "D", "text": "Rupee"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "The UAE’s currency is the Dirham. Global business knowledge supports CA Foundation (International Taxation)."
+    },
+    {
+      "question_id": "ACAD_11CAF_004",
+      "question_text": "Which act governs the formation of companies in India, relevant for CAs?",
+      "options": [
+        {"option_id": "A", "text": "Companies Act, 2013"},
+        {"option_id": "B", "text": "Partnership Act, 1932"},
+        {"option_id": "C", "text": "Contract Act, 1872"},
+        {"option_id": "D", "text": "Income Tax Act, 1961"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "The Companies Act, 2013 governs company formation. Legal knowledge is vital for CA Foundation (Business Laws)."
+    },
+    {
+      "question_id": "ACAD_11CAF_005",
+      "question_text": "Which international accounting body sets the IFRS standards?",
+      "options": [
+        {"option_id": "A", "text": "International Accounting Standards Board"},
+        {"option_id": "B", "text": "International Federation of Accountants"},
+        {"option_id": "C", "text": "Global Accounting Council"},
+        {"option_id": "D", "text": "World Financial Reporting Agency"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "The IASB sets IFRS standards. Global accounting knowledge is key for CA Foundation (Accounting)."
+    },
+    {
+      "question_id": "ACAD_11CAF_006",
+      "question_text": "Which Indian state is known for the financial hub of Ahmedabad, a center for CA firms?",
+      "options": [
+        {"option_id": "A", "text": "Gujarat"},
+        {"option_id": "B", "text": "Maharashtra"},
+        {"option_id": "C", "text": "Rajasthan"},
+        {"option_id": "D", "text": "Madhya Pradesh"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Ahmedabad, in Gujarat, is a financial hub. Business hub knowledge supports CA Foundation (Business Environment)."
+    },
+    {
+      "question_id": "ACAD_11CAF_007",
+      "question_text": "What does 'FEMA' stand for in Indian financial regulation?",
+      "options": [
+        {"option_id": "A", "text": "Foreign Exchange Management Act"},
+        {"option_id": "B", "text": "Financial Enforcement and Monitoring Act"},
+        {"option_id": "C", "text": "Foreign Economic Market Act"},
+        {"option_id": "D", "text": "Fiscal Exchange Management Act"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "FEMA regulates foreign exchange. Regulatory knowledge is essential for CA Foundation (Business Laws)."
+    },
+    {
+      "question_id": "ACAD_11CAF_008",
+      "question_text": "Which country is home to the Financial Accounting Standards Board (FASB)?",
+      "options": [
+        {"option_id": "A", "text": "United States"},
+        {"option_id": "B", "text": "United Kingdom"},
+        {"option_id": "C", "text": "Canada"},
+        {"option_id": "D", "text": "Australia"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "FASB is based in the U.S. Global accounting standards knowledge is key for CA Foundation (Accounting)."
+    },
+    {
+      "question_id": "ACAD_11CAF_009",
+      "question_text": "What does 'GSTIN' stand for in the Indian taxation system?",
+      "options": [
+        {"option_id": "A", "text": "Goods and Services Tax Identification Number"},
+        {"option_id": "B", "text": "General Sales Tax Information Number"},
+        {"option_id": "C", "text": "Global Service Tax Index Number"},
+        {"option_id": "D", "text": "Government Subsidy Tax Identification Number"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "GSTIN is a unique tax ID for GST. Taxation knowledge is vital for CA Foundation (Taxation)."
+    },
+    {
+      "question_id": "ACAD_11CAF_010",
+      "question_text": "Which city is the global financial hub hosting the London Stock Exchange?",
+      "options": [
+        {"option_id": "A", "text": "London"},
+        {"option_id": "B", "text": "Paris"},
+        {"option_id": "C", "text": "Frankfurt"},
+        {"option_id": "D", "text": "Amsterdam"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "London hosts the LSE. Global finance knowledge supports CA Foundation (Financial Reporting)."
+    },
+    {
+      "question_id": "ACAD_11CAF_011",
+      "question_text": "What is the double-entry system in accounting?",
+      "options": [
+        {"option_id": "A", "text": "Recording each transaction in two accounts"},
+        {"option_id": "B", "text": "Recording transactions twice for verification"},
+        {"option_id": "C", "text": "Using two ledgers for each transaction"},
+        {"option_id": "D", "text": "Balancing accounts twice a year"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Double-entry records each transaction in two accounts. Accounting knowledge is crucial for CA Foundation (Accounting)."
+    },
+    {
+      "question_id": "ACAD_11CAF_012",
+      "question_text": "What is the primary purpose of a trial balance?",
+      "options": [
+        {"option_id": "A", "text": "Calculate net profit"},
+        {"option_id": "B", "text": "Verify arithmetic accuracy of accounts"},
+        {"option_id": "C", "text": "Determine tax liability"},
+        {"option_id": "D", "text": "Plan future investments"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Trial balance ensures account accuracy. Bookkeeping knowledge is vital for CA Foundation (Accounting)."
+    },
+    {
+      "question_id": "ACAD_11CAF_013",
+      "question_text": "Which section of the Indian Contract Act, 1872 defines a valid contract?",
+      "options": [
+        {"option_id": "A", "text": "Section 10"},
+        {"option_id": "B", "text": "Section 20"},
+        {"option_id": "C", "text": "Section 30"},
+        {"option_id": "D", "text": "Section 40"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Section 10 defines valid contracts. Legal knowledge is key for CA Foundation (Business Laws)."
+    },
+    {
+      "question_id": "ACAD_11CAF_014",
+      "question_text": "What is the main objective of financial statements?",
+      "options": [
+        {"option_id": "A", "text": "Track daily transactions"},
+        {"option_id": "B", "text": "Provide financial information to stakeholders"},
+        {"option_id": "C", "text": "Calculate employee salaries"},
+        {"option_id": "D", "text": "Plan marketing strategies"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Financial statements inform stakeholders. Reporting knowledge is essential for CA Foundation (Financial Reporting)."
+    },
+    {
+      "question_id": "ACAD_11CAF_015",
+      "question_text": "Which tax is levied on the supply of goods and services in India?",
+      "options": [
+        {"option_id": "A", "text": "Income Tax"},
+        {"option_id": "B", "text": "Goods and Services Tax"},
+        {"option_id": "C", "text": "Corporate Tax"},
+        {"option_id": "D", "text": "Excise Duty"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "GST is levied on supply. Taxation knowledge is vital for CA Foundation (Taxation)."
+    },
+    {
+      "question_id": "ACAD_11CAF_016",
+      "question_text": "What is the purpose of a cash flow statement?",
+      "options": [
+        {"option_id": "A", "text": "Show profitability"},
+        {"option_id": "B", "text": "Track cash inflows and outflows"},
+        {"option_id": "C", "text": "List assets and liabilities"},
+        {"option_id": "D", "text": "Calculate tax rates"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Cash flow statements track cash movements. Financial knowledge is key for CA Foundation (Accounting)."
+    },
+    {
+      "question_id": "ACAD_11CAF_017",
+      "question_text": "Which principle assumes a business will continue operating indefinitely?",
+      "options": [
+        {"option_id": "A", "text": "Going Concern Principle"},
+        {"option_id": "B", "text": "Matching Principle"},
+        {"option_id": "C", "text": "Conservatism Principle"},
+        {"option_id": "D", "text": "Materiality Principle"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Going concern assumes continuity. Accounting principles are essential for CA Foundation (Accounting)."
+    },
+    {
+      "question_id": "ACAD_11CAF_018",
+      "question_text": "What is the minimum number of members required to form a private company in India?",
+      "options": [
+        {"option_id": "A", "text": "2"},
+        {"option_id": "B", "text": "5"},
+        {"option_id": "C", "text": "7"},
+        {"option_id": "D", "text": "10"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "A private company requires 2 members. Company law knowledge is vital for CA Foundation (Business Laws)."
+    },
+    {
+      "question_id": "ACAD_11CAF_019",
+      "question_text": "Which financial ratio measures a company’s ability to pay short-term liabilities?",
+      "options": [
+        {"option_id": "A", "text": "Debt-Equity Ratio"},
+        {"option_id": "B", "text": "Current Ratio"},
+        {"option_id": "C", "text": "Gross Profit Ratio"},
+        {"option_id": "D", "text": "Return on Equity"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Current ratio measures short-term liability coverage. Ratio analysis is key for CA Foundation (Accounting)."
+    },
+    {
+      "question_id": "ACAD_11CAF_020",
+      "question_text": "What is the purpose of auditing in accounting?",
+      "options": [
+        {"option_id": "A", "text": "Prepare financial statements"},
+        {"option_id": "B", "text": "Verify accuracy of financial records"},
+        {"option_id": "C", "text": "Calculate tax returns"},
+        {"option_id": "D", "text": "Plan business strategies"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Auditing verifies financial records. Audit knowledge is essential for CA Foundation (Auditing)."
+    },
+    {
+      "question_id": "ACAD_11CAF_021",
+      "question_text": "In which year was the Institute of Chartered Accountants of India (ICAI) established?",
+      "options": [
+        {"option_id": "A", "text": "1949"},
+        {"option_id": "B", "text": "1959"},
+        {"option_id": "C", "text": "1939"},
+        {"option_id": "D", "text": "1969"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "ICAI was established in 1949. Professional history is relevant for CA Foundation."
+    },
+    {
+      "question_id": "ACAD_11CAF_022",
+      "question_text": "Who introduced double-entry bookkeeping in the 15th century?",
+      "options": [
+        {"option_id": "A", "text": "Luca Pacioli"},
+        {"option_id": "B", "text": "Adam Smith"},
+        {"option_id": "C", "text": "William Petty"},
+        {"option_id": "D", "text": "John Maynard Keynes"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Luca Pacioli formalized double-entry bookkeeping. Accounting history is key for CA Foundation (Accounting)."
+    },
+    {
+      "question_id": "ACAD_11CAF_023",
+      "question_text": "In which year was the Income Tax Act introduced in India?",
+      "options": [
+        {"option_id": "A", "text": "1961"},
+        {"option_id": "B", "text": "1951"},
+        {"option_id": "C", "text": "1971"},
+        {"option_id": "D", "text": "1941"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Income Tax Act was introduced in 1961. Taxation history is relevant for CA Foundation (Taxation)."
+    },
+    {
+      "question_id": "ACAD_11CAF_024",
+      "question_text": "Who was the first Indian to become a Chartered Accountant under ICAI?",
+      "options": [
+        {"option_id": "A", "text": "G.P. Kapadia"},
+        {"option_id": "B", "text": "R.N. Sen"},
+        {"option_id": "C", "text": "C.A. Mehta"},
+        {"option_id": "D", "text": "P.C. Nanda"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "G.P. Kapadia was the first Indian CA in 1949. Professional history is key for CA Foundation."
+    },
+    {
+      "question_id": "ACAD_11CAF_025",
+      "question_text": "In which year was the Goods and Services Tax (GST) implemented in India?",
+      "options": [
+        {"option_id": "A", "text": "2017"},
+        {"option_id": "B", "text": "2015"},
+        {"option_id": "C", "text": "2019"},
+        {"option_id": "D", "text": "2013"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "GST was implemented in 2017. Taxation history is relevant for CA Foundation (Taxation)."
+    },
+    {
+      "question_id": "ACAD_11CAF_026",
+      "question_text": "In which year was the Companies Act first enacted in India?",
+      "options": [
+        {"option_id": "A", "text": "1956"},
+        {"option_id": "B", "text": "1946"},
+        {"option_id": "C", "text": "1966"},
+        {"option_id": "D", "text": "1936"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Companies Act was enacted in 1956. Legal history is key for CA Foundation (Business Laws)."
+    },
+    {
+      "question_id": "ACAD_11CAF_027",
+      "question_text": "Who developed the concept of accrual accounting?",
+      "options": [
+        {"option_id": "A", "text": "Luca Pacioli"},
+        {"option_id": "B", "text": "William Paton"},
+        {"option_id": "C", "text": "Adam Smith"},
+        {"option_id": "D", "text": "John Maynard Keynes"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "William Paton advanced accrual accounting concepts. Accounting history is key for CA Foundation (Accounting)."
+    },
+    {
+      "question_id": "ACAD_11CAF_028",
+      "question_text": "In which year was the Reserve Bank of India nationalized?",
+      "options": [
+        {"option_id": "A", "text": "1949"},
+        {"option_id": "B", "text": "1959"},
+        {"option_id": "C", "text": "1939"},
+        {"option_id": "D", "text": "1969"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "RBI was nationalized in 1949. Financial history is relevant for CA Foundation (Business Economics)."
+    },
+    {
+      "question_id": "ACAD_11CAF_029",
+      "question_text": "In which year was the International Accounting Standards Committee (IASC) formed?",
+      "options": [
+        {"option_id": "A", "text": "1973"},
+        {"option_id": "B", "text": "1983"},
+        {"option_id": "C", "text": "1963"},
+        {"option_id": "D", "text": "1993"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "IASC was formed in 1973. Global accounting history is relevant for CA Foundation (Accounting)."
+    },
+    {
+      "question_id": "ACAD_11CAF_030",
+      "question_text": "Who was the first president of ICAI?",
+      "options": [
+        {"option_id": "A", "text": "G.P. Kapadia"},
+        {"option_id": "B", "text": "C.C. Chokshi"},
+        {"option_id": "C", "text": "R.N. Sen"},
+        {"option_id": "D", "text": "P.C. Nanda"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "G.P. Kapadia was ICAI’s first president in 1949. Professional history is key for CA Foundation."
+    }
+  ]
+}

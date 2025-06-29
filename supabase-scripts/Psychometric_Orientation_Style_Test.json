@@ -1,0 +1,457 @@
+{
+  "test_category": "Psychometric",
+  "factor": "Orientation Style",
+  "description": "Assesses preferred learning and work styles to guide academic and career choices for students in 10th, 11th/12th, and UG levels.",
+  "questions": [
+    {
+      "question_id": "ORI_001",
+      "question_text": "How do you prefer to approach a new subject or topic?",
+      "options": [
+        {"option_id": "A", "text": "I analyze it systematically, breaking it into parts."},
+        {"option_id": "B", "text": "I explore it creatively, looking for unique angles."},
+        {"option_id": "C", "text": "I prefer discussing it with others to understand."},
+        {"option_id": "D", "text": "I dive in and learn through trial and error."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical style suits Science (B.Tech, BCS); creative style suits Arts (BFA); collaborative style suits Commerce (BBA); practical style suits MBBS."
+    },
+    {
+      "question_id": "ORI_002",
+      "question_text": "When working on a project, how do you prefer to organize your tasks?",
+      "options": [
+        {"option_id": "A", "text": "I create detailed plans and follow them strictly."},
+        {"option_id": "B", "text": "I keep a flexible plan and adjust as needed."},
+        {"option_id": "C", "text": "I rely on team input to organize tasks."},
+        {"option_id": "D", "text": "I work spontaneously, focusing on immediate needs."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical planning suits CA; creative flexibility suits BFA; collaborative organization suits BBA; practical spontaneity suits MBBS."
+    },
+    {
+      "question_id": "ORI_003",
+      "question_text": "How do you prefer to solve complex problems?",
+      "options": [
+        {"option_id": "A", "text": "I use logical steps and data to find solutions."},
+        {"option_id": "B", "text": "I brainstorm creative ideas to tackle it."},
+        {"option_id": "C", "text": "I discuss with others to get different perspectives."},
+        {"option_id": "D", "text": "I try practical solutions and see what works."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical problem-solving suits Science (B.Sc, BCA); creative suits Arts (Mass Communication); collaborative suits BBA; practical suits MBBS."
+    },
+    {
+      "question_id": "ORI_004",
+      "question_text": "When studying, how do you prefer to learn new material?",
+      "options": [
+        {"option_id": "A", "text": "By analyzing concepts in depth."},
+        {"option_id": "B", "text": "By connecting it to creative ideas or visuals."},
+        {"option_id": "C", "text": "By discussing it with peers or teachers."},
+        {"option_id": "D", "text": "By applying it practically or experimenting."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical learning suits Science (BCS, B.Tech); creative suits Arts (BFA); collaborative suits B.Ed; practical suits MBBS."
+    },
+    {
+      "question_id": "ORI_005",
+      "question_text": "How do you approach group assignments?",
+      "options": [
+        {"option_id": "A", "text": "I focus on structuring the work logically."},
+        {"option_id": "B", "text": "I contribute creative ideas to the group."},
+        {"option_id": "C", "text": "I enjoy coordinating and collaborating with others."},
+        {"option_id": "D", "text": "I focus on getting the task done efficiently."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical focus suits CA; creative contributions suit BFA; collaborative coordination suits BBA; practical efficiency suits MBBS."
+    },
+    {
+      "question_id": "ORI_006",
+      "question_text": "When preparing for exams, what is your preferred method?",
+      "options": [
+        {"option_id": "A", "text": "I create detailed study notes and schedules."},
+        {"option_id": "B", "text": "I use creative methods like diagrams or stories."},
+        {"option_id": "C", "text": "I study in groups to discuss and clarify."},
+        {"option_id": "D", "text": "I practice with past papers or hands-on tasks."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical preparation suits Science (B.Sc); creative methods suit Arts (B.A); collaborative study suits B.Ed; practical practice suits MBBS."
+    },
+    {
+      "question_id": "ORI_007",
+      "question_text": "How do you prefer to handle research tasks?",
+      "options": [
+        {"option_id": "A", "text": "I analyze data systematically."},
+        {"option_id": "B", "text": "I explore diverse sources creatively."},
+        {"option_id": "C", "text": "I collaborate with others to gather insights."},
+        {"option_id": "D", "text": "I focus on practical applications of research."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical research suits Science (M.Sc); creative research suits Arts (BFA); collaborative suits BBA; practical suits MBBS."
+    },
+    {
+      "question_id": "ORI_008",
+      "question_text": "When working on a task, how do you prioritize your efforts?",
+      "options": [
+        {"option_id": "A", "text": "I prioritize based on logical importance."},
+        {"option_id": "B", "text": "I focus on tasks that inspire creativity."},
+        {"option_id": "C", "text": "I align priorities with team goals."},
+        {"option_id": "D", "text": "I tackle urgent tasks first."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical prioritization suits CA; creative focus suits BFA; collaborative alignment suits BBA; practical urgency suits MBBS."
+    },
+    {
+      "question_id": "ORI_009",
+      "question_text": "How do you prefer to learn technical concepts?",
+      "options": [
+        {"option_id": "A", "text": "By breaking them down logically."},
+        {"option_id": "B", "text": "By visualizing or creating analogies."},
+        {"option_id": "C", "text": "By discussing with peers or experts."},
+        {"option_id": "D", "text": "By applying them in real-world scenarios."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical learning suits Science (BCA, BCS); creative suits Arts (BFA); collaborative suits BBA; practical suits B.Tech."
+    },
+    {
+      "question_id": "ORI_010",
+      "question_text": "When faced with a deadline, how do you manage your time?",
+      "options": [
+        {"option_id": "A", "text": "I create a detailed timeline and stick to it."},
+        {"option_id": "B", "text": "I work flexibly, focusing on creative output."},
+        {"option_id": "C", "text": "I coordinate with others to meet the deadline."},
+        {"option_id": "D", "text": "I focus on completing critical tasks first."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical time management suits CA; creative flexibility suits BFA; collaborative suits BBA; practical focus suits MBBS."
+    },
+    {
+      "question_id": "ORI_011",
+      "question_text": "How do you prefer to present your ideas?",
+      "options": [
+        {"option_id": "A", "text": "With structured, data-driven arguments."},
+        {"option_id": "B", "text": "With creative visuals or stories."},
+        {"option_id": "C", "text": "Through group discussions or teamwork."},
+        {"option_id": "D", "text": "With practical examples or demonstrations."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical presentations suit Science (B.Sc); creative suit Arts (Mass Communication); collaborative suit BBA; practical suit MBBS."
+    },
+    {
+      "question_id": "ORI_012",
+      "question_text": "How do you approach learning from mistakes?",
+      "options": [
+        {"option_id": "A", "text": "I analyze what went wrong systematically."},
+        {"option_id": "B", "text": "I explore new approaches creatively."},
+        {"option_id": "C", "text": "I discuss with others to gain insights."},
+        {"option_id": "D", "text": "I try different methods to find what works."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical reflection suits Science (BCS); creative exploration suits BFA; collaborative learning suits B.Ed; practical methods suit MBBS."
+    },
+    {
+      "question_id": "ORI_013",
+      "question_text": "How do you prefer to work on assignments?",
+      "options": [
+        {"option_id": "A", "text": "Independently, with a structured approach."},
+        {"option_id": "B", "text": "Independently, with creative freedom."},
+        {"option_id": "C", "text": "In a team, sharing responsibilities."},
+        {"option_id": "D", "text": "With a focus on practical outcomes."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical independence suits CA; creative independence suits BFA; collaborative teamwork suits BBA; practical focus suits MBBS."
+    },
+    {
+      "question_id": "ORI_014",
+      "question_text": "How do you approach understanding complex texts?",
+      "options": [
+        {"option_id": "A", "text": "I break them down into key points."},
+        {"option_id": "B", "text": "I visualize or reframe them creatively."},
+        {"option_id": "C", "text": "I discuss them with others to clarify."},
+        {"option_id": "D", "text": "I relate them to real-world examples."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical reading suits Science (B.Sc); creative reframing suits Arts (B.A); collaborative discussion suits B.Ed; practical application suits MBBS."
+    },
+    {
+      "question_id": "ORI_015",
+      "question_text": "How do you prefer to brainstorm ideas?",
+      "options": [
+        {"option_id": "A", "text": "By listing and evaluating options logically."},
+        {"option_id": "B", "text": "By exploring creative or unconventional ideas."},
+        {"option_id": "C", "text": "By collaborating with others for ideas."},
+        {"option_id": "D", "text": "By testing ideas in practical scenarios."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical brainstorming suits Science (BCS); creative suits Arts (BFA); collaborative suits BBA; practical suits MBBS."
+    },
+    {
+      "question_id": "ORI_016",
+      "question_text": "How do you approach long-term projects?",
+      "options": [
+        {"option_id": "A", "text": "With a detailed plan and milestones."},
+        {"option_id": "B", "text": "With flexibility to explore creative ideas."},
+        {"option_id": "C", "text": "By coordinating with a team."},
+        {"option_id": "D", "text": "By focusing on practical results."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical planning suits CA; creative flexibility suits BFA; collaborative coordination suits BBA; practical focus suits MBBS."
+    },
+    {
+      "question_id": "ORI_017",
+      "question_text": "How do you prefer to receive feedback?",
+      "options": [
+        {"option_id": "A", "text": "Detailed and structured feedback."},
+        {"option_id": "B", "text": "Creative suggestions for improvement."},
+        {"option_id": "C", "text": "Feedback through team discussions."},
+        {"option_id": "D", "text": "Practical advice I can apply immediately."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical feedback suits Science (B.Sc); creative suits Arts (BFA); collaborative suits B.Ed; practical suits MBBS."
+    },
+    {
+      "question_id": "ORI_018",
+      "question_text": "How do you approach learning new skills?",
+      "options": [
+        {"option_id": "A", "text": "By studying the theory systematically."},
+        {"option_id": "B", "text": "By experimenting with creative approaches."},
+        {"option_id": "C", "text": "By learning from others in a group."},
+        {"option_id": "D", "text": "By practicing hands-on tasks."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical skill learning suits Science (BCS); creative suits Arts (BFA); collaborative suits B.Ed; practical suits MBBS."
+    },
+    {
+      "question_id": "ORI_019",
+      "question_text": "How do you prefer to handle conflicts in a team?",
+      "options": [
+        {"option_id": "A", "text": "By analyzing the issue logically."},
+        {"option_id": "B", "text": "By suggesting creative compromises."},
+        {"option_id": "C", "text": "By facilitating open team discussions."},
+        {"option_id": "D", "text": "By focusing on practical solutions."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical conflict resolution suits CA; creative suits BFA; collaborative suits BBA; practical suits MBBS."
+    },
+    {
+      "question_id": "ORI_020",
+      "question_text": "How do you approach decision-making?",
+      "options": [
+        {"option_id": "A", "text": "I weigh pros and cons logically."},
+        {"option_id": "B", "text": "I consider creative or intuitive options."},
+        {"option_id": "C", "text": "I consult with others for input."},
+        {"option_id": "D", "text": "I choose based on practical outcomes."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical decisions suit Science (B.Sc); creative suit Arts (BFA); collaborative suit BBA; practical suit MBBS."
+    },
+    {
+      "question_id": "ORI_021",
+      "question_text": "How do you prefer to study for practical subjects like science?",
+      "options": [
+        {"option_id": "A", "text": "By analyzing theories and formulas."},
+        {"option_id": "B", "text": "By creating visual aids or models."},
+        {"option_id": "C", "text": "By discussing with classmates."},
+        {"option_id": "D", "text": "By conducting experiments."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical study suits Science (B.Tech); creative suits Arts (BFA); collaborative suits B.Ed; practical suits MBBS."
+    },
+    {
+      "question_id": "ORI_022",
+      "question_text": "How do you approach creative tasks like writing or design?",
+      "options": [
+        {"option_id": "A", "text": "I plan the structure carefully."},
+        {"option_id": "B", "text": "I let my imagination guide me."},
+        {"option_id": "C", "text": "I collaborate with others for ideas."},
+        {"option_id": "D", "text": "I focus on practical outputs."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical creativity suits CA; creative freedom suits BFA; collaborative suits Mass Communication; practical suits MBBS."
+    },
+    {
+      "question_id": "ORI_023",
+      "question_text": "How do you prefer to work under pressure?",
+      "options": [
+        {"option_id": "A", "text": "I stay organized and follow a plan."},
+        {"option_id": "B", "text": "I adapt creatively to challenges."},
+        {"option_id": "C", "text": "I rely on team support to manage."},
+        {"option_id": "D", "text": "I focus on practical solutions quickly."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical organization suits CA; creative adaptation suits BFA; collaborative support suits BBA; practical focus suits MBBS."
+    },
+    {
+      "question_id": "ORI_024",
+      "question_text": "How do you prefer to learn abstract concepts?",
+      "options": [
+        {"option_id": "A", "text": "By analyzing their logic and structure."},
+        {"option_id": "B", "text": "By creating mental models or visuals."},
+        {"option_id": "C", "text": "By discussing with others."},
+        {"option_id": "D", "text": "By applying them practically."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical learning suits Science (BCS); creative suits Arts (BFA); collaborative suits B.Ed; practical suits MBBS."
+    },
+    {
+      "question_id": "ORI_025",
+      "question_text": "How do you approach long-term career planning?",
+      "options": [
+        {"option_id": "A", "text": "I set clear, structured goals."},
+        {"option_id": "B", "text": "I explore creative career paths."},
+        {"option_id": "C", "text": "I seek advice from mentors or peers."},
+        {"option_id": "D", "text": "I focus on practical, achievable steps."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Analytical Style", "score": 4},
+        "B": {"trait": "Creative Style", "score": 4},
+        "C": {"trait": "Collaborative Style", "score": 4},
+        "D": {"trait": "Practical Style", "score": 4}
+      },
+      "explanation": "Analytical planning suits CA or M.Sc; creative exploration suits BFA; collaborative suits BBA or MBA; practical suits MBBS or M.Tech."
+    }
+  ]
+}

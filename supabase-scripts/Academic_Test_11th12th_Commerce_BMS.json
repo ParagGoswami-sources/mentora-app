@@ -1,0 +1,549 @@
+{
+  "test_category": "Academic",
+  "class": "11th/12th Standard",
+  "stream": "Commerce",
+  "course": "BMS",
+  "description": "Assesses General Knowledge, Commerce, and History for 11th/12th-grade students in the Commerce stream pursuing BMS to guide academic and career choices.",
+  "questions": [
+    {
+      "question_id": "ACAD_11BMS_001",
+      "question_text": "What does the acronym 'ERP' stand for in business management systems?",
+      "options": [
+        {"option_id": "A", "text": "Enterprise Resource Planning"},
+        {"option_id": "B", "text": "Economic Recovery Program"},
+        {"option_id": "C", "text": "Employee Retention Plan"},
+        {"option_id": "D", "text": "External Revenue Process"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "ERP stands for Enterprise Resource Planning, a system for business processes. Systems knowledge is essential for BMS (Business Systems)."
+    },
+    {
+      "question_id": "ACAD_11BMS_002",
+      "question_text": "Which Indian city is home to the National Stock Exchange (NSE)?",
+      "options": [
+        {"option_id": "A", "text": "Delhi"},
+        {"option_id": "B", "text": "Mumbai"},
+        {"option_id": "C", "text": "Kolkata"},
+        {"option_id": "D", "text": "Chennai"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Mumbai hosts the NSE. Financial market knowledge is key for BMS (Financial Management)."
+    },
+    {
+      "question_id": "ACAD_11BMS_003",
+      "question_text": "What is the currency of Singapore, a global business hub?",
+      "options": [
+        {"option_id": "A", "text": "Dollar"},
+        {"option_id": "B", "text": "Ringgit"},
+        {"option_id": "C", "text": "Baht"},
+        {"option_id": "D", "text": "Yen"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Singapore’s currency is the Singapore Dollar. Global business knowledge supports BMS (International Business)."
+    },
+    {
+      "question_id": "ACAD_11BMS_004",
+      "question_text": "Which international organization promotes global trade, relevant for business systems?",
+      "options": [
+        {"option_id": "A", "text": "WTO"},
+        {"option_id": "B", "text": "WHO"},
+        {"option_id": "C", "text": "UNESCO"},
+        {"option_id": "D", "text": "UNICEF"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "WTO promotes global trade. Trade knowledge is vital for BMS (Global Business Systems)."
+    },
+    {
+      "question_id": "ACAD_11BMS_005",
+      "question_text": "Which Indian institute is known for its management programs, such as NMIMS Mumbai?",
+      "options": [
+        {"option_id": "A", "text": "Narsee Monjee Institute of Management Studies"},
+        {"option_id": "B", "text": "National Institute of Industrial Engineering"},
+        {"option_id": "C", "text": "Indian Institute of Technology"},
+        {"option_id": "D", "text": "Indian Institute of Science"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "NMIMS is renowned for management programs. Management education knowledge is key for BMS aspirants."
+    },
+    {
+      "question_id": "ACAD_11BMS_006",
+      "question_text": "Which country hosts the headquarters of SAP, a leading ERP software company?",
+      "options": [
+        {"option_id": "A", "text": "Germany"},
+        {"option_id": "B", "text": "United States"},
+        {"option_id": "C", "text": "Japan"},
+        {"option_id": "D", "text": "France"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "SAP is headquartered in Germany. Business software knowledge supports BMS (Business Systems)."
+    },
+    {
+      "question_id": "ACAD_11BMS_007",
+      "question_text": "What does 'CRM' stand for in business management?",
+      "options": [
+        {"option_id": "A", "text": "Customer Relationship Management"},
+        {"option_id": "B", "text": "Corporate Resource Management"},
+        {"option_id": "C", "text": "Centralized Revenue Model"},
+        {"option_id": "D", "text": "Customer Retention Metrics"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "CRM stands for Customer Relationship Management. Customer systems knowledge is essential for BMS (Marketing Systems)."
+    },
+    {
+      "question_id": "ACAD_11BMS_008",
+      "question_text": "Which city is the global headquarters of Amazon, a leader in business systems?",
+      "options": [
+        {"option_id": "A", "text": "New York"},
+        {"option_id": "B", "text": "Seattle"},
+        {"option_id": "C", "text": "San Francisco"},
+        {"option_id": "D", "text": "Chicago"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Amazon is headquartered in Seattle. Global business knowledge is key for BMS (E-commerce Systems)."
+    },
+    {
+      "question_id": "ACAD_11BMS_009",
+      "question_text": "What does 'MIS' stand for in business management?",
+      "options": [
+        {"option_id": "A", "text": "Management Information Systems"},
+        {"option_id": "B", "text": "Market Intelligence Systems"},
+        {"option_id": "C", "text": "Monetary Investment Strategies"},
+        {"option_id": "D", "text": "Manufacturing Integration Systems"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "MIS stands for Management Information Systems. Information systems knowledge is vital for BMS (Business Analytics)."
+    },
+    {
+      "question_id": "ACAD_11BMS_010",
+      "question_text": "Which Indian state is known for the business hub of Noida, hosting many IT firms?",
+      "options": [
+        {"option_id": "A", "text": "Uttar Pradesh"},
+        {"option_id": "B", "text": "Haryana"},
+        {"option_id": "C", "text": "Punjab"},
+        {"option_id": "D", "text": "Rajasthan"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Noida is in Uttar Pradesh. Business hub knowledge supports BMS (Corporate Systems)."
+    },
+    {
+      "question_id": "ACAD_11BMS_011",
+      "question_text": "What is the primary purpose of a Management Information System (MIS)?",
+      "options": [
+        {"option_id": "A", "text": "Develop marketing campaigns"},
+        {"option_id": "B", "text": "Provide data for decision-making"},
+        {"option_id": "C", "text": "Manage employee payroll"},
+        {"option_id": "D", "text": "Design production processes"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "MIS provides data for decisions. Information systems knowledge is crucial for BMS (Business Analytics)."
+    },
+    {
+      "question_id": "ACAD_11BMS_012",
+      "question_text": "Which business process integrates all departments to streamline operations?",
+      "options": [
+        {"option_id": "A", "text": "Enterprise Resource Planning"},
+        {"option_id": "B", "text": "Customer Relationship Management"},
+        {"option_id": "C", "text": "Supply Chain Management"},
+        {"option_id": "D", "text": "Human Resource Management"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "ERP integrates departments. Systems knowledge is essential for BMS (Business Systems)."
+    },
+    {
+      "question_id": "ACAD_11BMS_013",
+      "question_text": "What is the main goal of business analytics?",
+      "options": [
+        {"option_id": "A", "text": "Reduce production costs"},
+        {"option_id": "B", "text": "Analyze data to improve decisions"},
+        {"option_id": "C", "text": "Develop advertising campaigns"},
+        {"option_id": "D", "text": "Manage employee relations"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Business analytics improves decisions through data. Analytics knowledge is key for BMS (Business Analytics)."
+    },
+    {
+      "question_id": "ACAD_11BMS_014",
+      "question_text": "Which term refers to the flow of goods from supplier to customer?",
+      "options": [
+        {"option_id": "A", "text": "Supply Chain"},
+        {"option_id": "B", "text": "Marketing Channel"},
+        {"option_id": "C", "text": "Financial Pipeline"},
+        {"option_id": "D", "text": "Production Cycle"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Supply chain manages goods flow. Operations knowledge is vital for BMS (Supply Chain Management)."
+    },
+    {
+      "question_id": "ACAD_11BMS_015",
+      "question_text": "What is the primary function of a Customer Relationship Management (CRM) system?",
+      "options": [
+        {"option_id": "A", "text": "Track financial transactions"},
+        {"option_id": "B", "text": "Manage customer interactions"},
+        {"option_id": "C", "text": "Monitor production output"},
+        {"option_id": "D", "text": "Plan employee schedules"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "CRM manages customer interactions. Customer systems knowledge is essential for BMS (Marketing Systems)."
+    },
+    {
+      "question_id": "ACAD_11BMS_016",
+      "question_text": "Which tool is used to visualize business processes and workflows?",
+      "options": [
+        {"option_id": "A", "text": "Flowchart"},
+        {"option_id": "B", "text": "Balance Sheet"},
+        {"option_id": "C", "text": "Gantt Chart"},
+        {"option_id": "D", "text": "Pie Chart"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Flowcharts visualize processes. Process mapping is key for BMS (Business Systems)."
+    },
+    {
+      "question_id": "ACAD_11BMS_017",
+      "question_text": "What is the purpose of a decision support system (DSS) in business?",
+      "options": [
+        {"option_id": "A", "text": "Automate production"},
+        {"option_id": "B", "text": "Aid in complex decision-making"},
+        {"option_id": "C", "text": "Manage payroll"},
+        {"option_id": "D", "text": "Develop marketing strategies"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "DSS aids complex decisions. Decision systems knowledge is vital for BMS (Business Analytics)."
+    },
+    {
+      "question_id": "ACAD_11BMS_018",
+      "question_text": "Which management approach focuses on improving efficiency through process optimization?",
+      "options": [
+        {"option_id": "A", "text": "Lean Management"},
+        {"option_id": "B", "text": "Total Quality Management"},
+        {"option_id": "C", "text": "Strategic Management"},
+        {"option_id": "D", "text": "Human Resource Management"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Lean management optimizes processes. Efficiency knowledge is key for BMS (Operations Management)."
+    },
+    {
+      "question_id": "ACAD_11BMS_019",
+      "question_text": "What is the primary focus of Six Sigma in business management?",
+      "options": [
+        {"option_id": "A", "text": "Reduce process variation and improve quality"},
+        {"option_id": "B", "text": "Increase market share"},
+        {"option_id": "C", "text": "Enhance employee satisfaction"},
+        {"option_id": "D", "text": "Develop new products"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Six Sigma improves quality by reducing variation. Quality management is essential for BMS (Operations)."
+    },
+    {
+      "question_id": "ACAD_11BMS_020",
+      "question_text": "Which term refers to the use of data to predict future business trends?",
+      "options": [
+        {"option_id": "A", "text": "Predictive Analytics"},
+        {"option_id": "B", "text": "Financial Accounting"},
+        {"option_id": "C", "text": "Market Segmentation"},
+        {"option_id": "D", "text": "Operational Planning"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Predictive analytics forecasts trends. Data analytics knowledge is vital for BMS (Business Analytics)."
+    },
+    {
+      "question_id": "ACAD_11BMS_021",
+      "question_text": "In which year was the Bombay Stock Exchange (BSE) established?",
+      "options": [
+        {"option_id": "A", "text": "1875"},
+        {"option_id": "B", "text": "1885"},
+        {"option_id": "C", "text": "1865"},
+        {"option_id": "D", "text": "1895"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "BSE was established in 1875. Financial history is relevant for BMS (Financial Management)."
+    },
+    {
+      "question_id": "ACAD_11BMS_022",
+      "question_text": "Who founded Infosys, a major Indian IT and business consulting firm?",
+      "options": [
+        {"option_id": "A", "text": "N.R. Narayana Murthy"},
+        {"option_id": "B", "text": "Azim Premji"},
+        {"option_id": "C", "text": "Shiv Nadar"},
+        {"option_id": "D", "text": "Mukesh Ambani"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "N.R. Narayana Murthy founded Infosys in 1981. Business history is key for BMS (Business Systems)."
+    },
+    {
+      "question_id": "ACAD_11BMS_023",
+      "question_text": "In which year was the International Organization for Standardization (ISO) founded?",
+      "options": [
+        {"option_id": "A", "text": "1947"},
+        {"option_id": "B", "text": "1957"},
+        {"option_id": "C", "text": "1937"},
+        {"option_id": "D", "text": "1967"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "ISO was founded in 1947. Standards history is relevant for BMS (Quality Management)."
+    },
+    {
+      "question_id": "ACAD_11BMS_024",
+      "question_text": "Who introduced the concept of Total Quality Management (TQM)?",
+      "options": [
+        {"option_id": "A", "text": "W. Edwards Deming"},
+        {"option_id": "B", "text": "Frederick Taylor"},
+        {"option_id": "C", "text": "Henry Fayol"},
+        {"option_id": "D", "text": "Elton Mayo"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "W. Edwards Deming pioneered TQM. Quality management history is key for BMS (Operations)."
+    },
+    {
+      "question_id": "ACAD_11BMS_025",
+      "question_text": "In which year was the National Stock Exchange (NSE) of India established?",
+      "options": [
+        {"option_id": "A", "text": "1992"},
+        {"option_id": "B", "text": "1982"},
+        {"option_id": "C", "text": "2002"},
+        {"option_id": "D", "text": "1972"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "NSE was established in 1992. Financial history is relevant for BMS (Financial Management)."
+    },
+    {
+      "question_id": "ACAD_11BMS_026",
+      "question_text": "Who developed the concept of the ‘learning organization’ in management?",
+      "options": [
+        {"option_id": "A", "text": "Peter Senge"},
+        {"option_id": "B", "text": "Peter Drucker"},
+        {"option_id": "C", "text": "Michael Porter"},
+        {"option_id": "D", "text": "Tom Peters"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Peter Senge introduced the learning organization. Management history is key for BMS (Organizational Behavior)."
+    },
+    {
+      "question_id": "ACAD_11BMS_027",
+      "question_text": "In which year was SAP, the ERP software company, founded?",
+      "options": [
+        {"option_id": "A", "text": "1972"},
+        {"option_id": "B", "text": "1982"},
+        {"option_id": "C", "text": "1962"},
+        {"option_id": "D", "text": "1992"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "SAP was founded in 1972. Business systems history is relevant for BMS (Business Systems)."
+    },
+    {
+      "question_id": "ACAD_11BMS_028",
+      "question_text": "Who founded Wipro, an Indian IT and business services company?",
+      "options": [
+        {"option_id": "A", "text": "Azim Premji"},
+        {"option_id": "B", "text": "N.R. Narayana Murthy"},
+        {"option_id": "C", "text": "Shiv Nadar"},
+        {"option_id": "D", "text": "Dhirubhai Ambani"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Azim Premji founded Wipro in 1945. Business history is key for BMS (Business Systems)."
+    },
+    {
+      "question_id": "ACAD_11BMS_029",
+      "question_text": "In which year was the first modern computer-based ERP system introduced by Gartner?",
+      "options": [
+        {"option_id": "A", "text": "1990"},
+        {"option_id": "B", "text": "1980"},
+        {"option_id": "C", "text": "2000"},
+        {"option_id": "D", "text": "1970"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Gartner coined ERP in 1990. Systems history is relevant for BMS (Business Systems)."
+    },
+    {
+      "question_id": "ACAD_11BMS_030",
+      "question_text": "Who is known for developing the Five Forces model for industry analysis?",
+      "options": [
+        {"option_id": "A", "text": "Michael Porter"},
+        {"option_id": "B", "text": "Peter Drucker"},
+        {"option_id": "C", "text": "Philip Kotler"},
+        {"option_id": "D", "text": "Peter Senge"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Michael Porter developed the Five Forces model. Strategic management history is key for BMS (Business Strategy)."
+    }
+  ]
+}

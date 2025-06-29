@@ -1,0 +1,548 @@
+{
+  "test_category": "Academic",
+  "class": "10th Standard",
+  "stream": "Science",
+  "description": "Assesses General Knowledge, Science, and History for 10th-grade students in the Science stream to guide academic and career choices.",
+  "questions": [
+    {
+      "question_id": "ACAD_10SCI_001",
+      "question_text": "Which is the largest planet in our solar system?",
+      "options": [
+        {"option_id": "A", "text": "Mars"},
+        {"option_id": "B", "text": "Jupiter"},
+        {"option_id": "C", "text": "Venus"},
+        {"option_id": "D", "text": "Saturn"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Jupiter is the largest planet. Knowledge of astronomy suits Science streams like B.Sc or B.Tech."
+    },
+    {
+      "question_id": "ACAD_10SCI_002",
+      "question_text": "Who is the current Prime Minister of India (as of May 2025)?",
+      "options": [
+        {"option_id": "A", "text": "Narendra Modi"},
+        {"option_id": "B", "text": "Rahul Gandhi"},
+        {"option_id": "C", "text": "Amit Shah"},
+        {"option_id": "D", "text": "Arvind Kejriwal"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Narendra Modi is the Prime Minister. Current affairs knowledge is useful for all streams, including Science (MBBS)."
+    },
+    {
+      "question_id": "ACAD_10SCI_003",
+      "question_text": "What is the capital of France?",
+      "options": [
+        {"option_id": "A", "text": "Paris"},
+        {"option_id": "B", "text": "London"},
+        {"option_id": "C", "text": "Berlin"},
+        {"option_id": "D", "text": "Rome"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Paris is the capital of France. Geography knowledge supports Science fields like environmental science (B.Sc)."
+    },
+    {
+      "question_id": "ACAD_10SCI_004",
+      "question_text": "Which river is the longest in India?",
+      "options": [
+        {"option_id": "A", "text": "Yamuna"},
+        {"option_id": "B", "text": "Ganga"},
+        {"option_id": "C", "text": "Brahmaputra"},
+        {"option_id": "D", "text": "Godavari"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "The Ganga is India’s longest river. This knowledge is relevant for Science streams (B.Sc Environmental Science)."
+    },
+    {
+      "question_id": "ACAD_10SCI_005",
+      "question_text": "What is the currency of Japan?",
+      "options": [
+        {"option_id": "A", "text": "Yuan"},
+        {"option_id": "B", "text": "Yen"},
+        {"option_id": "C", "text": "Won"},
+        {"option_id": "D", "text": "Dollar"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "The Yen is Japan’s currency. Global awareness suits Science fields like B.Tech (international collaborations)."
+    },
+    {
+      "question_id": "ACAD_10SCI_006",
+      "question_text": "Which organization launched the Chandrayaan-3 mission?",
+      "options": [
+        {"option_id": "A", "text": "NASA"},
+        {"option_id": "B", "text": "ISRO"},
+        {"option_id": "C", "text": "ESA"},
+        {"option_id": "D", "text": "SpaceX"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "ISRO launched Chandrayaan-3. Space science knowledge is key for Science streams (B.Tech Aerospace)."
+    },
+    {
+      "question_id": "ACAD_10SCI_007",
+      "question_text": "What is the largest continent by land area?",
+      "options": [
+        {"option_id": "A", "text": "Africa"},
+        {"option_id": "B", "text": "Asia"},
+        {"option_id": "C", "text": "Australia"},
+        {"option_id": "D", "text": "Europe"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Asia is the largest continent. Geography knowledge supports Science fields like B.Sc Geology."
+    },
+    {
+      "question_id": "ACAD_10SCI_008",
+      "question_text": "Who wrote the Indian national anthem?",
+      "options": [
+        {"option_id": "A", "text": "Mahatma Gandhi"},
+        {"option_id": "B", "text": "Rabindranath Tagore"},
+        {"option_id": "C", "text": "Jawaharlal Nehru"},
+        {"option_id": "D", "text": "Subhas Chandra Bose"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Rabindranath Tagore wrote the national anthem. Cultural knowledge is useful for all streams, including Science."
+    },
+    {
+      "question_id": "ACAD_10SCI_009",
+      "question_text": "Which gas is most abundant in Earth’s atmosphere?",
+      "options": [
+        {"option_id": "A", "text": "Oxygen"},
+        {"option_id": "B", "text": "Nitrogen"},
+        {"option_id": "C", "text": "Carbon Dioxide"},
+        {"option_id": "D", "text": "Helium"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Nitrogen is the most abundant gas. This knowledge is foundational for Science streams (B.Sc Chemistry)."
+    },
+    {
+      "question_id": "ACAD_10SCI_010",
+      "question_text": "What is the largest mammal on Earth?",
+      "options": [
+        {"option_id": "A", "text": "Blue Whale"},
+        {"option_id": "B", "text": "African Elephant"},
+        {"option_id": "C", "text": "Giraffe"},
+        {"option_id": "D", "text": "Hippopotamus"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "The Blue Whale is the largest mammal. Biology knowledge suits Science streams (MBBS, B.Sc)."
+    },
+    {
+      "question_id": "ACAD_10SCI_011",
+      "question_text": "What is the chemical formula for water?",
+      "options": [
+        {"option_id": "A", "text": "CO2"},
+        {"option_id": "B", "text": "H2O"},
+        {"option_id": "C", "text": "O2"},
+        {"option_id": "D", "text": "H2SO4"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "H2O is the formula for water. Chemistry knowledge is essential for Science streams (B.Sc, MBBS)."
+    },
+    {
+      "question_id": "ACAD_10SCI_012",
+      "question_text": "What is the primary source of energy for Earth’s climate system?",
+      "options": [
+        {"option_id": "A", "text": "Moon"},
+        {"option_id": "B", "text": "Sun"},
+        {"option_id": "C", "text": "Wind"},
+        {"option_id": "D", "text": "Ocean"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "The Sun is the primary energy source. Physics knowledge suits Science streams (B.Tech, B.Sc)."
+    },
+    {
+      "question_id": "ACAD_10SCI_013",
+      "question_text": "Which organ in the human body pumps blood?",
+      "options": [
+        {"option_id": "A", "text": "Liver"},
+        {"option_id": "B", "text": "Heart"},
+        {"option_id": "C", "text": "Lungs"},
+        {"option_id": "D", "text": "Kidneys"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "The heart pumps blood. Biology knowledge is critical for Science streams (MBBS, B.Sc)."
+    },
+    {
+      "question_id": "ACAD_10SCI_014",
+      "question_text": "What is the SI unit of force?",
+      "options": [
+        {"option_id": "A", "text": "Watt"},
+        {"option_id": "B", "text": "Newton"},
+        {"option_id": "C", "text": "Joule"},
+        {"option_id": "D", "text": "Pascal"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Newton is the unit of force. Physics knowledge suits Science streams (B.Tech, B.Sc)."
+    },
+    {
+      "question_id": "ACAD_10SCI_015",
+      "question_text": "Which gas is essential for photosynthesis?",
+      "options": [
+        {"option_id": "A", "text": "Oxygen"},
+        {"option_id": "B", "text": "Carbon Dioxide"},
+        {"option_id": "C", "text": "Nitrogen"},
+        {"option_id": "D", "text": "Hydrogen"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Carbon Dioxide is used in photosynthesis. Biology knowledge is key for Science streams (B.Sc, MBBS)."
+    },
+    {
+      "question_id": "ACAD_10SCI_016",
+      "question_text": "What is the boiling point of water at standard pressure?",
+      "options": [
+        {"option_id": "A", "text": "0°C"},
+        {"option_id": "B", "text": "100°C"},
+        {"option_id": "C", "text": "50°C"},
+        {"option_id": "D", "text": "200°C"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Water boils at 100°C at 1 atm. Chemistry knowledge suits Science streams (B.Sc, B.Tech)."
+    },
+    {
+      "question_id": "ACAD_10SCI_017",
+      "question_text": "Which scientist proposed the theory of relativity?",
+      "options": [
+        {"option_id": "A", "text": "Isaac Newton"},
+        {"option_id": "B", "text": "Albert Einstein"},
+        {"option_id": "C", "text": "Galileo Galilei"},
+        {"option_id": "D", "text": "Nikola Tesla"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Einstein proposed relativity. Physics knowledge is vital for Science streams (B.Tech, B.Sc)."
+    },
+    {
+      "question_id": "ACAD_10SCI_018",
+      "question_text": "What is the main function of red blood cells?",
+      "options": [
+        {"option_id": "A", "text": "Fight infections"},
+        {"option_id": "B", "text": "Carry oxygen"},
+        {"option_id": "C", "text": "Clot blood"},
+        {"option_id": "D", "text": "Digest food"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Red blood cells carry oxygen. Biology knowledge is crucial for Science streams (MBBS)."
+    },
+    {
+      "question_id": "ACAD_10SCI_019",
+      "question_text": "What is the pH of pure water?",
+      "options": [
+        {"option_id": "A", "text": "7"},
+        {"option_id": "B", "text": "1"},
+        {"option_id": "C", "text": "14"},
+        {"option_id": "D", "text": "10"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Pure water has a pH of 7 (neutral). Chemistry knowledge suits Science streams (B.Sc, MBBS)."
+    },
+    {
+      "question_id": "ACAD_10SCI_020",
+      "question_text": "Which planet is known as the Red Planet?",
+      "options": [
+        {"option_id": "A", "text": "Venus"},
+        {"option_id": "B", "text": "Mars"},
+        {"option_id": "C", "text": "Jupiter"},
+        {"option_id": "D", "text": "Mercury"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Mars is the Red Planet due to iron oxide. Astronomy knowledge suits Science streams (B.Sc, B.Tech)."
+    },
+    {
+      "question_id": "ACAD_10SCI_021",
+      "question_text": "Who was the first Emperor of the Maurya Dynasty?",
+      "options": [
+        {"option_id": "A", "text": "Ashoka"},
+        {"option_id": "B", "text": "Chandragupta Maurya"},
+        {"option_id": "C", "text": "Bindusara"},
+        {"option_id": "D", "text": "Harsha"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Chandragupta Maurya founded the Maurya Dynasty. Historical knowledge supports Science students exploring interdisciplinary fields."
+    },
+    {
+      "question_id": "ACAD_10SCI_022",
+      "question_text": "In which year did India gain independence?",
+      "options": [
+        {"option_id": "A", "text": "1945"},
+        {"option_id": "B", "text": "1947"},
+        {"option_id": "C", "text": "1950"},
+        {"option_id": "D", "text": "1942"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "India gained independence in 1947. This knowledge is relevant for all streams, including Science."
+    },
+    {
+      "question_id": "ACAD_10SCI_023",
+      "question_text": "Who led the Dandi Salt March in 1930?",
+      "options": [
+        {"option_id": "A", "text": "Jawaharlal Nehru"},
+        {"option_id": "B", "text": "Mahatma Gandhi"},
+        {"option_id": "C", "text": "Sardar Patel"},
+        {"option_id": "D", "text": "Bhagat Singh"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Gandhi led the Dandi Salt March. Historical awareness is useful for Science students in social contexts."
+    },
+    {
+      "question_id": "ACAD_10SCI_024",
+      "question_text": "Which civilization built the Indus Valley cities of Harappa and Mohenjo-Daro?",
+      "options": [
+        {"option_id": "A", "text": "Mauryan"},
+        {"option_id": "B", "text": "Harappan"},
+        {"option_id": "C", "text": "Gupta"},
+        {"option_id": "D", "text": "Vedic"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Harappan civilization built these cities. Ancient history knowledge supports interdisciplinary Science studies."
+    },
+    {
+      "question_id": "ACAD_10SCI_025",
+      "question_text": "In which century did the Mughal Empire begin in India?",
+      "options": [
+        {"option_id": "A", "text": "14th"},
+        {"option_id": "B", "text": "16th"},
+        {"option_id": "C", "text": "18th"},
+        {"option_id": "D", "text": "12th"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Mughal Empire began in the 16th century (1526). Historical knowledge is relevant for Science students."
+    },
+    {
+      "question_id": "ACAD_10SCI_026",
+      "question_text": "Who was the first woman Prime Minister of India?",
+      "options": [
+        {"option_id": "A", "text": "Sonia Gandhi"},
+        {"option_id": "B", "text": "Indira Gandhi"},
+        {"option_id": "C", "text": "Sushma Swaraj"},
+        {"option_id": "D", "text": "Pratibha Patil"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Indira Gandhi was the first woman PM. Modern history knowledge is useful for Science students."
+    },
+    {
+      "question_id": "ACAD_10SCI_027",
+      "question_text": "Which battle in 1757 marked the start of British dominance in India?",
+      "options": [
+        {"option_id": "A", "text": "Battle of Plassey"},
+        {"option_id": "B", "text": "Battle of Buxar"},
+        {"option_id": "C", "text": "Battle of Panipat"},
+        {"option_id": "D", "text": "Battle of Haldighati"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Battle of Plassey (1757) marked British dominance. Colonial history is relevant for Science students."
+    },
+    {
+      "question_id": "ACAD_10SCI_028",
+      "question_text": "Who founded the Gupta Empire?",
+      "options": [
+        {"option_id": "A", "text": "Chandragupta I"},
+        {"option_id": "B", "text": "Samudragupta"},
+        {"option_id": "C", "text": "Ashoka"},
+        {"option_id": "D", "text": "Harsha"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Chandragupta I founded the Gupta Empire. Ancient history supports Science students in interdisciplinary studies."
+    },
+    {
+      "question_id": "ACAD_10SCI_029",
+      "question_text": "In which year did World War II end?",
+      "options": [
+        {"option_id": "A", "text": "1945"},
+        {"option_id": "B", "text": "1939"},
+        {"option_id": "C", "text": "1942"},
+        {"option_id": "D", "text": "1950"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "World War II ended in 1945. Global history knowledge is relevant for Science students."
+    },
+    {
+      "question_id": "ACAD_10SCI_030",
+      "question_text": "Who was the leader of the Indian National Congress during the Quit India Movement?",
+      "options": [
+        {"option_id": "A", "text": "Mahatma Gandhi"},
+        {"option_id": "B", "text": "Jawaharlal Nehru"},
+        {"option_id": "C", "text": "Subhas Chandra Bose"},
+        {"option_id": "D", "text": "Sardar Patel"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Gandhi led the Quit India Movement. Historical knowledge supports Science students in understanding societal contexts."
+    }
+  ]
+}

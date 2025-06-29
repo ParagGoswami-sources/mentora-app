@@ -1,0 +1,549 @@
+{
+  "test_category": "Academic",
+  "class": "Undergraduate",
+  "stream": "Science",
+  "course": "B.Tech",
+  "description": "Assesses General Knowledge, Science, and History for undergraduate students pursuing B.Tech to guide academic and career choices in engineering disciplines.",
+  "questions": [
+    {
+      "question_id": "ACAD_UGBTECH_001",
+      "question_text": "Which Indian body accredits engineering programs, including B.Tech?",
+      "options": [
+        {"option_id": "A", "text": "National Board of Accreditation"},
+        {"option_id": "B", "text": "National Medical Commission"},
+        {"option_id": "C", "text": "Bar Council of India"},
+        {"option_id": "D", "text": "University Grants Commission"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "NBA accredits engineering programs like B.Tech. Accreditation knowledge is essential for B.Tech (Education Quality)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_002",
+      "question_text": "Which Indian city is a hub for engineering education, hosting IITs?",
+      "options": [
+        {"option_id": "A", "text": "Madras"},
+        {"option_id": "B", "text": "Pune"},
+        {"option_id": "C", "text": "Nagpur"},
+        {"option_id": "D", "text": "Surat"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Madras (Chennai) hosts IIT Madras. Regional knowledge is key for B.Tech (Technical Education)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_003",
+      "question_text": "What does the acronym ‘CAD’ stand for in engineering design?",
+      "options": [
+        {"option_id": "A", "text": "Computer-Aided Design"},
+        {"option_id": "B", "text": "Circuit Analysis Design"},
+        {"option_id": "C", "text": "Control Algorithm Development"},
+        {"option_id": "D", "text": "Computational Analysis Diagram"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "CAD is Computer-Aided Design. Design knowledge supports B.Tech (Mechanical/Civil Engineering)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_004",
+      "question_text": "Which Indian institute is renowned for B.Tech programs, like NIT Trichy?",
+      "options": [
+        {"option_id": "A", "text": "National Institute of Technology, Tiruchirappalli"},
+        {"option_id": "B", "text": "Indian Institute of Management, Indore"},
+        {"option_id": "C", "text": "National Law School, Bengaluru"},
+        {"option_id": "D", "text": "All India Institute of Medical Sciences, Delhi"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "NIT Trichy is renowned for B.Tech. Institutional knowledge is vital for B.Tech students."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_005",
+      "question_text": "Which global organization sets engineering standards, like IEEE?",
+      "options": [
+        {"option_id": "A", "text": "Institute of Electrical and Electronics Engineers"},
+        {"option_id": "B", "text": "World Health Organization"},
+        {"option_id": "C", "text": "International Organization for Standardization"},
+        {"option_id": "D", "text": "United Nations Development Programme"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "IEEE sets engineering standards. Standards knowledge is key for B.Tech (Electronics/Computer Engineering)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_006",
+      "question_text": "Which Indian state is known for its engineering institutes, like IIIT Hyderabad?",
+      "options": [
+        {"option_id": "A", "text": "Telangana"},
+        {"option_id": "B", "text": "Gujarat"},
+        {"option_id": "C", "text": "Bihar"},
+        {"option_id": "D", "text": "Assam"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Telangana hosts IIIT Hyderabad. Regional knowledge supports B.Tech (Technical Education)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_007",
+      "question_text": "Which Indian initiative promotes technical innovation, like Atal Innovation Mission?",
+      "options": [
+        {"option_id": "A", "text": "Atal Innovation Mission"},
+        {"option_id": "B", "text": "Beti Bachao Beti Padhao"},
+        {"option_id": "C", "text": "Ayushman Bharat"},
+        {"option_id": "D", "text": "Swachh Bharat Abhiyan"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Atal Innovation Mission promotes innovation. Policy knowledge is essential for B.Tech (Entrepreneurship)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_008",
+      "question_text": "Which Indian company is known for engineering solutions, like Larsen & Toubro?",
+      "options": [
+        {"option_id": "A", "text": "Larsen & Toubro"},
+        {"option_id": "B", "text": "Reliance Industries"},
+        {"option_id": "C", "text": "HDFC Bank"},
+        {"option_id": "D", "text": "Sun Pharma"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "L&T leads in engineering solutions. Corporate knowledge is vital for B.Tech (Industry)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_009",
+      "question_text": "Which global engineer is known for the alternating current (AC) system?",
+      "options": [
+        {"option_id": "A", "text": "Nikola Tesla"},
+        {"option_id": "B", "text": "Thomas Edison"},
+        {"option_id": "C", "text": "Alexander Graham Bell"},
+        {"option_id": "D", "text": "Guglielmo Marconi"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Tesla developed the AC system. Engineering knowledge supports B.Tech (Electrical Engineering)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_010",
+      "question_text": "Which Indian city hosts the headquarters of the Defence Research and Development Organisation (DRDO)?",
+      "options": [
+        {"option_id": "A", "text": "New Delhi"},
+        {"option_id": "B", "text": "Bengaluru"},
+        {"option_id": "C", "text": "Hyderabad"},
+        {"option_id": "D", "text": "Pune"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "DRDO is headquartered in New Delhi. Organizational knowledge is key for B.Tech (Defence Engineering)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_011",
+      "question_text": "What is the primary function of a diode in an electronic circuit?",
+      "options": [
+        {"option_id": "A", "text": "Allow current in one direction"},
+        {"option_id": "B", "text": "Amplify signals"},
+        {"option_id": "C", "text": "Store electrical energy"},
+        {"option_id": "D", "text": "Regulate voltage"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "A diode allows unidirectional current. Electronics knowledge is crucial for B.Tech (Electronics)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_012",
+      "question_text": "What is the SI unit of power?",
+      "options": [
+        {"option_id": "A", "text": "Watt"},
+        {"option_id": "B", "text": "Joule"},
+        {"option_id": "C", "text": "Newton"},
+        {"option_id": "D", "text": "Ampere"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Power is measured in Watts. Physics knowledge is essential for B.Tech (Mechanical/Electrical Engineering)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_013",
+      "question_text": "What is the primary purpose of a compiler in software development?",
+      "options": [
+        {"option_id": "A", "text": "Translate high-level code to machine code"},
+        {"option_id": "B", "text": "Design user interfaces"},
+        {"option_id": "C", "text": "Manage network traffic"},
+        {"option_id": "D", "text": "Store data"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "A compiler translates code. Programming knowledge is key for B.Tech (Computer Science)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_014",
+      "question_text": "What is the primary function of a gear in mechanical systems?",
+      "options": [
+        {"option_id": "A", "text": "Transmit torque and motion"},
+        {"option_id": "B", "text": "Store energy"},
+        {"option_id": "C", "text": "Regulate temperature"},
+        {"option_id": "D", "text": "Amplify signals"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Gears transmit torque. Mechanics knowledge is vital for B.Tech (Mechanical Engineering)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_015",
+      "question_text": "What is the primary purpose of a heat exchanger?",
+      "options": [
+        {"option_id": "A", "text": "Transfer heat between fluids"},
+        {"option_id": "B", "text": "Generate electricity"},
+        {"option_id": "C", "text": "Store thermal energy"},
+        {"option_id": "D", "text": "Compress gases"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Heat exchangers transfer heat. Thermodynamics knowledge is essential for B.Tech (Chemical/Mechanical Engineering)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_016",
+      "question_text": "What is the primary function of an operational amplifier (op-amp)?",
+      "options": [
+        {"option_id": "A", "text": "Amplify electrical signals"},
+        {"option_id": "B", "text": "Store data"},
+        {"option_id": "C", "text": "Generate power"},
+        {"option_id": "D", "text": "Filter noise"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Op-amps amplify signals. Electronics knowledge is key for B.Tech (Electronics)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_017",
+      "question_text": "What is the primary purpose of a binary tree in computer science?",
+      "options": [
+        {"option_id": "A", "text": "Organize data hierarchically"},
+        {"option_id": "B", "text": "Encrypt data"},
+        {"option_id": "C", "text": "Transmit signals"},
+        {"option_id": "D", "text": "Design circuits"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Binary trees organize data. Data structure knowledge is vital for B.Tech (Computer Science)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_018",
+      "question_text": "What is the primary function of a reinforced concrete beam?",
+      "options": [
+        {"option_id": "A", "text": "Support structural loads"},
+        {"option_id": "B", "text": "Conduct electricity"},
+        {"option_id": "C", "text": "Store water"},
+        {"option_id": "D", "text": "Insulate heat"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Concrete beams support loads. Structural knowledge is essential for B.Tech (Civil Engineering)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_019",
+      "question_text": "What is the primary purpose of a control system?",
+      "options": [
+        {"option_id": "A", "text": "Regulate system behavior"},
+        {"option_id": "B", "text": "Store energy"},
+        {"option_id": "C", "text": "Design software"},
+        {"option_id": "D", "text": "Analyze data"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Control systems regulate behavior. Control engineering knowledge is key for B.Tech (Electrical/Mechanical Engineering)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_020",
+      "question_text": "What is the primary function of a transformer in electrical systems?",
+      "options": [
+        {"option_id": "A", "text": "Change voltage levels"},
+        {"option_id": "B", "text": "Store electrical energy"},
+        {"option_id": "C", "text": "Generate current"},
+        {"option_id": "D", "text": "Amplify signals"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Transformers change voltage. Electrical knowledge is vital for B.Tech (Electrical Engineering)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_021",
+      "question_text": "In which year was the Indian Institute of Technology (IIT) system established?",
+      "options": [
+        {"option_id": "A", "text": "1951"},
+        {"option_id": "B", "text": "1941"},
+        {"option_id": "C", "text": "1961"},
+        {"option_id": "D", "text": "1931"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The first IIT (Kharagpur) was established in 1951. Institutional history is relevant for B.Tech (Technical Education)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_022",
+      "question_text": "Who invented the steam engine, a key development in engineering?",
+      "options": [
+        {"option_id": "A", "text": "James Watt"},
+        {"option_id": "B", "text": "George Stephenson"},
+        {"option_id": "C", "text": "Thomas Savery"},
+        {"option_id": "D", "text": "Robert Fulton"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "James Watt improved the steam engine in 1765. Engineering history is key for B.Tech (Mechanical Engineering)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_023",
+      "question_text": "In which year was the Defence Research and Development Organisation (DRDO) founded?",
+      "options": [
+        {"option_id": "A", "text": "1958"},
+        {"option_id": "B", "text": "1948"},
+        {"option_id": "C", "text": "1968"},
+        {"option_id": "D", "text": "1938"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "DRDO was founded in 1958. Organizational history is relevant for B.Tech (Defence Engineering)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_024",
+      "question_text": "In which year was the first programmable computer, Z3, built?",
+      "options": [
+        {"option_id": "A", "text": "1941"},
+        {"option_id": "B", "text": "1931"},
+        {"option_id": "C", "text": "1951"},
+        {"option_id": "D", "text": "1921"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Z3 was built in 1941 by Konrad Zuse. Computer history is key for B.Tech (Computer Science)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_025",
+      "question_text": "Who developed the first microprocessor?",
+      "options": [
+        {"option_id": "A", "text": "Intel"},
+        {"option_id": "B", "text": "IBM"},
+        {"option_id": "C", "text": "Texas Instruments"},
+        {"option_id": "D", "text": "Motorola"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Intel developed the 4004 microprocessor in 1971. Electronics history is key for B.Tech (Electronics)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_026",
+      "question_text": "In which year was the Indian Space Research Organisation (ISRO) founded?",
+      "options": [
+        {"option_id": "A", "text": "1969"},
+        {"option_id": "B", "text": "1959"},
+        {"option_id": "C", "text": "1979"},
+        {"option_id": "D", "text": "1949"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "ISRO was founded in 1969. Organizational history is key for B.Tech (Aerospace Engineering)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_027",
+      "question_text": "Who invented the World Wide Web?",
+      "options": [
+        {"option_id": "A", "text": "Tim Berners-Lee"},
+        {"option_id": "B", "text": "Vinton Cerf"},
+        {"option_id": "C", "text": "Bill Gates"},
+        {"option_id": "D", "text": "Steve Jobs"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Berners-Lee invented the Web in 1989. Internet history is key for B.Tech (Computer Science)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_028",
+      "question_text": "In which year was the first Indian satellite, Aryabhata, launched?",
+      "options": [
+        {"option_id": "A", "text": "1975"},
+        {"option_id": "B", "text": "1965"},
+        {"option_id": "C", "text": "1985"},
+        {"option_id": "D", "text": "1955"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Aryabhata was launched in 1975. Space history is key for B.Tech (Aerospace Engineering)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_029",
+      "question_text": "Who developed the C programming language?",
+      "options": [
+        {"option_id": "A", "text": "Dennis Ritchie"},
+        {"option_id": "B", "text": "Bjarne Stroustrup"},
+        {"option_id": "C", "text": "James Gosling"},
+        {"option_id": "D", "text": "Guido van Rossum"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Ritchie developed C in 1972. Programming history is key for B.Tech (Computer Science)."
+    },
+    {
+      "question_id": "ACAD_UGBTECH_030",
+      "question_text": "In which year was the Bhakra Dam, a major engineering project, completed?",
+      "options": [
+        {"option_id": "A", "text": "1963"},
+        {"option_id": "B", "text": "1953"},
+        {"option_id": "C", "text": "1973"},
+        {"option_id": "D", "text": "1943"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Bhakra Dam was completed in 1963. Engineering history is key for B.Tech (Civil Engineering)."
+    }
+  ]
+}

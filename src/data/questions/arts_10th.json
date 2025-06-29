@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Which of the following is a classical dance form of India?",
+    "options": [
+      "Hip Hop",
+      "Bharatanatyam",
+      "Salsa",
+      "Jazz"
+    ],
+    "correct_answer": "Bharatanatyam"
+  },
+  {
+    "question": "Who wrote the play 'Macbeth'?",
+    "options": [
+      "William Wordsworth",
+      "William Shakespeare",
+      "John Keats",
+      "Charles Dickens"
+    ],
+    "correct_answer": "William Shakespeare"
+  },
+  {
+    "question": "The painting 'Mona Lisa' was created by which artist?",
+    "options": [
+      "Leonardo da Vinci",
+      "Pablo Picasso",
+      "Vincent van Gogh",
+      "Michelangelo"
+    ],
+    "correct_answer": "Leonardo da Vinci"
+  },
+  {
+    "question": "What is the primary function of literature?",
+    "options": [
+      "To entertain",
+      "To inform",
+      "To express human experiences",
+      "To do calculations"
+    ],
+    "correct_answer": "To express human experiences"
+  },
+  {
+    "question": "Which of the following is considered a performing art?",
+    "options": [
+      "Sculpture",
+      "Painting",
+      "Theatre",
+      "Photography"
+    ],
+    "correct_answer": "Theatre"
+  },
+  {
+    "question": "In which language is the epic 'Ramayana' originally written?",
+    "options": [
+      "Tamil",
+      "Hindi",
+      "Sanskrit",
+      "Pali"
+    ],
+    "correct_answer": "Sanskrit"
+  },
+  {
+    "question": "Who is known as the 'Father of Indian Cinema'?",
+    "options": [
+      "Satyajit Ray",
+      "Dadasaheb Phalke",
+      "Guru Dutt",
+      "Ritwik Ghatak"
+    ],
+    "correct_answer": "Dadasaheb Phalke"
+  },
+  {
+    "question": "Which of these is a famous Indian folk art form?",
+    "options": [
+      "Origami",
+      "Warli",
+      "Cubism",
+      "Gothic"
+    ],
+    "correct_answer": "Warli"
+  },
+  {
+    "question": "What is a synonym of the word 'elated'?",
+    "options": [
+      "Sad",
+      "Angry",
+      "Happy",
+      "Tired"
+    ],
+    "correct_answer": "Happy"
+  },
+  {
+    "question": "Who wrote the Indian national anthem?",
+    "options": [
+      "Rabindranath Tagore",
+      "Bankim Chandra Chatterjee",
+      "Subhash Chandra Bose",
+      "Sarojini Naidu"
+    ],
+    "correct_answer": "Rabindranath Tagore"
+  },
+  {
+    "question": "Which art movement is Salvador Dal\u00ed associated with?",
+    "options": [
+      "Surrealism",
+      "Impressionism",
+      "Cubism",
+      "Futurism"
+    ],
+    "correct_answer": "Surrealism"
+  },
+  {
+    "question": "Which is a form of visual art?",
+    "options": [
+      "Dance",
+      "Music",
+      "Painting",
+      "Drama"
+    ],
+    "correct_answer": "Painting"
+  },
+  {
+    "question": "In storytelling, what is the 'climax'?",
+    "options": [
+      "The end",
+      "The beginning",
+      "The highest point of tension",
+      "The title"
+    ],
+    "correct_answer": "The highest point of tension"
+  },
+  {
+    "question": "Which Indian festival is associated with art and learning?",
+    "options": [
+      "Diwali",
+      "Saraswati Puja",
+      "Holi",
+      "Raksha Bandhan"
+    ],
+    "correct_answer": "Saraswati Puja"
+  },
+  {
+    "question": "Which of the following is a famous Indian poet?",
+    "options": [
+      "Albert Einstein",
+      "Kalidasa",
+      "Steve Jobs",
+      "Isaac Newton"
+    ],
+    "correct_answer": "Kalidasa"
+  }
+]

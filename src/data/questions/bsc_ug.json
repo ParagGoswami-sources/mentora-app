@@ -1,0 +1,303 @@
+[
+  {
+    "question": "Which law states that the volume of a gas is inversely proportional to its pressure at constant temperature?",
+    "options": [
+      "Boyle's Law",
+      "Charles's Law",
+      "Avogadro's Law",
+      "Newton's Law"
+    ],
+    "answer": "Boyle's Law"
+  },
+  {
+    "question": "Which organelle is known as the powerhouse of the cell?",
+    "options": [
+      "Chloroplast",
+      "Mitochondria",
+      "Ribosome",
+      "Nucleus"
+    ],
+    "answer": "Mitochondria"
+  },
+  {
+    "question": "In physics, what does the unit 'Farad' measure?",
+    "options": [
+      "Resistance",
+      "Capacitance",
+      "Inductance",
+      "Conductance"
+    ],
+    "answer": "Capacitance"
+  },
+  {
+    "question": "What is the derivative of sin(x)?",
+    "options": [
+      "cos(x)",
+      "-cos(x)",
+      "sin(x)",
+      "-sin(x)"
+    ],
+    "answer": "cos(x)"
+  },
+  {
+    "question": "What is the SI unit of electric current?",
+    "options": [
+      "Coulomb",
+      "Ohm",
+      "Ampere",
+      "Volt"
+    ],
+    "answer": "Ampere"
+  },
+  {
+    "question": "Which element has the highest electronegativity?",
+    "options": [
+      "Oxygen",
+      "Fluorine",
+      "Chlorine",
+      "Nitrogen"
+    ],
+    "answer": "Fluorine"
+  },
+  {
+    "question": "Who proposed the theory of evolution by natural selection?",
+    "options": [
+      "Lamarck",
+      "Darwin",
+      "Mendel",
+      "Newton"
+    ],
+    "answer": "Darwin"
+  },
+  {
+    "question": "What is the chemical formula of glucose?",
+    "options": [
+      "C6H12O6",
+      "C2H6O",
+      "CH4",
+      "C12H22O11"
+    ],
+    "answer": "C6H12O6"
+  },
+  {
+    "question": "Which gas is responsible for the greenhouse effect?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon Dioxide",
+      "Hydrogen"
+    ],
+    "answer": "Carbon Dioxide"
+  },
+  {
+    "question": "Which of the following is a vector quantity?",
+    "options": [
+      "Speed",
+      "Distance",
+      "Time",
+      "Velocity"
+    ],
+    "answer": "Velocity"
+  },
+  {
+    "question": "Which of the following is not a state of matter?",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas",
+      "Plasma",
+      "Flame"
+    ],
+    "answer": "Flame"
+  },
+  {
+    "question": "What is the chemical symbol of gold?",
+    "options": [
+      "Gd",
+      "Au",
+      "Ag",
+      "Pb"
+    ],
+    "answer": "Au"
+  },
+  {
+    "question": "Which vitamin is essential for blood clotting?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B12",
+      "Vitamin K",
+      "Vitamin D"
+    ],
+    "answer": "Vitamin K"
+  },
+  {
+    "question": "Which wave is used in mobile communication?",
+    "options": [
+      "Microwave",
+      "Infrared",
+      "Ultraviolet",
+      "X-rays"
+    ],
+    "answer": "Microwave"
+  },
+  {
+    "question": "Which programming language is primarily used for statistical analysis?",
+    "options": [
+      "Java",
+      "R",
+      "C++",
+      "Python"
+    ],
+    "answer": "R"
+  },
+  {
+    "question": "In statistics, what is the median?",
+    "options": [
+      "The most frequent value",
+      "The average",
+      "The middle value",
+      "The highest value"
+    ],
+    "answer": "The middle value"
+  },
+  {
+    "question": "What is the full form of DNA?",
+    "options": [
+      "Deoxyribonucleic Acid",
+      "Dinucleic Acid",
+      "Deoxyribose Acid",
+      "Deoxynucleic Acid"
+    ],
+    "answer": "Deoxyribonucleic Acid"
+  },
+  {
+    "question": "What is the boiling point of water on the Celsius scale?",
+    "options": [
+      "90\u00b0C",
+      "100\u00b0C",
+      "110\u00b0C",
+      "120\u00b0C"
+    ],
+    "answer": "100\u00b0C"
+  },
+  {
+    "question": "Which gas is used in balloons to make them float?",
+    "options": [
+      "Hydrogen",
+      "Oxygen",
+      "Nitrogen",
+      "Helium"
+    ],
+    "answer": "Helium"
+  },
+  {
+    "question": "What is the universal gas constant symbol?",
+    "options": [
+      "G",
+      "R",
+      "K",
+      "P"
+    ],
+    "answer": "R"
+  },
+  {
+    "question": "In optics, what type of lens is used to correct farsightedness?",
+    "options": [
+      "Concave",
+      "Convex",
+      "Plane",
+      "Biconcave"
+    ],
+    "answer": "Convex"
+  },
+  {
+    "question": "What is Avogadro's number approximately?",
+    "options": [
+      "6.02 x 10^22",
+      "6.02 x 10^23",
+      "6.02 x 10^24",
+      "6.02 x 10^25"
+    ],
+    "answer": "6.02 x 10^23"
+  },
+  {
+    "question": "Which part of the brain controls voluntary actions?",
+    "options": [
+      "Cerebrum",
+      "Cerebellum",
+      "Medulla",
+      "Pons"
+    ],
+    "answer": "Cerebrum"
+  },
+  {
+    "question": "What is Newton's Second Law?",
+    "options": [
+      "F = ma",
+      "F = mv",
+      "E = mc^2",
+      "F = mg"
+    ],
+    "answer": "F = ma"
+  },
+  {
+    "question": "What is the major component of natural gas?",
+    "options": [
+      "Methane",
+      "Propane",
+      "Butane",
+      "Ethane"
+    ],
+    "answer": "Methane"
+  },
+  {
+    "question": "What kind of bond is formed by sharing of electrons?",
+    "options": [
+      "Ionic bond",
+      "Covalent bond",
+      "Metallic bond",
+      "Hydrogen bond"
+    ],
+    "answer": "Covalent bond"
+  },
+  {
+    "question": "What is the name of the process plants use to make food?",
+    "options": [
+      "Glycolysis",
+      "Photosynthesis",
+      "Respiration",
+      "Transpiration"
+    ],
+    "answer": "Photosynthesis"
+  },
+  {
+    "question": "Which layer of the Earth lies just below the crust?",
+    "options": [
+      "Core",
+      "Mantle",
+      "Lithosphere",
+      "Stratosphere"
+    ],
+    "answer": "Mantle"
+  },
+  {
+    "question": "Which gas is released during photosynthesis?",
+    "options": [
+      "Carbon Dioxide",
+      "Oxygen",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "answer": "Oxygen"
+  },
+  {
+    "question": "What is the pH of pure water at room temperature?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "7"
+  }
+]

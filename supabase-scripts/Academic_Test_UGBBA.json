@@ -1,0 +1,549 @@
+{
+  "test_category": "Academic",
+  "class": "Undergraduate",
+  "stream": "Arts",
+  "course": "B.A",
+  "description": "Assesses General Knowledge, Humanities, and History for undergraduate students pursuing B.A to guide academic and career choices in humanities.",
+  "questions": [
+    {
+      "question_id": "ACAD_UGBA_001",
+      "question_text": "Which Indian body regulates higher education in arts, including B.A programs?",
+      "options": [
+        {"option_id": "A", "text": "University Grants Commission"},
+        {"option_id": "B", "text": "National Board of Accreditation"},
+        {"option_id": "C", "text": "National Medical Commission"},
+        {"option_id": "D", "text": "All India Council for Technical Education"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "UGC regulates B.A programs. Regulatory knowledge is essential for B.A (Education Policy)."
+    },
+    {
+      "question_id": "ACAD_UGBA_002",
+      "question_text": "Which Indian city is known for arts education, hosting St. Xavier’s College?",
+      "options": [
+        {"option_id": "A", "text": "Mumbai"},
+        {"option_id": "B", "text": "Jaipur"},
+        {"option_id": "C", "text": "Lucknow"},
+        {"option_id": "D", "text": "Patna"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Mumbai hosts St. Xavier’s, an arts hub. Regional knowledge is key for B.A (Cultural Studies)."
+    },
+    {
+      "question_id": "ACAD_UGBA_003",
+      "question_text": "What does the acronym ‘NGO’ stand for in social sciences?",
+      "options": [
+        {"option_id": "A", "text": "Non-Governmental Organization"},
+        {"option_id": "B", "text": "National Governance Office"},
+        {"option_id": "C", "text": "Non-Profit Group Organization"},
+        {"option_id": "D", "text": "National Grassroots Office"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "NGO is Non-Governmental Organization. Social science knowledge supports B.A (Sociology)."
+    },
+    {
+      "question_id": "ACAD_UGBA_004",
+      "question_text": "Which Indian institute is renowned for B.A programs, like Lady Shri Ram College?",
+      "options": [
+        {"option_id": "A", "text": "Lady Shri Ram College, Delhi"},
+        {"option_id": "B", "text": "Indian Institute of Technology, Kanpur"},
+        {"option_id": "C", "text": "National Institute of Fashion Technology, Mumbai"},
+        {"option_id": "D", "text": "Indian Institute of Management, Ahmedabad"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "LSR is renowned for B.A. Institutional knowledge is vital for B.A students."
+    },
+    {
+      "question_id": "ACAD_UGBA_005",
+      "question_text": "Which global organization promotes cultural heritage, like UNESCO?",
+      "options": [
+        {"option_id": "A", "text": "United Nations Educational, Scientific and Cultural Organization"},
+        {"option_id": "B", "text": "World Trade Organization"},
+        {"option_id": "C", "text": "International Monetary Fund"},
+        {"option_id": "D", "text": "World Health Organization"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "UNESCO promotes cultural heritage. Global knowledge is key for B.A (Cultural Studies)."
+    },
+    {
+      "question_id": "ACAD_UGBA_006",
+      "question_text": "Which Indian state is known for its cultural heritage, hosting Visva-Bharati University?",
+      "options": [
+        {"option_id": "A", "text": "West Bengal"},
+        {"option_id": "B", "text": "Madhya Pradesh"},
+        {"option_id": "C", "text": "Haryana"},
+        {"option_id": "D", "text": "Jharkhand"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "West Bengal hosts Visva-Bharati. Regional knowledge supports B.A (Cultural Studies)."
+    },
+    {
+      "question_id": "ACAD_UGBA_007",
+      "question_text": "Which Indian initiative promotes gender equality, like Beti Bachao Beti Padhao?",
+      "options": [
+        {"option_id": "A", "text": "Beti Bachao Beti Padhao"},
+        {"option_id": "B", "text": "Make in India"},
+        {"option_id": "C", "text": "Digital India"},
+        {"option_id": "D", "text": "Skill India"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Beti Bachao promotes gender equality. Policy knowledge is essential for B.A (Sociology)."
+    },
+    {
+      "question_id": "ACAD_UGBA_008",
+      "question_text": "Which Indian organization promotes literary heritage, like Sahitya Akademi?",
+      "options": [
+        {"option_id": "A", "text": "Sahitya Akademi"},
+        {"option_id": "B", "text": "Indian Space Research Organisation"},
+        {"option_id": "C", "text": "Defence Research and Development Organisation"},
+        {"option_id": "D", "text": "National Testing Agency"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Sahitya Akademi promotes literature. Organizational knowledge is vital for B.A (Literature)."
+    },
+    {
+      "question_id": "ACAD_UGBA_009",
+      "question_text": "Which global philosopher is known for the concept of the ‘social contract’?",
+      "options": [
+        {"option_id": "A", "text": "Jean-Jacques Rousseau"},
+        {"option_id": "B", "text": "Immanuel Kant"},
+        {"option_id": "C", "text": "Socrates"},
+        {"option_id": "D", "text": "Friedrich Nietzsche"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Rousseau developed the social contract. Philosophical knowledge supports B.A (Philosophy)."
+    },
+    {
+      "question_id": "ACAD_UGBA_010",
+      "question_text": "Which Indian city hosts the headquarters of the Archaeological Survey of India (ASI)?",
+      "options": [
+        {"option_id": "A", "text": "New Delhi"},
+        {"option_id": "B", "text": "Kolkata"},
+        {"option_id": "C", "text": "Chennai"},
+        {"option_id": "D", "text": "Hyderabad"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "ASI is headquartered in New Delhi. Organizational knowledge is key for B.A (Archaeology)."
+    },
+    {
+      "question_id": "ACAD_UGBA_011",
+      "question_text": "What is the primary focus of sociology?",
+      "options": [
+        {"option_id": "A", "text": "Study of society and human behavior"},
+        {"option_id": "B", "text": "Study of physical matter"},
+        {"option_id": "C", "text": "Study of economic systems"},
+        {"option_id": "D", "text": "Study of biological organisms"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Sociology studies society. Social science knowledge is crucial for B.A (Sociology)."
+    },
+    {
+      "question_id": "ACAD_UGBA_012",
+      "question_text": "Who wrote the novel ‘Pride and Prejudice’?",
+      "options": [
+        {"option_id": "A", "text": "Jane Austen"},
+        {"option_id": "B", "text": "Charlotte Brontë"},
+        {"option_id": "C", "text": "Emily Dickinson"},
+        {"option_id": "D", "text": "Virginia Woolf"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Jane Austen wrote ‘Pride and Prejudice’. Literary knowledge is essential for B.A (English)."
+    },
+    {
+      "question_id": "ACAD_UGBA_013",
+      "question_text": "What is the primary purpose of the Indian Constitution?",
+      "options": [
+        {"option_id": "A", "text": "Establish governance framework"},
+        {"option_id": "B", "text": "Promote economic policies"},
+        {"option_id": "C", "text": "Regulate scientific research"},
+        {"option_id": "D", "text": "Control international trade"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "The Constitution establishes governance. Political science knowledge is key for B.A (Political Science)."
+    },
+    {
+      "question_id": "ACAD_UGBA_014",
+      "question_text": "What is the primary focus of anthropology?",
+      "options": [
+        {"option_id": "A", "text": "Study of human cultures and evolution"},
+        {"option_id": "B", "text": "Study of celestial bodies"},
+        {"option_id": "C", "text": "Study of chemical reactions"},
+        {"option_id": "D", "text": "Study of financial markets"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Anthropology studies cultures. Social science knowledge is vital for B.A (Anthropology)."
+    },
+    {
+      "question_id": "ACAD_UGBA_015",
+      "question_text": "Who is known as the ‘Father of Economics’?",
+      "options": [
+        {"option_id": "A", "text": "Adam Smith"},
+        {"option_id": "B", "text": "John Maynard Keynes"},
+        {"option_id": "C", "text": "Karl Marx"},
+        {"option_id": "D", "text": "Milton Friedman"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Adam Smith is the ‘Father of Economics’. Economic knowledge is essential for B.A (Economics)."
+    },
+    {
+      "question_id": "ACAD_UGBA_016",
+      "question_text": "What is the primary theme of Shakespeare’s ‘Hamlet’?",
+      "options": [
+        {"option_id": "A", "text": "Revenge and morality"},
+        {"option_id": "B", "text": "Love and marriage"},
+        {"option_id": "C", "text": "War and conquest"},
+        {"option_id": "D", "text": "Wealth and power"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "‘Hamlet’ explores revenge. Literary knowledge is key for B.A (English)."
+    },
+    {
+      "question_id": "ACAD_UGBA_017",
+      "question_text": "What is the primary goal of public administration?",
+      "options": [
+        {"option_id": "A", "text": "Efficient governance and policy implementation"},
+        {"option_id": "B", "text": "Scientific experimentation"},
+        {"option_id": "C", "text": "Corporate profit maximization"},
+        {"option_id": "D", "text": "Agricultural development"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Public administration focuses on governance. Political science knowledge is vital for B.A (Public Administration)."
+    },
+    {
+      "question_id": "ACAD_UGBA_018",
+      "question_text": "What is the primary focus of linguistics?",
+      "options": [
+        {"option_id": "A", "text": "Study of language structure and use"},
+        {"option_id": "B", "text": "Study of geological formations"},
+        {"option_id": "C", "text": "Study of economic policies"},
+        {"option_id": "D", "text": "Study of medical procedures"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Linguistics studies language. Linguistic knowledge is essential for B.A (Linguistics)."
+    },
+    {
+      "question_id": "ACAD_UGBA_019",
+      "question_text": "Who wrote the ‘Arthashastra’, a treatise on statecraft?",
+      "options": [
+        {"option_id": "A", "text": "Kautilya"},
+        {"option_id": "B", "text": "Kalidasa"},
+        {"option_id": "C", "text": "Banabhatta"},
+        {"option_id": "D", "text": "Tulsidas"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Kautilya wrote ‘Arthashastra’. Political science knowledge is key for B.A (Political Science)."
+    },
+    {
+      "question_id": "ACAD_UGBA_020",
+      "question_text": "What is the primary focus of psychology?",
+      "options": [
+        {"option_id": "A", "text": "Study of mind and behavior"},
+        {"option_id": "B", "text": "Study of physical systems"},
+        {"option_id": "C", "text": "Study of financial markets"},
+        {"option_id": "D", "text": "Study of chemical compounds"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Psychology studies mind and behavior. Psychological knowledge is vital for B.A (Psychology)."
+    },
+    {
+      "question_id": "ACAD_UGBA_021",
+      "question_text": "In which year was Visva-Bharati University founded by Rabindranath Tagore?",
+      "options": [
+        {"option_id": "A", "text": "1921"},
+        {"option_id": "B", "text": "1911"},
+        {"option_id": "C", "text": "1931"},
+        {"option_id": "D", "text": "1901"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Visva-Bharati was founded in 1921. Institutional history is relevant for B.A (Cultural Studies)."
+    },
+    {
+      "question_id": "ACAD_UGBA_022",
+      "question_text": "Who was the first woman to win the Nobel Prize in Literature?",
+      "options": [
+        {"option_id": "A", "text": "Selma Lagerlöf"},
+        {"option_id": "B", "text": "Pearl S. Buck"},
+        {"option_id": "C", "text": "Toni Morrison"},
+        {"option_id": "D", "text": "Doris Lessing"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Selma Lagerlöf won in 1909. Literary history is key for B.A (Literature)."
+    },
+    {
+      "question_id": "ACAD_UGBA_023",
+      "question_text": "In which year was the Indian National Congress founded?",
+      "options": [
+        {"option_id": "A", "text": "1885"},
+        {"option_id": "B", "text": "1875"},
+        {"option_id": "C", "text": "1895"},
+        {"option_id": "D", "text": "1865"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "INC was founded in 1885. Political history is relevant for B.A (Political Science)."
+    },
+    {
+      "question_id": "ACAD_UGBA_024",
+      "question_text": "Who wrote the ‘Communist Manifesto’?",
+      "options": [
+        {"option_id": "A", "text": "Karl Marx and Friedrich Engels"},
+        {"option_id": "B", "text": "Adam Smith"},
+        {"option_id": "C", "text": "John Locke"},
+        {"option_id": "D", "text": "Max Weber"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Marx and Engels wrote it in 1848. Political history is key for B.A (Political Science)."
+    },
+    {
+      "question_id": "ACAD_UGBA_025",
+      "question_text": "In which year was the Archaeological Survey of India (ASI) established?",
+      "options": [
+        {"option_id": "A", "text": "1861"},
+        {"option_id": "B", "text": "1851"},
+        {"option_id": "C", "text": "1871"},
+        {"option_id": "D", "text": "1841"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "ASI was established in 1861. Institutional history is key for B.A (Archaeology)."
+    },
+    {
+      "question_id": "ACAD_UGBA_026",
+      "question_text": "In which year was the Universal Declaration of Human Rights adopted?",
+      "options": [
+        {"option_id": "A", "text": "1948"},
+        {"option_id": "B", "text": "1938"},
+        {"option_id": "C", "text": "1958"},
+        {"option_id": "D", "text": "1928"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "UDHR was adopted in 1948. Human rights history is key for B.A (Political Science)."
+    },
+    {
+      "question_id": "ACAD_UGBA_027",
+      "question_text": "Who was the first Indian woman to become President of the Indian National Congress?",
+      "options": [
+        {"option_id": "A", "text": "Annie Besant"},
+        {"option_id": "B", "text": "Sarojini Naidu"},
+        {"option_id": "C", "text": "Indira Gandhi"},
+        {"option_id": "D", "text": "Vijaya Lakshmi Pandit"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Annie Besant was president in 1917. Political history is key for B.A (History)."
+    },
+    {
+      "question_id": "ACAD_UGBA_028",
+      "question_text": "In which year was Rabindranath Tagore awarded the Nobel Prize in Literature?",
+      "options": [
+        {"option_id": "A", "text": "1913"},
+        {"option_id": "B", "text": "1903"},
+        {"option_id": "C", "text": "1923"},
+        {"option_id": "D", "text": "1893"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Tagore won in 1913. Literary history is key for B.A (Literature)."
+    },
+    {
+      "question_id": "ACAD_UGBA_029",
+      "question_text": "Who founded the Asiatic Society in India?",
+      "options": [
+        {"option_id": "A", "text": "William Jones"},
+        {"option_id": "B", "text": "James Mill"},
+        {"option_id": "C", "text": "Thomas Macaulay"},
+        {"option_id": "D", "text": "Warren Hastings"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "William Jones founded it in 1784. Cultural history is key for B.A (History)."
+    },
+    {
+      "question_id": "ACAD_UGBA_030",
+      "question_text": "In which year was the first modern Olympic Games held?",
+      "options": [
+        {"option_id": "A", "text": "1896"},
+        {"option_id": "B", "text": "1886"},
+        {"option_id": "C", "text": "1906"},
+        {"option_id": "D", "text": "1876"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The first Olympics were held in 1896. Cultural history is key for B.A (Cultural Studies)."
+    }
+  ]
+}

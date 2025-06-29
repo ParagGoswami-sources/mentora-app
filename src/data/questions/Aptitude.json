@@ -1,0 +1,245 @@
+{
+  "title": "Aptitude",
+  "questions": [
+    {
+      "id": 1,
+      "text": "What is the next number in the series: 2, 4, 8, 16, ? (Q1)",
+      "type": "mcq",
+      "options": [
+        "18",
+        "24",
+        "32",
+        "36"
+      ],
+      "answer": "32"
+    },
+    {
+      "id": 2,
+      "text": "If A = 1, B = 2, ..., Z = 26, what is the value of 'ACE'? (Q2)",
+      "type": "mcq",
+      "options": [
+        "9",
+        "11",
+        "15",
+        "19"
+      ],
+      "answer": "9"
+    },
+    {
+      "id": 3,
+      "text": "What is the next number in the series: 2, 4, 8, 16, ? (Q3)",
+      "type": "mcq",
+      "options": [
+        "18",
+        "24",
+        "32",
+        "36"
+      ],
+      "answer": "32"
+    },
+    {
+      "id": 4,
+      "text": "If A = 1, B = 2, ..., Z = 26, what is the value of 'ACE'? (Q4)",
+      "type": "mcq",
+      "options": [
+        "9",
+        "11",
+        "15",
+        "19"
+      ],
+      "answer": "9"
+    },
+    {
+      "id": 5,
+      "text": "What is the next number in the series: 2, 4, 8, 16, ? (Q5)",
+      "type": "mcq",
+      "options": [
+        "18",
+        "24",
+        "32",
+        "36"
+      ],
+      "answer": "32"
+    },
+    {
+      "id": 6,
+      "text": "If A = 1, B = 2, ..., Z = 26, what is the value of 'ACE'? (Q6)",
+      "type": "mcq",
+      "options": [
+        "9",
+        "11",
+        "15",
+        "19"
+      ],
+      "answer": "9"
+    },
+    {
+      "id": 7,
+      "text": "What is the next number in the series: 2, 4, 8, 16, ? (Q7)",
+      "type": "mcq",
+      "options": [
+        "18",
+        "24",
+        "32",
+        "36"
+      ],
+      "answer": "32"
+    },
+    {
+      "id": 8,
+      "text": "If A = 1, B = 2, ..., Z = 26, what is the value of 'ACE'? (Q8)",
+      "type": "mcq",
+      "options": [
+        "9",
+        "11",
+        "15",
+        "19"
+      ],
+      "answer": "9"
+    },
+    {
+      "id": 9,
+      "text": "What is the next number in the series: 2, 4, 8, 16, ? (Q9)",
+      "type": "mcq",
+      "options": [
+        "18",
+        "24",
+        "32",
+        "36"
+      ],
+      "answer": "32"
+    },
+    {
+      "id": 10,
+      "text": "If A = 1, B = 2, ..., Z = 26, what is the value of 'ACE'? (Q10)",
+      "type": "mcq",
+      "options": [
+        "9",
+        "11",
+        "15",
+        "19"
+      ],
+      "answer": "9"
+    },
+    {
+      "id": 11,
+      "text": "What is the next number in the series: 2, 4, 8, 16, ? (Q11)",
+      "type": "mcq",
+      "options": [
+        "18",
+        "24",
+        "32",
+        "36"
+      ],
+      "answer": "32"
+    },
+    {
+      "id": 12,
+      "text": "If A = 1, B = 2, ..., Z = 26, what is the value of 'ACE'? (Q12)",
+      "type": "mcq",
+      "options": [
+        "9",
+        "11",
+        "15",
+        "19"
+      ],
+      "answer": "9"
+    },
+    {
+      "id": 13,
+      "text": "What is the next number in the series: 2, 4, 8, 16, ? (Q13)",
+      "type": "mcq",
+      "options": [
+        "18",
+        "24",
+        "32",
+        "36"
+      ],
+      "answer": "32"
+    },
+    {
+      "id": 14,
+      "text": "If A = 1, B = 2, ..., Z = 26, what is the value of 'ACE'? (Q14)",
+      "type": "mcq",
+      "options": [
+        "9",
+        "11",
+        "15",
+        "19"
+      ],
+      "answer": "9"
+    },
+    {
+      "id": 15,
+      "text": "What is the next number in the series: 2, 4, 8, 16, ? (Q15)",
+      "type": "mcq",
+      "options": [
+        "18",
+        "24",
+        "32",
+        "36"
+      ],
+      "answer": "32"
+    },
+    {
+      "id": 16,
+      "text": "If A = 1, B = 2, ..., Z = 26, what is the value of 'ACE'? (Q16)",
+      "type": "mcq",
+      "options": [
+        "9",
+        "11",
+        "15",
+        "19"
+      ],
+      "answer": "9"
+    },
+    {
+      "id": 17,
+      "text": "What is the next number in the series: 2, 4, 8, 16, ? (Q17)",
+      "type": "mcq",
+      "options": [
+        "18",
+        "24",
+        "32",
+        "36"
+      ],
+      "answer": "32"
+    },
+    {
+      "id": 18,
+      "text": "If A = 1, B = 2, ..., Z = 26, what is the value of 'ACE'? (Q18)",
+      "type": "mcq",
+      "options": [
+        "9",
+        "11",
+        "15",
+        "19"
+      ],
+      "answer": "9"
+    },
+    {
+      "id": 19,
+      "text": "What is the next number in the series: 2, 4, 8, 16, ? (Q19)",
+      "type": "mcq",
+      "options": [
+        "18",
+        "24",
+        "32",
+        "36"
+      ],
+      "answer": "32"
+    },
+    {
+      "id": 20,
+      "text": "If A = 1, B = 2, ..., Z = 26, what is the value of 'ACE'? (Q20)",
+      "type": "mcq",
+      "options": [
+        "9",
+        "11",
+        "15",
+        "19"
+      ],
+      "answer": "9"
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+[
+  {
+    "question": "Which financial statement shows a company's financial position at a specific point in time?",
+    "options": [
+      "Income Statement",
+      "Balance Sheet",
+      "Cash Flow Statement",
+      "Statement of Equity"
+    ],
+    "answer": "Balance Sheet"
+  },
+  {
+    "question": "Which concept requires revenue to be recorded when earned, regardless of when it is received?",
+    "options": [
+      "Matching Principle",
+      "Revenue Recognition Principle",
+      "Cost Principle",
+      "Full Disclosure Principle"
+    ],
+    "answer": "Revenue Recognition Principle"
+  },
+  {
+    "question": "The term 'Double Entry System' means:",
+    "options": [
+      "Recording transactions twice",
+      "Recording both debit and credit aspects",
+      "Recording only revenues",
+      "Recording only expenses"
+    ],
+    "answer": "Recording both debit and credit aspects"
+  },
+  {
+    "question": "Which is a source of long-term finance?",
+    "options": [
+      "Trade Credit",
+      "Debentures",
+      "Bank Overdraft",
+      "Cash Credit"
+    ],
+    "answer": "Debentures"
+  },
+  {
+    "question": "What does FIFO stand for in inventory management?",
+    "options": [
+      "First In First Out",
+      "Final In First Out",
+      "First In Final Out",
+      "Fast In Fast Out"
+    ],
+    "answer": "First In First Out"
+  },
+  {
+    "question": "Which one is not a branch of accounting?",
+    "options": [
+      "Financial Accounting",
+      "Management Accounting",
+      "Social Accounting",
+      "Medical Accounting"
+    ],
+    "answer": "Medical Accounting"
+  },
+  {
+    "question": "In marketing, 4P stands for Product, Price, Place, and:",
+    "options": [
+      "Profit",
+      "Planning",
+      "Promotion",
+      "Position"
+    ],
+    "answer": "Promotion"
+  },
+  {
+    "question": "Which tax is levied on income?",
+    "options": [
+      "Sales Tax",
+      "GST",
+      "Income Tax",
+      "Excise Duty"
+    ],
+    "answer": "Income Tax"
+  },
+  {
+    "question": "Which one is an intangible asset?",
+    "options": [
+      "Machinery",
+      "Goodwill",
+      "Inventory",
+      "Building"
+    ],
+    "answer": "Goodwill"
+  },
+  {
+    "question": "Which ratio measures a company's ability to pay short-term obligations?",
+    "options": [
+      "Debt Ratio",
+      "Current Ratio",
+      "Profit Margin",
+      "Inventory Turnover"
+    ],
+    "answer": "Current Ratio"
+  },
+  {
+    "question": "Which form is used for filing income tax returns by salaried individuals?",
+    "options": [
+      "ITR-1",
+      "ITR-2",
+      "ITR-3",
+      "ITR-4"
+    ],
+    "answer": "ITR-1"
+  },
+  {
+    "question": "Ledger is also known as:",
+    "options": [
+      "Journal",
+      "Primary Book",
+      "Secondary Book",
+      "Bank Book"
+    ],
+    "answer": "Secondary Book"
+  },
+  {
+    "question": "Who is the father of economics?",
+    "options": [
+      "Adam Smith",
+      "David Ricardo",
+      "John Keynes",
+      "Milton Friedman"
+    ],
+    "answer": "Adam Smith"
+  },
+  {
+    "question": "Which principle of management is related to 'Division of Work'?",
+    "options": [
+      "Unity of Command",
+      "Scalar Chain",
+      "Specialization",
+      "Authority"
+    ],
+    "answer": "Specialization"
+  },
+  {
+    "question": "Which document is issued by a seller to the buyer after receiving payment?",
+    "options": [
+      "Quotation",
+      "Invoice",
+      "Receipt",
+      "Voucher"
+    ],
+    "answer": "Receipt"
+  },
+  {
+    "question": "What does GDP stand for?",
+    "options": [
+      "Gross Domestic Product",
+      "Gross Demand Price",
+      "Global Domestic Product",
+      "General Departmental Policy"
+    ],
+    "answer": "Gross Domestic Product"
+  },
+  {
+    "question": "Which financial instrument is issued at a discount and redeemed at face value?",
+    "options": [
+      "Bond",
+      "Share",
+      "Debenture",
+      "Treasury Bill"
+    ],
+    "answer": "Treasury Bill"
+  },
+  {
+    "question": "In banking, what does 'KYC' stand for?",
+    "options": [
+      "Know Your Company",
+      "Know Your Customer",
+      "Keep Your Card",
+      "Key Your Code"
+    ],
+    "answer": "Know Your Customer"
+  },
+  {
+    "question": "The process of transferring entries from journal to ledger is called:",
+    "options": [
+      "Journalizing",
+      "Posting",
+      "Balancing",
+      "Summarizing"
+    ],
+    "answer": "Posting"
+  },
+  {
+    "question": "Which is a capital expenditure?",
+    "options": [
+      "Rent",
+      "Salaries",
+      "Purchase of machinery",
+      "Electricity bill"
+    ],
+    "answer": "Purchase of machinery"
+  },
+  {
+    "question": "Which act regulates companies in India?",
+    "options": [
+      "Contract Act",
+      "Company Act",
+      "Income Tax Act",
+      "Consumer Protection Act"
+    ],
+    "answer": "Company Act"
+  },
+  {
+    "question": "What is the meaning of 'Depreciation'?",
+    "options": [
+      "Increase in asset value",
+      "Reduction in asset value",
+      "Purchase of asset",
+      "Sale of asset"
+    ],
+    "answer": "Reduction in asset value"
+  },
+  {
+    "question": "Which accounting assumption implies business and owner are separate?",
+    "options": [
+      "Going Concern",
+      "Money Measurement",
+      "Business Entity",
+      "Dual Aspect"
+    ],
+    "answer": "Business Entity"
+  },
+  {
+    "question": "Which organization regulates the stock market in India?",
+    "options": [
+      "RBI",
+      "SEBI",
+      "IRDA",
+      "NSE"
+    ],
+    "answer": "SEBI"
+  },
+  {
+    "question": "Which entry is passed for cash received from a debtor?",
+    "options": [
+      "Cash A/c Dr. To Debtor A/c",
+      "Debtor A/c Dr. To Cash A/c",
+      "Sales A/c Dr. To Cash A/c",
+      "Cash A/c Dr. To Sales A/c"
+    ],
+    "answer": "Cash A/c Dr. To Debtor A/c"
+  },
+  {
+    "question": "Which book records credit transactions of goods only?",
+    "options": [
+      "Sales Book",
+      "Purchase Book",
+      "Cash Book",
+      "Journal"
+    ],
+    "answer": "Sales Book"
+  },
+  {
+    "question": "If a trial balance doesn't match, where is the difference placed temporarily?",
+    "options": [
+      "Profit & Loss A/c",
+      "Suspense A/c",
+      "Capital A/c",
+      "Drawings A/c"
+    ],
+    "answer": "Suspense A/c"
+  },
+  {
+    "question": "Which term refers to money owed by the business to others?",
+    "options": [
+      "Assets",
+      "Revenue",
+      "Liabilities",
+      "Capital"
+    ],
+    "answer": "Liabilities"
+  },
+  {
+    "question": "Which account is not closed at the end of the year?",
+    "options": [
+      "Capital",
+      "Rent",
+      "Sales",
+      "Wages"
+    ],
+    "answer": "Capital"
+  },
+  {
+    "question": "Net Profit is transferred to:",
+    "options": [
+      "Capital A/c",
+      "Cash A/c",
+      "Sales A/c",
+      "Suspense A/c"
+    ],
+    "answer": "Capital A/c"
+  }
+]

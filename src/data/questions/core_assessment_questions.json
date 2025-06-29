@@ -1,0 +1,662 @@
+[
+  {
+    "category": "Personality",
+    "question": "I enjoy leading a group of people toward a goal.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Personality",
+    "question": "I get energized by spending time alone.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Personality",
+    "question": "I find it easy to adapt to new situations.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Personality",
+    "question": "I prefer routines over spontaneous changes.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Personality",
+    "question": "I often reflect on my feelings and emotions.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Personality",
+    "question": "I enjoy being the center of attention.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Personality",
+    "question": "I make decisions based more on logic than feelings.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Personality",
+    "question": "I find it hard to stay organized.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Personality",
+    "question": "I prefer facts over opinions when solving problems.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Personality",
+    "question": "I enjoy helping others even if it takes extra effort.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Personality",
+    "question": "I handle stress well in challenging situations.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Personality",
+    "question": "I am highly motivated to achieve my goals.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Personality",
+    "question": "I prefer working alone to working in a team.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Personality",
+    "question": "I enjoy exploring abstract ideas.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Personality",
+    "question": "I often take the initiative in unfamiliar situations.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Interest",
+    "question": "I enjoy solving puzzles and brain teasers.",
+    "options": [
+      "A) Not at all interested",
+      "B) Slightly interested",
+      "C) Moderately interested",
+      "D) Very interested",
+      "E) Extremely interested"
+    ]
+  },
+  {
+    "category": "Interest",
+    "question": "I like experimenting with science kits or tools.",
+    "options": [
+      "A) Not at all interested",
+      "B) Slightly interested",
+      "C) Moderately interested",
+      "D) Very interested",
+      "E) Extremely interested"
+    ]
+  },
+  {
+    "category": "Interest",
+    "question": "I enjoy drawing, painting, or creative work.",
+    "options": [
+      "A) Not at all interested",
+      "B) Slightly interested",
+      "C) Moderately interested",
+      "D) Very interested",
+      "E) Extremely interested"
+    ]
+  },
+  {
+    "category": "Interest",
+    "question": "I prefer organizing events or leading groups.",
+    "options": [
+      "A) Not at all interested",
+      "B) Slightly interested",
+      "C) Moderately interested",
+      "D) Very interested",
+      "E) Extremely interested"
+    ]
+  },
+  {
+    "category": "Interest",
+    "question": "I\u2019m interested in how computers and tech work.",
+    "options": [
+      "A) Not at all interested",
+      "B) Slightly interested",
+      "C) Moderately interested",
+      "D) Very interested",
+      "E) Extremely interested"
+    ]
+  },
+  {
+    "category": "Interest",
+    "question": "I enjoy reading about business and economics.",
+    "options": [
+      "A) Not at all interested",
+      "B) Slightly interested",
+      "C) Moderately interested",
+      "D) Very interested",
+      "E) Extremely interested"
+    ]
+  },
+  {
+    "category": "Interest",
+    "question": "I like working with numbers and data.",
+    "options": [
+      "A) Not at all interested",
+      "B) Slightly interested",
+      "C) Moderately interested",
+      "D) Very interested",
+      "E) Extremely interested"
+    ]
+  },
+  {
+    "category": "Interest",
+    "question": "I enjoy debates and writing essays.",
+    "options": [
+      "A) Not at all interested",
+      "B) Slightly interested",
+      "C) Moderately interested",
+      "D) Very interested",
+      "E) Extremely interested"
+    ]
+  },
+  {
+    "category": "Interest",
+    "question": "I love learning about how the human body works.",
+    "options": [
+      "A) Not at all interested",
+      "B) Slightly interested",
+      "C) Moderately interested",
+      "D) Very interested",
+      "E) Extremely interested"
+    ]
+  },
+  {
+    "category": "Interest",
+    "question": "I enjoy exploring historical events and cultures.",
+    "options": [
+      "A) Not at all interested",
+      "B) Slightly interested",
+      "C) Moderately interested",
+      "D) Very interested",
+      "E) Extremely interested"
+    ]
+  },
+  {
+    "category": "Interest",
+    "question": "I am fascinated by space, stars, and the universe.",
+    "options": [
+      "A) Not at all interested",
+      "B) Slightly interested",
+      "C) Moderately interested",
+      "D) Very interested",
+      "E) Extremely interested"
+    ]
+  },
+  {
+    "category": "Interest",
+    "question": "I prefer practical tasks over theoretical ones.",
+    "options": [
+      "A) Not at all interested",
+      "B) Slightly interested",
+      "C) Moderately interested",
+      "D) Very interested",
+      "E) Extremely interested"
+    ]
+  },
+  {
+    "category": "Interest",
+    "question": "I like helping people solve their personal problems.",
+    "options": [
+      "A) Not at all interested",
+      "B) Slightly interested",
+      "C) Moderately interested",
+      "D) Very interested",
+      "E) Extremely interested"
+    ]
+  },
+  {
+    "category": "Interest",
+    "question": "I enjoy keeping track of money and budgeting.",
+    "options": [
+      "A) Not at all interested",
+      "B) Slightly interested",
+      "C) Moderately interested",
+      "D) Very interested",
+      "E) Extremely interested"
+    ]
+  },
+  {
+    "category": "Interest",
+    "question": "I\u2019m interested in law and social justice.",
+    "options": [
+      "A) Not at all interested",
+      "B) Slightly interested",
+      "C) Moderately interested",
+      "D) Very interested",
+      "E) Extremely interested"
+    ]
+  },
+  {
+    "category": "Orientation Style",
+    "question": "I like to start working right after instructions are given.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Orientation Style",
+    "question": "I prefer learning through real-world examples.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Orientation Style",
+    "question": "I need to understand the \u201cwhy\u201d before doing something.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Orientation Style",
+    "question": "I work best when I have a fixed plan.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Orientation Style",
+    "question": "I find it easy to adjust to unexpected changes.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Orientation Style",
+    "question": "I prefer short-term tasks over long-term planning.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Orientation Style",
+    "question": "I am self-motivated without reminders.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Orientation Style",
+    "question": "I perform better under deadlines and pressure.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Orientation Style",
+    "question": "I need silence to concentrate effectively.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Orientation Style",
+    "question": "I retain information better by doing rather than listening.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Orientation Style",
+    "question": "I like visual learning (charts, diagrams).",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Orientation Style",
+    "question": "I double-check my work before submitting.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Orientation Style",
+    "question": "I work best in group-based learning.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Orientation Style",
+    "question": "I need frequent feedback to stay on track.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Orientation Style",
+    "question": "I often think creatively when solving problems.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Emotional Quotient",
+    "question": "I can tell when someone is upset even if they don\u2019t say it.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Emotional Quotient",
+    "question": "I manage my anger without hurting others.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Emotional Quotient",
+    "question": "I try to understand other people's feelings.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Emotional Quotient",
+    "question": "I feel confident handling peer pressure.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Emotional Quotient",
+    "question": "I bounce back quickly from failures.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Emotional Quotient",
+    "question": "I know when I\u2019m feeling stressed or overwhelmed.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Emotional Quotient",
+    "question": "I comfort friends who are sad or frustrated.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Emotional Quotient",
+    "question": "I stay calm in high-pressure situations.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Emotional Quotient",
+    "question": "I express gratitude to people who help me.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Emotional Quotient",
+    "question": "I listen actively when someone is speaking.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Emotional Quotient",
+    "question": "I can admit when I make a mistake.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Emotional Quotient",
+    "question": "I handle disagreements without yelling.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Emotional Quotient",
+    "question": "I celebrate others' achievements with genuine joy.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Emotional Quotient",
+    "question": "I ask for help when I feel emotionally low.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  },
+  {
+    "category": "Emotional Quotient",
+    "question": "I can talk about how I feel clearly.",
+    "options": [
+      "A) Strongly Disagree",
+      "B) Disagree",
+      "C) Neutral",
+      "D) Agree",
+      "E) Strongly Agree"
+    ]
+  }
+]

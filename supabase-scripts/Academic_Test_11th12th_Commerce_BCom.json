@@ -1,0 +1,549 @@
+{
+  "test_category": "Academic",
+  "class": "11th/12th Standard",
+  "stream": "Commerce",
+  "course": "B.Com",
+  "description": "Assesses General Knowledge, Commerce, and History for 11th/12th-grade students in the Commerce stream pursuing B.Com to guide academic and career choices.",
+  "questions": [
+    {
+      "question_id": "ACAD_11BCOM_001",
+      "question_text": "What does the acronym 'GST' stand for in the Indian taxation system?",
+      "options": [
+        {"option_id": "A", "text": "Goods and Services Tax"},
+        {"option_id": "B", "text": "General Sales Tax"},
+        {"option_id": "C", "text": "Global Service Tariff"},
+        {"option_id": "D", "text": "Government Subsidy Tax"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "GST stands for Goods and Services Tax, a key indirect tax in India. Tax knowledge is essential for B.Com (Taxation)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_002",
+      "question_text": "Which Indian city is the financial capital and home to the BSE stock exchange?",
+      "options": [
+        {"option_id": "A", "text": "Delhi"},
+        {"option_id": "B", "text": "Mumbai"},
+        {"option_id": "C", "text": "Chennai"},
+        {"option_id": "D", "text": "Kolkata"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Mumbai hosts the BSE. Financial market knowledge is key for B.Com (Finance)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_003",
+      "question_text": "What is the currency of Japan, a major global economy?",
+      "options": [
+        {"option_id": "A", "text": "Yuan"},
+        {"option_id": "B", "text": "Yen"},
+        {"option_id": "C", "text": "Won"},
+        {"option_id": "D", "text": "Dollar"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Yen is Japan’s currency. Global economics knowledge supports B.Com (International Business)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_004",
+      "question_text": "Which organization regulates the banking sector in India?",
+      "options": [
+        {"option_id": "A", "text": "SEBI"},
+        {"option_id": "B", "text": "RBI"},
+        {"option_id": "C", "text": "IRDA"},
+        {"option_id": "D", "text": "NABARD"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "RBI (Reserve Bank of India) regulates banking. Banking knowledge is vital for B.Com (Banking)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_005",
+      "question_text": "What does the term 'NASDAQ' refer to in global finance?",
+      "options": [
+        {"option_id": "A", "text": "National Association of Securities Dealers Automated Quotations"},
+        {"option_id": "B", "text": "North American Stock Dealers Association"},
+        {"option_id": "C", "text": "National Automated Stock Quotient"},
+        {"option_id": "D", "text": "New American Securities Data Quotient"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "NASDAQ is a stock exchange. Stock market knowledge is key for B.Com (Financial Markets)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_006",
+      "question_text": "Which Indian state is known for the Gujarat International Finance Tec-City (GIFT City)?",
+      "options": [
+        {"option_id": "A", "text": "Maharashtra"},
+        {"option_id": "B", "text": "Gujarat"},
+        {"option_id": "C", "text": "Karnataka"},
+        {"option_id": "D", "text": "Tamil Nadu"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "GIFT City is in Gujarat. Financial hub knowledge is relevant for B.Com (Finance)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_007",
+      "question_text": "What is the full form of 'IMF' in global economics?",
+      "options": [
+        {"option_id": "A", "text": "International Monetary Fund"},
+        {"option_id": "B", "text": "International Market Federation"},
+        {"option_id": "C", "text": "Indian Monetary Fund"},
+        {"option_id": "D", "text": "Integrated Market Fund"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "IMF stands for International Monetary Fund. Global finance knowledge supports B.Com (Economics)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_008",
+      "question_text": "Which country is home to the World Bank headquarters?",
+      "options": [
+        {"option_id": "A", "text": "United States"},
+        {"option_id": "B", "text": "United Kingdom"},
+        {"option_id": "C", "text": "Switzerland"},
+        {"option_id": "D", "text": "France"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "The World Bank is headquartered in the U.S. International finance knowledge is key for B.Com (Global Business)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_009",
+      "question_text": "What does 'SEBI' stand for in the Indian financial system?",
+      "options": [
+        {"option_id": "A", "text": "Securities and Exchange Board of India"},
+        {"option_id": "B", "text": "State Economic Board of India"},
+        {"option_id": "C", "text": "Stock Exchange Bureau of India"},
+        {"option_id": "D", "text": "Securities and Equity Bank of India"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "SEBI regulates securities markets. Regulatory knowledge is essential for B.Com (Financial Markets)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_010",
+      "question_text": "Which city is the capital of the United Kingdom, a global financial hub?",
+      "options": [
+        {"option_id": "A", "text": "Manchester"},
+        {"option_id": "B", "text": "London"},
+        {"option_id": "C", "text": "Birmingham"},
+        {"option_id": "D", "text": "Edinburgh"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "London is a global financial center. Global economics knowledge supports B.Com (International Finance)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_011",
+      "question_text": "What is the accounting equation?",
+      "options": [
+        {"option_id": "A", "text": "Assets = Liabilities + Capital"},
+        {"option_id": "B", "text": "Assets = Liabilities - Capital"},
+        {"option_id": "C", "text": "Liabilities = Assets + Capital"},
+        {"option_id": "D", "text": "Capital = Assets + Liabilities"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "The accounting equation is Assets = Liabilities + Capital. Accounting fundamentals are crucial for B.Com (Accounting)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_012",
+      "question_text": "What is the primary objective of financial accounting?",
+      "options": [
+        {"option_id": "A", "text": "Cost control"},
+        {"option_id": "B", "text": "Providing financial information to stakeholders"},
+        {"option_id": "C", "text": "Tax planning"},
+        {"option_id": "D", "text": "Budget forecasting"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Financial accounting informs stakeholders. Accounting knowledge is vital for B.Com (Financial Reporting)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_013",
+      "question_text": "What does the term 'depreciation' refer to in accounting?",
+      "options": [
+        {"option_id": "A", "text": "Increase in asset value"},
+        {"option_id": "B", "text": "Decrease in asset value over time"},
+        {"option_id": "C", "text": "Profit from asset sales"},
+        {"option_id": "D", "text": "Tax on assets"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Depreciation is the reduction in asset value. Asset management knowledge is key for B.Com (Accounting)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_014",
+      "question_text": "Which economic concept refers to the total demand for goods and services in an economy?",
+      "options": [
+        {"option_id": "A", "text": "Aggregate Demand"},
+        {"option_id": "B", "text": "Market Supply"},
+        {"option_id": "C", "text": "Fiscal Policy"},
+        {"option_id": "D", "text": "Inflation Rate"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Aggregate Demand reflects total demand. Economics knowledge is essential for B.Com (Macroeconomics)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_015",
+      "question_text": "What is the purpose of a balance sheet?",
+      "options": [
+        {"option_id": "A", "text": "Record daily transactions"},
+        {"option_id": "B", "text": "Show financial position at a point in time"},
+        {"option_id": "C", "text": "Calculate tax liability"},
+        {"option_id": "D", "text": "Plan future investments"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "A balance sheet shows financial position. Financial statement knowledge is vital for B.Com (Accounting)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_016",
+      "question_text": "Which type of market structure has many sellers offering similar products?",
+      "options": [
+        {"option_id": "A", "text": "Monopoly"},
+        {"option_id": "B", "text": "Oligopoly"},
+        {"option_id": "C", "text": "Perfect Competition"},
+        {"option_id": "D", "text": "Monopolistic Competition"}
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 4},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Perfect Competition has many sellers. Market structure knowledge is key for B.Com (Microeconomics)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_017",
+      "question_text": "What is the full form of 'VAT' in taxation?",
+      "options": [
+        {"option_id": "A", "text": "Value Added Tax"},
+        {"option_id": "B", "text": "Variable Assessment Tax"},
+        {"option_id": "C", "text": "Value Assessment Tariff"},
+        {"option_id": "D", "text": "Voluntary Added Tax"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "VAT stands for Value Added Tax. Taxation knowledge is essential for B.Com (Taxation)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_018",
+      "question_text": "What does 'ROI' stand for in business?",
+      "options": [
+        {"option_id": "A", "text": "Return on Investment"},
+        {"option_id": "B", "text": "Rate of Interest"},
+        {"option_id": "C", "text": "Revenue on Income"},
+        {"option_id": "D", "text": "Risk of Investment"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "ROI measures investment returns. Financial analysis knowledge is key for B.Com (Finance)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_019",
+      "question_text": "Which financial statement shows a company’s revenues and expenses over a period?",
+      "options": [
+        {"option_id": "A", "text": "Balance Sheet"},
+        {"option_id": "B", "text": "Cash Flow Statement"},
+        {"option_id": "C", "text": "Income Statement"},
+        {"option_id": "D", "text": "Statement of Equity"}
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 4},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "The income statement shows revenues and expenses. Financial reporting knowledge is vital for B.Com (Accounting)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_020",
+      "question_text": "What is the primary function of a commercial bank?",
+      "options": [
+        {"option_id": "A", "text": "Issue currency"},
+        {"option_id": "B", "text": "Accept deposits and provide loans"},
+        {"option_id": "C", "text": "Regulate stock markets"},
+        {"option_id": "D", "text": "Control fiscal policy"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Commercial banks accept deposits and provide loans. Banking knowledge is essential for B.Com (Banking)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_021",
+      "question_text": "In which year was the Reserve Bank of India established?",
+      "options": [
+        {"option_id": "A", "text": "1935"},
+        {"option_id": "B", "text": "1945"},
+        {"option_id": "C", "text": "1925"},
+        {"option_id": "D", "text": "1955"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "RBI was established in 1935. Banking history is relevant for B.Com (Banking)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_022",
+      "question_text": "Who is known as the 'Father of Economics'?",
+      "options": [
+        {"option_id": "A", "text": "Adam Smith"},
+        {"option_id": "B", "text": "John Maynard Keynes"},
+        {"option_id": "C", "text": "Karl Marx"},
+        {"option_id": "D", "text": "Milton Friedman"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Adam Smith authored 'The Wealth of Nations'. Economic history is key for B.Com (Economics)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_023",
+      "question_text": "In which year was the Bombay Stock Exchange (BSE) established?",
+      "options": [
+        {"option_id": "A", "text": "1875"},
+        {"option_id": "B", "text": "1885"},
+        {"option_id": "C", "text": "1865"},
+        {"option_id": "D", "text": "1895"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "BSE was established in 1875. Financial market history is relevant for B.Com (Finance)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_024",
+      "question_text": "Who introduced the concept of double-entry bookkeeping?",
+      "options": [
+        {"option_id": "A", "text": "Luca Pacioli"},
+        {"option_id": "B", "text": "Adam Smith"},
+        {"option_id": "C", "text": "John Keynes"},
+        {"option_id": "D", "text": "William Petty"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Luca Pacioli formalized double-entry bookkeeping. Accounting history is key for B.Com (Accounting)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_025",
+      "question_text": "In which year was the Securities and Exchange Board of India (SEBI) established?",
+      "options": [
+        {"option_id": "A", "text": "1988"},
+        {"option_id": "B", "text": "1998"},
+        {"option_id": "C", "text": "1978"},
+        {"option_id": "D", "text": "1968"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "SEBI was established in 1988. Regulatory history is relevant for B.Com (Financial Markets)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_026",
+      "question_text": "Who developed the theory of comparative advantage in economics?",
+      "options": [
+        {"option_id": "A", "text": "David Ricardo"},
+        {"option_id": "B", "text": "Adam Smith"},
+        {"option_id": "C", "text": "John Stuart Mill"},
+        {"option_id": "D", "text": "Alfred Marshall"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "David Ricardo proposed comparative advantage. Economic history is key for B.Com (International Trade)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_027",
+      "question_text": "In which year was the World Bank established?",
+      "options": [
+        {"option_id": "A", "text": "1944"},
+        {"option_id": "B", "text": "1954"},
+        {"option_id": "C", "text": "1934"},
+        {"option_id": "D", "text": "1964"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The World Bank was established in 1944. Global finance history is relevant for B.Com (Economics)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_028",
+      "question_text": "Who was the first Governor of the Reserve Bank of India?",
+      "options": [
+        {"option_id": "A", "text": "Osborne Smith"},
+        {"option_id": "B", "text": "C.D. Deshmukh"},
+        {"option_id": "C", "text": "Raghuram Rajan"},
+        {"option_id": "D", "text": "Urjit Patel"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Osborne Smith was the first RBI Governor. Banking history is key for B.Com (Banking)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_029",
+      "question_text": "In which year was the National Stock Exchange (NSE) of India established?",
+      "options": [
+        {"option_id": "A", "text": "1992"},
+        {"option_id": "B", "text": "1982"},
+        {"option_id": "C", "text": "2002"},
+        {"option_id": "D", "text": "1972"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "NSE was established in 1992. Financial market history is relevant for B.Com (Finance)."
+    },
+    {
+      "question_id": "ACAD_11BCOM_030",
+      "question_text": "Who wrote the book 'Principles of Economics' in 1890?",
+      "options": [
+        {"option_id": "A", "text": "Alfred Marshall"},
+        {"option_id": "B", "text": "Adam Smith"},
+        {"option_id": "C", "text": "David Ricardo"},
+        {"option_id": "D", "text": "John Maynard Keynes"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Alfred Marshall wrote 'Principles of Economics'. Economic history is key for B.Com (Economics)."
+    }
+  ]
+}

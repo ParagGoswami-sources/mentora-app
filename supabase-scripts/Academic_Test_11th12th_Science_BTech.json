@@ -1,0 +1,549 @@
+{
+  "test_category": "Academic",
+  "class": "11th/12th Standard",
+  "stream": "Science",
+  "course": "B.Tech",
+  "description": "Assesses General Knowledge, Science, and History for 11th/12th-grade students in the Science stream pursuing B.Tech to guide academic and career choices.",
+  "questions": [
+    {
+      "question_id": "ACAD_11BTECH_001",
+      "question_text": "Which Indian city is known as the 'Silicon Valley of India'?",
+      "options": [
+        {"option_id": "A", "text": "Hyderabad"},
+        {"option_id": "B", "text": "Bengaluru"},
+        {"option_id": "C", "text": "Pune"},
+        {"option_id": "D", "text": "Chennai"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Bengaluru is India's tech hub. Knowledge of tech ecosystems is relevant for B.Tech (Computer Science, IT)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_002",
+      "question_text": "What is the full form of NASA?",
+      "options": [
+        {"option_id": "A", "text": "National Aeronautics and Space Administration"},
+        {"option_id": "B", "text": "North American Space Agency"},
+        {"option_id": "C", "text": "National Aerospace and Satellite Association"},
+        {"option_id": "D", "text": "New Aeronautics and Space Alliance"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "NASA stands for National Aeronautics and Space Administration. Space tech knowledge suits B.Tech (Aerospace)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_003",
+      "question_text": "Which country is the largest producer of semiconductors in 2025?",
+      "options": [
+        {"option_id": "A", "text": "United States"},
+        {"option_id": "B", "text": "China"},
+        {"option_id": "C", "text": "Taiwan"},
+        {"option_id": "D", "text": "South Korea"}
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 4},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Taiwan leads in semiconductor production. Electronics knowledge is key for B.Tech (Electronics)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_004",
+      "question_text": "Who is the founder of SpaceX?",
+      "options": [
+        {"option_id": "A", "text": "Jeff Bezos"},
+        {"option_id": "B", "text": "Elon Musk"},
+        {"option_id": "C", "text": "Richard Branson"},
+        {"option_id": "D", "text": "Mark Zuckerberg"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Elon Musk founded SpaceX. Knowledge of tech innovators is relevant for B.Tech (Aerospace, Innovation)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_005",
+      "question_text": "What is the currency of Japan?",
+      "options": [
+        {"option_id": "A", "text": "Yuan"},
+        {"option_id": "B", "text": "Won"},
+        {"option_id": "C", "text": "Yen"},
+        {"option_id": "D", "text": "Dollar"}
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 4},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "The Yen is Japan's currency. Global awareness supports B.Tech students in international tech markets."
+    },
+    {
+      "question_id": "ACAD_11BTECH_006",
+      "question_text": "Which Indian institute is renowned for engineering education?",
+      "options": [
+        {"option_id": "A", "text": "IIT Bombay"},
+        {"option_id": "B", "text": "AIIMS Delhi"},
+        {"option_id": "C", "text": "IIM Ahmedabad"},
+        {"option_id": "D", "text": "JNU Delhi"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "IIT Bombay is a top engineering institute. Education system knowledge is vital for B.Tech aspirants."
+    },
+    {
+      "question_id": "ACAD_11BTECH_007",
+      "question_text": "What does AI stand for in the context of technology?",
+      "options": [
+        {"option_id": "A", "text": "Automated Intelligence"},
+        {"option_id": "B", "text": "Artificial Intelligence"},
+        {"option_id": "C", "text": "Advanced Integration"},
+        {"option_id": "D", "text": "Algorithmic Interface"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "AI stands for Artificial Intelligence. Tech terminology is essential for B.Tech (Computer Science, AI)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_008",
+      "question_text": "Which gas is the primary component of the Earth's atmosphere?",
+      "options": [
+        {"option_id": "A", "text": "Oxygen"},
+        {"option_id": "B", "text": "Nitrogen"},
+        {"option_id": "C", "text": "Carbon Dioxide"},
+        {"option_id": "D", "text": "Argon"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Nitrogen is the primary atmospheric gas. Environmental knowledge suits B.Tech (Environmental Engineering)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_009",
+      "question_text": "Which organization developed India's first supercomputer, PARAM?",
+      "options": [
+        {"option_id": "A", "text": "ISRO"},
+        {"option_id": "B", "text": "DRDO"},
+        {"option_id": "C", "text": "C-DAC"},
+        {"option_id": "D", "text": "BARC"}
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 4},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "C-DAC developed PARAM. Supercomputing knowledge is relevant for B.Tech (Computer Science)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_010",
+      "question_text": "What is the capital of Germany?",
+      "options": [
+        {"option_id": "A", "text": "Munich"},
+        {"option_id": "B", "text": "Berlin"},
+        {"option_id": "C", "text": "Hamburg"},
+        {"option_id": "D", "text": "Frankfurt"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Berlin is Germany's capital. Global geography supports B.Tech students in international collaborations."
+    },
+    {
+      "question_id": "ACAD_11BTECH_011",
+      "question_text": "What is the SI unit of force?",
+      "options": [
+        {"option_id": "A", "text": "Joule"},
+        {"option_id": "B", "text": "Newton"},
+        {"option_id": "C", "text": "Watt"},
+        {"option_id": "D", "text": "Pascal"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Newton is the unit of force. Mechanics knowledge is essential for B.Tech (Mechanical Engineering)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_012",
+      "question_text": "Which law states that the total energy of an isolated system is constant?",
+      "options": [
+        {"option_id": "A", "text": "Law of Conservation of Energy"},
+        {"option_id": "B", "text": "Newton’s Second Law"},
+        {"option_id": "C", "text": "Law of Gravitation"},
+        {"option_id": "D", "text": "Ohm’s Law"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "The Law of Conservation of Energy is fundamental. Thermodynamics knowledge suits B.Tech (Mechanical, Electrical)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_013",
+      "question_text": "What is the primary component of a computer's CPU?",
+      "options": [
+        {"option_id": "A", "text": "RAM"},
+        {"option_id": "B", "text": "Silicon"},
+        {"option_id": "C", "text": "Copper"},
+        {"option_id": "D", "text": "Plastic"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Silicon is used in CPU chips. Semiconductor knowledge is key for B.Tech (Electronics, Computer Science)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_014",
+      "question_text": "Which type of energy is stored in a stretched spring?",
+      "options": [
+        {"option_id": "A", "text": "Kinetic"},
+        {"option_id": "B", "text": "Potential"},
+        {"option_id": "C", "text": "Thermal"},
+        {"option_id": "D", "text": "Chemical"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "A stretched spring stores potential energy. Mechanics knowledge is vital for B.Tech (Mechanical Engineering)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_015",
+      "question_text": "What does the acronym 'LED' stand for?",
+      "options": [
+        {"option_id": "A", "text": "Light Emitting Diode"},
+        {"option_id": "B", "text": "Laser Energy Device"},
+        {"option_id": "C", "text": "Low Energy Display"},
+        {"option_id": "D", "text": "Light Efficiency Detector"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "LED stands for Light Emitting Diode. Electronics knowledge is essential for B.Tech (Electrical, Electronics)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_016",
+      "question_text": "Which material is commonly used as a conductor in electrical circuits?",
+      "options": [
+        {"option_id": "A", "text": "Rubber"},
+        {"option_id": "B", "text": "Copper"},
+        {"option_id": "C", "text": "Glass"},
+        {"option_id": "D", "text": "Plastic"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Copper is a common conductor. Electrical engineering knowledge suits B.Tech (Electrical)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_017",
+      "question_text": "What is the primary source of energy for a solar panel?",
+      "options": [
+        {"option_id": "A", "text": "Wind"},
+        {"option_id": "B", "text": "Sunlight"},
+        {"option_id": "C", "text": "Water"},
+        {"option_id": "D", "text": "Geothermal"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Sunlight powers solar panels. Renewable energy knowledge is key for B.Tech (Energy Engineering)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_018",
+      "question_text": "Which gas is used in the Haber process to produce ammonia?",
+      "options": [
+        {"option_id": "A", "text": "Oxygen"},
+        {"option_id": "B", "text": "Nitrogen"},
+        {"option_id": "C", "text": "Carbon Dioxide"},
+        {"option_id": "D", "text": "Helium"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Nitrogen is used in the Haber process. Chemical engineering knowledge suits B.Tech (Chemical Engineering)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_019",
+      "question_text": "What is the unit of electrical resistance?",
+      "options": [
+        {"option_id": "A", "text": "Ampere"},
+        {"option_id": "B", "text": "Ohm"},
+        {"option_id": "C", "text": "Volt"},
+        {"option_id": "D", "text": "Watt"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Ohm is the unit of resistance. Electrical knowledge is vital for B.Tech (Electrical Engineering)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_020",
+      "question_text": "Which type of wave is used in mobile phone communication?",
+      "options": [
+        {"option_id": "A", "text": "Sound Waves"},
+        {"option_id": "B", "text": "Radio Waves"},
+        {"option_id": "C", "text": "X-Rays"},
+        {"option_id": "D", "text": "Ultraviolet Waves"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Radio waves enable mobile communication. Telecom knowledge is key for B.Tech (Electronics, Communication)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_021",
+      "question_text": "In which year was the Indian Institute of Technology (IIT) system established?",
+      "options": [
+        {"option_id": "A", "text": "1951"},
+        {"option_id": "B", "text": "1947"},
+        {"option_id": "C", "text": "1961"},
+        {"option_id": "D", "text": "1971"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The IIT system was established in 1951. Educational history is relevant for B.Tech students."
+    },
+    {
+      "question_id": "ACAD_11BTECH_022",
+      "question_text": "Who invented the steam engine, a key development in the Industrial Revolution?",
+      "options": [
+        {"option_id": "A", "text": "James Watt"},
+        {"option_id": "B", "text": "Thomas Edison"},
+        {"option_id": "C", "text": "Nikola Tesla"},
+        {"option_id": "D", "text": "George Stephenson"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "James Watt improved the steam engine. Industrial history is key for B.Tech (Mechanical Engineering)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_023",
+      "question_text": "Which Indian scientist is known as the 'Father of the Indian Space Program'?",
+      "options": [
+        {"option_id": "A", "text": "C.V. Raman"},
+        {"option_id": "B", "text": "Vikram Sarabhai"},
+        {"option_id": "C", "text": "Homi Bhabha"},
+        {"option_id": "D", "text": "A.P.J. Abdul Kalam"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Vikram Sarabhai founded ISRO. Space history is relevant for B.Tech (Aerospace)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_024",
+      "question_text": "In which year did India conduct its first nuclear test?",
+      "options": [
+        {"option_id": "A", "text": "1974"},
+        {"option_id": "B", "text": "1964"},
+        {"option_id": "C", "text": "1984"},
+        {"option_id": "D", "text": "1998"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "India's first nuclear test was in 1974 (Smiling Buddha). Nuclear history suits B.Tech (Nuclear Engineering)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_025",
+      "question_text": "Who developed the first practical telephone?",
+      "options": [
+        {"option_id": "A", "text": "Alexander Graham Bell"},
+        {"option_id": "B", "text": "Thomas Edison"},
+        {"option_id": "C", "text": "Guglielmo Marconi"},
+        {"option_id": "D", "text": "Samuel Morse"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Alexander Graham Bell invented the telephone. Telecom history is key for B.Tech (Electronics, Communication)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_026",
+      "question_text": "Which event marked the beginning of the Industrial Revolution in Britain?",
+      "options": [
+        {"option_id": "A", "text": "Invention of the Spinning Jenny"},
+        {"option_id": "B", "text": "French Revolution"},
+        {"option_id": "C", "text": "American Independence"},
+        {"option_id": "D", "text": "Renaissance"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Spinning Jenny sparked the Industrial Revolution. Industrial history is relevant for B.Tech (Mechanical)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_027",
+      "question_text": "Who was the first Indian to win a Nobel Prize in Physics?",
+      "options": [
+        {"option_id": "A", "text": "C.V. Raman"},
+        {"option_id": "B", "text": "Satyendra Nath Bose"},
+        {"option_id": "C", "text": "Meghnad Saha"},
+        {"option_id": "D", "text": "Homi Bhabha"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "C.V. Raman won in 1930 for the Raman Effect. Science history is key for B.Tech (Physics-based fields)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_028",
+      "question_text": "In which year was the first successful flight of the Wright brothers?",
+      "options": [
+        {"option_id": "A", "text": "1903"},
+        {"option_id": "B", "text": "1910"},
+        {"option_id": "C", "text": "1895"},
+        {"option_id": "D", "text": "1920"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Wright brothers flew in 1903. Aviation history is relevant for B.Tech (Aerospace)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_029",
+      "question_text": "Which Indian mathematician contributed to the development of the Ramanujan Number?",
+      "options": [
+        {"option_id": "A", "text": "Aryabhata"},
+        {"option_id": "B", "text": "Srinivasa Ramanujan"},
+        {"option_id": "C", "text": "Bhaskara II"},
+        {"option_id": "D", "text": "Brahmagupta"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Srinivasa Ramanujan contributed to number theory. Math history suits B.Tech (Engineering Mathematics)."
+    },
+    {
+      "question_id": "ACAD_11BTECH_030",
+      "question_text": "Who developed the theory of relativity?",
+      "options": [
+        {"option_id": "A", "text": "Isaac Newton"},
+        {"option_id": "B", "text": "Albert Einstein"},
+        {"option_id": "C", "text": "Galileo Galilei"},
+        {"option_id": "D", "text": "Niels Bohr"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Albert Einstein developed relativity. Physics history is key for B.Tech (Physics, Engineering)."
+    }
+  ]
+}

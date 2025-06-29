@@ -1,0 +1,549 @@
+{
+  "test_category": "Academic",
+  "class": "Undergraduate",
+  "stream": "Arts",
+  "course": "Mass Communication",
+  "description": "Assesses General Knowledge, Humanities, and History for undergraduate students pursuing Mass Communication to guide academic and career choices in media and communication.",
+  "questions": [
+    {
+      "question_id": "ACAD_UGMC_001",
+      "question_text": "Which Indian body regulates media education, including Mass Communication programs?",
+      "options": [
+        {"option_id": "A", "text": "University Grants Commission"},
+        {"option_id": "B", "text": "National Council for Teacher Education"},
+        {"option_id": "C", "text": "All India Council for Technical Education"},
+        {"option_id": "D", "text": "Press Council of India"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "UGC regulates Mass Communication programs. Regulatory knowledge is essential for Mass Comm (Media Education)."
+    },
+    {
+      "question_id": "ACAD_UGMC_002",
+      "question_text": "Which Indian city is known for media education, hosting the Indian Institute of Mass Communication?",
+      "options": [
+        {"option_id": "A", "text": "New Delhi"},
+        {"option_id": "B", "text": "Hyderabad"},
+        {"option_id": "C", "text": "Jaipur"},
+        {"option_id": "D", "text": "Lucknow"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "New Delhi hosts IIMC. Regional knowledge is key for Mass Comm (Media Studies)."
+    },
+    {
+      "question_id": "ACAD_UGMC_003",
+      "question_text": "What does the acronym 'TRAI' stand for in Indian media regulation?",
+      "options": [
+        {"option_id": "A", "text": "Telecom Regulatory Authority of India"},
+        {"option_id": "B", "text": "Television Rating Agency of India"},
+        {"option_id": "C", "text": "Telecommunication Research Association of India"},
+        {"option_id": "D", "text": "Transmission Regulatory Authority of India"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "TRAI regulates telecom and media. Policy knowledge supports Mass Comm (Media Regulation)."
+    },
+    {
+      "question_id": "ACAD_UGMC_004",
+      "question_text": "Which Indian institute is renowned for Mass Communication programs, like Symbiosis Institute of Media and Communication, Pune?",
+      "options": [
+        {"option_id": "A", "text": "Symbiosis Institute of Media and Communication, Pune"},
+        {"option_id": "B", "text": "Indian Institute of Technology, Kanpur"},
+        {"option_id": "C", "text": "National Institute of Fashion Technology, Mumbai"},
+        {"option_id": "D", "text": "All India Institute of Medical Sciences, Bhopal"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Symbiosis is renowned for Mass Comm. Institutional knowledge is vital for Mass Comm students."
+    },
+    {
+      "question_id": "ACAD_UGMC_005",
+      "question_text": "Which global organization sets standards for media ethics, like the International Federation of Journalists?",
+      "options": [
+        {"option_id": "A", "text": "International Federation of Journalists"},
+        {"option_id": "B", "text": "World Health Organization"},
+        {"option_id": "C", "text": "International Labour Organization"},
+        {"option_id": "D", "text": "World Trade Organization"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "IFJ promotes media ethics. Global knowledge is key for Mass Comm (Journalism Ethics)."
+    },
+    {
+      "question_id": "ACAD_UGMC_006",
+      "question_text": "Which Indian state is known for its media industry, hosting Film City in Mumbai?",
+      "options": [
+        {"option_id": "A", "text": "Maharashtra"},
+        {"option_id": "B", "text": "Karnataka"},
+        {"option_id": "C", "text": "West Bengal"},
+        {"option_id": "D", "text": "Tamil Nadu"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Maharashtra hosts Film City. Regional knowledge supports Mass Comm (Film Media)."
+    },
+    {
+      "question_id": "ACAD_UGMC_007",
+      "question_text": "Which Indian initiative promotes digital media literacy, like Digital India?",
+      "options": [
+        {"option_id": "A", "text": "Digital India"},
+        {"option_id": "B", "text": "Beti Bachao Beti Padhao"},
+        {"option_id": "C", "text": "Ayushman Bharat"},
+        {"option_id": "D", "text": "Startup India"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Digital India promotes media literacy. Policy knowledge is essential for Mass Comm (Digital Media)."
+    },
+    {
+      "question_id": "ACAD_UGMC_008",
+      "question_text": "Which Indian organization regulates print media, like the Press Council of India?",
+      "options": [
+        {"option_id": "A", "text": "Press Council of India"},
+        {"option_id": "B", "text": "Indian Council of Agricultural Research"},
+        {"option_id": "C", "text": "National Testing Agency"},
+        {"option_id": "D", "text": "Election Commission of India"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "PCI regulates print media. Organizational knowledge is vital for Mass Comm (Journalism)."
+    },
+    {
+      "question_id": "ACAD_UGMC_009",
+      "question_text": "Which global media figure is known for founding CNN?",
+      "options": [
+        {"option_id": "A", "text": "Ted Turner"},
+        {"option_id": "B", "text": "Rupert Murdoch"},
+        {"option_id": "C", "text": "Jeff Bezos"},
+        {"option_id": "D", "text": "Elon Musk"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Turner founded CNN. Media history knowledge supports Mass Comm (Broadcast Journalism)."
+    },
+    {
+      "question_id": "ACAD_UGMC_010",
+      "question_text": "Which Indian city hosts the headquarters of the Press Council of India?",
+      "options": [
+        {"option_id": "A", "text": "New Delhi"},
+        {"option_id": "B", "text": "Bengaluru"},
+        {"option_id": "C", "text": "Chennai"},
+        {"option_id": "D", "text": "Kolkata"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "PCI is headquartered in New Delhi. Organizational knowledge is key for Mass Comm (Media Regulation)."
+    },
+    {
+      "question_id": "ACAD_UGMC_011",
+      "question_text": "What is the primary focus of mass communication?",
+      "options": [
+        {"option_id": "A", "text": "Disseminating information to large audiences"},
+        {"option_id": "B", "text": "Designing software applications"},
+        {"option_id": "C", "text": "Conducting medical research"},
+        {"option_id": "D", "text": "Building infrastructure"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Mass communication disseminates information. Conceptual knowledge is crucial for Mass Comm (Media Studies)."
+    },
+    {
+      "question_id": "ACAD_UGMC_012",
+      "question_text": "Who developed the 'Hypodermic Needle Theory' in communication?",
+      "options": [
+        {"option_id": "A", "text": "Harold Lasswell"},
+        {"option_id": "B", "text": "Marshall McLuhan"},
+        {"option_id": "C", "text": "Walter Lippmann"},
+        {"option_id": "D", "text": "Noam Chomsky"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Lasswell developed the theory. Theoretical knowledge is essential for Mass Comm (Communication Theories)."
+    },
+    {
+      "question_id": "ACAD_UGMC_013",
+      "question_text": "What is the primary purpose of investigative journalism?",
+      "options": [
+        {"option_id": "A", "text": "Uncover hidden truths and expose issues"},
+        {"option_id": "B", "text": "Promote commercial products"},
+        {"option_id": "C", "text": "Design media logos"},
+        {"option_id": "D", "text": "Organize film festivals"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Investigative journalism exposes issues. Practical knowledge is key for Mass Comm (Journalism)."
+    },
+    {
+      "question_id": "ACAD_UGMC_014",
+      "question_text": "What is the primary focus of media ethics?",
+      "options": [
+        {"option_id": "A", "text": "Ensure accuracy and fairness in reporting"},
+        {"option_id": "B", "text": "Develop advertising campaigns"},
+        {"option_id": "C", "text": "Create entertainment content"},
+        {"option_id": "D", "text": "Design media equipment"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Media ethics ensures fairness. Ethical knowledge is vital for Mass Comm (Journalism Ethics)."
+    },
+    {
+      "question_id": "ACAD_UGMC_015",
+      "question_text": "Who is known for the phrase 'The medium is the message'?",
+      "options": [
+        {"option_id": "A", "text": "Marshall McLuhan"},
+        {"option_id": "B", "text": "Harold Lasswell"},
+        {"option_id": "C", "text": "Walter Lippmann"},
+        {"option_id": "D", "text": "Edward Murrow"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "McLuhan coined the phrase. Theoretical knowledge is essential for Mass Comm (Media Studies)."
+    },
+    {
+      "question_id": "ACAD_UGMC_016",
+      "question_text": "What is the primary goal of public relations in media?",
+      "options": [
+        {"option_id": "A", "text": "Manage communication to build positive image"},
+        {"option_id": "B", "text": "Produce entertainment shows"},
+        {"option_id": "C", "text": "Develop media software"},
+        {"option_id": "D", "text": "Regulate media content"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "PR builds positive image. Practical knowledge is key for Mass Comm (Public Relations)."
+    },
+    {
+      "question_id": "ACAD_UGMC_017",
+      "question_text": "What is the primary purpose of a news headline?",
+      "options": [
+        {"option_id": "A", "text": "Attract attention and summarize content"},
+        {"option_id": "B", "text": "Provide detailed analysis"},
+        {"option_id": "C", "text": "Design media layouts"},
+        {"option_id": "D", "text": "Create advertisements"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Headlines attract and summarize. Practical knowledge is vital for Mass Comm (Journalism)."
+    },
+    {
+      "question_id": "ACAD_UGMC_018",
+      "question_text": "What is the primary focus of digital media?",
+      "options": [
+        {"option_id": "A", "text": "Content delivery through online platforms"},
+        {"option_id": "B", "text": "Physical newspaper production"},
+        {"option_id": "C", "text": "Radio broadcasting"},
+        {"option_id": "D", "text": "Outdoor advertising"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Digital media uses online platforms. Technical knowledge is essential for Mass Comm (Digital Media)."
+    },
+    {
+      "question_id": "ACAD_UGMC_019",
+      "question_text": "Who developed the 'Agenda-Setting Theory' in media studies?",
+      "options": [
+        {"option_id": "A", "text": "Maxwell McCombs and Donald Shaw"},
+        {"option_id": "B", "text": "Noam Chomsky"},
+        {"option_id": "C", "text": "Harold Lasswell"},
+        {"option_id": "D", "text": "Marshall McLuhan"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "McCombs and Shaw developed the theory. Theoretical knowledge is key for Mass Comm (Media Studies)."
+    },
+    {
+      "question_id": "ACAD_UGMC_020",
+      "question_text": "What is the primary purpose of media framing?",
+      "options": [
+        {"option_id": "A", "text": "Shape audience perception of issues"},
+        {"option_id": "B", "text": "Design media equipment"},
+        {"option_id": "C", "text": "Create film scripts"},
+        {"option_id": "D", "text": "Manage media finances"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Framing shapes perception. Theoretical knowledge is vital for Mass Comm (Media Studies)."
+    },
+    {
+      "question_id": "ACAD_UGMC_021",
+      "question_text": "In which year was the Indian Institute of Mass Communication (IIMC) established?",
+      "options": [
+        {"option_id": "A", "text": "1965"},
+        {"option_id": "B", "text": "1955"},
+        {"option_id": "C", "text": "1975"},
+        {"option_id": "D", "text": "1945"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "IIMC was established in 1965. Institutional history is relevant for Mass Comm (Media Education)."
+    },
+    {
+      "question_id": "ACAD_UGMC_022",
+      "question_text": "Who founded the first newspaper in India, 'Bengal Gazette'?",
+      "options": [
+        {"option_id": "A", "text": "James Augustus Hicky"},
+        {"option_id": "B", "text": "Raja Ram Mohan Roy"},
+        {"option_id": "C", "text": "Bal Gangadhar Tilak"},
+        {"option_id": "D", "text": "Annie Besant"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Hicky founded Bengal Gazette in 1780. Media history is key for Mass Comm (Journalism)."
+    },
+    {
+      "question_id": "ACAD_UGMC_023",
+      "question_text": "In which year was the Press Council of India established?",
+      "options": [
+        {"option_id": "A", "text": "1966"},
+        {"option_id": "B", "text": "1956"},
+        {"option_id": "C", "text": "1976"},
+        {"option_id": "D", "text": "1946"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "PCI was established in 1966. Institutional history is key for Mass Comm (Media Regulation)."
+    },
+    {
+      "question_id": "ACAD_UGMC_024",
+      "question_text": "In which year was Doordarshan, India's public television broadcaster, established?",
+      "options": [
+        {"option_id": "A", "text": "1959"},
+        {"option_id": "B", "text": "1949"},
+        {"option_id": "C", "text": "1969"},
+        {"option_id": "D", "text": "1939"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Doordarshan was established in 1959. Media history is key for Mass Comm (Broadcast Media)."
+    },
+    {
+      "question_id": "ACAD_UGMC_025",
+      "question_text": "Who founded The Times of India, a leading English newspaper?",
+      "options": [
+        {"option_id": "A", "text": "Bennett, Coleman & Co"},
+        {"option_id": "B", "text": "James Silk Buckingham"},
+        {"option_id": "C", "text": "Raja Ram Mohan Roy"},
+        {"option_id": "D", "text": "Dadabhai Naoroji"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Bennett, Coleman & Co. started The Times of India in 1838. Media history is key for Mass Comm (Journalism)."
+    },
+    {
+      "question_id": "ACAD_UGMC_026",
+      "question_text": "In which year was the Cinematograph Act passed in India?",
+      "options": [
+        {"option_id": "A", "text": "1918"},
+        {"option_id": "B", "text": "1908"},
+        {"option_id": "C", "text": "1928"},
+        {"option_id": "D", "text": "1898"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Cinematograph Act was passed in 1918. Policy history is key for Mass Comm (Film Policy)."
+    },
+    {
+      "question_id": "ACAD_UGMC_027",
+      "question_text": "Who pioneered investigative journalism in India with the Bofors scandal coverage?",
+      "options": [
+        {"option_id": "A", "text": "N. Ram"},
+        {"option_id": "B", "text": "Barkha Dutt"},
+        {"option_id": "C", "text": "Arnab Goswami"},
+        {"option_id": "D", "text": "Prannoy Roy"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "N. Ram led Bofors coverage in the 1980s. Journalism history is key for Mass Comm (Investigative Journalism)."
+    },
+    {
+      "question_id": "ACAD_UGMC_028",
+      "question_text": "In which year was All India Radio (AIR) established?",
+      "options": [
+        {"option_id": "A", "text": "1936"},
+        {"option_id": "B", "text": "1926"},
+        {"option_id": "C", "text": "1946"},
+        {"option_id": "D", "text": "1916"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "AIR was established in 1936. Media history is key for Mass Comm (Radio Broadcasting)."
+    },
+    {
+      "question_id": "ACAD_UGMC_029",
+      "question_text": "Who founded the Film and Television Institute of India (FTII)?",
+      "options": [
+        {"option_id": "A", "text": "Government of India"},
+        {"option_id": "B", "text": "Satyajit Ray"},
+        {"option_id": "C", "text": "Yash Chopra"},
+        {"option_id": "D", "text": "Dadasaheb Phalke"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Government of India founded FTII in 1960. Institutional history is key for Mass Comm (Film Studies)."
+    },
+    {
+      "question_id": "ACAD_UGMC_030",
+      "question_text": "In which year was the Telecom Regulatory Authority of India (TRAI) established?",
+      "options": [
+        {"option_id": "A", "text": "1997"},
+        {"option_id": "B", "text": "1987"},
+        {"option_id": "C", "text": "2007"},
+        {"option_id": "D", "text": "1977"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "TRAI was established in 1997. Institutional history is key for Mass Comm (Media Regulation)."
+    }
+  ]
+}

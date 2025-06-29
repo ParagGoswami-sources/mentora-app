@@ -1,0 +1,549 @@
+{
+  "test_category": "Academic",
+  "class": "Undergraduate",
+  "stream": "Commerce",
+  "course": "B.Com",
+  "description": "Assesses General Knowledge, Commerce, and History for undergraduate students pursuing B.Com to guide academic and career choices.",
+  "questions": [
+    {
+      "question_id": "ACAD_UGBCOM_001",
+      "question_text": "Which Indian regulatory body oversees the securities market?",
+      "options": [
+        {"option_id": "A", "text": "Reserve Bank of India"},
+        {"option_id": "B", "text": "Securities and Exchange Board of India"},
+        {"option_id": "C", "text": "Insurance Regulatory and Development Authority"},
+        {"option_id": "D", "text": "Competition Commission of India"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "SEBI regulates the securities market. Regulatory knowledge is essential for B.Com (Financial Markets)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_002",
+      "question_text": "Which Indian city is known as the financial capital, hosting the BSE and NSE?",
+      "options": [
+        {"option_id": "A", "text": "Delhi"},
+        {"option_id": "B", "text": "Mumbai"},
+        {"option_id": "C", "text": "Bengaluru"},
+        {"option_id": "D", "text": "Kolkata"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Mumbai hosts BSE and NSE. Financial hub knowledge is key for B.Com (Finance)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_003",
+      "question_text": "What is the full form of GST in the Indian tax system?",
+      "options": [
+        {"option_id": "A", "text": "General Sales Tax"},
+        {"option_id": "B", "text": "Goods and Services Tax"},
+        {"option_id": "C", "text": "Global Service Tax"},
+        {"option_id": "D", "text": "Government Sales Tax"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "GST stands for Goods and Services Tax. Taxation knowledge supports B.Com (Taxation)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_004",
+      "question_text": "Which Indian institute is renowned for commerce education, like Shri Ram College of Commerce?",
+      "options": [
+        {"option_id": "A", "text": "Shri Ram College of Commerce, Delhi"},
+        {"option_id": "B", "text": "Indian Institute of Technology, Bombay"},
+        {"option_id": "C", "text": "National Institute of Technology, Trichy"},
+        {"option_id": "D", "text": "All India Institute of Medical Sciences, Delhi"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "SRCC is renowned for commerce education. Institutional knowledge is vital for B.Com students."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_005",
+      "question_text": "Which global organization sets international accounting standards?",
+      "options": [
+        {"option_id": "A", "text": "World Trade Organization"},
+        {"option_id": "B", "text": "International Accounting Standards Board"},
+        {"option_id": "C", "text": "International Monetary Fund"},
+        {"option_id": "D", "text": "World Bank"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "IASB sets accounting standards. Global financial knowledge is key for B.Com (Accounting)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_006",
+      "question_text": "Which Indian state is known for its business-friendly policies, attracting corporations like Tata and Reliance?",
+      "options": [
+        {"option_id": "A", "text": "Gujarat"},
+        {"option_id": "B", "text": "Bihar"},
+        {"option_id": "C", "text": "Assam"},
+        {"option_id": "D", "text": "Odisha"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Gujarat attracts businesses with its policies. Economic policy knowledge supports B.Com (Business Environment)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_007",
+      "question_text": "What is India’s central bank called?",
+      "options": [
+        {"option_id": "A", "text": "State Bank of India"},
+        {"option_id": "B", "text": "Reserve Bank of India"},
+        {"option_id": "C", "text": "Bank of Baroda"},
+        {"option_id": "D", "text": "ICICI Bank"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "RBI is India’s central bank. Banking knowledge is essential for B.Com (Banking)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_008",
+      "question_text": "Which Indian stock exchange is the oldest in Asia?",
+      "options": [
+        {"option_id": "A", "text": "National Stock Exchange"},
+        {"option_id": "B", "text": "Bombay Stock Exchange"},
+        {"option_id": "C", "text": "Calcutta Stock Exchange"},
+        {"option_id": "D", "text": "Multi Commodity Exchange"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "BSE, established in 1875, is Asia’s oldest stock exchange. Market knowledge is vital for B.Com (Financial Markets)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_009",
+      "question_text": "Which Indian scheme promotes financial inclusion through bank accounts, like PMJDY?",
+      "options": [
+        {"option_id": "A", "text": "Pradhan Mantri Jan Dhan Yojana"},
+        {"option_id": "B", "text": "Make in India"},
+        {"option_id": "C", "text": "Digital India"},
+        {"option_id": "D", "text": "Swachh Bharat Abhiyan"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "PMJDY promotes financial inclusion. Policy knowledge is key for B.Com (Banking and Finance)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_010",
+      "question_text": "Which city hosts the headquarters of the Reserve Bank of India?",
+      "options": [
+        {"option_id": "A", "text": "New Delhi"},
+        {"option_id": "B", "text": "Mumbai"},
+        {"option_id": "C", "text": "Chennai"},
+        {"option_id": "D", "text": "Kolkata"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "RBI’s headquarters is in Mumbai. Institutional knowledge supports B.Com (Banking)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_011",
+      "question_text": "What is the primary purpose of financial accounting?",
+      "options": [
+        {"option_id": "A", "text": "Forecast future sales"},
+        {"option_id": "B", "text": "Record and report financial transactions"},
+        {"option_id": "C", "text": "Manage employee salaries"},
+        {"option_id": "D", "text": "Design marketing campaigns"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Financial accounting records transactions. Accounting knowledge is crucial for B.Com (Accounting)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_012",
+      "question_text": "What does the term ‘depreciation’ mean in accounting?",
+      "options": [
+        {"option_id": "A", "text": "Increase in asset value"},
+        {"option_id": "B", "text": "Reduction in asset value over time"},
+        {"option_id": "C", "text": "Profit from sales"},
+        {"option_id": "D", "text": "Tax on income"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Depreciation is the reduction in asset value. Technical knowledge is essential for B.Com (Financial Accounting)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_013",
+      "question_text": "What is the primary goal of cost accounting?",
+      "options": [
+        {"option_id": "A", "text": "Calculate taxes"},
+        {"option_id": "B", "text": "Control and analyze business costs"},
+        {"option_id": "C", "text": "Prepare marketing budgets"},
+        {"option_id": "D", "text": "Audit financial statements"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Cost accounting analyzes business costs. Costing knowledge is key for B.Com (Cost Accounting)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_014",
+      "question_text": "What is the term for the money invested by owners in a business?",
+      "options": [
+        {"option_id": "A", "text": "Revenue"},
+        {"option_id": "B", "text": "Capital"},
+        {"option_id": "C", "text": "Liability"},
+        {"option_id": "D", "text": "Expense"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Capital is owners’ investment. Financial knowledge is vital for B.Com (Business Finance)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_015",
+      "question_text": "What does ROI stand for in business?",
+      "options": [
+        {"option_id": "A", "text": "Rate of Interest"},
+        {"option_id": "B", "text": "Return on Investment"},
+        {"option_id": "C", "text": "Revenue on Income"},
+        {"option_id": "D", "text": "Risk of Investment"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "ROI measures investment returns. Performance metrics are essential for B.Com (Financial Management)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_016",
+      "question_text": "What is the primary purpose of a balance sheet?",
+      "options": [
+        {"option_id": "A", "text": "Show daily sales"},
+        {"option_id": "B", "text": "Summarize financial position"},
+        {"option_id": "C", "text": "Track employee performance"},
+        {"option_id": "D", "text": "Plan marketing strategies"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "A balance sheet summarizes financial position. Financial reporting is key for B.Com (Accounting)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_017",
+      "question_text": "What is the term for a tax levied on goods at each stage of production?",
+      "options": [
+        {"option_id": "A", "text": "Income Tax"},
+        {"option_id": "B", "text": "Value Added Tax"},
+        {"option_id": "C", "text": "Corporate Tax"},
+        {"option_id": "D", "text": "Property Tax"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "VAT is levied at production stages. Taxation knowledge is vital for B.Com (Taxation)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_018",
+      "question_text": "What is the primary focus of auditing?",
+      "options": [
+        {"option_id": "A", "text": "Creating financial plans"},
+        {"option_id": "B", "text": "Verifying financial records"},
+        {"option_id": "C", "text": "Managing payroll"},
+        {"option_id": "D", "text": "Conducting market research"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Auditing verifies financial records. Audit knowledge is essential for B.Com (Auditing)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_019",
+      "question_text": "What does the term ‘liquidity’ refer to in finance?",
+      "options": [
+        {"option_id": "A", "text": "Ability to convert assets to cash"},
+        {"option_id": "B", "text": "Total profit earned"},
+        {"option_id": "C", "text": "Long-term debt"},
+        {"option_id": "D", "text": "Market share"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Liquidity is the ability to convert assets to cash. Financial knowledge is key for B.Com (Financial Management)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_020",
+      "question_text": "What is the primary purpose of a cash flow statement?",
+      "options": [
+        {"option_id": "A", "text": "Track cash inflows and outflows"},
+        {"option_id": "B", "text": "Calculate employee bonuses"},
+        {"option_id": "C", "text": "Plan advertising campaigns"},
+        {"option_id": "D", "text": "Assess market trends"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "A cash flow statement tracks cash movements. Financial reporting is vital for B.Com (Accounting)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_021",
+      "question_text": "In which year was the Reserve Bank of India established?",
+      "options": [
+        {"option_id": "A", "text": "1935"},
+        {"option_id": "B", "text": "1925"},
+        {"option_id": "C", "text": "1945"},
+        {"option_id": "D", "text": "1915"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "RBI was established in 1935. Banking history is relevant for B.Com (Banking)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_022",
+      "question_text": "Who was the first Governor of the Reserve Bank of India?",
+      "options": [
+        {"option_id": "A", "text": "C.D. Deshmukh"},
+        {"option_id": "B", "text": "Osborne Smith"},
+        {"option_id": "C", "text": "Raghuram Rajan"},
+        {"option_id": "D", "text": "Urjit Patel"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Osborne Smith was the first RBI Governor. Financial history is key for B.Com (Banking)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_023",
+      "question_text": "In which year was the Bombay Stock Exchange founded?",
+      "options": [
+        {"option_id": "A", "text": "1875"},
+        {"option_id": "B", "text": "1865"},
+        {"option_id": "C", "text": "1885"},
+        {"option_id": "D", "text": "1895"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "BSE was founded in 1875. Market history is relevant for B.Com (Financial Markets)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_024",
+      "question_text": "In which year was the Goods and Services Tax (GST) implemented in India?",
+      "options": [
+        {"option_id": "A", "text": "2017"},
+        {"option_id": "B", "text": "2015"},
+        {"option_id": "C", "text": "2019"},
+        {"option_id": "D", "text": "2013"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "GST was implemented in 2017. Taxation history is key for B.Com (Taxation)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_025",
+      "question_text": "Who introduced the concept of double-entry bookkeeping?",
+      "options": [
+        {"option_id": "A", "text": "Luca Pacioli"},
+        {"option_id": "B", "text": "Adam Smith"},
+        {"option_id": "C", "text": "John Maynard Keynes"},
+        {"option_id": "D", "text": "Milton Friedman"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Luca Pacioli introduced double-entry bookkeeping in 1494. Accounting history is relevant for B.Com (Accounting)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_026",
+      "question_text": "In which year was the Securities and Exchange Board of India (SEBI) established?",
+      "options": [
+        {"option_id": "A", "text": "1988"},
+        {"option_id": "B", "text": "1978"},
+        {"option_id": "C", "text": "1998"},
+        {"option_id": "D", "text": "1968"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "SEBI was established in 1988. Regulatory history is key for B.Com (Financial Markets)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_027",
+      "question_text": "Who was the first Finance Minister of independent India?",
+      "options": [
+        {"option_id": "A", "text": "R.K. Shanmukham Chetty"},
+        {"option_id": "B", "text": "Jawaharlal Nehru"},
+        {"option_id": "C", "text": "Sardar Patel"},
+        {"option_id": "D", "text": "C.D. Deshmukh"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "R.K. Shanmukham Chetty was the first Finance Minister. Political history is relevant for B.Com (Economic History)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_028",
+      "question_text": "In which year was the National Stock Exchange (NSE) established?",
+      "options": [
+        {"option_id": "A", "text": "1992"},
+        {"option_id": "B", "text": "1982"},
+        {"option_id": "C", "text": "2002"},
+        {"option_id": "D", "text": "1972"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "NSE was established in 1992. Market history is key for B.Com (Financial Markets)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_029",
+      "question_text": "In which year was the Indian Companies Act, governing corporate entities, first enacted?",
+      "options": [
+        {"option_id": "A", "text": "1956"},
+        {"option_id": "B", "text": "1946"},
+        {"option_id": "C", "text": "1966"},
+        {"option_id": "D", "text": "1936"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Indian Companies Act was enacted in 1956. Legal history is relevant for B.Com (Business Law)."
+    },
+    {
+      "question_id": "ACAD_UGBCOM_030",
+      "question_text": "Who authored ‘The Wealth of Nations’, influencing modern economics?",
+      "options": [
+        {"option_id": "A", "text": "Adam Smith"},
+        {"option_id": "B", "text": "Karl Marx"},
+        {"option_id": "C", "text": "John Maynard Keynes"},
+        {"option_id": "D", "text": "Milton Friedman"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Adam Smith authored ‘The Wealth of Nations’ in 1776. Economic history is key for B.Com (Economics)."
+    }
+  ]
+}

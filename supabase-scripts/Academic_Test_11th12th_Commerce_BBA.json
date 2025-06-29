@@ -1,0 +1,460 @@
+{
+  "test_category": "Academic",
+  "class": "11th/12th Standard",
+  "stream": "Commerce",
+  "course": "BBA",
+  "description": "Assesses General Knowledge, Commerce, and History for 11th/12th-grade students in the Commerce stream pursuing BBA to guide academic and career choices.",
+  "questions": [
+    {
+      "question_id": "ACAD_11BBA_001",
+      "question_text": "What does the acronym 'CEO' stand for in a business organization?",
+      "options": [
+        { "option_id": "A", "text": "Chief Executive Officer" },
+        { "option_id": "B", "text": "Central Employment Officer" },
+        { "option_id": "C", "text": "Chief Economic Organizer" },
+        { "option_id": "D", "text": "Corporate Executive Officer" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 4 },
+        "B": { "trait": "General Knowledge", "score": 1 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "CEO stands for Chief Executive Officer, a top executive role. Corporate structure knowledge is essential for BBA (Management)."
+    },
+    {
+      "question_id": "ACAD_11BBA_002",
+      "question_text": "Which Indian city is known as the IT and startup hub, often called the headquarters of Flipkart?",
+      "options": [
+        { "option_id": "A", "text": "Mumbai" },
+        { "option_id": "B", "text": "Bengaluru" },
+        { "option_id": "C", "text": "Hyderabad" },
+        { "option_id": "D", "text": "Pune" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 1 },
+        "B": { "trait": "General Knowledge", "score": 4 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "Bengaluru is India’s startup hub. Business ecosystem knowledge is key for BBA (Entrepreneurship)."
+    },
+    {
+      "question_id": "ACAD_11BBA_003",
+      "question_text": "What is the currency of Germany, a major global market for business operations?",
+      "options": [
+        { "option_id": "A", "text": "Euro" },
+        { "option_id": "B", "text": "Pound" },
+        { "option_id": "C", "text": "Franc" },
+        { "option_id": "D", "text": "Mark" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 4 },
+        "B": { "trait": "General Knowledge", "score": 1 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "Euro is Germany’s currency. Global business knowledge supports BBA (International Business)."
+    },
+    {
+      "question_id": "ACAD_11BBA_004",
+      "question_text": "Which organization is responsible for setting international labor standards, relevant for HR management?",
+      "options": [
+        { "option_id": "A", "text": "ILO" },
+        { "option_id": "B", "text": "IMF" },
+        { "option_id": "C", "text": "WTO" },
+        { "option_id": "D", "text": "UNICEF" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 4 },
+        "B": { "trait": "General Knowledge", "score": 1 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "ILO sets labor standards. HR knowledge is vital for BBA (Human Resource Management)."
+    },
+    {
+      "question_id": "ACAD_11BBA_005",
+      "question_text": "Which Indian institute is renowned for its MBA programs, such as IIM Ahmedabad?",
+      "options": [
+        { "option_id": "A", "text": "Indian Institute of Management" },
+        { "option_id": "B", "text": "Indian Institute of Technology" },
+        { "option_id": "C", "text": "Indian Institute of Science" },
+        { "option_id": "D", "text": "Indian School of Business" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 4 },
+        "B": { "trait": "General Knowledge", "score": 1 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "IIMs are known for MBA programs. Business education knowledge is key for BBA aspirants."
+    },
+    {
+      "question_id": "ACAD_11BBA_006",
+      "question_text": "Which country is home to the headquarters of Toyota, a global business leader?",
+      "options": [
+        { "option_id": "A", "text": "Japan" },
+        { "option_id": "B", "text": "South Korea" },
+        { "option_id": "C", "text": "China" },
+        { "option_id": "D", "text": "United States" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 4 },
+        "B": { "trait": "General Knowledge", "score": 1 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "Toyota is headquartered in Japan. Global corporate knowledge supports BBA (International Business)."
+    },
+    {
+      "question_id": "ACAD_11BBA_007",
+      "question_text": "What does 'FDI' stand for in business investment?",
+      "options": [
+        { "option_id": "A", "text": "Foreign Direct Investment" },
+        { "option_id": "B", "text": "Financial Development Index" },
+        { "option_id": "C", "text": "Fiscal Deficit Investment" },
+        { "option_id": "D", "text": "Fixed Deposit Interest" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 4 },
+        "B": { "trait": "General Knowledge", "score": 1 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "FDI refers to Foreign Direct Investment. Investment knowledge is essential for BBA (Finance)."
+    },
+    {
+      "question_id": "ACAD_11BBA_008",
+      "question_text": "Which city is the financial hub of China, hosting the Shanghai Stock Exchange?",
+      "options": [
+        { "option_id": "A", "text": "Beijing" },
+        { "option_id": "B", "text": "Shanghai" },
+        { "option_id": "C", "text": "Hong Kong" },
+        { "option_id": "D", "text": "Shenzhen" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 1 },
+        "B": { "trait": "General Knowledge", "score": 4 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "Shanghai is China’s financial hub. Global market knowledge is key for BBA (International Business)."
+    },
+    {
+      "question_id": "ACAD_11BBA_009",
+      "question_text": "What does the term 'CSR' stand for in business practices?",
+      "options": [
+        { "option_id": "A", "text": "Corporate Social Responsibility" },
+        { "option_id": "B", "text": "Customer Service Regulation" },
+        { "option_id": "C", "text": "Corporate System Review" },
+        { "option_id": "D", "text": "Centralized Sales Report" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 4 },
+        "B": { "trait": "General Knowledge", "score": 1 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "CSR stands for Corporate Social Responsibility. Ethical business knowledge is vital for BBA (Business Ethics)."
+    },
+    {
+      "question_id": "ACAD_11BBA_010",
+      "question_text": "Which Indian state is home to the business hub of Gurugram, hosting many MNCs?",
+      "options": [
+        { "option_id": "A", "text": "Uttar Pradesh" },
+        { "option_id": "B", "text": "Haryana" },
+        { "option_id": "C", "text": "Punjab" },
+        { "option_id": "D", "text": "Delhi" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 1 },
+        "B": { "trait": "General Knowledge", "score": 4 },
+        
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "Gurugram is in Haryana. Business hub knowledge supports BBA (Corporate Management)."
+    },
+    {
+      "question_id": "ACAD_11BBA_011",
+      "question_text": "What is the primary goal of marketing in business?",
+      "options": [
+        { "option_id": "A", "text": "Reduce production costs" },
+        { "option_id": "B", "text": "Promote and sell products or services" },
+        { "option_id": "C", "text": "Manage employee relations" },
+        { "option_id": "D", "text": "Control financial accounts" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "Commerce", "score": 1 },
+        "B": { "trait": "Commerce", "score": 4 },
+        "C": { "trait": "Commerce", "score": 1 },
+        "D": { "trait": "Commerce", "score": 1 }
+      },
+      "explanation": "Marketing promotes and sells products. Marketing knowledge is crucial for BBA (Marketing)."
+    },
+    {
+      "question_id": "ACAD_11BBA_012",
+      "question_text": "Which management function involves setting goals and determining strategies?",
+      "options": [
+        { "option_id": "A", "text": "Planning" },
+        { "option_id": "B", "text": "Organizing" },
+        { "option_id": "C", "text": "Leading" },
+        { "option_id": "D", "text": "Controlling" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "Commerce", "score": 4 },
+        "B": { "trait": "Commerce", "score": 1 },
+        "C": { "trait": "Commerce", "score": 1 },
+        "D": { "trait": "Commerce", "score": 1 }
+      },
+      "explanation": "Planning sets goals and strategies. Management knowledge is essential for BBA (Management)."
+    },
+    {
+      "question_id": "ACAD_11BBA_013",
+      "question_text": "What does SWOT analysis stand for in business strategy?",
+      "options": [
+        { "option_id": "A", "text": "Strengths, Weaknesses, Opportunities, Threats" },
+        { "option_id": "B", "text": "Sales, Workflow, Operations, Targets" },
+        { "option_id": "C", "text": "Strategy, Work, Objectives, Trends" },
+        { "option_id": "D", "text": "Systems, Workforce, Outlook, Tasks" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "Commerce", "score": 4 },
+        "B": { "trait": "Commerce", "score": 1 },
+        "C": { "trait": "Commerce", "score": 1 },
+        "D": { "trait": "Commerce", "score": 1 }
+      },
+      "explanation": "SWOT analyzes strengths, weaknesses, opportunities, and threats. Strategic planning is key for BBA (Business Strategy)."
+    },
+    {
+      "question_id": "ACAD_11BBA_014",
+      "question_text": "What is the primary purpose of human resource management?",
+      "options": [
+        { "option_id": "A", "text": "Manage financial investments" },
+        { "option_id": "B", "text": "Recruit, train, and manage employees" },
+        { "option_id": "C", "text": "Develop marketing campaigns" },
+        { "option_id": "D", "text": "Oversee production processes" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "Commerce", "score": 1 },
+        "B": { "trait": "Commerce", "score": 4 },
+        "C": { "trait": "Commerce", "score": 1 },
+        "D": { "trait": "Commerce", "score": 1 }
+      },
+      "explanation": "HR manages employees. HR knowledge is vital for BBA (Human Resource Management)."
+    },
+    {
+      "question_id": "ACAD_11BBA_015",
+      "question_text": "Which financial statement is most useful for assessing a company’s operational efficiency?",
+      "options": [
+        { "option_id": "A", "text": "Balance Sheet" },
+        { "option_id": "B", "text": "Income Statement" },
+        { "option_id": "C", "text": "Cash Flow Statement" },
+        { "option_id": "D", "text": "Statement of Equity" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "Commerce", "score": 1 },
+        "B": { "trait": "Commerce", "score": 4 },
+        "C": { "trait": "Commerce", "score": 1 },
+        "D": { "trait": "Commerce", "score": 1 }
+      },
+      "explanation": "The income statement shows operational efficiency. Financial analysis is key for BBA (Finance)."
+    },
+    {
+      "question_id": "ACAD_11BBA_016",
+      "question_text": "What is the term for a business owned by a single individual?",
+      "options": [
+        { "option_id": "A", "text": "Partnership" },
+        { "option_id": "B", "text": "Corporation" },
+        { "option_id": "C", "text": "Sole Proprietorship" },
+        { "option_id": "D", "text": "Cooperative" }
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": { "trait": "Commerce", "score": 1 },
+        "B": { "trait": "Commerce", "score": 1 },
+        "C": { "trait": "Commerce", "score": 4 },
+        "D": { "trait": "Commerce", "score": 1 }
+      },
+      "explanation": "Sole proprietorship is a single-owner business. Business structure knowledge is essential for BBA (Entrepreneurship)."
+    },
+    {
+      "question_id": "ACAD_11BBA_017",
+      "question_text": "Which marketing concept focuses on meeting customer needs better than competitors?",
+      "options": [
+        { "option_id": "A", "text": "Production Concept" },
+        { "option_id": "B", "text": "Selling Concept" },
+        { "option_id": "C", "text": "Marketing Concept" },
+        { "option_id": "D", "text": "Product Concept" }
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": { "trait": "Commerce", "score": 1 },
+        "B": { "trait": "Commerce", "score": 1 },
+        "C": { "trait": "Commerce", "score": 4 },
+        "D": { "trait": "Commerce", "score": 1 }
+      },
+      "explanation": "The marketing concept prioritizes customer needs. Marketing knowledge is vital for BBA (Marketing)."
+    },
+    {
+      "question_id": "ACAD_11BBA_018",
+      "question_text": "What is the primary role of a manager in the ‘leading’ function?",
+      "options": [
+        { "option_id": "A", "text": "Set financial budgets" },
+        { "option_id": "B", "text": "Motivate and guide employees" },
+        { "option_id": "C", "text": "Monitor production output" },
+        { "option_id": "D", "text": "Conduct market research" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "Commerce", "score": 1 },
+        "B": { "trait": "Commerce", "score": 4 },
+        "C": { "trait": "Commerce", "score": 1 },
+        "D": { "trait": "Commerce", "score": 1 }
+      },
+      "explanation": "Leading involves motivating employees. Leadership knowledge is key for BBA (Management)."
+    },
+    {
+      "question_id": "ACAD_11BBA_019",
+      "question_text": "What does ‘supply chain management’ primarily focus on?",
+      "options": [
+        { "option_id": "A", "text": "Managing employee schedules" },
+        { "option_id": "B", "text": "Coordinating production and distribution" },
+        { "option_id": "C", "text": "Developing advertising campaigns" },
+        { "option_id": "D", "text": "Preparing financial reports" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "Commerce", "score": 1 },
+        "B": { "trait": "Commerce", "score": 4 },
+        "C": { "trait": "Commerce", "score": 1 },
+        "D": { "trait": "Commerce", "score": 1 }
+      },
+      "explanation": "Supply chain management oversees production and distribution. Operations knowledge is essential for BBA (Operations)."
+    },
+    {
+      "question_id": "ACAD_11BBA_020",
+      "question_text": "Which term refers to the process of dividing a market into distinct groups of buyers?",
+      "options": [
+        { "option_id": "A", "text": "Market Segmentation" },
+        { "option_id": "B", "text": "Product Differentiation" },
+        { "option_id": "C", "text": "Brand Positioning" },
+        { "option_id": "D", "text": "Customer Retention" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "Commerce", "score": 4 },
+        "B": { "trait": "Commerce", "score": 1 },
+        "C": { "trait": "Commerce", "score": 1 },
+        "D": { "trait": "Commerce", "score": 1 }
+      },
+      "explanation": "Market segmentation divides buyers into groups. Marketing knowledge is vital for BBA (Marketing)."
+    },
+    {
+      "question_id": "ACAD_11BBA_021",
+      "question_text": "In which year was the Indian Institute of Management (IIM) Calcutta established?",
+      "options": [
+        { "option_id": "A", "text": "1961" },
+        { "option_id": "B", "text": "1971" },
+        { "option_id": "C", "text": "1951" },
+        { "option_id": "D", "text": "1981" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "History", "score": 4 },
+        "B": { "trait": "History", "score": 1 },
+        "C": { "trait": "History", "score": 1 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "IIM Calcutta was established in 1961. Business education history is relevant for BBA (Management)."
+    },
+    {
+      "question_id": "ACAD_11BBA_022",
+      "question_text": "Who founded the Tata Group, a major Indian conglomerate?",
+      "options": [
+        { "option_id": "A", "text": "Jamsetji Tata" },
+        { "option_id": "B", "text": "Ratan Tata" },
+        { "option_id": "C", "text": "J.R.D. Tata" },
+        { "option_id": "D", "text": "Cyrus Mistry" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "History", "score": 4 },
+        "B": { "trait": "History", "score": 1 },
+        "C": { "trait": "History", "score": 1 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "Jamsetji Tata founded the Tata Group in 1868. Business history is key for BBA (Entrepreneurship)."
+    },
+    {
+      "question_id": "ACAD_11BBA_023",
+      "question_text": "In which year was the World Trade Organization (WTO) established?",
+      "options": [
+        { "option_id": "A", "text": "1995" },
+        { "option_id": "B", "text": "1985" },
+        { "option_id": "C", "text": "1975" },
+        { "option_id": "D", "text": "2005" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "History", "score": 4 },
+        "B": { "trait": "History", "score": 1 },
+        "C": { "trait": "History", "score": 1 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "WTO was established in 1995. Trade history is relevant for BBA (International Business)."
+    },
+    {
+      "question_id": "ACAD_11BBA_024",
+      "question_text": "Who is known for developing the principles of scientific management?",
+      "options": [
+        { "option_id": "A", "text": "Frederick Taylor" },
+        { "option_id": "B", "text": "Henry Fayol" },
+        { "option_id": "C", "text": "Elton Mayo" },
+        { "option_id": "D", "text": "Max Weber" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "History", "score": 4 },
+        "B": { "trait": "History", "score": 1 },
+        "C": { "trait": "History", "score": 1 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "Frederick Taylor developed scientific management. Management history is key for BBA (Management)."
+    },
+    {
+      "question_id": "ACAD_11BBA_025",
+      "question_text": "In which year was the Confederation of Indian Industry (CII) founded?",
+      "options": [
+        { "option_id": "A", "text": "1895" },
+        { "option_id": "B", "text": "1925" },
+        { "option_id": "C", "text": "1992" },
+        { "option_id": "D", "text": "1965" }
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": { "trait": "History", "score": 1 },
+        "B": { "trait": "History", "score": 1 },
+        "C": { "trait": "History", "score": 4 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "CII was founded in 1992. Business association history is relevant for BBA (Business Policy)."
+    }
+  ]
+}

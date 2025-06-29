@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What does HTTP stand for in web development?",
+    "options": [
+      "Hyper Text Transfer Protocol",
+      "High Transfer Text Protocol",
+      "Hyperlink Text Transmission Protocol",
+      "Host Transfer Text Path"
+    ],
+    "answer": "Hyper Text Transfer Protocol"
+  },
+  {
+    "question": "Which data structure uses LIFO (Last In, First Out)?",
+    "options": [
+      "Queue",
+      "Linked List",
+      "Stack",
+      "Array"
+    ],
+    "answer": "Stack"
+  },
+  {
+    "question": "In C++, which keyword is used to create an object of a class?",
+    "options": [
+      "new",
+      "class",
+      "create",
+      "object"
+    ],
+    "answer": "new"
+  },
+  {
+    "question": "Which sorting algorithm has the best average case time complexity?",
+    "options": [
+      "Bubble Sort",
+      "Quick Sort",
+      "Merge Sort",
+      "Selection Sort"
+    ],
+    "answer": "Merge Sort"
+  },
+  {
+    "question": "What is the unit of electrical resistance?",
+    "options": [
+      "Ampere",
+      "Ohm",
+      "Volt",
+      "Watt"
+    ],
+    "answer": "Ohm"
+  },
+  {
+    "question": "Which of the following is a non-primitive data type in Java?",
+    "options": [
+      "int",
+      "boolean",
+      "char",
+      "String"
+    ],
+    "answer": "String"
+  },
+  {
+    "question": "What is the full form of SQL?",
+    "options": [
+      "Structured Query Language",
+      "System Query Language",
+      "Sequential Query Language",
+      "Server Query Language"
+    ],
+    "answer": "Structured Query Language"
+  },
+  {
+    "question": "In networking, what does IP stand for?",
+    "options": [
+      "Internet Protocol",
+      "Internal Program",
+      "Input Processor",
+      "Internet Path"
+    ],
+    "answer": "Internet Protocol"
+  },
+  {
+    "question": "What does a capacitor store?",
+    "options": [
+      "Charge",
+      "Voltage",
+      "Current",
+      "Energy"
+    ],
+    "answer": "Charge"
+  },
+  {
+    "question": "Which device converts digital signals to analog?",
+    "options": [
+      "Modulator",
+      "Decoder",
+      "Amplifier",
+      "Modem"
+    ],
+    "answer": "Modem"
+  },
+  {
+    "question": "Which gate returns true only when both inputs are true?",
+    "options": [
+      "AND",
+      "OR",
+      "NOT",
+      "XOR"
+    ],
+    "answer": "AND"
+  },
+  {
+    "question": "Which layer of the OSI model handles routing?",
+    "options": [
+      "Data Link",
+      "Network",
+      "Transport",
+      "Session"
+    ],
+    "answer": "Network"
+  },
+  {
+    "question": "Which metal is commonly used for electrical wiring?",
+    "options": [
+      "Aluminum",
+      "Silver",
+      "Copper",
+      "Iron"
+    ],
+    "answer": "Copper"
+  },
+  {
+    "question": "Which data structure is used for implementing recursion?",
+    "options": [
+      "Queue",
+      "Stack",
+      "Array",
+      "Heap"
+    ],
+    "answer": "Stack"
+  },
+  {
+    "question": "Which of the following is not a programming language?",
+    "options": [
+      "Python",
+      "JavaScript",
+      "Linux",
+      "C++"
+    ],
+    "answer": "Linux"
+  },
+  {
+    "question": "What is the primary function of an operating system?",
+    "options": [
+      "Control hardware",
+      "Edit files",
+      "Browse web",
+      "Draw images"
+    ],
+    "answer": "Control hardware"
+  },
+  {
+    "question": "Which of the following is a volatile memory?",
+    "options": [
+      "Hard Disk",
+      "RAM",
+      "SSD",
+      "Flash Drive"
+    ],
+    "answer": "RAM"
+  },
+  {
+    "question": "Which of these is a relational database management system?",
+    "options": [
+      "MongoDB",
+      "MySQL",
+      "Redis",
+      "Cassandra"
+    ],
+    "answer": "MySQL"
+  },
+  {
+    "question": "Which programming paradigm is JavaScript primarily based on?",
+    "options": [
+      "Object-Oriented",
+      "Procedural",
+      "Functional",
+      "Scripting"
+    ],
+    "answer": "Scripting"
+  },
+  {
+    "question": "What does CPU stand for?",
+    "options": [
+      "Central Processing Unit",
+      "Central Power Unit",
+      "Core Process Utility",
+      "Computer Performance Unit"
+    ],
+    "answer": "Central Processing Unit"
+  },
+  {
+    "question": "Which file system is commonly used in Windows OS?",
+    "options": [
+      "EXT4",
+      "NTFS",
+      "FAT16",
+      "APFS"
+    ],
+    "answer": "NTFS"
+  },
+  {
+    "question": "In a database, what is a primary key?",
+    "options": [
+      "A unique identifier",
+      "A duplicate field",
+      "A foreign key",
+      "An attribute"
+    ],
+    "answer": "A unique identifier"
+  },
+  {
+    "question": "What is the output of 10 % 3 in most languages?",
+    "options": [
+      "1",
+      "3",
+      "0",
+      "2"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Which of these is a compiled language?",
+    "options": [
+      "Python",
+      "Java",
+      "HTML",
+      "CSS"
+    ],
+    "answer": "Java"
+  },
+  {
+    "question": "What is a constructor in OOP?",
+    "options": [
+      "A special method to initialize objects",
+      "A function to destroy objects",
+      "A loop",
+      "A compiler"
+    ],
+    "answer": "A special method to initialize objects"
+  },
+  {
+    "question": "Which protocol is used to send email?",
+    "options": [
+      "SMTP",
+      "FTP",
+      "HTTP",
+      "TCP"
+    ],
+    "answer": "SMTP"
+  },
+  {
+    "question": "What type of number is binary?",
+    "options": [
+      "Base 2",
+      "Base 8",
+      "Base 10",
+      "Base 16"
+    ],
+    "answer": "Base 2"
+  },
+  {
+    "question": "Which is used to style HTML pages?",
+    "options": [
+      "JavaScript",
+      "CSS",
+      "PHP",
+      "SQL"
+    ],
+    "answer": "CSS"
+  },
+  {
+    "question": "Which of the following is NOT an operating system?",
+    "options": [
+      "Linux",
+      "iOS",
+      "BIOS",
+      "Windows"
+    ],
+    "answer": "BIOS"
+  },
+  {
+    "question": "What is the result of 2 ** 3 in Python?",
+    "options": [
+      "6",
+      "8",
+      "9",
+      "16"
+    ],
+    "answer": "8"
+  }
+]

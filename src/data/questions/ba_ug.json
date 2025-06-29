@@ -1,0 +1,337 @@
+{
+  "stream": "UG",
+  "course": "B.A",
+  "subject": "Arts",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Who is considered the father of modern Indian literature?",
+      "options": [
+        "Rabindranath Tagore",
+        "Premchand",
+        "Bankim Chandra Chatterjee",
+        "Saratchandra Chattopadhyay"
+      ],
+      "answer": "Bankim Chandra Chatterjee"
+    },
+    {
+      "id": 2,
+      "question": "Which movement in Indian history was led by Mahatma Gandhi in 1942?",
+      "options": [
+        "Non-Cooperation Movement",
+        "Civil Disobedience Movement",
+        "Quit India Movement",
+        "Swadeshi Movement"
+      ],
+      "answer": "Quit India Movement"
+    },
+    {
+      "id": 3,
+      "question": "The 'Stream of Consciousness' technique is mostly associated with which author?",
+      "options": [
+        "Virginia Woolf",
+        "Charles Dickens",
+        "Jane Austen",
+        "George Orwell"
+      ],
+      "answer": "Virginia Woolf"
+    },
+    {
+      "id": 4,
+      "question": "Which is a famous work of William Shakespeare?",
+      "options": [
+        "Great Expectations",
+        "Hamlet",
+        "Pride and Prejudice",
+        "Jane Eyre"
+      ],
+      "answer": "Hamlet"
+    },
+    {
+      "id": 5,
+      "question": "Which year marks the beginning of the French Revolution?",
+      "options": [
+        "1776",
+        "1789",
+        "1804",
+        "1815"
+      ],
+      "answer": "1789"
+    },
+    {
+      "id": 6,
+      "question": "Who wrote the Indian national anthem 'Jana Gana Mana'?",
+      "options": [
+        "Bankim Chandra Chatterjee",
+        "Rabindranath Tagore",
+        "Sri Aurobindo",
+        "Subramania Bharati"
+      ],
+      "answer": "Rabindranath Tagore"
+    },
+    {
+      "id": 7,
+      "question": "Which theory emphasizes the role of social interaction in language development?",
+      "options": [
+        "Nativist Theory",
+        "Behaviorist Theory",
+        "Social Interactionist Theory",
+        "Cognitive Theory"
+      ],
+      "answer": "Social Interactionist Theory"
+    },
+    {
+      "id": 8,
+      "question": "Which Indian painter is known for the painting 'Bharat Mata'?",
+      "options": [
+        "M.F. Husain",
+        "Raja Ravi Varma",
+        "Jamini Roy",
+        "Abanindranath Tagore"
+      ],
+      "answer": "Abanindranath Tagore"
+    },
+    {
+      "id": 9,
+      "question": "What is the central theme of 'The Waste Land' by T.S. Eliot?",
+      "options": [
+        "Nature",
+        "Love",
+        "Disillusionment and decay of modern society",
+        "Adventure"
+      ],
+      "answer": "Disillusionment and decay of modern society"
+    },
+    {
+      "id": 10,
+      "question": "Who was the first woman to win the Nobel Prize in Literature?",
+      "options": [
+        "Toni Morrison",
+        "Selma Lagerl\u00f6f",
+        "Pearl S. Buck",
+        "Nadine Gordimer"
+      ],
+      "answer": "Selma Lagerl\u00f6f"
+    },
+    {
+      "id": 11,
+      "question": "Sample Arts-based question 11",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "id": 12,
+      "question": "Sample Arts-based question 12",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "id": 13,
+      "question": "Sample Arts-based question 13",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "id": 14,
+      "question": "Sample Arts-based question 14",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "id": 15,
+      "question": "Sample Arts-based question 15",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "id": 16,
+      "question": "Sample Arts-based question 16",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "id": 17,
+      "question": "Sample Arts-based question 17",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "id": 18,
+      "question": "Sample Arts-based question 18",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "id": 19,
+      "question": "Sample Arts-based question 19",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "id": 20,
+      "question": "Sample Arts-based question 20",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "id": 21,
+      "question": "Sample Arts-based question 21",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "id": 22,
+      "question": "Sample Arts-based question 22",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "id": 23,
+      "question": "Sample Arts-based question 23",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "id": 24,
+      "question": "Sample Arts-based question 24",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "id": 25,
+      "question": "Sample Arts-based question 25",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "id": 26,
+      "question": "Sample Arts-based question 26",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "id": 27,
+      "question": "Sample Arts-based question 27",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "id": 28,
+      "question": "Sample Arts-based question 28",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "id": 29,
+      "question": "Sample Arts-based question 29",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    },
+    {
+      "id": 30,
+      "question": "Sample Arts-based question 30",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Option A"
+    }
+  ]
+}

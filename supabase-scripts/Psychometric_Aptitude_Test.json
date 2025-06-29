@@ -1,0 +1,457 @@
+{
+  "test_category": "Psychometric",
+  "factor": "Aptitude",
+  "description": "Assesses cognitive abilities, problem-solving, and analytical skills to guide academic and career choices for students in 10th, 11th/12th, and UG levels.",
+  "questions": [
+    {
+      "question_id": "APT_001",
+      "question_text": "If a car travels 60 km in 1 hour, how far will it travel in 2.5 hours at the same speed?",
+      "options": [
+        {"option_id": "A", "text": "120 km"},
+        {"option_id": "B", "text": "150 km"},
+        {"option_id": "C", "text": "180 km"},
+        {"option_id": "D", "text": "200 km"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Quantitative Reasoning", "score": 1},
+        "B": {"trait": "Quantitative Reasoning", "score": 4},
+        "C": {"trait": "Quantitative Reasoning", "score": 1},
+        "D": {"trait": "Quantitative Reasoning", "score": 1}
+      },
+      "explanation": "Distance = Speed × Time = 60 km/h × 2.5 h = 150 km. Strong quantitative skills suit Science (B.Tech, BCA) or Commerce (CA, B.Com)."
+    },
+    {
+      "question_id": "APT_002",
+      "question_text": "What comes next in the sequence: 2, 4, 8, 16, ?",
+      "options": [
+        {"option_id": "A", "text": "24"},
+        {"option_id": "B", "text": "32"},
+        {"option_id": "C", "text": "28"},
+        {"option_id": "D", "text": "36"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Pattern Recognition", "score": 1},
+        "B": {"trait": "Pattern Recognition", "score": 4},
+        "C": {"trait": "Pattern Recognition", "score": 1},
+        "D": {"trait": "Pattern Recognition", "score": 1}
+      },
+      "explanation": "Each number doubles: 2 × 2 = 4, 4 × 2 = 8, 8 × 2 = 16, 16 × 2 = 32. Pattern recognition is key for Science (BCS, B.Sc) and analytical fields like CA."
+    },
+    {
+      "question_id": "APT_003",
+      "question_text": "If all roses are flowers and some flowers are red, which statement is true?",
+      "options": [
+        {"option_id": "A", "text": "All roses are red."},
+        {"option_id": "B", "text": "Some roses are red."},
+        {"option_id": "C", "text": "Some flowers are not roses."},
+        {"option_id": "D", "text": "All flowers are roses."}
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": {"trait": "Logical Reasoning", "score": 1},
+        "B": {"trait": "Logical Reasoning", "score": 2},
+        "C": {"trait": "Logical Reasoning", "score": 4},
+        "D": {"trait": "Logical Reasoning", "score": 1}
+      },
+      "explanation": "Some flowers are not roses, as roses are a subset of flowers. Logical reasoning suits Science (MBBS, B.Tech) and Arts (LLB)."
+    },
+    {
+      "question_id": "APT_004",
+      "question_text": "A shop offers a 20% discount on a $50 item. What is the final price?",
+      "options": [
+        {"option_id": "A", "text": "$30"},
+        {"option_id": "B", "text": "$40"},
+        {"option_id": "C", "text": "$45"},
+        {"option_id": "D", "text": "$35"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Quantitative Reasoning", "score": 1},
+        "B": {"trait": "Quantitative Reasoning", "score": 4},
+        "C": {"trait": "Quantitative Reasoning", "score": 1},
+        "D": {"trait": "Quantitative Reasoning", "score": 1}
+      },
+      "explanation": "Discount = 20% of $50 = $10. Final price = $50 - $10 = $40. Quantitative skills are crucial for Commerce (B.Com, CA)."
+    },
+    {
+      "question_id": "APT_005",
+      "question_text": "Which word is the odd one out: Big, Small, Large, Tiny?",
+      "options": [
+        {"option_id": "A", "text": "Big"},
+        {"option_id": "B", "text": "Small"},
+        {"option_id": "C", "text": "Large"},
+        {"option_id": "D", "text": "Tiny"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Verbal Reasoning", "score": 1},
+        "B": {"trait": "Verbal Reasoning", "score": 4},
+        "C": {"trait": "Verbal Reasoning", "score": 1},
+        "D": {"trait": "Verbal Reasoning", "score": 1}
+      },
+      "explanation": "Big, Large, and Tiny are synonyms or antonyms related to size; Small is less precise. Verbal reasoning suits Arts (B.A, Mass Communication)."
+    },
+    {
+      "question_id": "APT_006",
+      "question_text": "If 3x + 5 = 14, what is x?",
+      "options": [
+        {"option_id": "A", "text": "2"},
+        {"option_id": "B", "text": "3"},
+        {"option_id": "C", "text": "4"},
+        {"option_id": "D", "text": "5"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Quantitative Reasoning", "score": 1},
+        "B": {"trait": "Quantitative Reasoning", "score": 4},
+        "C": {"trait": "Quantitative Reasoning", "score": 1},
+        "D": {"trait": "Quantitative Reasoning", "score": 1}
+      },
+      "explanation": "3x + 5 = 14 → 3x = 9 → x = 3. Algebraic skills are essential for Science (B.Tech, BCA) and Commerce (CA)."
+    },
+    {
+      "question_id": "APT_007",
+      "question_text": "What is the next number: 1, 4, 9, 16, 25, ?",
+      "options": [
+        {"option_id": "A", "text": "30"},
+        {"option_id": "B", "text": "36"},
+        {"option_id": "C", "text": "40"},
+        {"option_id": "D", "text": "49"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Pattern Recognition", "score": 1},
+        "B": {"trait": "Pattern Recognition", "score": 4},
+        "C": {"trait": "Pattern Recognition", "score": 1},
+        "D": {"trait": "Pattern Recognition", "score": 1}
+      },
+      "explanation": "Sequence of squares: 1², 2², 3², 4², 5², 6² = 36. Pattern recognition is key for Science (BCS, B.Sc)."
+    },
+    {
+      "question_id": "APT_008",
+      "question_text": "If some cats are mammals and all mammals breathe air, which is true?",
+      "options": [
+        {"option_id": "A", "text": "All cats breathe air."},
+        {"option_id": "B", "text": "Some mammals are not cats."},
+        {"option_id": "C", "text": "Some cats are not mammals."},
+        {"option_id": "D", "text": "All mammals are cats."}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Logical Reasoning", "score": 4},
+        "B": {"trait": "Logical Reasoning", "score": 2},
+        "C": {"trait": "Logical Reasoning", "score": 1},
+        "D": {"trait": "Logical Reasoning", "score": 1}
+      },
+      "explanation": "All cats (as mammals) breathe air. Logical reasoning suits Science (MBBS) and Arts (LLB)."
+    },
+    {
+      "question_id": "APT_009",
+      "question_text": "A book costs $20 after a 25% discount. What was the original price?",
+      "options": [
+        {"option_id": "A", "text": "$25"},
+        {"option_id": "B", "text": "$26.67"},
+        {"option_id": "C", "text": "$28"},
+        {"option_id": "D", "text": "$30"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Quantitative Reasoning", "score": 1},
+        "B": {"trait": "Quantitative Reasoning", "score": 4},
+        "C": {"trait": "Quantitative Reasoning", "score": 1},
+        "D": {"trait": "Quantitative Reasoning", "score": 1}
+      },
+      "explanation": "Let original price = x. Then 0.75x = 20 → x = 20/0.75 = 26.67. Quantitative skills suit Commerce (CA, B.Com)."
+    },
+    {
+      "question_id": "APT_010",
+      "question_text": "Choose the word that completes the analogy: Pen is to Write as Knife is to ?",
+      "options": [
+        {"option_id": "A", "text": "Cut"},
+        {"option_id": "B", "text": "Cook"},
+        {"option_id": "C", "text": "Eat"},
+        {"option_id": "D", "text": "Chop"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Verbal Reasoning", "score": 4},
+        "B": {"trait": "Verbal Reasoning", "score": 1},
+        "C": {"trait": "Verbal Reasoning", "score": 1},
+        "D": {"trait": "Verbal Reasoning", "score": 3}
+      },
+      "explanation": "A pen is used to write; a knife is used to cut. Verbal reasoning is key for Arts (B.A, Mass Communication)."
+    },
+    {
+      "question_id": "APT_011",
+      "question_text": "If 5 workers complete a task in 10 days, how long will 10 workers take?",
+      "options": [
+        {"option_id": "A", "text": "5 days"},
+        {"option_id": "B", "text": "8 days"},
+        {"option_id": "C", "text": "12 days"},
+        {"option_id": "D", "text": "15 days"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Quantitative Reasoning", "score": 4},
+        "B": {"trait": "Quantitative Reasoning", "score": 1},
+        "C": {"trait": "Quantitative Reasoning", "score": 1},
+        "D": {"trait": "Quantitative Reasoning", "score": 1}
+      },
+      "explanation": "Total work = 5 workers × 10 days = 50 worker-days. With 10 workers, time = 50/10 = 5 days. Suits Science (B.Tech) and Commerce (CA)."
+    },
+    {
+      "question_id": "APT_012",
+      "question_text": "What is the next term: 3, 6, 12, 24, ?",
+      "options": [
+        {"option_id": "A", "text": "36"},
+        {"option_id": "B", "text": "48"},
+        {"option_id": "C", "text": "60"},
+        {"option_id": "D", "text": "72"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Pattern Recognition", "score": 1},
+        "B": {"trait": "Pattern Recognition", "score": 4},
+        "C": {"trait": "Pattern Recognition", "score": 1},
+        "D": {"trait": "Pattern Recognition", "score": 1}
+      },
+      "explanation": "Each term doubles: 3 × 2 = 6, 6 × 2 = 12, 12 × 2 = 24, 24 × 2 = 48. Pattern recognition suits Science (BCS, B.Sc)."
+    },
+    {
+      "question_id": "APT_013",
+      "question_text": "If all A are B, and some B are C, which is true?",
+      "options": [
+        {"option_id": "A", "text": "All A are C."},
+        {"option_id": "B", "text": "Some A are C."},
+        {"option_id": "C", "text": "Some C are not A."},
+        {"option_id": "D", "text": "No A are C."}
+      ],
+      "correct_answer": "D",
+      "scoring": {
+        "A": {"trait": "Logical Reasoning", "score": 1},
+        "B": {"trait": "Logical Reasoning", "score": 2},
+        "C": {"trait": "Logical Reasoning", "score": 2},
+        "D": {"trait": "Logical Reasoning", "score": 4}
+      },
+      "explanation": "No definitive relationship exists between A and C. Logical reasoning suits Science (MBBS) and Arts (LLB)."
+    },
+    {
+      "question_id": "APT_014",
+      "question_text": "A train travels 200 km in 4 hours. What is its speed in km/h?",
+      "options": [
+        {"option_id": "A", "text": "40 km/h"},
+        {"option_id": "B", "text": "50 km/h"},
+        {"option_id": "C", "text": "60 km/h"},
+        {"option_id": "D", "text": "80 km/h"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Quantitative Reasoning", "score": 1},
+        "B": {"trait": "Quantitative Reasoning", "score": 4},
+        "C": {"trait": "Quantitative Reasoning", "score": 1},
+        "D": {"trait": "Quantitative Reasoning", "score": 1}
+      },
+      "explanation": "Speed = Distance ÷ Time = 200 km ÷ 4 h = 50 km/h. Quantitative skills suit Science (B.Tech) and Commerce (CA)."
+    },
+    {
+      "question_id": "APT_015",
+      "question_text": "Find the synonym for 'Candid':",
+      "options": [
+        {"option_id": "A", "text": "Deceptive"},
+        {"option_id": "B", "text": "Honest"},
+        {"option_id": "C", "text": "Reserved"},
+        {"option_id": "D", "text": "Cautious"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Verbal Reasoning", "score": 1},
+        "B": {"trait": "Verbal Reasoning", "score": 4},
+        "C": {"trait": "Verbal Reasoning", "score": 1},
+        "D": {"trait": "Verbal Reasoning", "score": 1}
+      },
+      "explanation": "Candid means honest. Verbal reasoning is key for Arts (B.A, Mass Communication)."
+    },
+    {
+      "question_id": "APT_016",
+      "question_text": "If 2x - 3 = 7, what is x?",
+      "options": [
+        {"option_id": "A", "text": "3"},
+        {"option_id": "B", "text": "4"},
+        {"option_id": "C", "text": "5"},
+        {"option_id": "D", "text": "6"}
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": {"trait": "Quantitative Reasoning", "score": 1},
+        "B": {"trait": "Quantitative Reasoning", "score": 1},
+        "C": {"trait": "Quantitative Reasoning", "score": 4},
+        "D": {"trait": "Quantitative Reasoning", "score": 1}
+      },
+      "explanation": "2x - 3 = 7 → 2x = 10 → x = 5. Algebraic skills suit Science (B.Tech, BCA) and Commerce (CA)."
+    },
+    {
+      "question_id": "APT_017",
+      "question_text": "What is the next term: 5, 10, 20, 40, ?",
+      "options": [
+        {"option_id": "A", "text": "60"},
+        {"option_id": "B", "text": "80"},
+        {"option_id": "C", "text": "100"},
+        {"option_id": "D", "text": "120"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Pattern Recognition", "score": 1},
+        "B": {"trait": "Pattern Recognition", "score": 4},
+        "C": {"trait": "Pattern Recognition", "score": 1},
+        "D": {"trait": "Pattern Recognition", "score": 1}
+      },
+      "explanation": "Each term doubles: 5 × 2 = 10, 10 × 2 = 20, 20 × 2 = 40, 40 × 2 = 80. Pattern recognition suits Science (BCS)."
+    },
+    {
+      "question_id": "APT_018",
+      "question_text": "If some birds fly and all eagles are birds, which is true?",
+      "options": [
+        {"option_id": "A", "text": "All eagles fly."},
+        {"option_id": "B", "text": "Some eagles fly."},
+        {"option_id": "C", "text": "Some birds are not eagles."},
+        {"option_id": "D", "text": "All birds are eagles."}
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": {"trait": "Logical Reasoning", "score": 1},
+        "B": {"trait": "Logical Reasoning", "score": 2},
+        "C": {"trait": "Logical Reasoning", "score": 4},
+        "D": {"trait": "Logical Reasoning", "score": 1}
+      },
+      "explanation": "Some birds are not eagles, as eagles are a subset of birds. Logical reasoning suits Science (MBBS) and Arts (LLB)."
+    },
+    {
+      "question_id": "APT_019",
+      "question_text": "A shirt costs $30 after a 10% discount. What was the original price?",
+      "options": [
+        {"option_id": "A", "text": "$32"},
+        {"option_id": "B", "text": "$33.33"},
+        {"option_id": "C", "text": "$35"},
+        {"option_id": "D", "text": "$36"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Quantitative Reasoning", "score": 1},
+        "B": {"trait": "Quantitative Reasoning", "score": 4},
+        "C": {"trait": "Quantitative Reasoning", "score": 1},
+        "D": {"trait": "Quantitative Reasoning", "score": 1}
+      },
+      "explanation": "Let original price = x. Then 0.9x = 30 → x = 30/0.9 = 33.33. Quantitative skills suit Commerce (CA, B.Com)."
+    },
+    {
+      "question_id": "APT_020",
+      "question_text": "Choose the word that completes the analogy: Teacher is to Classroom as Chef is to ?",
+      "options": [
+        {"option_id": "A", "text": "Kitchen"},
+        {"option_id": "B", "text": "Dining Room"},
+        {"option_id": "C", "text": "Market"},
+        {"option_id": "D", "text": "Garden"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Verbal Reasoning", "score": 4},
+        "B": {"trait": "Verbal Reasoning", "score": 1},
+        "C": {"trait": "Verbal Reasoning", "score": 1},
+        "D": {"trait": "Verbal Reasoning", "score": 1}
+      },
+      "explanation": "A teacher works in a classroom; a chef works in a kitchen. Verbal reasoning suits Arts (B.A, Mass Communication)."
+    },
+    {
+      "question_id": "APT_021",
+      "question_text": "If 4 workers build a wall in 12 days, how long will 6 workers take?",
+      "options": [
+        {"option_id": "A", "text": "6 days"},
+        {"option_id": "B", "text": "8 days"},
+        {"option_id": "C", "text": "10 days"},
+        {"option_id": "D", "text": "14 days"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Quantitative Reasoning", "score": 1},
+        "B": {"trait": "Quantitative Reasoning", "score": 4},
+        "C": {"trait": "Quantitative Reasoning", "score": 1},
+        "D": {"trait": "Quantitative Reasoning", "score": 1}
+      },
+      "explanation": "Total work = 4 workers × 12 days = 48 worker-days. With 6 workers, time = 48/6 = 8 days. Suits Science (B.Tech) and Commerce (CA)."
+    },
+    {
+      "question_id": "APT_022",
+      "question_text": "What is the next term: 7, 14, 28, 56, ?",
+      "options": [
+        {"option_id": "A", "text": "84"},
+        {"option_id": "B", "text": "112"},
+        {"option_id": "C", "text": "128"},
+        {"option_id": "D", "text": "140"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Pattern Recognition", "score": 1},
+        "B": {"trait": "Pattern Recognition", "score": 4},
+        "C": {"trait": "Pattern Recognition", "score": 1},
+        "D": {"trait": "Pattern Recognition", "score": 1}
+      },
+      "explanation": "Each term doubles: 7 × 2 = 14, 14 × 2 = 28, 28 × 2 = 56, 56 × 2 = 112. Pattern recognition suits Science (BCS)."
+    },
+    {
+      "question_id": "APT_023",
+      "question_text": "If all doctors are educated and some educated people are surgeons, which is true?",
+      "options": [
+        {"option_id": "A", "text": "All doctors are surgeons."},
+        {"option_id": "B", "text": "Some doctors are surgeons."},
+        {"option_id": "C", "text": "Some educated people are not doctors."},
+        {"option_id": "D", "text": "All surgeons are doctors."}
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": {"trait": "Logical Reasoning", "score": 1},
+        "B": {"trait": "Logical Reasoning", "score": 2},
+        "C": {"trait": "Logical Reasoning", "score": 4},
+        "D": {"trait": "Logical Reasoning", "score": 1}
+      },
+      "explanation": "Some educated people are not doctors, as doctors are a subset. Logical reasoning suits Science (MBBS) and Arts (LLB)."
+    },
+    {
+      "question_id": "APT_024",
+      "question_text": "A product costs $80 after a 20% markup. What was the original cost?",
+      "options": [
+        {"option_id": "A", "text": "$60"},
+        {"option_id": "B", "text": "$64"},
+        {"option_id": "C", "text": "$66.67"},
+        {"option_id": "D", "text": "$70"}
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": {"trait": "Quantitative Reasoning", "score": 1},
+        "B": {"trait": "Quantitative Reasoning", "score": 1},
+        "C": {"trait": "Quantitative Reasoning", "score": 4},
+        "D": {"trait": "Quantitative Reasoning", "score": 1}
+      },
+      "explanation": "Let original cost = x. Then 1.2x = 80 → x = 80/1.2 = 66.67. Quantitative skills suit Commerce (CA, B.Com)."
+    },
+    {
+      "question_id": "APT_025",
+      "question_text": "Find the antonym for 'Vivid':",
+      "options": [
+        {"option_id": "A", "text": "Bright"},
+        {"option_id": "B", "text": "Dull"},
+        {"option_id": "C", "text": "Colorful"},
+        {"option_id": "D", "text": "Lively"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Verbal Reasoning", "score": 1},
+        "B": {"trait": "Verbal Reasoning", "score": 4},
+        "C": {"trait": "Verbal Reasoning", "score": 1},
+        "D": {"trait": "Verbal Reasoning", "score": 1}
+      },
+      "explanation": "Vivid means bright or lively; its antonym is dull. Verbal reasoning suits Arts (B.A, Mass Communication)."
+    }
+  ]
+}

@@ -1,0 +1,549 @@
+{
+  "test_category": "Academic",
+  "class": "Undergraduate",
+  "stream": "Commerce",
+  "course": "BMS",
+  "description": "Assesses General Knowledge, Commerce, and History for undergraduate students pursuing BMS to guide academic and career choices.",
+  "questions": [
+    {
+      "question_id": "ACAD_UGBMS_001",
+      "question_text": "Which Indian body accredits management institutions offering BMS programs?",
+      "options": [
+        {"option_id": "A", "text": "National Board of Accreditation"},
+        {"option_id": "B", "text": "Securities and Exchange Board of India"},
+        {"option_id": "C", "text": "Medical Council of India"},
+        {"option_id": "D", "text": "Bar Council of India"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "NBA accredits management institutions. Accreditation knowledge is essential for BMS (Education Quality)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_002",
+      "question_text": "Which Indian city is a major hub for BMS programs, like Mumbai?",
+      "options": [
+        {"option_id": "A", "text": "Mumbai"},
+        {"option_id": "B", "text": "Jaipur"},
+        {"option_id": "C", "text": "Lucknow"},
+        {"option_id": "D", "text": "Patna"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Mumbai is a hub for BMS programs. Regional knowledge is key for BMS (Management Education)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_003",
+      "question_text": "What does the acronym ‘ERP’ stand for in business management?",
+      "options": [
+        {"option_id": "A", "text": "Employee Retention Plan"},
+        {"option_id": "B", "text": "Enterprise Resource Planning"},
+        {"option_id": "C", "text": "Economic Recovery Program"},
+        {"option_id": "D", "text": "Export Regulation Policy"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "ERP stands for Enterprise Resource Planning. Systems knowledge supports BMS (Business Systems)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_004",
+      "question_text": "Which Indian institute is known for management studies, like Xavier Institute of Management?",
+      "options": [
+        {"option_id": "A", "text": "Xavier Institute of Management, Bhubaneswar"},
+        {"option_id": "B", "text": "Indian Institute of Technology, Kanpur"},
+        {"option_id": "C", "text": "National Institute of Fashion Technology"},
+        {"option_id": "D", "text": "Indian Veterinary Research Institute"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "XIMB is known for management studies. Institutional knowledge is vital for BMS students."
+    },
+    {
+      "question_id": "ACAD_UGBMS_005",
+      "question_text": "Which global organization sets standards for quality management systems, like ISO?",
+      "options": [
+        {"option_id": "A", "text": "International Organization for Standardization"},
+        {"option_id": "B", "text": "World Health Organization"},
+        {"option_id": "C", "text": "International Labour Organization"},
+        {"option_id": "D", "text": "United Nations Development Programme"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "ISO sets quality management standards. Standards knowledge is key for BMS (Operations Management)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_006",
+      "question_text": "Which Indian state is known for its business schools, like Symbiosis in Pune?",
+      "options": [
+        {"option_id": "A", "text": "Maharashtra"},
+        {"option_id": "B", "text": "Gujarat"},
+        {"option_id": "C", "text": "Kerala"},
+        {"option_id": "D", "text": "Tamil Nadu"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Maharashtra’s Pune hosts Symbiosis. Educational hub knowledge supports BMS (Management Education)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_007",
+      "question_text": "Which Indian policy promotes ease of doing business, like the Business Reforms Action Plan?",
+      "options": [
+        {"option_id": "A", "text": "Business Reforms Action Plan"},
+        {"option_id": "B", "text": "Pradhan Mantri Awas Yojana"},
+        {"option_id": "C", "text": "Ayushman Bharat"},
+        {"option_id": "D", "text": "Beti Bachao Beti Padhao"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "BRAP promotes ease of doing business. Policy knowledge is essential for BMS (Business Environment)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_008",
+      "question_text": "Which Indian conglomerate is known for its diverse business portfolio, like Aditya Birla Group?",
+      "options": [
+        {"option_id": "A", "text": "Aditya Birla Group"},
+        {"option_id": "B", "text": "HCL Technologies"},
+        {"option_id": "C", "text": "Bajaj Auto"},
+        {"option_id": "D", "text": "Dr. Reddy’s Laboratories"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Aditya Birla Group has a diverse portfolio. Corporate knowledge is vital for BMS (Business Strategy)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_009",
+      "question_text": "Which global consulting firm is known for management strategies, like McKinsey & Company?",
+      "options": [
+        {"option_id": "A", "text": "McKinsey & Company"},
+        {"option_id": "B", "text": "Goldman Sachs"},
+        {"option_id": "C", "text": "JP Morgan Chase"},
+        {"option_id": "D", "text": "Morgan Stanley"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "McKinsey is known for management consulting. Industry knowledge supports BMS (Management Consulting)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_010",
+      "question_text": "Which Indian city hosts the headquarters of FICCI, a key business organization?",
+      "options": [
+        {"option_id": "A", "text": "New Delhi"},
+        {"option_id": "B", "text": "Mumbai"},
+        {"option_id": "C", "text": "Chennai"},
+        {"option_id": "D", "text": "Bengaluru"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "FICCI is headquartered in New Delhi. Organizational knowledge is key for BMS (Business Policy)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_011",
+      "question_text": "What is the primary purpose of organizational behavior in management?",
+      "options": [
+        {"option_id": "A", "text": "Study employee behavior and motivation"},
+        {"option_id": "B", "text": "Manage financial investments"},
+        {"option_id": "C", "text": "Design product prototypes"},
+        {"option_id": "D", "text": "Conduct market research"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Organizational behavior studies employee motivation. Behavioral knowledge is crucial for BMS (Organizational Behavior)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_012",
+      "question_text": "What does PESTLE analysis evaluate in business?",
+      "options": [
+        {"option_id": "A", "text": "Product, Efficiency, Standards, Technology, Labor, Environment"},
+        {"option_id": "B", "text": "Political, Economic, Social, Technological, Legal, Environmental"},
+        {"option_id": "C", "text": "Performance, Employment, Systems, Trends, Logistics, Ethics"},
+        {"option_id": "D", "text": "Plan, Execute, Study, Transition, Learn, Expand"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "PESTLE analyzes external business factors. Strategic knowledge is essential for BMS (Strategic Management)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_013",
+      "question_text": "What is the primary focus of operations management?",
+      "options": [
+        {"option_id": "A", "text": "Optimize production and service delivery"},
+        {"option_id": "B", "text": "Develop advertising campaigns"},
+        {"option_id": "C", "text": "Manage corporate finances"},
+        {"option_id": "D", "text": "Recruit senior executives"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Operations management optimizes processes. Operations knowledge is key for BMS (Operations Management)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_014",
+      "question_text": "What is the term for a business entity formed by two or more individuals?",
+      "options": [
+        {"option_id": "A", "text": "Sole Proprietorship"},
+        {"option_id": "B", "text": "Partnership"},
+        {"option_id": "C", "text": "Limited Liability Company"},
+        {"option_id": "D", "text": "Public Limited Company"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Partnership involves multiple owners. Business structure knowledge is vital for BMS (Business Organization)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_015",
+      "question_text": "What is the primary goal of total quality management (TQM)?",
+      "options": [
+        {"option_id": "A", "text": "Reduce production costs"},
+        {"option_id": "B", "text": "Enhance product and service quality"},
+        {"option_id": "C", "text": "Increase market share"},
+        {"option_id": "D", "text": "Expand workforce"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "TQM enhances quality. Quality management knowledge is essential for BMS (Operations Management)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_016",
+      "question_text": "What does MIS stand for in business management?",
+      "options": [
+        {"option_id": "A", "text": "Market Intelligence System"},
+        {"option_id": "B", "text": "Management Information System"},
+        {"option_id": "C", "text": "Manufacturing Integration System"},
+        {"option_id": "D", "text": "Monetary Incentive Scheme"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "MIS supports decision-making with data. Systems knowledge is key for BMS (Business Systems)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_017",
+      "question_text": "What is the term for the process of assigning tasks to employees?",
+      "options": [
+        {"option_id": "A", "text": "Delegation"},
+        {"option_id": "B", "text": "Segmentation"},
+        {"option_id": "C", "text": "Forecasting"},
+        {"option_id": "D", "text": "Auditing"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Delegation assigns tasks. Management knowledge is vital for BMS (Organizational Behavior)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_018",
+      "question_text": "What is the primary focus of business process reengineering?",
+      "options": [
+        {"option_id": "A", "text": "Redesign processes to improve efficiency"},
+        {"option_id": "B", "text": "Develop new products"},
+        {"option_id": "C", "text": "Conduct financial audits"},
+        {"option_id": "D", "text": "Create marketing plans"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Reengineering improves process efficiency. Process knowledge is essential for BMS (Operations Management)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_019",
+      "question_text": "What is the term for a company’s long-term objectives and direction?",
+      "options": [
+        {"option_id": "A", "text": "Vision"},
+        {"option_id": "B", "text": "Tactic"},
+        {"option_id": "C", "text": "Operation"},
+        {"option_id": "D", "text": "Transaction"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Vision defines long-term goals. Strategic knowledge is key for BMS (Strategic Management)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_020",
+      "question_text": "What is the primary purpose of benchmarking in management?",
+      "options": [
+        {"option_id": "A", "text": "Compare performance with industry standards"},
+        {"option_id": "B", "text": "Calculate employee salaries"},
+        {"option_id": "C", "text": "Design product prototypes"},
+        {"option_id": "D", "text": "Plan advertising campaigns"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Benchmarking compares performance. Performance knowledge is vital for BMS (Business Systems)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_021",
+      "question_text": "In which year was the Federation of Indian Chambers of Commerce and Industry (FICCI) established?",
+      "options": [
+        {"option_id": "A", "text": "1927"},
+        {"option_id": "B", "text": "1917"},
+        {"option_id": "C", "text": "1937"},
+        {"option_id": "D", "text": "1947"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "FICCI was established in 1927. Industry history is relevant for BMS (Business Policy)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_022",
+      "question_text": "Who founded the Aditya Birla Group?",
+      "options": [
+        {"option_id": "A", "text": "Ghanshyam Das Birla"},
+        {"option_id": "B", "text": "Kumar Mangalam Birla"},
+        {"option_id": "C", "text": "Aditya Vikram Birla"},
+        {"option_id": "D", "text": "Basant Kumar Birla"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Ghanshyam Das Birla founded the Aditya Birla Group. Corporate history is key for BMS (Business History)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_023",
+      "question_text": "In which year was the Indian Contract Act, governing business agreements, enacted?",
+      "options": [
+        {"option_id": "A", "text": "1872"},
+        {"option_id": "B", "text": "1862"},
+        {"option_id": "C", "text": "1882"},
+        {"option_id": "D", "text": "1892"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Indian Contract Act was enacted in 1872. Legal history is relevant for BMS (Business Law)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_024",
+      "question_text": "In which year was the International Organization for Standardization (ISO) founded?",
+      "options": [
+        {"option_id": "A", "text": "1947"},
+        {"option_id": "B", "text": "1937"},
+        {"option_id": "C", "text": "1957"},
+        {"option_id": "D", "text": "1967"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "ISO was founded in 1947. Standards history is key for BMS (Operations Management)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_025",
+      "question_text": "Who is known as the father of modern management?",
+      "options": [
+        {"option_id": "A", "text": "Peter Drucker"},
+        {"option_id": "B", "text": "Frederick Taylor"},
+        {"option_id": "C", "text": "Elton Mayo"},
+        {"option_id": "D", "text": "Max Weber"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Peter Drucker is the father of modern management. Management history is relevant for BMS (Management Theory)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_026",
+      "question_text": "In which year was the Digital India initiative launched to enhance business connectivity?",
+      "options": [
+        {"option_id": "A", "text": "2015"},
+        {"option_id": "B", "text": "2013"},
+        {"option_id": "C", "text": "2017"},
+        {"option_id": "D", "text": "2011"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Digital India was launched in 2015. Policy history is key for BMS (Business Environment)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_027",
+      "question_text": "Who was the first president of FICCI?",
+      "options": [
+        {"option_id": "A", "text": "Purshottamdas Thakurdas"},
+        {"option_id": "B", "text": "Jamnalal Bajaj"},
+        {"option_id": "C", "text": "Ghanshyam Das Birla"},
+        {"option_id": "D", "text": "Lala Shri Ram"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Purshottamdas Thakurdas was FICCI’s first president in 1927. Industry history is relevant for BMS (Business Policy)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_028",
+      "question_text": "In which year was the Xavier Institute of Management, Bhubaneswar, established?",
+      "options": [
+        {"option_id": "A", "text": "1987"},
+        {"option_id": "B", "text": "1977"},
+        {"option_id": "C", "text": "1997"},
+        {"option_id": "D", "text": "1967"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "XIMB was established in 1987. Institutional history is key for BMS (Management Education)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_029",
+      "question_text": "In which year was the Sale of Goods Act, governing business transactions, enacted in India?",
+      "options": [
+        {"option_id": "A", "text": "1930"},
+        {"option_id": "B", "text": "1920"},
+        {"option_id": "C", "text": "1940"},
+        {"option_id": "D", "text": "1910"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Sale of Goods Act was enacted in 1930. Legal history is relevant for BMS (Business Law)."
+    },
+    {
+      "question_id": "ACAD_UGBMS_030",
+      "question_text": "Who developed the Hawthorne Studies, impacting organizational behavior?",
+      "options": [
+        {"option_id": "A", "text": "Elton Mayo"},
+        {"option_id": "B", "text": "Henry Fayol"},
+        {"option_id": "C", "text": "Frederick Taylor"},
+        {"option_id": "D", "text": "Peter Drucker"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Elton Mayo led the Hawthorne Studies in the 1920s-30s. Management history is key for BMS (Organizational Behavior)."
+    }
+  ]
+}

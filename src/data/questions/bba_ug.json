@@ -1,0 +1,305 @@
+{
+  "stream": "UG - BBA",
+  "questions": [
+    {
+      "question": "Which of the following is a key function of management?",
+      "options": [
+        "Planning",
+        "Organizing",
+        "Controlling",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "The term 'SWOT' in business strategy stands for?",
+      "options": [
+        "Strengths, Weaknesses, Opportunities, Threats",
+        "System, Work, Output, Time",
+        "Success, Work, Output, Talent",
+        "Strategy, Weakness, Organization, Task"
+      ],
+      "answer": "Strengths, Weaknesses, Opportunities, Threats"
+    },
+    {
+      "question": "Which financial statement shows a company's assets and liabilities?",
+      "options": [
+        "Income Statement",
+        "Balance Sheet",
+        "Cash Flow Statement",
+        "Budget Report"
+      ],
+      "answer": "Balance Sheet"
+    },
+    {
+      "question": "What does HRM stand for?",
+      "options": [
+        "Human Resource Management",
+        "Human Research Management",
+        "High Resource Management",
+        "Human Responsibility Measure"
+      ],
+      "answer": "Human Resource Management"
+    },
+    {
+      "question": "Which of the following is NOT a marketing mix element?",
+      "options": [
+        "Product",
+        "Price",
+        "Promotion",
+        "Profit"
+      ],
+      "answer": "Profit"
+    },
+    {
+      "question": "In economics, demand refers to?",
+      "options": [
+        "Desire to purchase",
+        "Ability to purchase",
+        "Willingness and ability to purchase",
+        "All of the above"
+      ],
+      "answer": "Willingness and ability to purchase"
+    },
+    {
+      "question": "The break-even point occurs when?",
+      "options": [
+        "Total revenue = Total cost",
+        "Total cost > Total revenue",
+        "Total cost < Total revenue",
+        "None of the above"
+      ],
+      "answer": "Total revenue = Total cost"
+    },
+    {
+      "question": "Which of the following is NOT a type of market structure?",
+      "options": [
+        "Perfect competition",
+        "Monopoly",
+        "Oligopoly",
+        "Barter system"
+      ],
+      "answer": "Barter system"
+    },
+    {
+      "question": "What is the main purpose of financial accounting?",
+      "options": [
+        "To plan budgets",
+        "To keep track of revenues",
+        "To provide financial information to external users",
+        "To conduct internal audits"
+      ],
+      "answer": "To provide financial information to external users"
+    },
+    {
+      "question": "The term 'brand equity' refers to?",
+      "options": [
+        "The price of the brand",
+        "The awareness and value of a brand in the minds of consumers",
+        "A brand\u2019s market share",
+        "Total inventory cost"
+      ],
+      "answer": "The awareness and value of a brand in the minds of consumers"
+    },
+    {
+      "question": "Which law states that 'Bad money drives out good'?",
+      "options": [
+        "Gresham's Law",
+        "Say's Law",
+        "Keynes' Law",
+        "Law of Demand"
+      ],
+      "answer": "Gresham's Law"
+    },
+    {
+      "question": "A balance sheet is typically prepared?",
+      "options": [
+        "Annually",
+        "Quarterly",
+        "Monthly",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "The concept of 'division of labor' was popularized by?",
+      "options": [
+        "Adam Smith",
+        "Karl Marx",
+        "David Ricardo",
+        "John Keynes"
+      ],
+      "answer": "Adam Smith"
+    },
+    {
+      "question": "Which of these is not a direct tax?",
+      "options": [
+        "Income Tax",
+        "Property Tax",
+        "Sales Tax",
+        "Corporate Tax"
+      ],
+      "answer": "Sales Tax"
+    },
+    {
+      "question": "Which is not a function of the Reserve Bank of India?",
+      "options": [
+        "Currency Issuance",
+        "Monetary Policy Regulation",
+        "Fiscal Policy Implementation",
+        "Foreign Exchange Management"
+      ],
+      "answer": "Fiscal Policy Implementation"
+    },
+    {
+      "question": "Who is known as the Father of Modern Management?",
+      "options": [
+        "Henry Fayol",
+        "Peter Drucker",
+        "Elton Mayo",
+        "Frederick Taylor"
+      ],
+      "answer": "Peter Drucker"
+    },
+    {
+      "question": "Which of the following is an intangible asset?",
+      "options": [
+        "Land",
+        "Buildings",
+        "Goodwill",
+        "Machinery"
+      ],
+      "answer": "Goodwill"
+    },
+    {
+      "question": "Which financial ratio indicates a firm's liquidity?",
+      "options": [
+        "Current Ratio",
+        "Debt Ratio",
+        "Inventory Turnover",
+        "Return on Equity"
+      ],
+      "answer": "Current Ratio"
+    },
+    {
+      "question": "In marketing, the 4Ps are Product, Price, Promotion and?",
+      "options": [
+        "Place",
+        "Profit",
+        "Production",
+        "Planning"
+      ],
+      "answer": "Place"
+    },
+    {
+      "question": "GDP measures?",
+      "options": [
+        "Total tax collected",
+        "Income of the government",
+        "Total value of goods and services produced",
+        "Total imports and exports"
+      ],
+      "answer": "Total value of goods and services produced"
+    },
+    {
+      "question": "A sole proprietorship is owned by?",
+      "options": [
+        "One person",
+        "Two partners",
+        "A company",
+        "Shareholders"
+      ],
+      "answer": "One person"
+    },
+    {
+      "question": "The time value of money means?",
+      "options": [
+        "Money today is worth more than tomorrow",
+        "Money tomorrow is worth more",
+        "Money has no time value",
+        "Only applicable to banks"
+      ],
+      "answer": "Money today is worth more than tomorrow"
+    },
+    {
+      "question": "Which document outlines the goals of a business?",
+      "options": [
+        "Mission Statement",
+        "Balance Sheet",
+        "Invoice",
+        "Audit Report"
+      ],
+      "answer": "Mission Statement"
+    },
+    {
+      "question": "Who prepares the annual budget in India?",
+      "options": [
+        "Finance Minister",
+        "Prime Minister",
+        "RBI",
+        "SEBI"
+      ],
+      "answer": "Finance Minister"
+    },
+    {
+      "question": "Which of the following is an example of e-commerce?",
+      "options": [
+        "Online shopping",
+        "Retail store purchase",
+        "Factory outlet",
+        "Local fair"
+      ],
+      "answer": "Online shopping"
+    },
+    {
+      "question": "What is CRM in business?",
+      "options": [
+        "Customer Relationship Management",
+        "Cash Return Method",
+        "Cost Revenue Management",
+        "Customer Refund Management"
+      ],
+      "answer": "Customer Relationship Management"
+    },
+    {
+      "question": "Which leadership style involves the leader making decisions alone?",
+      "options": [
+        "Autocratic",
+        "Democratic",
+        "Laissez-faire",
+        "Charismatic"
+      ],
+      "answer": "Autocratic"
+    },
+    {
+      "question": "ISO stands for?",
+      "options": [
+        "International Standards Organization",
+        "Indian Sales Operation",
+        "Internal Service Output",
+        "Industry Standard Office"
+      ],
+      "answer": "International Standards Organization"
+    },
+    {
+      "question": "Which is not a function of marketing?",
+      "options": [
+        "Financing",
+        "Promotion",
+        "Distribution",
+        "Production"
+      ],
+      "answer": "Production"
+    },
+    {
+      "question": "When expenses exceed income, it is known as?",
+      "options": [
+        "Profit",
+        "Break-even",
+        "Deficit",
+        "Surplus"
+      ],
+      "answer": "Deficit"
+    }
+  ]
+}

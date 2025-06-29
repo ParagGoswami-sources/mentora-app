@@ -1,0 +1,549 @@
+{
+  "test_category": "Academic",
+  "class": "Undergraduate",
+  "stream": "Science",
+  "course": "BCA",
+  "description": "Assesses General Knowledge, Science, and History for undergraduate students pursuing BCA to guide academic and career choices.",
+  "questions": [
+    {
+      "question_id": "ACAD_UGBCA_001",
+      "question_text": "Which Indian body regulates technical education, including BCA programs?",
+      "options": [
+        {"option_id": "A", "text": "All India Council for Technical Education"},
+        {"option_id": "B", "text": "University Grants Commission"},
+        {"option_id": "C", "text": "National Council of Educational Research and Training"},
+        {"option_id": "D", "text": "Medical Council of India"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "AICTE regulates technical education. Regulatory knowledge is essential for BCA (Education Governance)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_002",
+      "question_text": "Which Indian city is known as a hub for IT education, hosting institutes like IIIT?",
+      "options": [
+        {"option_id": "A", "text": "Bengaluru"},
+        {"option_id": "B", "text": "Jaipur"},
+        {"option_id": "C", "text": "Bhopal"},
+        {"option_id": "D", "text": "Guwahati"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Bengaluru is an IT education hub. Regional knowledge is key for BCA (IT Industry)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_003",
+      "question_text": "What does the acronym ‘SQL’ stand for in database management?",
+      "options": [
+        {"option_id": "A", "text": "Structured Query Language"},
+        {"option_id": "B", "text": "System Query Logic"},
+        {"option_id": "C", "text": "Sequential Query Language"},
+        {"option_id": "D", "text": "Standardized Query Logic"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "SQL stands for Structured Query Language. Database knowledge supports BCA (Database Management)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_004",
+      "question_text": "Which Indian institute is renowned for BCA programs, like Christ University?",
+      "options": [
+        {"option_id": "A", "text": "Christ University, Bengaluru"},
+        {"option_id": "B", "text": "Indian Institute of Science, Bengaluru"},
+        {"option_id": "C", "text": "National Institute of Technology, Trichy"},
+        {"option_id": "D", "text": "All India Institute of Medical Sciences, Delhi"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Christ University is renowned for BCA. Institutional knowledge is vital for BCA students."
+    },
+    {
+      "question_id": "ACAD_UGBCA_005",
+      "question_text": "Which global organization sets standards for information security, like ISO/IEC 27001?",
+      "options": [
+        {"option_id": "A", "text": "International Organization for Standardization"},
+        {"option_id": "B", "text": "World Health Organization"},
+        {"option_id": "C", "text": "International Telecommunication Union"},
+        {"option_id": "D", "text": "United Nations Educational, Scientific and Cultural Organization"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "ISO sets information security standards. Security knowledge is key for BCA (Cybersecurity)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_006",
+      "question_text": "Which Indian state is known for its IT industry, like Hyderabad’s Cyberabad?",
+      "options": [
+        {"option_id": "A", "text": "Telangana"},
+        {"option_id": "B", "text": "Odisha"},
+        {"option_id": "C", "text": "Uttarakhand"},
+        {"option_id": "D", "text": "Bihar"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Telangana’s Hyderabad is an IT hub. Industry knowledge supports BCA (IT Industry)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_007",
+      "question_text": "Which Indian initiative promotes digital infrastructure, like Digital India?",
+      "options": [
+        {"option_id": "A", "text": "Digital India"},
+        {"option_id": "B", "text": "Make in India"},
+        {"option_id": "C", "text": "Skill India"},
+        {"option_id": "D", "text": "Startup India"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Digital India promotes digital infrastructure. Policy knowledge is essential for BCA (IT Policy)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_008",
+      "question_text": "Which Indian company is a leader in IT services, like TCS?",
+      "options": [
+        {"option_id": "A", "text": "Tata Consultancy Services"},
+        {"option_id": "B", "text": "Reliance Industries"},
+        {"option_id": "C", "text": "Bajaj Auto"},
+        {"option_id": "D", "text": "Adani Enterprises"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "TCS is a leader in IT services. Corporate knowledge is vital for BCA (IT Industry)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_009",
+      "question_text": "Which global tech company developed the Python programming language?",
+      "options": [
+        {"option_id": "A", "text": "Microsoft"},
+        {"option_id": "B", "text": "Google"},
+        {"option_id": "C", "text": "Centrum Wiskunde & Informatica"},
+        {"option_id": "D", "text": "IBM"}
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 4},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Python was developed by Guido van Rossum at CWI. Programming knowledge supports BCA (Programming)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_010",
+      "question_text": "Which Indian city hosts the headquarters of NASSCOM, the IT industry body?",
+      "options": [
+        {"option_id": "A", "text": "New Delhi"},
+        {"option_id": "B", "text": "Mumbai"},
+        {"option_id": "C", "text": "Pune"},
+        {"option_id": "D", "text": "Kolkata"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "NASSCOM is headquartered in New Delhi. Industry knowledge is key for BCA (IT Policy)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_011",
+      "question_text": "What is the primary function of an operating system?",
+      "options": [
+        {"option_id": "A", "text": "Manage hardware and software resources"},
+        {"option_id": "B", "text": "Design user interfaces"},
+        {"option_id": "C", "text": "Perform data analysis"},
+        {"option_id": "D", "text": "Create web pages"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "An OS manages resources. System knowledge is crucial for BCA (Operating Systems)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_012",
+      "question_text": "What does HTML stand for in web development?",
+      "options": [
+        {"option_id": "A", "text": "HyperText Markup Language"},
+        {"option_id": "B", "text": "High-Level Text Management Language"},
+        {"option_id": "C", "text": "Hyperlink Text Modeling Language"},
+        {"option_id": "D", "text": "Hybrid Text Manipulation Language"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "HTML is HyperText Markup Language. Web development knowledge is essential for BCA (Web Development)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_013",
+      "question_text": "What is the primary purpose of a database management system (DBMS)?",
+      "options": [
+        {"option_id": "A", "text": "Create graphical user interfaces"},
+        {"option_id": "B", "text": "Store, manage, and retrieve data"},
+        {"option_id": "C", "text": "Compile programming code"},
+        {"option_id": "D", "text": "Design network protocols"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "DBMS manages data. Database knowledge is key for BCA (Database Management)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_014",
+      "question_text": "What is an algorithm in computer science?",
+      "options": [
+        {"option_id": "A", "text": "A set of instructions to solve a problem"},
+        {"option_id": "B", "text": "A programming language"},
+        {"option_id": "C", "text": "A hardware component"},
+        {"option_id": "D", "text": "A user interface design"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "An algorithm solves problems. Programming knowledge is vital for BCA (Programming)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_015",
+      "question_text": "What is the primary function of a compiler?",
+      "options": [
+        {"option_id": "A", "text": "Convert high-level code to machine code"},
+        {"option_id": "B", "text": "Design network architectures"},
+        {"option_id": "C", "text": "Manage database queries"},
+        {"option_id": "D", "text": "Create web graphics"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "A compiler translates code. Programming knowledge is essential for BCA (Software Development)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_016",
+      "question_text": "What does LAN stand for in networking?",
+      "options": [
+        {"option_id": "A", "text": "Local Area Network"},
+        {"option_id": "B", "text": "Logical Access Node"},
+        {"option_id": "C", "text": "Linked Application Network"},
+        {"option_id": "D", "text": "Longitudinal Access Network"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "LAN is Local Area Network. Networking knowledge is key for BCA (Networking)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_017",
+      "question_text": "What is the primary purpose of object-oriented programming (OOP)?",
+      "options": [
+        {"option_id": "A", "text": "Organize code using objects and classes"},
+        {"option_id": "B", "text": "Manage hardware components"},
+        {"option_id": "C", "text": "Create database schemas"},
+        {"option_id": "D", "text": "Design user interfaces"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "OOP organizes code. Programming knowledge is vital for BCA (Software Development)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_018",
+      "question_text": "What is the function of a firewall in network security?",
+      "options": [
+        {"option_id": "A", "text": "Monitor and control network traffic"},
+        {"option_id": "B", "text": "Compile software code"},
+        {"option_id": "C", "text": "Store user data"},
+        {"option_id": "D", "text": "Design web layouts"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "A firewall controls traffic. Security knowledge is essential for BCA (Cybersecurity)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_019",
+      "question_text": "What is the primary role of a software development life cycle (SDLC)?",
+      "options": [
+        {"option_id": "A", "text": "Guide the software development process"},
+        {"option_id": "B", "text": "Manage hardware installations"},
+        {"option_id": "C", "text": "Create marketing plans"},
+        {"option_id": "D", "text": "Analyze financial data"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "SDLC guides development. Process knowledge is key for BCA (Software Engineering)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_020",
+      "question_text": "What does CSS stand for in web development?",
+      "options": [
+        {"option_id": "A", "text": "Cascading Style Sheets"},
+        {"option_id": "B", "text": "Centralized System Software"},
+        {"option_id": "C", "text": "Compiled Style Syntax"},
+        {"option_id": "D", "text": "Core System Standards"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "CSS is Cascading Style Sheets. Web development knowledge is vital for BCA (Web Development)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_021",
+      "question_text": "In which year was the Indian Institute of Technology, Kanpur, established?",
+      "options": [
+        {"option_id": "A", "text": "1959"},
+        {"option_id": "B", "text": "1949"},
+        {"option_id": "C", "text": "1969"},
+        {"option_id": "D", "text": "1979"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "IIT Kanpur was established in 1959. Institutional history is relevant for BCA (Technical Education)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_022",
+      "question_text": "Who founded Tata Consultancy Services (TCS)?",
+      "options": [
+        {"option_id": "A", "text": "J.R.D. Tata"},
+        {"option_id": "B", "text": "Ratan Tata"},
+        {"option_id": "C", "text": "Jamsetji Tata"},
+        {"option_id": "D", "text": "Cyrus Mistry"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "J.R.D. Tata founded TCS in 1968. Corporate history is key for BCA (IT Industry)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_023",
+      "question_text": "In which year was the Information Technology Act enacted in India?",
+      "options": [
+        {"option_id": "A", "text": "2000"},
+        {"option_id": "B", "text": "1990"},
+        {"option_id": "C", "text": "2010"},
+        {"option_id": "D", "text": "1980"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The IT Act was enacted in 2000. Legal history is relevant for BCA (Cyber Law)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_024",
+      "question_text": "In which year was the Python programming language first released?",
+      "options": [
+        {"option_id": "A", "text": "1991"},
+        {"option_id": "B", "text": "1981"},
+        {"option_id": "C", "text": "2001"},
+        {"option_id": "D", "text": "1971"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Python was released in 1991. Programming history is key for BCA (Programming)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_025",
+      "question_text": "Who developed the C programming language?",
+      "options": [
+        {"option_id": "A", "text": "Dennis Ritchie"},
+        {"option_id": "B", "text": "Guido van Rossum"},
+        {"option_id": "C", "text": "James Gosling"},
+        {"option_id": "D", "text": "Bjarne Stroustrup"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Dennis Ritchie developed C in the 1970s. Programming history is relevant for BCA (Programming)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_026",
+      "question_text": "In which year was the Digital India initiative launched?",
+      "options": [
+        {"option_id": "A", "text": "2015"},
+        {"option_id": "B", "text": "2013"},
+        {"option_id": "C", "text": "2017"},
+        {"option_id": "D", "text": "2011"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Digital India was launched in 2015. Policy history is key for BCA (IT Policy)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_027",
+      "question_text": "In which year was NASSCOM established?",
+      "options": [
+        {"option_id": "A", "text": "1988"},
+        {"option_id": "B", "text": "1978"},
+        {"option_id": "C", "text": "1998"},
+        {"option_id": "D", "text": "1968"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "NASSCOM was established in 1988. Industry history is relevant for BCA (IT Industry)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_028",
+      "question_text": "Who developed the Java programming language?",
+      "options": [
+        {"option_id": "A", "text": "James Gosling"},
+        {"option_id": "B", "text": "Dennis Ritchie"},
+        {"option_id": "C", "text": "Guido van Rossum"},
+        {"option_id": "D", "text": "Bjarne Stroustrup"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "James Gosling developed Java in 1995. Programming history is key for BCA (Programming)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_029",
+      "question_text": "In which year was the first Indian Institute of Information Technology (IIIT) established?",
+      "options": [
+        {"option_id": "A", "text": "1998"},
+        {"option_id": "B", "text": "1988"},
+        {"option_id": "C", "text": "2008"},
+        {"option_id": "D", "text": "1978"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The first IIIT was established in 1998. Institutional history is key for BCA (Technical Education)."
+    },
+    {
+      "question_id": "ACAD_UGBCA_030",
+      "question_text": "In which year was the Internet first introduced in India?",
+      "options": [
+        {"option_id": "A", "text": "1995"},
+        {"option_id": "B", "text": "1985"},
+        {"option_id": "C", "text": "2005"},
+        {"option_id": "D", "text": "1975"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Internet was introduced in India in 1995. Technology history is key for BCA (IT History)."
+    }
+  ]
+}

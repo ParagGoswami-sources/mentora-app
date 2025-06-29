@@ -1,0 +1,549 @@
+{
+  "test_category": "Academic",
+  "class": "11th/12th Standard",
+  "stream": "Science",
+  "course": "MBBS",
+  "description": "Assesses General Knowledge, Science, and History for 11th/12th-grade students in the Science stream pursuing MBBS to guide academic and career choices.",
+  "questions": [
+    {
+      "question_id": "ACAD_11MBBS_001",
+      "question_text": "What is the full form of WHO in the context of global health?",
+      "options": [
+        {"option_id": "A", "text": "World Health Organization"},
+        {"option_id": "B", "text": "World Humanitarian Organization"},
+        {"option_id": "C", "text": "Wellness and Health Office"},
+        {"option_id": "D", "text": "World Hygiene Organization"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "WHO stands for World Health Organization. Knowledge of global health bodies is essential for MBBS (Public Health)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_002",
+      "question_text": "Which Indian city is home to the All India Institute of Medical Sciences (AIIMS)?",
+      "options": [
+        {"option_id": "A", "text": "Mumbai"},
+        {"option_id": "B", "text": "Delhi"},
+        {"option_id": "C", "text": "Chennai"},
+        {"option_id": "D", "text": "Kolkata"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "AIIMS is located in Delhi. Medical education knowledge is key for MBBS aspirants."
+    },
+    {
+      "question_id": "ACAD_11MBBS_003",
+      "question_text": "What is the currency of Switzerland, home to the WHO headquarters?",
+      "options": [
+        {"option_id": "A", "text": "Euro"},
+        {"option_id": "B", "text": "Swiss Franc"},
+        {"option_id": "C", "text": "Pound"},
+        {"option_id": "D", "text": "Dollar"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Swiss Franc is Switzerland's currency. Global awareness supports MBBS (International Medicine)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_004",
+      "question_text": "Which international organization coordinates global responses to pandemics?",
+      "options": [
+        {"option_id": "A", "text": "UNICEF"},
+        {"option_id": "B", "text": "WHO"},
+        {"option_id": "C", "text": "UNESCO"},
+        {"option_id": "D", "text": "FAO"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "WHO coordinates pandemic responses. Public health knowledge is vital for MBBS (Epidemiology)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_005",
+      "question_text": "What is the capital city of Brazil, a country known for tropical disease research?",
+      "options": [
+        {"option_id": "A", "text": "Rio de Janeiro"},
+        {"option_id": "B", "text": "São Paulo"},
+        {"option_id": "C", "text": "Brasília"},
+        {"option_id": "D", "text": "Salvador"}
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 4},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Brasilia is Brazil's capital. Global health research knowledge is relevant for MBBS (Tropical Medicine)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_006",
+      "question_text": "Which Indian state is known for the Christian Medical College (CMC)?",
+      "options": [
+        {"option_id": "A", "text": "Kerala"},
+        {"option_id": "B", "text": "Tamil Nadu"},
+        {"option_id": "C", "text": "Karnataka"},
+        {"option_id": "D", "text": "Maharashtra"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "CMC is in Tamil Nadu. Medical institution knowledge is essential for MBBS aspirants."
+    },
+    {
+      "question_id": "ACAD_11MBBS_007",
+      "question_text": "What does the acronym 'MRI' stand for in medical imaging?",
+      "options": [
+        {"option_id": "A", "text": "Magnetic Resonance Imaging"},
+        {"option_id": "B", "text": "Medical Radiation Imaging"},
+        {"option_id": "C", "text": "Molecular Resonance Imaging"},
+        {"option_id": "D", "text": "Magnetic Radiation Interface"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "MRI stands for Magnetic Resonance Imaging. Medical technology knowledge is key for MBBS (Radiology)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_008",
+      "question_text": "Which gas is primarily used in anesthesia during surgeries?",
+      "options": [
+        {"option_id": "A", "text": "Oxygen"},
+        {"option_id": "B", "text": "Nitrous Oxide"},
+        {"option_id": "C", "text": "Carbon Dioxide"},
+        {"option_id": "D", "text": "Helium"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Nitrous Oxide is used in anesthesia. Surgical knowledge is relevant for MBBS (Anesthesiology)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_009",
+      "question_text": "Which organization in India regulates medical education?",
+      "options": [
+        {"option_id": "A", "text": "UGC"},
+        {"option_id": "B", "text": "NMC"},
+        {"option_id": "C", "text": "AICTE"},
+        {"option_id": "D", "text": "NCTE"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "NMC (National Medical Commission) regulates medical education in India, having replaced the MCI in 2020. Regulatory knowledge is key for MBBS students."
+    },
+    {
+      "question_id": "ACAD_11MBBS_010",
+      "question_text": "What is the capital of France, a leader in medical research?",
+      "options": [
+        {"option_id": "A", "text": "Lyon"},
+        {"option_id": "B", "text": "Paris"},
+        {"option_id": "C", "text": "Marseille"},
+        {"option_id": "D", "text": "Nice"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Paris is France's capital. Global medical research knowledge supports MBBS (International Medicine)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_011",
+      "question_text": "Which organ in the human body is primarily responsible for detoxification?",
+      "options": [
+        {"option_id": "A", "text": "Kidney"},
+        {"option_id": "B", "text": "Liver"},
+        {"option_id": "C", "text": "Lungs"},
+        {"option_id": "D", "text": "Heart"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "The liver detoxifies the body. Anatomy knowledge is essential for MBBS (Physiology)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_012",
+      "question_text": "What is the pH of human blood under normal conditions?",
+      "options": [
+        {"option_id": "A", "text": "7.4"},
+        {"option_id": "B", "text": "6.8"},
+        {"option_id": "C", "text": "8.0"},
+        {"option_id": "D", "text": "5.5"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Human blood pH is around 7.4. Biochemistry knowledge is vital for MBBS (Clinical Medicine)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_013",
+      "question_text": "Which type of cell is responsible for carrying oxygen in the blood?",
+      "options": [
+        {"option_id": "A", "text": "White Blood Cells"},
+        {"option_id": "B", "text": "Red Blood Cells"},
+        {"option_id": "C", "text": "Platelets"},
+        {"option_id": "D", "text": "Plasma"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Red blood cells carry oxygen. Hematology knowledge is key for MBBS (Pathology)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_014",
+      "question_text": "What is the primary source of energy for the human body?",
+      "options": [
+        {"option_id": "A", "text": "Proteins"},
+        {"option_id": "B", "text": "Carbohydrates"},
+        {"option_id": "C", "text": "Vitamins"},
+        {"option_id": "D", "text": "Minerals"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Carbohydrates are the primary energy source. Nutrition knowledge is essential for MBBS (Dietetics)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_015",
+      "question_text": "Which gas is essential for cellular respiration in humans?",
+      "options": [
+        {"option_id": "A", "text": "Nitrogen"},
+        {"option_id": "B", "text": "Oxygen"},
+        {"option_id": "C", "text": "Carbon Dioxide"},
+        {"option_id": "D", "text": "Hydrogen"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Oxygen is required for cellular respiration. Physiology knowledge is vital for MBBS (Respiratory Medicine)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_016",
+      "question_text": "What is the chemical formula for glucose?",
+      "options": [
+        {"option_id": "A", "text": "C6H12O6"},
+        {"option_id": "B", "text": "C12H22O11"},
+        {"option_id": "C", "text": "C2H5OH"},
+        {"option_id": "D", "text": "CH4"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Glucose's formula is C6H12O6. Biochemistry knowledge is key for MBBS (Metabolism)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_017",
+      "question_text": "Which part of the brain regulates heart rate and breathing?",
+      "options": [
+        {"option_id": "A", "text": "Cerebrum"},
+        {"option_id": "B", "text": "Cerebellum"},
+        {"option_id": "C", "text": "Medulla Oblongata"},
+        {"option_id": "D", "text": "Hypothalamus"}
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 4},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "The medulla oblongata regulates vital functions. Neuroanatomy knowledge is essential for MBBS (Neurology)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_018",
+      "question_text": "Which vitamin is essential for blood clotting?",
+      "options": [
+        {"option_id": "A", "text": "Vitamin A"},
+        {"option_id": "B", "text": "Vitamin C"},
+        {"option_id": "C", "text": "Vitamin K"},
+        {"option_id": "D", "text": "Vitamin D"}
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 4},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Vitamin K aids blood clotting. Nutrition knowledge is vital for MBBS (Hematology)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_019",
+      "question_text": "What is the primary function of the pancreas?",
+      "options": [
+        {"option_id": "A", "text": "Regulate blood pressure"},
+        {"option_id": "B", "text": "Produce insulin and digestive enzymes"},
+        {"option_id": "C", "text": "Filter blood"},
+        {"option_id": "D", "text": "Store bile"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "The pancreas produces insulin and enzymes. Endocrinology knowledge is key for MBBS (Diabetology)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_020",
+      "question_text": "Which pathogen causes malaria?",
+      "options": [
+        {"option_id": "A", "text": "Bacteria"},
+        {"option_id": "B", "text": "Virus"},
+        {"option_id": "C", "text": "Protozoan"},
+        {"option_id": "D", "text": "Fungus"}
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 4},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Malaria is caused by a protozoan (Plasmodium). Parasitology knowledge is essential for MBBS (Infectious Diseases)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_021",
+      "question_text": "In which year was the smallpox vaccine developed by Edward Jenner?",
+      "options": [
+        {"option_id": "A", "text": "1796"},
+        {"option_id": "B", "text": "1896"},
+        {"option_id": "C", "text": "1696"},
+        {"option_id": "D", "text": "1996"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Edward Jenner developed the smallpox vaccine in 1796. Medical history is relevant for MBBS (Immunology)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_022",
+      "question_text": "Who discovered penicillin, the first antibiotic?",
+      "options": [
+        {"option_id": "A", "text": "Alexander Fleming"},
+        {"option_id": "B", "text": "Louis Pasteur"},
+        {"option_id": "C", "text": "Robert Koch"},
+        {"option_id": "D", "text": "Joseph Lister"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Alexander Fleming discovered penicillin in 1928. Medical history is key for MBBS (Pharmacology)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_023",
+      "question_text": "In which year was the Indian Medical Service established?",
+      "options": [
+        {"option_id": "A", "text": "1763"},
+        {"option_id": "B", "text": "1863"},
+        {"option_id": "C", "text": "1663"},
+        {"option_id": "D", "text": "1963"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Indian Medical Service was established in 1763. Medical history is relevant for MBBS (Healthcare Systems)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_024",
+      "question_text": "Who developed the polio vaccine?",
+      "options": [
+        {"option_id": "A", "text": "Jonas Salk"},
+        {"option_id": "B", "text": "Edward Jenner"},
+        {"option_id": "C", "text": "Louis Pasteur"},
+        {"option_id": "D", "text": "Alexander Fleming"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Jonas Salk developed the polio vaccine in 1955. Medical history is key for MBBS (Vaccinology)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_025",
+      "question_text": "In which year was the first successful heart transplant performed?",
+      "options": [
+        {"option_id": "A", "text": "1967"},
+        {"option_id": "B", "text": "1977"},
+        {"option_id": "C", "text": "1957"},
+        {"option_id": "D", "text": "1987"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The first heart transplant was in 1967 by Christiaan Barnard. Surgical history is relevant for MBBS (Cardiology)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_026",
+      "question_text": "Who is known as the 'Father of Modern Surgery'?",
+      "options": [
+        {"option_id": "A", "text": "Hippocrates"},
+        {"option_id": "B", "text": "Joseph Lister"},
+        {"option_id": "C", "text": "Galen"},
+        {"option_id": "D", "text": "Sushruta"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Joseph Lister pioneered antiseptic surgery. Surgical history is key for MBBS (Surgery)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_027",
+      "question_text": "In which year was the National Institute of Health (NIH) established in the USA?",
+      "options": [
+        {"option_id": "A", "text": "1887"},
+        {"option_id": "B", "text": "1907"},
+        {"option_id": "C", "text": "1867"},
+        {"option_id": "D", "text": "1927"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The NIH was established in 1887. Medical research history is relevant for MBBS (Research)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_028",
+      "question_text": "Who was the first Indian woman to become a doctor?",
+      "options": [
+        {"option_id": "A", "text": "Anandi Gopal Joshi"},
+        {"option_id": "B", "text": "Savitribai Phule"},
+        {"option_id": "C", "text": "Sarojini Naidu"},
+        {"option_id": "D", "text": "Indira Gandhi"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Anandi Gopal Joshi was the first Indian female doctor in 1886. Medical history is key for MBBS (Gender Studies)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_029",
+      "question_text": "In which year was the first successful kidney transplant performed?",
+      "options": [
+        {"option_id": "A", "text": "1954"},
+        {"option_id": "B", "text": "1964"},
+        {"option_id": "C", "text": "1944"},
+        {"option_id": "D", "text": "1974"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The first kidney transplant was in 1954. Transplant surgery history is relevant for MBBS (Nephrology)."
+    },
+    {
+      "question_id": "ACAD_11MBBS_030",
+      "question_text": "Who discovered the structure of DNA, contributing to modern genetics?",
+      "options": [
+        {"option_id": "A", "text": "Watson and Crick"},
+        {"option_id": "B", "text": "Gregor Mendel"},
+        {"option_id": "C", "text": "Louis Pasteur"},
+        {"option_id": "D", "text": "Robert Koch"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Watson and Crick discovered DNA's structure in 1953. Genetics history is key for MBBS (Genetics)."
+    }
+  ]
+}

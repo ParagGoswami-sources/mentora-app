@@ -1,0 +1,549 @@
+{
+  "test_category": "Academic",
+  "class": "Undergraduate",
+  "stream": "Science",
+  "course": "MBBS",
+  "description": "Assesses General Knowledge, Science, and History for undergraduate students pursuing MBBS to guide academic and career choices in medical sciences.",
+  "questions": [
+    {
+      "question_id": "ACAD_UGMBBS_001",
+      "question_text": "Which Indian body regulates medical education, including MBBS programs?",
+      "options": [
+        {"option_id": "A", "text": "National Medical Commission"},
+        {"option_id": "B", "text": "University Grants Commission"},
+        {"option_id": "C", "text": "All India Council for Technical Education"},
+        {"option_id": "D", "text": "National Board of Accreditation"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "NMC regulates medical education. Regulatory knowledge is essential for MBBS (Medical Governance)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_002",
+      "question_text": "Which Indian city is known for medical education, hosting institutes like AIIMS?",
+      "options": [
+        {"option_id": "A", "text": "New Delhi"},
+        {"option_id": "B", "text": "Lucknow"},
+        {"option_id": "C", "text": "Ahmedabad"},
+        {"option_id": "D", "text": "Bhopal"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "New Delhi hosts AIIMS, a medical hub. Regional knowledge is key for MBBS (Medical Education)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_003",
+      "question_text": "What does the acronym ‘ECG’ stand for in medical diagnostics?",
+      "options": [
+        {"option_id": "A", "text": "Electrocardiogram"},
+        {"option_id": "B", "text": "Electrocerebral Graph"},
+        {"option_id": "C", "text": "Endoscopic Cardiac Gauge"},
+        {"option_id": "D", "text": "Enzymatic Coronary Graph"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "ECG is Electrocardiogram. Diagnostic knowledge supports MBBS (Cardiology)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_004",
+      "question_text": "Which Indian institute is renowned for MBBS programs, like CMC Vellore?",
+      "options": [
+        {"option_id": "A", "text": "Christian Medical College, Vellore"},
+        {"option_id": "B", "text": "Indian Institute of Science, Bengaluru"},
+        {"option_id": "C", "text": "National Institute of Design, Ahmedabad"},
+        {"option_id": "D", "text": "Indian Statistical Institute, Kolkata"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "CMC Vellore is renowned for MBBS. Institutional knowledge is vital for MBBS students."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_005",
+      "question_text": "Which global organization sets health standards, like WHO?",
+      "options": [
+        {"option_id": "A", "text": "World Health Organization"},
+        {"option_id": "B", "text": "International Labour Organization"},
+        {"option_id": "C", "text": "United Nations Educational, Scientific and Cultural Organization"},
+        {"option_id": "D", "text": "World Trade Organization"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "WHO sets health standards. Global health knowledge is key for MBBS (Public Health)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_006",
+      "question_text": "Which Indian state is known for its medical colleges, like Kasturba Medical College?",
+      "options": [
+        {"option_id": "A", "text": "Karnataka"},
+        {"option_id": "B", "text": "Odisha"},
+        {"option_id": "C", "text": "Rajasthan"},
+        {"option_id": "D", "text": "Uttar Pradesh"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Karnataka hosts Kasturba Medical College. Regional knowledge supports MBBS (Medical Education)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_007",
+      "question_text": "Which Indian initiative promotes universal healthcare, like Ayushman Bharat?",
+      "options": [
+        {"option_id": "A", "text": "Ayushman Bharat"},
+        {"option_id": "B", "text": "Swachh Bharat Abhiyan"},
+        {"option_id": "C", "text": "Startup India"},
+        {"option_id": "D", "text": "Digital India"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Ayushman Bharat promotes healthcare. Policy knowledge is essential for MBBS (Public Health)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_008",
+      "question_text": "Which Indian organization conducts the NEET exam for MBBS admissions?",
+      "options": [
+        {"option_id": "A", "text": "National Testing Agency"},
+        {"option_id": "B", "text": "Central Board of Secondary Education"},
+        {"option_id": "C", "text": "Council of Scientific and Industrial Research"},
+        {"option_id": "D", "text": "Indian Council of Medical Research"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "NTA conducts NEET. Admission knowledge is vital for MBBS (Medical Education)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_009",
+      "question_text": "Which global scientist is known for discovering the polio vaccine?",
+      "options": [
+        {"option_id": "A", "text": "Jonas Salk"},
+        {"option_id": "B", "text": "Alexander Fleming"},
+        {"option_id": "C", "text": "Louis Pasteur"},
+        {"option_id": "D", "text": "Edward Jenner"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Jonas Salk developed the polio vaccine. Medical knowledge supports MBBS (Immunology)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_010",
+      "question_text": "Which Indian city hosts the headquarters of the Indian Council of Medical Research (ICMR)?",
+      "options": [
+        {"option_id": "A", "text": "New Delhi"},
+        {"option_id": "B", "text": "Mumbai"},
+        {"option_id": "C", "text": "Chennai"},
+        {"option_id": "D", "text": "Kolkata"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "ICMR is headquartered in New Delhi. Organizational knowledge is key for MBBS (Medical Research)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_011",
+      "question_text": "What is the primary function of the human heart?",
+      "options": [
+        {"option_id": "A", "text": "Pump blood throughout the body"},
+        {"option_id": "B", "text": "Filter waste from blood"},
+        {"option_id": "C", "text": "Produce digestive enzymes"},
+        {"option_id": "D", "text": "Store nutrients"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "The heart pumps blood. Anatomy knowledge is crucial for MBBS (Cardiology)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_012",
+      "question_text": "What is the primary role of insulin in the human body?",
+      "options": [
+        {"option_id": "A", "text": "Regulate blood sugar levels"},
+        {"option_id": "B", "text": "Digest proteins"},
+        {"option_id": "C", "text": "Transport oxygen"},
+        {"option_id": "D", "text": "Produce antibodies"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Insulin regulates blood sugar. Physiology knowledge is essential for MBBS (Endocrinology)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_013",
+      "question_text": "What is the primary function of red blood cells?",
+      "options": [
+        {"option_id": "A", "text": "Carry oxygen to tissues"},
+        {"option_id": "B", "text": "Fight infections"},
+        {"option_id": "C", "text": "Clot blood"},
+        {"option_id": "D", "text": "Digest nutrients"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Red blood cells carry oxygen. Hematology knowledge is key for MBBS (Hematology)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_014",
+      "question_text": "What is the primary source of energy for cellular metabolism?",
+      "options": [
+        {"option_id": "A", "text": "Adenosine triphosphate (ATP)"},
+        {"option_id": "B", "text": "Glucose-6-phosphate"},
+        {"option_id": "C", "text": "Ribonucleic acid (RNA)"},
+        {"option_id": "D", "text": "Deoxyribonucleic acid (DNA)"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "ATP is the energy source. Biochemistry knowledge is vital for MBBS (Biochemistry)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_015",
+      "question_text": "What is the primary function of the kidneys?",
+      "options": [
+        {"option_id": "A", "text": "Filter blood and excrete waste"},
+        {"option_id": "B", "text": "Produce insulin"},
+        {"option_id": "C", "text": "Digest carbohydrates"},
+        {"option_id": "D", "text": "Regulate heart rate"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Kidneys filter blood. Anatomy knowledge is essential for MBBS (Nephrology)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_016",
+      "question_text": "What is the primary role of antibodies in the immune system?",
+      "options": [
+        {"option_id": "A", "text": "Neutralize pathogens"},
+        {"option_id": "B", "text": "Transport nutrients"},
+        {"option_id": "C", "text": "Regulate body temperature"},
+        {"option_id": "D", "text": "Synthesize hormones"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Antibodies neutralize pathogens. Immunology knowledge is key for MBBS (Immunology)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_017",
+      "question_text": "What is the primary function of the cerebrum in the brain?",
+      "options": [
+        {"option_id": "A", "text": "Control higher cognitive functions"},
+        {"option_id": "B", "text": "Regulate heart rate"},
+        {"option_id": "C", "text": "Maintain balance"},
+        {"option_id": "D", "text": "Produce digestive enzymes"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "The cerebrum controls cognition. Neurology knowledge is vital for MBBS (Neurology)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_018",
+      "question_text": "What is the primary role of hemoglobin in blood?",
+      "options": [
+        {"option_id": "A", "text": "Bind and transport oxygen"},
+        {"option_id": "B", "text": "Clot blood"},
+        {"option_id": "C", "text": "Fight infections"},
+        {"option_id": "D", "text": "Digest proteins"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Hemoglobin transports oxygen. Hematology knowledge is essential for MBBS (Hematology)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_019",
+      "question_text": "What is the primary function of the pancreas in digestion?",
+      "options": [
+        {"option_id": "A", "text": "Produce digestive enzymes"},
+        {"option_id": "B", "text": "Store bile"},
+        {"option_id": "C", "text": "Absorb nutrients"},
+        {"option_id": "D", "text": "Filter blood"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "The pancreas produces enzymes. Physiology knowledge is key for MBBS (Gastroenterology)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_020",
+      "question_text": "What is the primary source of genetic information in human cells?",
+      "options": [
+        {"option_id": "A", "text": "Deoxyribonucleic acid (DNA)"},
+        {"option_id": "B", "text": "Ribonucleic acid (RNA)"},
+        {"option_id": "C", "text": "Adenosine triphosphate (ATP)"},
+        {"option_id": "D", "text": "Glucose"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "DNA stores genetic information. Genetics knowledge is vital for MBBS (Genetics)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_021",
+      "question_text": "In which year was the All India Institute of Medical Sciences (AIIMS) established?",
+      "options": [
+        {"option_id": "A", "text": "1956"},
+        {"option_id": "B", "text": "1946"},
+        {"option_id": "C", "text": "1966"},
+        {"option_id": "D", "text": "1936"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "AIIMS was established in 1956. Institutional history is relevant for MBBS (Medical Education)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_022",
+      "question_text": "Who discovered the smallpox vaccine?",
+      "options": [
+        {"option_id": "A", "text": "Edward Jenner"},
+        {"option_id": "B", "text": "Jonas Salk"},
+        {"option_id": "C", "text": "Louis Pasteur"},
+        {"option_id": "D", "text": "Alexander Fleming"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Jenner developed the smallpox vaccine in 1796. Medical history is key for MBBS (Immunology)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_023",
+      "question_text": "In which year was the Indian Council of Medical Research (ICMR) founded?",
+      "options": [
+        {"option_id": "A", "text": "1911"},
+        {"option_id": "B", "text": "1901"},
+        {"option_id": "C", "text": "1921"},
+        {"option_id": "D", "text": "1931"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "ICMR was founded in 1911. Organizational history is relevant for MBBS (Medical Research)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_024",
+      "question_text": "Who discovered insulin?",
+      "options": [
+        {"option_id": "A", "text": "Frederick Banting and Charles Best"},
+        {"option_id": "B", "text": "Alexander Fleming"},
+        {"option_id": "C", "text": "Jonas Salk"},
+        {"option_id": "D", "text": "Robert Koch"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Banting and Best discovered insulin in 1921. Medical history is key for MBBS (Endocrinology)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_025",
+      "question_text": "In which year was the polio vaccine first introduced?",
+      "options": [
+        {"option_id": "A", "text": "1955"},
+        {"option_id": "B", "text": "1945"},
+        {"option_id": "C", "text": "1965"},
+        {"option_id": "D", "text": "1935"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The polio vaccine was introduced in 1955. Medical history is key for MBBS (Immunology)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_026",
+      "question_text": "In which year was the Christian Medical College (CMC) Vellore established?",
+      "options": [
+        {"option_id": "A", "text": "1900"},
+        {"option_id": "B", "text": "1890"},
+        {"option_id": "C", "text": "1910"},
+        {"option_id": "D", "text": "1880"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "CMC Vellore was established in 1900. Institutional history is key for MBBS (Medical Education)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_027",
+      "question_text": "Who developed the rabies vaccine?",
+      "options": [
+        {"option_id": "A", "text": "Louis Pasteur"},
+        {"option_id": "B", "text": "Edward Jenner"},
+        {"option_id": "C", "text": "Jonas Salk"},
+        {"option_id": "D", "text": "Frederick Banting"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Pasteur developed the rabies vaccine in 1885. Medical history is key for MBBS (Immunology)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_028",
+      "question_text": "In which year was the National Health Mission (NHM) launched in India?",
+      "options": [
+        {"option_id": "A", "text": "2005"},
+        {"option_id": "B", "text": "1995"},
+        {"option_id": "C", "text": "2015"},
+        {"option_id": "D", "text": "1985"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "NHM was launched in 2005. Policy history is key for MBBS (Public Health)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_029",
+      "question_text": "Who discovered the circulation of blood?",
+      "options": [
+        {"option_id": "A", "text": "William Harvey"},
+        {"option_id": "B", "text": "Galen"},
+        {"option_id": "C", "text": "Hippocrates"},
+        {"option_id": "D", "text": "Andreas Vesalius"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Harvey discovered blood circulation in 1628. Medical history is key for MBBS (Cardiology)."
+    },
+    {
+      "question_id": "ACAD_UGMBBS_030",
+      "question_text": "In which year was the first successful kidney transplant performed?",
+      "options": [
+        {"option_id": "A", "text": "1954"},
+        {"option_id": "B", "text": "1944"},
+        {"option_id": "C", "text": "1964"},
+        {"option_id": "D", "text": "1934"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The first kidney transplant was in 1954. Medical history is key for MBBS (Transplant Surgery)."
+    }
+  ]
+}

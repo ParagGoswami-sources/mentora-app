@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentora App - System Diagrams</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .diagram-section {
+            background: white;
+            margin: 30px 0;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .diagram-section:hover {
+            transform: translateY(-5px);
+        }
+
+        .section-title {
+            font-size: 1.8em;
+            color: #667eea;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        .diagram-container {
+            width: 100%;
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+
+        svg {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .entity {
+            fill: #e8f2ff;
+            stroke: #667eea;
+            stroke-width: 2;
+        }
+
+        .external-entity {
+            fill: #fff2e8;
+            stroke: #ff9800;
+            stroke-width: 2;
+        }
+
+        .process {
+            fill: #f0fff0;
+            stroke: #4CAF50;
+            stroke-width: 2;
+        }
+
+        .datastore {
+            fill: #fff8f0;
+            stroke: #FF6B6B;
+            stroke-width: 2;
+        }
+
+        .dataflow {
+            stroke: #333;
+            stroke-width: 2;
+            fill: none;
+            marker-end: url(#arrowhead);
+        }
+
+        .label {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            fill: #333;
+            text-anchor: middle;
+            dominant-baseline: middle;
+        }
+
+        .flow-label {
+            font-size: 10px;
+            fill: #666;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #667eea;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px 0;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .legend-box {
+            width: 20px;
+            height: 20px;
+            border: 2px solid;
+            border-radius: 3px;
+        }
+
+        .nav-menu {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        .nav-menu a {
+            display: block;
+            color: #667eea;
+            text-decoration: none;
+            margin: 5px 0;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .nav-menu a:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .diagram-section {
+                padding: 20px;
+            }
+            
+            .nav-menu {
+                position: relative;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-menu">
+        <a href="#dfd0">DFD Level 0</a>
+        <a href="#dfd1">DFD Level 1</a>
+        <a href="#dfd2">DFD Level 2</a>
+        <a href="#skeleton">Architecture</a>
+        <a href="#database">Database</a>
+        <a href="#flowchart">Flow Chart</a>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h1>MENTORA APP</h1>
+            <p>Career Guidance System - Technical Diagrams</p>
+        </div>
+
+        <!-- DFD Level 0 -->
+        <div class="diagram-section" id="dfd0">
+            <h2 class="section-title">Data Flow Diagram - Level 0 (Context Diagram)</h2>
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-box external-entity"></div>
+                    <span>External Entity</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-box process"></div>
+                    <span>System Process</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-box" style="border-color: #333;"></div>
+                    <span>Data Flow</span>
+                </div>
+            </div>
+            <div class="diagram-container">
+                <svg width="900" height="600" viewBox="0 0 900 600">
+                    <defs>
+                        <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                                refX="9" refY="3.5" orient="auto">
+                            <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+                        </marker>
+                    </defs>
+
+                    <!-- Central System -->
+                    <circle cx="450" cy="300" r="100" class="process"/>
+                    <text x="450" y="295" class="label" style="font-size: 14px; font-weight: bold;">MENTORA</text>
+                    <text x="450" y="310" class="label" style="font-size: 14px; font-weight: bold;">SYSTEM</text>
+
+                    <!-- External Entities -->
+                    <rect x="100" y="120" width="120" height="80" rx="10" class="external-entity"/>
+                    <text x="160" y="160" class="label" style="font-weight: bold;">STUDENT</text>
+
+                    <rect x="680" y="120" width="120" height="80" rx="10" class="external-entity"/>
+                    <text x="740" y="160" class="label" style="font-weight: bold;">PARENT</text>
+
+                    <rect x="100" y="420" width="120" height="80" rx="10" class="external-entity"/>
+                    <text x="160" y="460" class="label" style="font-weight: bold;">COUNSELOR</text>
+
+                    <rect x="680" y="420" width="120" height="80" rx="10" class="external-entity"/>
+                    <text x="740" y="460" class="label" style="font-weight: bold;">AI ENGINE</text>
+
+                    <!-- Data Flows -->
+                    <!-- Student to System -->
+                    <path d="M 220 160 Q 300 200 350 260" class="dataflow"/>
+                    <text x="285" y="210" class="flow-label">Login/Assessment Data</text>
+
+                    <!-- System to Student -->
+                    <path d="M 350 340 Q 300 380 220 160" class="dataflow"/>
+                    <text x="285" y="390" class="flow-label">Results/Recommendations</text>
+
+                    <!-- Parent to System -->
+                    <path d="M 680 160 Q 600 200 550 260" class="dataflow"/>
+                    <text x="615" y="210" class="flow-label">Access Request</text>
+
+                    <!-- System to Parent -->
+                    <path d="M 550 340 Q 600 380 680 160" class="dataflow"/>
+                    <text x="615" y="390" class="flow-label">Progress Reports</text>
+
+                    <!-- Counselor to System -->
+                    <path d="M 220 460 Q 300 420 350 360" class="dataflow"/>
+                    <text x="285" y="410" class="flow-label">Guidelines/Policies</text>
+
+                    <!-- System to Counselor -->
+                    <path d="M 350 240 Q 300 200 220 460" class="dataflow"/>
+                    <text x="285" y="190" class="flow-label">Analytics/Reports</text>
+
+                    <!-- AI Engine to System -->
+                    <path d="M 680 460 Q 600 420 550 360" class="dataflow"/>
+                    <text x="615" y="410" class="flow-label">AI Responses</text>
+
+                    <!-- System to AI Engine -->
+                    <path d="M 550 240 Q 600 200 680 460" class="dataflow"/>
+                    <text x="615" y="190" class="flow-label">Query Context</text>
+                </svg>
+            </div>
+        </div>
+
+        <!-- DFD Level 1 -->
+        <div class="diagram-section" id="dfd1">
+            <h2 class="section-title">Data Flow Diagram - Level 1</h2>
+            <div class="diagram-container">
+                <svg width="1200" height="800" viewBox="0 0 1200 800">
+                    <!-- Processes -->
+                    <circle cx="200" cy="150" r="60" class="process"/>
+                    <text x="200" y="145" class="label">1.0</text>
+                    <text x="200" y="160" class="label">Authentication</text>
+
+                    <circle cx="600" cy="150" r="60" class="process"/>
+                    <text x="600" y="145" class="label">2.0</text>
+                    <text x="600" y="160" class="label">Assessment</text>
+
+                    <circle cx="1000" cy="150" r="60" class="process"/>
+                    <text x="1000" y="145" class="label">3.0</text>
+                    <text x="1000" y="160" class="label">AI Processing</text>
+
+                    <circle cx="200" cy="450" r="60" class="process"/>
+                    <text x="200" y="445" class="label">4.0</text>
+                    <text x="200" y="460" class="label">Reporting</text>
+
+                    <circle cx="600" cy="450" r="60" class="process"/>
+                    <text x="600" y="445" class="label">5.0</text>
+                    <text x="600" y="460" class="label">Progress Tracking</text>
+
+                    <!-- Data Stores -->
+                    <rect x="400" y="300" width="200" height="40" class="datastore"/>
+                    <text x="500" y="325" class="label">D1: User Database</text>
+
+                    <rect x="700" y="300" width="200" height="40" class="datastore"/>
+                    <text x="800" y="325" class="label">D2: Test Results</text>
+
+                    <rect x="400" y="600" width="200" height="40" class="datastore"/>
+                    <text x="500" y="625" class="label">D3: Analytics Data</text>
+
+                    <!-- External Entities -->
+                    <rect x="50" y="50" width="100" height="60" rx="10" class="external-entity"/>
+                    <text x="100" y="85" class="label">Student</text>
+
+                    <rect x="1050" y="50" width="100" height="60" rx="10" class="external-entity"/>
+                    <text x="1100" y="85" class="label">Parent</text>
+
+                    <!-- Data Flows -->
+                    <path d="M 150 80 L 180 130" class="dataflow"/>
+                    <text x="155" y="105" class="flow-label">Login</text>
+
+                    <path d="M 260 150 L 540 150" class="dataflow"/>
+                    <text x="400" y="140" class="flow-label">User Data</text>
+
+                    <path d="M 600 210 L 700 300" class="dataflow"/>
+                    <text x="650" y="255" class="flow-label">Results</text>
+
+                    <path d="M 660 150 L 940 150" class="dataflow"/>
+                    <text x="800" y="140" class="flow-label">Assessment Data</text>
+
+                    <path d="M 1000 210 L 800 300" class="dataflow"/>
+                    <text x="900" y="255" class="flow-label">AI Analysis</text>
+
+                    <path d="M 260 450 L 540 450" class="dataflow"/>
+                    <text x="400" y="440" class="flow-label">Progress Data</text>
+
+                    <path d="M 200 390 L 200 360" class="dataflow"/>
+                    <text x="210" y="375" class="flow-label">Reports</text>
+                </svg>
+            </div>
+        </div>
+
+        <!-- DFD Level 2 -->
+        <div class="diagram-section" id="dfd2">
+            <h2 class="section-title">Data Flow Diagram - Level 2 (Assessment Module)</h2>
+            <div class="diagram-container">
+                <svg width="1000" height="700" viewBox="0 0 1000 700">
+                    <!-- Sub-processes of Assessment Module -->
+                    <circle cx="200" cy="150" r="50" class="process"/>
+                    <text x="200" y="145" class="label">2.1</text>
+                    <text x="200" y="160" class="label">Question</text>
+                    <text x="200" y="175" class="label">Selection</text>
+
+                    <circle cx="500" cy="150" r="50" class="process"/>
+                    <text x="500" y="145" class="label">2.2</text>
+                    <text x="500" y="160" class="label">Test</text>
+                    <text x="500" y="175" class="label">Delivery</text>
+
+                    <circle cx="800" cy="150" r="50" class="process"/>
+                    <text x="800" y="145" class="label">2.3</text>
+                    <text x="800" y="160" class="label">Response</text>
+                    <text x="800" y="175" class="label">Collection</text>
+
+                    <circle cx="350" cy="350" r="50" class="process"/>
+                    <text x="350" y="345" class="label">2.4</text>
+                    <text x="350" y="360" class="label">Score</text>
+                    <text x="350" y="375" class="label">Calculation</text>
+
+                    <circle cx="650" cy="350" r="50" class="process"/>
+                    <text x="650" y="345" class="label">2.5</text>
+                    <text x="650" y="360" class="label">Result</text>
+                    <text x="650" y="375" class="label">Storage</text>
+
+                    <!-- Data Stores -->
+                    <rect x="100" y="450" width="150" height="40" class="datastore"/>
+                    <text x="175" y="475" class="label">D2.1: Questions</text>
+
+                    <rect x="350" y="450" width="150" height="40" class="datastore"/>
+                    <text x="425" y="475" class="label">D2.2: Sessions</text>
+
+                    <rect x="600" y="450" width="150" height="40" class="datastore"/>
+                    <text x="675" y="475" class="label">D2.3: Responses</text>
+
+                    <!-- External Entities -->
+                    <rect x="50" y="50" width="80" height="50" rx="10" class="external-entity"/>
+                    <text x="90" y="80" class="label">Student</text>
+
+                    <rect x="870" y="50" width="80" height="50" rx="10" class="external-entity"/>
+                    <text x="910" y="80" class="label">Timer</text>
+
+                    <!-- Data Flows -->
+                    <path d="M 130 75 L 175 125" class="dataflow"/>
+                    <text x="140" y="100" class="flow-label">Start Test</text>
+
+                    <path d="M 250 150 L 450 150" class="dataflow"/>
+                    <text x="350" y="140" class="flow-label">Selected Questions</text>
+
+                    <path d="M 550 150 L 750 150" class="dataflow"/>
+                    <text x="650" y="140" class="flow-label">Test Interface</text>
+
+                    <path d="M 800 200 L 650 300" class="dataflow"/>
+                    <text x="725" y="250" class="flow-label">Responses</text>
+
+                    <path d="M 600 350 L 400 350" class="dataflow"/>
+                    <text x="500" y="340" class="flow-label">Raw Scores</text>
+
+                    <path d="M 650 400 L 675 450" class="dataflow"/>
+                    <text x="680" y="425" class="flow-label">Store Results</text>
+
+                    <path d="M 200 200 L 175 450" class="dataflow"/>
+                    <text x="120" y="325" class="flow-label">Question Pool</text>
+                </svg>
+            </div>
+        </div>
+
+        <!-- System Architecture -->
+        <div class="diagram-section" id="skeleton">
+            <h2 class="section-title">System Architecture Diagram</h2>
+            <div class="diagram-container">
+                <svg width="1200" height="800" viewBox="0 0 1200 800">
+                    <!-- Presentation Layer -->
+                    <rect x="50" y="50" width="1100" height="150" rx="10" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+                    <text x="600" y="85" class="label" style="font-size: 16px; font-weight: bold;">PRESENTATION LAYER</text>
+                    
+                    <rect x="100" y="110" width="200" height="60" rx="5" fill="#fff" stroke="#2196f3"/>
+                    <text x="200" y="135" class="label">React Native</text>
+                    <text x="200" y="150" class="label">Mobile App</text>
+
+                    <rect x="350" y="110" width="200" height="60" rx="5" fill="#fff" stroke="#2196f3"/>
+                    <text x="450" y="135" class="label">Web Interface</text>
+                    <text x="450" y="150" class="label">(PWA)</text>
+
+                    <rect x="600" y="110" width="200" height="60" rx="5" fill="#fff" stroke="#2196f3"/>
+                    <text x="700" y="135" class="label">Parent</text>
+                    <text x="700" y="150" class="label">Dashboard</text>
+
+                    <rect x="850" y="110" width="200" height="60" rx="5" fill="#fff" stroke="#2196f3"/>
+                    <text x="950" y="135" class="label">Admin</text>
+                    <text x="950" y="150" class="label">Panel</text>
+
+                    <!-- Business Logic Layer -->
+                    <rect x="50" y="250" width="1100" height="200" rx="10" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+                    <text x="600" y="285" class="label" style="font-size: 16px; font-weight: bold;">BUSINESS LOGIC LAYER</text>
+
+                    <rect x="100" y="310" width="180" height="50" rx="5" fill="#fff" stroke="#9c27b0"/>
+                    <text x="190" y="340" class="label">Context Providers</text>
+
+                    <rect x="320" y="310" width="180" height="50" rx="5" fill="#fff" stroke="#9c27b0"/>
+                    <text x="410" y="340" class="label">Assessment Engine</text>
+
+                    <rect x="540" y="310" width="180" height="50" rx="5" fill="#fff" stroke="#9c27b0"/>
+                    <text x="630" y="340" class="label">AI Services</text>
+
+                    <rect x="760" y="310" width="180" height="50" rx="5" fill="#fff" stroke="#9c27b0"/>
+                    <text x="850" y="340" class="label">Analytics Engine</text>
+
+                    <rect x="100" y="380" width="180" height="50" rx="5" fill="#fff" stroke="#9c27b0"/>
+                    <text x="190" y="410" class="label">Authentication</text>
+
+                    <rect x="320" y="380" width="180" height="50" rx="5" fill="#fff" stroke="#9c27b0"/>
+                    <text x="410" y="410" class="label">Data Validation</text>
+
+                    <rect x="540" y="380" width="180" height="50" rx="5" fill="#fff" stroke="#9c27b0"/>
+                    <text x="630" y="410" class="label">Report Generator</text>
+
+                    <rect x="760" y="380" width="180" height="50" rx="5" fill="#fff" stroke="#9c27b0"/>
+                    <text x="850" y="410" class="label">Notification System</text>
+
+                    <!-- Data Layer -->
+                    <rect x="50" y="500" width="1100" height="200" rx="10" fill="#e8f5e8" stroke="#4caf50" stroke-width="2"/>
+                    <text x="600" y="535" class="label" style="font-size: 16px; font-weight: bold;">DATA ACCESS LAYER</text>
+
+                    <rect x="100" y="560" width="200" height="60" rx="5" fill="#fff" stroke="#4caf50"/>
+                    <text x="200" y="585" class="label">Supabase</text>
+                    <text x="200" y="600" class="label">PostgreSQL</text>
+
+                    <rect x="350" y="560" width="200" height="60" rx="5" fill="#fff" stroke="#4caf50"/>
+                    <text x="450" y="585" class="label">Real-time</text>
+                    <text x="450" y="600" class="label">Subscriptions</text>
+
+                    <rect x="600" y="560" width="200" height="60" rx="5" fill="#fff" stroke="#4caf50"/>
+                    <text x="700" y="585" class="label">Google Gemini</text>
+                    <text x="700" y="600" class="label">AI API</text>
+
+                    <rect x="850" y="560" width="200" height="60" rx="5" fill="#fff" stroke="#4caf50"/>
+                    <text x="950" y="585" class="label">File Storage</text>
+                    <text x="950" y="600" class="label">(Images/Reports)</text>
+
+                    <rect x="225" y="640" width="200" height="60" rx="5" fill="#fff" stroke="#4caf50"/>
+                    <text x="325" y="665" class="label">Authentication</text>
+                    <text x="325" y="680" class="label">Service</text>
+
+                    <rect x="475" y="640" width="200" height="60" rx="5" fill="#fff" stroke="#4caf50"/>
+                    <text x="575" y="665" class="label">Analytics</text>
+                    <text x="575" y="680" class="label">Database</text>
+
+                    <rect x="725" y="640" width="200" height="60" rx="5" fill="#fff" stroke="#4caf50"/>
+                    <text x="825" y="665" class="label">Cache Layer</text>
+                    <text x="825" y="680" class="label">(Redis)</text>
+
+                    <!-- Arrows -->
+                    <path d="M 600 200 L 600 250" class="dataflow"/>
+                    <path d="M 600 450 L 600 500" class="dataflow"/>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Database Diagram -->
+        <div class="diagram-section" id="database">
+            <h2 class="section-title">Database Entity Relationship Diagram</h2>
+            <div class="diagram-container">
+                <svg width="1200" height="900" viewBox="0 0 1200 900">
+                    <!-- Students Table -->
+                    <rect x="50" y="50" width="200" height="200" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+                    <text x="150" y="75" class="label" style="font-weight: bold;">STUDENTS</text>
+                    <line x1="50" y1="85" x2="250" y2="85" stroke="#2196f3" stroke-width="1"/>
+                    <text x="60" y="105" class="label">🔑 student_id (UUID)</text>
+                    <text x="60" y="125" class="label">name (VARCHAR)</text>
+                    <text x="60" y="145" class="label">email (VARCHAR)</text>
+                    <text x="60" y="165" class="label">education_type (VARCHAR)</text>
+                    <text x="60" y="185" class="label">class (VARCHAR)</text>
+                    <text x="60" y="205" class="label">stream (VARCHAR)</text>
+                    <text x="60" y="225" class="label">created_at (TIMESTAMP)</text>
+
+                    <!-- Test Results Table -->
+                    <rect x="400" y="50" width="250" height="200" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+                    <text x="525" y="75" class="label" style="font-weight: bold;">TEST_RESULTS</text>
+                    <line x1="400" y1="85" x2="650" y2="85" stroke="#ff9800" stroke-width="1"/>
+                    <text x="410" y="105" class="label">🔑 result_id (UUID)</text>
+                    <text x="410" y="125" class="label">🔗 student_id (UUID)</text>
+                    <text x="410" y="145" class="label">test_title (VARCHAR)</text>
+                    <text x="410" y="165" class="label">score (INTEGER)</text>
+                    <text x="410" y="185" class="label">total_questions (INTEGER)</text>
+                    <text x="410" y="205" class="label">percentage (DECIMAL)</text>
+                    <text x="410" y="225" class="label">completed_at (TIMESTAMP)</text>
+
+                    <!-- Assessments Table -->
+                    <rect x="800" y="50" width="200" height="180" fill="#e8f5e8" stroke="#4caf50" stroke-width="2"/>
+                    <text x="900" y="75" class="label" style="font-weight: bold;">ASSESSMENTS</text>
+                    <line x1="800" y1="85" x2="1000" y2="85" stroke="#4caf50" stroke-width="1"/>
+                    <text x="810" y="105" class="label">🔑 assessment_id (UUID)</text>
+                    <text x="810" y="125" class="label">title (VARCHAR)</text>
+                    <text x="810" y="145" class="label">type (VARCHAR)</text>
+                    <text x="810" y="165" class="label">questions_count (INTEGER)</text>
+                    <text x="810" y="185" class="label">duration (INTEGER)</text>
+                    <text x="810" y="205" class="label">difficulty (VARCHAR)</text>
+
+                    <!-- Questions Table -->
+                    <rect x="800" y="300" width="200" height="200" fill="#fce4ec" stroke="#e91e63" stroke-width="2"/>
+                    <text x="900" y="325" class="label" style="font-weight: bold;">QUESTIONS</text>
+                    <line x1="800" y1="335" x2="1000" y2="335" stroke="#e91e63" stroke-width="1"/>
+                    <text x="810" y="355" class="label">🔑 question_id (UUID)</text>
+                    <text x="810" y="375" class="label">🔗 assessment_id (UUID)</text>
+                    <text x="810" y="395" class="label">question_text (TEXT)</text>
+                    <text x="810" y="415" class="label">options (JSON)</text>
+                    <text x="810" y="435" class="label">correct_answer (VARCHAR)</text>
+                    <text x="810" y="455" class="label">difficulty_level (INTEGER)</text>
+                    <text x="810" y="475" class="label">category (VARCHAR)</text>
+
+                    <!-- Progress Tracking Table -->
+                    <rect x="50" y="350" width="250" height="180" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+                    <text x="175" y="375" class="label" style="font-weight: bold;">PROGRESS_TRACKING</text>
+                    <line x1="50" y1="385" x2="300" y2="385" stroke="#9c27b0" stroke-width="1"/>
+                    <text x="60" y="405" class="label">🔑 tracking_id (UUID)</text>
+                    <text x="60" y="425" class="label">🔗 student_id (UUID)</text>
+                    <text x="60" y="445" class="label">metric_type (VARCHAR)</text>
+                    <text x="60" y="465" class="label">metric_value (INTEGER)</text>
+                    <text x="60" y="485" class="label">recorded_at (TIMESTAMP)</text>
+                    <text x="60" y="505" class="label">notes (TEXT)</text>
+
+                    <!-- Career Recommendations Table -->
+                    <rect x="400" y="350" width="250" height="200" fill="#fff8e1" stroke="#ffc107" stroke-width="2"/>
+                    <text x="525" y="375" class="label" style="font-weight: bold;">CAREER_RECOMMENDATIONS</text>
+                    <line x1="400" y1="385" x2="650" y2="385" stroke="#ffc107" stroke-width="1"/>
+                    <text x="410" y="405" class="label">🔑 recommendation_id (UUID)</text>
+                    <text x="410" y="425" class="label">🔗 student_id (UUID)</text>
+                    <text x="410" y="445" class="label">career_field (VARCHAR)</text>
+                    <text x="410" y="465" class="label">match_percentage (DECIMAL)</text>
+                    <text x="410" y="485" class="label">reasoning (TEXT)</text>
+                    <text x="410" y="505" class="label">generated_at (TIMESTAMP)</text>
+                    <text x="410" y="525" class="label">confidence_score (DECIMAL)</text>
+
+                    <!-- User Sessions Table -->
+                    <rect x="50" y="600" width="200" height="160" fill="#e0f2f1" stroke="#009688" stroke-width="2"/>
+                    <text x="150" y="625" class="label" style="font-weight: bold;">USER_SESSIONS</text>
+                    <line x1="50" y1="635" x2="250" y2="635" stroke="#009688" stroke-width="1"/>
+                    <text x="60" y="655" class="label">🔑 session_id (UUID)</text>
+                    <text x="60" y="675" class="label">🔗 student_id (UUID)</text>
+                    <text x="60" y="695" class="label">session_token (VARCHAR)</text>
+                    <text x="60" y="715" class="label">expires_at (TIMESTAMP)</text>
+                    <text x="60" y="735" class="label">created_at (TIMESTAMP)</text>
+
+                    <!-- AI Chat History Table -->
+                    <rect x="400" y="600" width="200" height="180" fill="#f1f8e9" stroke="#8bc34a" stroke-width="2"/>
+                    <text x="500" y="625" class="label" style="font-weight: bold;">AI_CHAT_HISTORY</text>
+                    <line x1="400" y1="635" x2="600" y2="635" stroke="#8bc34a" stroke-width="1"/>
+                    <text x="410" y="655" class="label">🔑 chat_id (UUID)</text>
+                    <text x="410" y="675" class="label">🔗 student_id (UUID)</text>
+                    <text x="410" y="695" class="label">user_message (TEXT)</text>
+                    <text x="410" y="715" class="label">ai_response (TEXT)</text>
+                    <text x="410" y="735" class="label">timestamp (TIMESTAMP)</text>
+                    <text x="410" y="755" class="label">context_data (JSON)</text>
+
+                    <!-- Relationships -->
+                    <!-- Student to Test Results -->
+                    <path d="M 250 150 L 400 150" stroke="#333" stroke-width="2" fill="none"/>
+                    <text x="325" y="145" class="flow-label">1:M</text>
+
+                    <!-- Student to Progress Tracking -->
+                    <path d="M 150 250 L 150 350" stroke="#333" stroke-width="2" fill="none"/>
+                    <text x="160" y="300" class="flow-label">1:M</text>
+
+                    <!-- Student to Career Recommendations -->
+                    <path d="M 250 200 Q 350 275 400 400" stroke="#333" stroke-width="2" fill="none"/>
+                    <text x="325" y="300" class="flow-label">1:M</text>
+
+                    <!-- Student to User Sessions -->
+                    <path d="M 150 250 L 150 600" stroke="#333" stroke-width="2" fill="none"/>
+                    <text x="160" y="425" class="flow-label">1:M</text>
+
+                    <!-- Student to AI Chat History -->
+                    <path d="M 250 220 Q 350 400 400 650" stroke="#333" stroke-width="2" fill="none"/>
+                    <text x="325" y="435" class="flow-label">1:M</text>
+
+                    <!-- Assessment to Questions -->
+                    <path d="M 900 230 L 900 300" stroke="#333" stroke-width="2" fill="none"/>
+                    <text x="910" y="265" class="flow-label">1:M</text>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Flow Chart -->
+        <div class="diagram-section" id="flowchart">
+            <h2 class="section-title">System Flow Chart</h2>
+            <div class="diagram-container">
+                <svg width="800" height="1200" viewBox="0 0 800 1200">
+                    <!-- Start -->
+                    <ellipse cx="400" cy="50" rx="60" ry="30" fill="#4caf50" stroke="#2e7d32" stroke-width="2"/>
+                    <text x="400" y="55" class="label" style="fill: white;">START</text>
+
+                    <!-- User Opens App -->
+                    <rect x="320" y="120" width="160" height="60" rx="10" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+                    <text x="400" y="145" class="label">User Opens</text>
+                    <text x="400" y="160" class="label">Mentora App</text>
+
+                    <!-- Authentication Check -->
+                    <polygon points="350,220 450,220 480,260 450,300 350,300 320,260" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+                    <text x="400" y="255" class="label">Already</text>
+                    <text x="400" y="270" class="label">Logged In?</text>
+
+                    <!-- Login Process -->
+                    <rect x="550" y="230" width="140" height="60" rx="10" fill="#fce4ec" stroke="#e91e63" stroke-width="2"/>
+                    <text x="620" y="255" class="label">Login/Register</text>
+                    <text x="620" y="270" class="label">Process</text>
+
+                    <!-- Dashboard -->
+                    <rect x="320" y="350" width="160" height="60" rx="10" fill="#e8f5e8" stroke="#4caf50" stroke-width="2"/>
+                    <text x="400" y="375" class="label">Dashboard</text>
+                    <text x="400" y="390" class="label">Display</text>
+
+                    <!-- User Choice -->
+                    <polygon points="350,450 450,450 480,490 450,530 350,530 320,490" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+                    <text x="400" y="485" class="label">User Action</text>
+                    <text x="400" y="500" class="label">Choice</text>
+
+                    <!-- Take Assessment -->
+                    <rect x="120" y="580" width="140" height="60" rx="10" fill="#e1f5fe" stroke="#0288d1" stroke-width="2"/>
+                    <text x="190" y="605" class="label">Take</text>
+                    <text x="190" y="620" class="label">Assessment</text>
+
+                    <!-- View Progress -->
+                    <rect x="320" y="580" width="140" height="60" rx="10" fill="#f1f8e9" stroke="#689f38" stroke-width="2"/>
+                    <text x="390" y="605" class="label">View Progress</text>
+                    <text x="390" y="620" class="label">Analytics</text>
+
+                    <!-- AI Tutor -->
+                    <rect x="520" y="580" width="140" height="60" rx="10" fill="#fff8e1" stroke="#f57f17" stroke-width="2"/>
+                    <text x="590" y="605" class="label">AI Tutor</text>
+                    <text x="590" y="620" class="label">Chat</text>
+
+                    <!-- Assessment Process -->
+                    <rect x="120" y="700" width="140" height="60" rx="10" fill="#e8eaf6" stroke="#3f51b5" stroke-width="2"/>
+                    <text x="190" y="725" class="label">Question</text>
+                    <text x="190" y="740" class="label">Delivery</text>
+
+                    <rect x="120" y="800" width="140" height="60" rx="10" fill="#e8eaf6" stroke="#3f51b5" stroke-width="2"/>
+                    <text x="190" y="825" class="label">Collect</text>
+                    <text x="190" y="840" class="label">Responses</text>
+
+                    <rect x="120" y="900" width="140" height="60" rx="10" fill="#e8eaf6" stroke="#3f51b5" stroke-width="2"/>
+                    <text x="190" y="925" class="label">Calculate</text>
+                    <text x="190" y="940" class="label">Results</text>
+
+                    <!-- Data Processing -->
+                    <rect x="320" y="700" width="140" height="60" rx="10" fill="#f3e5f5" stroke="#8e24aa" stroke-width="2"/>
+                    <text x="390" y="725" class="label">Data</text>
+                    <text x="390" y="740" class="label">Processing</text>
+
+                    <!-- AI Response -->
+                    <rect x="520" y="700" width="140" height="60" rx="10" fill="#fff3e0" stroke="#fb8c00" stroke-width="2"/>
+                    <text x="590" y="725" class="label">Generate AI</text>
+                    <text x="590" y="740" class="label">Response</text>
+
+                    <!-- Update Database -->
+                    <rect x="320" y="1000" width="160" height="60" rx="10" fill="#ffebee" stroke="#d32f2f" stroke-width="2"/>
+                    <text x="400" y="1025" class="label">Update</text>
+                    <text x="400" y="1040" class="label">Database</text>
+
+                    <!-- Continue -->
+                    <polygon points="350,1100 450,1100 480,1140 450,1180 350,1180 320,1140" fill="#e0f2f1" stroke="#388e3c" stroke-width="2"/>
+                    <text x="400" y="1135" class="label">Continue</text>
+                    <text x="400" y="1150" class="label">Using App?</text>
+
+                    <!-- End -->
+                    <ellipse cx="600" cy="1140" rx="60" ry="30" fill="#f44336" stroke="#c62828" stroke-width="2"/>
+                    <text x="600" y="1145" class="label" style="fill: white;">END</text>
+
+                    <!-- Flow Arrows -->
+                    <path d="M 400 80 L 400 120" class="dataflow"/>
+                    <path d="M 400 180 L 400 220" class="dataflow"/>
+                    
+                    <!-- No branch from login check -->
+                    <path d="M 480 260 L 550 260" class="dataflow"/>
+                    <text x="515" y="255" class="flow-label">No</text>
+                    
+                    <!-- Yes branch from login check -->
+                    <path d="M 400 300 L 400 350" class="dataflow"/>
+                    <text x="410" y="325" class="flow-label">Yes</text>
+                    
+                    <!-- From login to dashboard -->
+                    <path d="M 620 290 Q 620 320 480 380" class="dataflow"/>
+                    
+                    <path d="M 400 410 L 400 450" class="dataflow"/>
+                    
+                    <!-- User choices -->
+                    <path d="M 350 490 L 190 580" class="dataflow"/>
+                    <text x="270" y="535" class="flow-label">Assessment</text>
+                    
+                    <path d="M 400 530 L 390 580" class="dataflow"/>
+                    <text x="405" y="555" class="flow-label">Progress</text>
+                    
+                    <path d="M 450 490 L 590 580" class="dataflow"/>
+                    <text x="520" y="535" class="flow-label">AI Chat</text>
+                    
+                    <!-- Assessment flow -->
+                    <path d="M 190 640 L 190 700" class="dataflow"/>
+                    <path d="M 190 760 L 190 800" class="dataflow"/>
+                    <path d="M 190 860 L 190 900" class="dataflow"/>
+                    
+                    <!-- Progress flow -->
+                    <path d="M 390 640 L 390 700" class="dataflow"/>
+                    
+                    <!-- AI flow -->
+                    <path d="M 590 640 L 590 700" class="dataflow"/>
+                    
+                    <!-- All flows to database -->
+                    <path d="M 190 960 Q 250 980 320 1030" class="dataflow"/>
+                    <path d="M 390 760 L 390 1000" class="dataflow"/>
+                    <path d="M 590 760 Q 520 880 480 1030" class="dataflow"/>
+                    
+                    <path d="M 400 1060 L 400 1100" class="dataflow"/>
+                    
+                    <!-- Continue loop -->
+                    <path d="M 350 1140 Q 200 1140 200 490 Q 200 380 320 380" class="dataflow"/>
+                    <text x="205" y="1135" class="flow-label">Yes</text>
+                    
+                    <!-- End -->
+                    <path d="M 480 1140 L 540 1140" class="dataflow"/>
+                    <text x="510" y="1135" class="flow-label">No</text>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Summary Table -->
+        <div class="diagram-section">
+            <h2 class="section-title">System Components Summary</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Component</th>
+                            <th>Technology</th>
+                            <th>Purpose</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mobile Application</td>
+                            <td>React Native + Expo</td>
+                            <td>Cross-platform mobile interface</td>
+                            <td>✅ Implemented</td>
+                        </tr>
+                        <tr>
+                            <td>Backend Database</td>
+                            <td>Supabase PostgreSQL</td>
+                            <td>Data storage and management</td>
+                            <td>✅ Implemented</td>
+                        </tr>
+                        <tr>
+                            <td>AI Integration</td>
+                            <td>Google Gemini API</td>
+                            <td>Intelligent tutoring and guidance</td>
+                            <td>✅ Implemented</td>
+                        </tr>
+                        <tr>
+                            <td>Authentication</td>
+                            <td>Supabase Auth</td>
+                            <td>User login and session management</td>
+                            <td>✅ Implemented</td>
+                        </tr>
+                        <tr>
+                            <td>Assessment Engine</td>
+                            <td>Custom Algorithm</td>
+                            <td>Test delivery and scoring</td>
+                            <td>✅ Implemented</td>
+                        </tr>
+                        <tr>
+                            <td>Progress Analytics</td>
+                            <td>Chart.js + Custom Logic</td>
+                            <td>Performance tracking and visualization</td>
+                            <td>✅ Implemented</td>
+                        </tr>
+                        <tr>
+                            <td>Real-time Sync</td>
+                            <td>Supabase Realtime</td>
+                            <td>Live data updates</td>
+                            <td>✅ Implemented</td>
+                        </tr>
+                        <tr>
+                            <td>File Storage</td>
+                            <td>Supabase Storage</td>
+                            <td>Profile images and reports</td>
+                            <td>✅ Implemented</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Smooth scrolling for navigation
+        document.querySelectorAll('.nav-menu a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            });
+        });
+
+        // Add hover effects to diagram elements
+        document.querySelectorAll('rect, circle, ellipse').forEach(element => {
+            element.addEventListener('mouseenter', function() {
+                this.style.opacity = '0.8';
+                this.style.transform = 'scale(1.02)';
+                this.style.transition = 'all 0.3s ease';
+            });
+            
+            element.addEventListener('mouseleave', function() {
+                this.style.opacity = '1';
+                this.style.transform = 'scale(1)';
+            });
+        });
+    </script>
+</body>
+</html>

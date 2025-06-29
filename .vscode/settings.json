@@ -1,0 +1,6 @@
+{
+  "tailwindCSS.emmetCompletions": false,
+  "tailwindCSS.includeLanguages": {},
+  "tailwindCSS.validate": false,
+  "css.validate": false
+}

@@ -1,0 +1,549 @@
+{
+  "test_category": "Academic",
+  "class": "11th/12th Standard",
+  "stream": "Arts",
+  "course": "Mass Communication",
+  "description": "Assesses General Knowledge, Arts, and History for 11th/12th-grade students in the Arts stream pursuing Mass Communication to guide academic and career choices.",
+  "questions": [
+    {
+      "question_id": "ACAD_11MC_001",
+      "question_text": "Which Indian body regulates the media industry, including television and radio?",
+      "options": [
+        {"option_id": "A", "text": "Telecom Regulatory Authority of India"},
+        {"option_id": "B", "text": "Ministry of Information and Broadcasting"},
+        {"option_id": "C", "text": "Press Council of India"},
+        {"option_id": "D", "text": "Central Board of Film Certification"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "The Ministry of Information and Broadcasting regulates media. Regulatory knowledge is essential for Mass Communication (Media Policy)."
+    },
+    {
+      "question_id": "ACAD_11MC_002",
+      "question_text": "Which Indian city is considered the hub of the Bollywood film industry?",
+      "options": [
+        {"option_id": "A", "text": "Delhi"},
+        {"option_id": "B", "text": "Mumbai"},
+        {"option_id": "C", "text": "Chennai"},
+        {"option_id": "D", "text": "Kolkata"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Mumbai is the hub of Bollywood. Industry knowledge is key for Mass Communication (Film Studies)."
+    },
+    {
+      "question_id": "ACAD_11MC_003",
+      "question_text": "Which global platform is known for its role in citizen journalism, like Twitter/X?",
+      "options": [
+        {"option_id": "A", "text": "Instagram"},
+        {"option_id": "B", "text": "Twitter/X"},
+        {"option_id": "C", "text": "LinkedIn"},
+        {"option_id": "D", "text": "TikTok"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Twitter/X enables citizen journalism. Social media knowledge supports Mass Communication (Digital Media)."
+    },
+    {
+      "question_id": "ACAD_11MC_004",
+      "question_text": "Which Indian newspaper is known as ‘The Times of India’?",
+      "options": [
+        {"option_id": "A", "text": "The Hindu"},
+        {"option_id": "B", "text": "The Times of India"},
+        {"option_id": "C", "text": "Hindustan Times"},
+        {"option_id": "D", "text": "Indian Express"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "The Times of India is a leading newspaper. Print media knowledge is vital for Mass Communication (Journalism)."
+    },
+    {
+      "question_id": "ACAD_11MC_005",
+      "question_text": "Which Indian institute is renowned for journalism courses, like IIMC?",
+      "options": [
+        {"option_id": "A", "text": "Indian Institute of Mass Communication"},
+        {"option_id": "B", "text": "National Institute of Design"},
+        {"option_id": "C", "text": "Indian Institute of Technology"},
+        {"option_id": "D", "text": "All India Institute of Medical Sciences"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "IIMC is renowned for journalism. Institutional knowledge is key for Mass Communication aspirants."
+    },
+    {
+      "question_id": "ACAD_11MC_006",
+      "question_text": "Which country is home to the BBC, a global leader in broadcasting?",
+      "options": [
+        {"option_id": "A", "text": "United States"},
+        {"option_id": "B", "text": "United Kingdom"},
+        {"option_id": "C", "text": "Canada"},
+        {"option_id": "D", "text": "Australia"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "The BBC is based in the UK. Global media knowledge supports Mass Communication (Broadcast Journalism)."
+    },
+    {
+      "question_id": "ACAD_11MC_007",
+      "question_text": "What does the acronym ‘DD’ stand for in Indian broadcasting?",
+      "options": [
+        {"option_id": "A", "text": "Digital Doordarshan"},
+        {"option_id": "B", "text": "Doordarshan"},
+        {"option_id": "C", "text": "Direct Delivery"},
+        {"option_id": "D", "text": "Dynamic Display"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "DD stands for Doordarshan, India’s public broadcaster. Broadcasting knowledge is essential for Mass Communication (Television)."
+    },
+    {
+      "question_id": "ACAD_11MC_008",
+      "question_text": "Which Indian state is known for its vibrant regional film industry, like Tollywood?",
+      "options": [
+        {"option_id": "A", "text": "Kerala"},
+        {"option_id": "B", "text": "Telangana"},
+        {"option_id": "C", "text": "Karnataka"},
+        {"option_id": "D", "text": "Tamil Nadu"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Telangana’s Tollywood is a major film industry. Regional media knowledge is key for Mass Communication (Film Studies)."
+    },
+    {
+      "question_id": "ACAD_11MC_009",
+      "question_text": "Which social media platform is primarily used for professional networking?",
+      "options": [
+        {"option_id": "A", "text": "Facebook"},
+        {"option_id": "B", "text": "LinkedIn"},
+        {"option_id": "C", "text": "Instagram"},
+        {"option_id": "D", "text": "Snapchat"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "LinkedIn is for professional networking. Digital media knowledge is vital for Mass Communication (Social Media)."
+    },
+    {
+      "question_id": "ACAD_11MC_010",
+      "question_text": "Which Indian news channel is known for its slogan ‘Nation Wants to Know’?",
+      "options": [
+        {"option_id": "A", "text": "NDTV"},
+        {"option_id": "B", "text": "Times Now"},
+        {"option_id": "C", "text": "India Today"},
+        {"option_id": "D", "text": "Zee News"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Times Now uses ‘Nation Wants to Know’. Television media knowledge is essential for Mass Communication (Broadcast Journalism)."
+    },
+    {
+      "question_id": "ACAD_11MC_011",
+      "question_text": "What is the primary role of a journalist?",
+      "options": [
+        {"option_id": "A", "text": "Create advertisements"},
+        {"option_id": "B", "text": "Report news accurately and ethically"},
+        {"option_id": "C", "text": "Design websites"},
+        {"option_id": "D", "text": "Manage corporate finances"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 4},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Journalists report news ethically. Journalism knowledge is crucial for Mass Communication (Journalism)."
+    },
+    {
+      "question_id": "ACAD_11MC_012",
+      "question_text": "What is the term for a brief introduction to a news story?",
+      "options": [
+        {"option_id": "A", "text": "Headline"},
+        {"option_id": "B", "text": "Byline"},
+        {"option_id": "C", "text": "Lead"},
+        {"option_id": "D", "text": "Caption"}
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 1},
+        "C": {"trait": "Arts", "score": 4},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "The lead introduces a news story. Writing knowledge is essential for Mass Communication (News Writing)."
+    },
+    {
+      "question_id": "ACAD_11MC_013",
+      "question_text": "What is the primary focus of public relations?",
+      "options": [
+        {"option_id": "A", "text": "Managing an organization’s public image"},
+        {"option_id": "B", "text": "Producing television shows"},
+        {"option_id": "C", "text": "Writing fiction novels"},
+        {"option_id": "D", "text": "Conducting scientific research"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 4},
+        "B": {"trait": "Arts", "score": 1},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Public relations manages public image. PR knowledge is key for Mass Communication (Public Relations)."
+    },
+    {
+      "question_id": "ACAD_11MC_014",
+      "question_text": "Which Indian journalist is known for investigative reporting, like Barkha Dutt?",
+      "options": [
+        {"option_id": "A", "text": "Arnab Goswami"},
+        {"option_id": "B", "text": "Barkha Dutt"},
+        {"option_id": "C", "text": "Rajdeep Sardesai"},
+        {"option_id": "D", "text": "Sudhir Chaudhary"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 4},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Barkha Dutt is known for investigative journalism. Media personality knowledge is vital for Mass Communication (Journalism)."
+    },
+    {
+      "question_id": "ACAD_11MC_015",
+      "question_text": "What is the term for exaggerated or misleading news stories to attract attention?",
+      "options": [
+        {"option_id": "A", "text": "Breaking news"},
+        {"option_id": "B", "text": "Yellow journalism"},
+        {"option_id": "C", "text": "Investigative journalism"},
+        {"option_id": "D", "text": "Feature writing"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 4},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Yellow journalism exaggerates news. Media ethics knowledge is essential for Mass Communication (Journalism)."
+    },
+    {
+      "question_id": "ACAD_11MC_016",
+      "question_text": "What is the primary purpose of a press release?",
+      "options": [
+        {"option_id": "A", "text": "Advertise a product"},
+        {"option_id": "B", "text": "Announce official information to the media"},
+        {"option_id": "C", "text": "Publish a novel"},
+        {"option_id": "D", "text": "Conduct a survey"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 4},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Press releases announce information. Communication knowledge is key for Mass Communication (Public Relations)."
+    },
+    {
+      "question_id": "ACAD_11MC_017",
+      "question_text": "Which editing software is widely used in video production?",
+      "options": [
+        {"option_id": "A", "text": "Microsoft Word"},
+        {"option_id": "B", "text": "Adobe Premiere Pro"},
+        {"option_id": "C", "text": "Photoshop"},
+        {"option_id": "D", "text": "Excel"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 4},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Adobe Premiere Pro is used for video editing. Technical knowledge is vital for Mass Communication (Film Production)."
+    },
+    {
+      "question_id": "ACAD_11MC_018",
+      "question_text": "What is the term for a short promotional video for a product or event?",
+      "options": [
+        {"option_id": "A", "text": "Documentary"},
+        {"option_id": "B", "text": "Trailer"},
+        {"option_id": "C", "text": "Newsreel"},
+        {"option_id": "D", "text": "Vlog"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 4},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Trailers promote products or events. Media production knowledge is key for Mass Communication (Advertising)."
+    },
+    {
+      "question_id": "ACAD_11MC_019",
+      "question_text": "What is the primary focus of media ethics?",
+      "options": [
+        {"option_id": "A", "text": "Maximizing profits"},
+        {"option_id": "B", "text": "Ensuring truthful and responsible reporting"},
+        {"option_id": "C", "text": "Creating viral content"},
+        {"option_id": "D", "text": "Designing websites"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 4},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Media ethics ensures responsible reporting. Ethical knowledge is essential for Mass Communication (Journalism)."
+    },
+    {
+      "question_id": "ACAD_11MC_020",
+      "question_text": "Which Indian film director is known for socially relevant films, like Satyajit Ray?",
+      "options": [
+        {"option_id": "A", "text": "Sanjay Leela Bhansali"},
+        {"option_id": "B", "text": "Satyajit Ray"},
+        {"option_id": "C", "text": "Karan Johar"},
+        {"option_id": "D", "text": "Rohit Shetty"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 4},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Satyajit Ray made socially relevant films. Film knowledge is vital for Mass Communication (Film Studies)."
+    },
+    {
+      "question_id": "ACAD_11MC_021",
+      "question_text": "In which year was the Press Council of India established?",
+      "options": [
+        {"option_id": "A", "text": "1966"},
+        {"option_id": "B", "text": "1956"},
+        {"option_id": "C", "text": "1976"},
+        {"option_id": "D", "text": "1986"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Press Council of India was established in 1966. Media history is relevant for Mass Communication (Journalism)."
+    },
+    {
+      "question_id": "ACAD_11MC_022",
+      "question_text": "Who founded the newspaper ‘The Hindu’ in 1878?",
+      "options": [
+        {"option_id": "A", "text": "G. Subramania Iyer"},
+        {"option_id": "B", "text": "Bal Gangadhar Tilak"},
+        {"option_id": "C", "text": "Dadabhai Naoroji"},
+        {"option_id": "D", "text": "Gopal Krishna Gokhale"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "G. Subramania Iyer founded ‘The Hindu’. Print media history is key for Mass Communication (Journalism)."
+    },
+    {
+      "question_id": "ACAD_11MC_023",
+      "question_text": "In which year was Doordarshan, India’s public broadcaster, established?",
+      "options": [
+        {"option_id": "A", "text": "1959"},
+        {"option_id": "B", "text": "1949"},
+        {"option_id": "C", "text": "1969"},
+        {"option_id": "D", "text": "1979"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Doordarshan was established in 1959. Broadcasting history is relevant for Mass Communication (Television)."
+    },
+    {
+      "question_id": "ACAD_11MC_024",
+      "question_text": "Who was the first Indian to win an Oscar for Best Costume Design?",
+      "options": [
+        {"option_id": "A", "text": "Bhanu Athaiya"},
+        {"option_id": "B", "text": "Satyajit Ray"},
+        {"option_id": "C", "text": "A.R. Rahman"},
+        {"option_id": "D", "text": "Resul Pookutty"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Bhanu Athaiya won an Oscar in 1983. Film history is key for Mass Communication (Film Studies)."
+    },
+    {
+      "question_id": "ACAD_11MC_025",
+      "question_text": "In which year was the first Indian talkie film, ‘Alam Ara’, released?",
+      "options": [
+        {"option_id": "A", "text": "1931"},
+        {"option_id": "B", "text": "1921"},
+        {"option_id": "C", "text": "1941"},
+        {"option_id": "D", "text": "1911"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "‘Alam Ara’ was released in 1931. Indian cinema history is relevant for Mass Communication (Film Studies)."
+    },
+    {
+      "question_id": "ACAD_11MC_026",
+      "question_text": "Who founded the Film and Television Institute of India (FTII) in 1960?",
+      "options": [
+        {"option_id": "A", "text": "Ministry of Information and Broadcasting"},
+        {"option_id": "B", "text": "Satyajit Ray"},
+        {"option_id": "C", "text": "Yash Chopra"},
+        {"option_id": "D", "text": "Dadasaheb Phalke"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Ministry of Information and Broadcasting founded FTII. Institutional history is key for Mass Communication (Film Production)."
+    },
+    {
+      "question_id": "ACAD_11MC_027",
+      "question_text": "In which year was the first Indian television broadcast made?",
+      "options": [
+        {"option_id": "A", "text": "1959"},
+        {"option_id": "B", "text": "1949"},
+        {"option_id": "C", "text": "1969"},
+        {"option_id": "D", "text": "1979"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The first TV broadcast was in 1959 via Doordarshan. Television history is relevant for Mass Communication (Broadcasting)."
+    },
+    {
+      "question_id": "ACAD_11MC_028",
+      "question_text": "Who was the first editor of the newspaper ‘Kesari’, founded by Bal Gangadhar Tilak?",
+      "options": [
+        {"option_id": "A", "text": "Bal Gangadhar Tilak"},
+        {"option_id": "B", "text": "Gopal Ganesh Agarkar"},
+        {"option_id": "C", "text": "Lala Lajpat Rai"},
+        {"option_id": "D", "text": "Bipin Chandra Pal"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Gopal Ganesh Agarkar was the first editor of ‘Kesari’. Print media history is key for Mass Communication (Journalism)."
+    },
+    {
+      "question_id": "ACAD_11MC_029",
+      "question_text": "In which year was the Central Board of Film Certification (CBFC) established in India?",
+      "options": [
+        {"option_id": "A", "text": "1952"},
+        {"option_id": "B", "text": "1942"},
+        {"option_id": "C", "text": "1962"},
+        {"option_id": "D", "text": "1972"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "CBFC was established in 1952. Film regulation history is relevant for Mass Communication (Film Studies)."
+    },
+    {
+      "question_id": "ACAD_11MC_030",
+      "question_text": "Who directed the first Indian feature film, ‘Raja Harishchandra’?",
+      "options": [
+        {"option_id": "A", "text": "Dadasaheb Phalke"},
+        {"option_id": "B", "text": "Satyajit Ray"},
+        {"option_id": "C", "text": "V. Shantaram"},
+        {"option_id": "D", "text": "Guru Dutt"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Dadasaheb Phalke directed ‘Raja Harishchandra’ in 1913. Indian cinema history is key for Mass Communication (Film Studies)."
+    }
+  ]
+}

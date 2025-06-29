@@ -1,0 +1,549 @@
+{
+  "test_category": "Academic",
+  "class": "Undergraduate",
+  "stream": "Commerce",
+  "course": "CA",
+  "description": "Assesses General Knowledge, Commerce, and History for undergraduate students pursuing CA to guide academic and career choices.",
+  "questions": [
+    {
+      "question_id": "ACAD_UGCA_001",
+      "question_text": "Which Indian body regulates the Chartered Accountancy profession?",
+      "options": [
+        {"option_id": "A", "text": "Institute of Chartered Accountants of India"},
+        {"option_id": "B", "text": "Reserve Bank of India"},
+        {"option_id": "C", "text": "Securities and Exchange Board of India"},
+        {"option_id": "D", "text": "National Stock Exchange"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "ICAI regulates the CA profession. Regulatory knowledge is essential for CA (Professional Governance)."
+    },
+    {
+      "question_id": "ACAD_UGCA_002",
+      "question_text": "Which Indian city hosts the headquarters of the Institute of Chartered Accountants of India?",
+      "options": [
+        {"option_id": "A", "text": "Mumbai"},
+        {"option_id": "B", "text": "New Delhi"},
+        {"option_id": "C", "text": "Kolkata"},
+        {"option_id": "D", "text": "Chennai"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "ICAI is headquartered in New Delhi. Institutional knowledge is key for CA (Professional Bodies)."
+    },
+    {
+      "question_id": "ACAD_UGCA_003",
+      "question_text": "What does the acronym ‘IFRS’ stand for in accounting?",
+      "options": [
+        {"option_id": "A", "text": "Indian Financial Reporting Standards"},
+        {"option_id": "B", "text": "International Financial Reporting Standards"},
+        {"option_id": "C", "text": "Integrated Fiscal Reporting System"},
+        {"option_id": "D", "text": "International Funding Regulation Standards"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "IFRS stands for International Financial Reporting Standards. Global standards knowledge supports CA (Financial Reporting)."
+    },
+    {
+      "question_id": "ACAD_UGCA_004",
+      "question_text": "Which Indian institute is renowned for CA coaching, like VSI Jaipur?",
+      "options": [
+        {"option_id": "A", "text": "Vidyasagar Institute, Jaipur"},
+        {"option_id": "B", "text": "Indian Institute of Technology, Delhi"},
+        {"option_id": "C", "text": "National Institute of Design, Ahmedabad"},
+        {"option_id": "D", "text": "All India Institute of Medical Sciences, Delhi"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "VSI Jaipur is renowned for CA coaching. Coaching institute knowledge is vital for CA students."
+    },
+    {
+      "question_id": "ACAD_UGCA_005",
+      "question_text": "Which global body issues International Auditing Standards?",
+      "options": [
+        {"option_id": "A", "text": "International Auditing and Assurance Standards Board"},
+        {"option_id": "B", "text": "World Trade Organization"},
+        {"option_id": "C", "text": "International Monetary Fund"},
+        {"option_id": "D", "text": "World Bank"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "IAASB issues auditing standards. Auditing knowledge is key for CA (Audit and Assurance)."
+    },
+    {
+      "question_id": "ACAD_UGCA_006",
+      "question_text": "Which Indian state is known for producing many CA professionals, like Rajasthan?",
+      "options": [
+        {"option_id": "A", "text": "Rajasthan"},
+        {"option_id": "B", "text": "Assam"},
+        {"option_id": "C", "text": "Himachal Pradesh"},
+        {"option_id": "D", "text": "Jharkhand"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Rajasthan produces many CAs, with institutes like VSI. Regional knowledge supports CA (Professional Trends)."
+    },
+    {
+      "question_id": "ACAD_UGCA_007",
+      "question_text": "Which Indian tax replaced multiple indirect taxes in 2017?",
+      "options": [
+        {"option_id": "A", "text": "Income Tax"},
+        {"option_id": "B", "text": "Goods and Services Tax"},
+        {"option_id": "C", "text": "Corporate Tax"},
+        {"option_id": "D", "text": "Excise Duty"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "GST replaced multiple taxes in 2017. Taxation knowledge is essential for CA (Indirect Taxation)."
+    },
+    {
+      "question_id": "ACAD_UGCA_008",
+      "question_text": "Which Indian firm is among the ‘Big Four’ accounting firms?",
+      "options": [
+        {"option_id": "A", "text": "Tata Consultancy Services"},
+        {"option_id": "B", "text": "Deloitte India"},
+        {"option_id": "C", "text": "Infosys"},
+        {"option_id": "D", "text": "Wipro"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Deloitte India is part of the Big Four. Firm knowledge is vital for CA (Professional Services)."
+    },
+    {
+      "question_id": "ACAD_UGCA_009",
+      "question_text": "Which Indian scheme promotes tax compliance, like the Income Declaration Scheme?",
+      "options": [
+        {"option_id": "A", "text": "Income Declaration Scheme"},
+        {"option_id": "B", "text": "Make in India"},
+        {"option_id": "C", "text": "Digital India"},
+        {"option_id": "D", "text": "Swachh Bharat Abhiyan"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Income Declaration Scheme promotes tax compliance. Policy knowledge supports CA (Direct Taxation)."
+    },
+    {
+      "question_id": "ACAD_UGCA_010",
+      "question_text": "Which city hosts the Central Board of Direct Taxes (CBDT)?",
+      "options": [
+        {"option_id": "A", "text": "New Delhi"},
+        {"option_id": "B", "text": "Mumbai"},
+        {"option_id": "C", "text": "Bengaluru"},
+        {"option_id": "D", "text": "Hyderabad"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "CBDT is headquartered in New Delhi. Tax authority knowledge is key for CA (Taxation)."
+    },
+    {
+      "question_id": "ACAD_UGCA_011",
+      "question_text": "What is the primary objective of auditing financial statements?",
+      "options": [
+        {"option_id": "A", "text": "Prepare marketing plans"},
+        {"option_id": "B", "text": "Ensure accuracy and compliance"},
+        {"option_id": "C", "text": "Manage employee payroll"},
+        {"option_id": "D", "text": "Develop new products"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Auditing ensures financial accuracy. Audit knowledge is crucial for CA (Audit and Assurance)."
+    },
+    {
+      "question_id": "ACAD_UGCA_012",
+      "question_text": "What does the term ‘amortization’ refer to in accounting?",
+      "options": [
+        {"option_id": "A", "text": "Spreading the cost of an intangible asset"},
+        {"option_id": "B", "text": "Increasing asset value over time"},
+        {"option_id": "C", "text": "Calculating daily sales"},
+        {"option_id": "D", "text": "Reducing tax liability"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Amortization spreads intangible asset costs. Accounting knowledge is essential for CA (Financial Accounting)."
+    },
+    {
+      "question_id": "ACAD_UGCA_013",
+      "question_text": "What is the primary purpose of a trial balance?",
+      "options": [
+        {"option_id": "A", "text": "Calculate profits"},
+        {"option_id": "B", "text": "Check arithmetic accuracy of ledger accounts"},
+        {"option_id": "C", "text": "Plan marketing strategies"},
+        {"option_id": "D", "text": "Assess employee performance"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Trial balance checks ledger accuracy. Bookkeeping knowledge is key for CA (Accounting)."
+    },
+    {
+      "question_id": "ACAD_UGCA_014",
+      "question_text": "What is the term for the tax deducted at the source of income?",
+      "options": [
+        {"option_id": "A", "text": "Goods and Services Tax"},
+        {"option_id": "B", "text": "Tax Deducted at Source"},
+        {"option_id": "C", "text": "Value Added Tax"},
+        {"option_id": "D", "text": "Corporate Tax"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "TDS is deducted at the income source. Taxation knowledge is vital for CA (Direct Taxation)."
+    },
+    {
+      "question_id": "ACAD_UGCA_015",
+      "question_text": "What does GAAP stand for in accounting?",
+      "options": [
+        {"option_id": "A", "text": "Generally Accepted Accounting Principles"},
+        {"option_id": "B", "text": "Global Auditing and Assurance Procedures"},
+        {"option_id": "C", "text": "General Accounting Analysis Process"},
+        {"option_id": "D", "text": "Governmental Accounting and Planning"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "GAAP ensures consistent accounting. Standards knowledge is essential for CA (Financial Reporting)."
+    },
+    {
+      "question_id": "ACAD_UGCA_016",
+      "question_text": "What is the primary purpose of a profit and loss statement?",
+      "options": [
+        {"option_id": "A", "text": "Show financial position"},
+        {"option_id": "B", "text": "Report income and expenses"},
+        {"option_id": "C", "text": "Track cash flows"},
+        {"option_id": "D", "text": "Plan employee benefits"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "P&L reports income and expenses. Financial statement knowledge is key for CA (Accounting)."
+    },
+    {
+      "question_id": "ACAD_UGCA_017",
+      "question_text": "What is the term for a liability that may arise depending on future events?",
+      "options": [
+        {"option_id": "A", "text": "Contingent Liability"},
+        {"option_id": "B", "text": "Fixed Liability"},
+        {"option_id": "C", "text": "Current Liability"},
+        {"option_id": "D", "text": "Long-term Liability"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Contingent liability depends on future events. Accounting knowledge is vital for CA (Financial Reporting)."
+    },
+    {
+      "question_id": "ACAD_UGCA_018",
+      "question_text": "What is the primary focus of cost accounting?",
+      "options": [
+        {"option_id": "A", "text": "Analyze and control business costs"},
+        {"option_id": "B", "text": "Prepare tax returns"},
+        {"option_id": "C", "text": "Develop marketing strategies"},
+        {"option_id": "D", "text": "Conduct employee training"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Cost accounting controls costs. Costing knowledge is essential for CA (Cost Accounting)."
+    },
+    {
+      "question_id": "ACAD_UGCA_019",
+      "question_text": "What is the term for the excess of revenue over expenses?",
+      "options": [
+        {"option_id": "A", "text": "Loss"},
+        {"option_id": "B", "text": "Profit"},
+        {"option_id": "C", "text": "Liability"},
+        {"option_id": "D", "text": "Asset"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Profit is revenue minus expenses. Financial knowledge is key for CA (Accounting)."
+    },
+    {
+      "question_id": "ACAD_UGCA_020",
+      "question_text": "What is the primary purpose of internal auditing?",
+      "options": [
+        {"option_id": "A", "text": "Evaluate internal controls and processes"},
+        {"option_id": "B", "text": "Plan corporate investments"},
+        {"option_id": "C", "text": "Design product prototypes"},
+        {"option_id": "D", "text": "Conduct market surveys"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Internal auditing evaluates controls. Audit knowledge is vital for CA (Audit and Assurance)."
+    },
+    {
+      "question_id": "ACAD_UGCA_021",
+      "question_text": "In which year was the Institute of Chartered Accountants of India established?",
+      "options": [
+        {"option_id": "A", "text": "1949"},
+        {"option_id": "B", "text": "1939"},
+        {"option_id": "C", "text": "1959"},
+        {"option_id": "D", "text": "1969"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "ICAI was established in 1949. Institutional history is relevant for CA (Professional Governance)."
+    },
+    {
+      "question_id": "ACAD_UGCA_022",
+      "question_text": "Who was the first president of the Institute of Chartered Accountants of India?",
+      "options": [
+        {"option_id": "A", "text": "G.P. Kapadia"},
+        {"option_id": "B", "text": "C.A. Vaidya"},
+        {"option_id": "C", "text": "R.C. Cooper"},
+        {"option_id": "D", "text": "P.C. Padmanabhan"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "G.P. Kapadia was ICAI’s first president. Professional history is key for CA (Professional Bodies)."
+    },
+    {
+      "question_id": "ACAD_UGCA_023",
+      "question_text": "In which year was the Income Tax Act enacted in India?",
+      "options": [
+        {"option_id": "A", "text": "1961"},
+        {"option_id": "B", "text": "1951"},
+        {"option_id": "C", "text": "1971"},
+        {"option_id": "D", "text": "1941"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Income Tax Act was enacted in 1961. Taxation history is relevant for CA (Direct Taxation)."
+    },
+    {
+      "question_id": "ACAD_UGCA_024",
+      "question_text": "In which year was the Goods and Services Tax (GST) implemented in India?",
+      "options": [
+        {"option_id": "A", "text": "2017"},
+        {"option_id": "B", "text": "2015"},
+        {"option_id": "C", "text": "2019"},
+        {"option_id": "D", "text": "2013"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "GST was implemented in 2017. Taxation history is key for CA (Indirect Taxation)."
+    },
+    {
+      "question_id": "ACAD_UGCA_025",
+      "question_text": "Who introduced the concept of double-entry bookkeeping?",
+      "options": [
+        {"option_id": "A", "text": "Luca Pacioli"},
+        {"option_id": "B", "text": "Adam Smith"},
+        {"option_id": "C", "text": "John Maynard Keynes"},
+        {"option_id": "D", "text": "Milton Friedman"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Luca Pacioli introduced double-entry bookkeeping in 1494. Accounting history is relevant for CA (Accounting)."
+    },
+    {
+      "question_id": "ACAD_UGCA_026",
+      "question_text": "In which year was the International Auditing and Assurance Standards Board (IAASB) formed?",
+      "options": [
+        {"option_id": "A", "text": "1978"},
+        {"option_id": "B", "text": "1968"},
+        {"option_id": "C", "text": "1988"},
+        {"option_id": "D", "text": "1998"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "IAASB was formed in 1978. Auditing history is key for CA (Audit and Assurance)."
+    },
+    {
+      "question_id": "ACAD_UGCA_027",
+      "question_text": "In which year was the first Indian Budget presented after independence?",
+      "options": [
+        {"option_id": "A", "text": "1947"},
+        {"option_id": "B", "text": "1946"},
+        {"option_id": "C", "text": "1948"},
+        {"option_id": "D", "text": "1949"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The first post-independence budget was in 1947. Fiscal history is relevant for CA (Taxation)."
+    },
+    {
+      "question_id": "ACAD_UGCA_028",
+      "question_text": "Who was the first Finance Minister to present India’s independent budget?",
+      "options": [
+        {"option_id": "A", "text": "R.K. Shanmukham Chetty"},
+        {"option_id": "B", "text": "C.D. Deshmukh"},
+        {"option_id": "C", "text": "John Mathai"},
+        {"option_id": "D", "text": "Morarji Desai"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "R.K. Shanmukham Chetty presented the 1947 budget. Fiscal history is key for CA (Taxation)."
+    },
+    {
+      "question_id": "ACAD_UGCA_029",
+      "question_text": "In which year was the Central Board of Direct Taxes (CBDT) established?",
+      "options": [
+        {"option_id": "A", "text": "1963"},
+        {"option_id": "B", "text": "1953"},
+        {"option_id": "C", "text": "1973"},
+        {"option_id": "D", "text": "1943"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "CBDT was established in 1963. Taxation history is relevant for CA (Direct Taxation)."
+    },
+    {
+      "question_id": "ACAD_UGCA_030",
+      "question_text": "In which year was the Indian Partnership Act enacted?",
+      "options": [
+        {"option_id": "A", "text": "1932"},
+        {"option_id": "B", "text": "1922"},
+        {"option_id": "C", "text": "1942"},
+        {"option_id": "D", "text": "1912"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Indian Partnership Act was enacted in 1932. Legal history is key for CA (Business Law)."
+    }
+  ]
+}

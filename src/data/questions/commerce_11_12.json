@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is the main objective of accounting?",
+    "options": [
+      "To prepare financial statements",
+      "To maintain ledger accounts",
+      "To calculate tax",
+      "To show company status to government"
+    ],
+    "answer": "To prepare financial statements"
+  },
+  {
+    "question": "Which financial statement shows the financial position of a business at a specific point in time?",
+    "options": [
+      "Income Statement",
+      "Cash Flow Statement",
+      "Balance Sheet",
+      "Trial Balance"
+    ],
+    "answer": "Balance Sheet"
+  },
+  {
+    "question": "In economics, what is the law of demand?",
+    "options": [
+      "When price increases, demand increases",
+      "When income increases, demand decreases",
+      "When price increases, demand decreases",
+      "None of the above"
+    ],
+    "answer": "When price increases, demand decreases"
+  },
+  {
+    "question": "Which of the following is a direct tax?",
+    "options": [
+      "GST",
+      "Sales Tax",
+      "Income Tax",
+      "Service Tax"
+    ],
+    "answer": "Income Tax"
+  },
+  {
+    "question": "What is meant by GDP?",
+    "options": [
+      "Gross Domestic Price",
+      "Gross Domestic Product",
+      "General Domestic Production",
+      "Global Domestic Product"
+    ],
+    "answer": "Gross Domestic Product"
+  },
+  {
+    "question": "What is depreciation?",
+    "options": [
+      "Increase in asset value",
+      "Loss of goods",
+      "Decrease in asset value over time",
+      "Net profit"
+    ],
+    "answer": "Decrease in asset value over time"
+  },
+  {
+    "question": "Which principle requires revenue to be recognized when earned?",
+    "options": [
+      "Matching Principle",
+      "Revenue Recognition Principle",
+      "Cost Principle",
+      "Going Concern Principle"
+    ],
+    "answer": "Revenue Recognition Principle"
+  },
+  {
+    "question": "What does the term 'liquidity' refer to in finance?",
+    "options": [
+      "Profitability",
+      "Company\u2019s solvency",
+      "Cash availability",
+      "Inventory management"
+    ],
+    "answer": "Cash availability"
+  },
+  {
+    "question": "Which of the following is an intangible asset?",
+    "options": [
+      "Furniture",
+      "Patent",
+      "Inventory",
+      "Building"
+    ],
+    "answer": "Patent"
+  },
+  {
+    "question": "The central bank of India is:",
+    "options": [
+      "SBI",
+      "NABARD",
+      "RBI",
+      "ICICI"
+    ],
+    "answer": "RBI"
+  },
+  {
+    "question": "What is the accounting equation?",
+    "options": [
+      "Assets = Liabilities + Capital",
+      "Assets = Income - Expenses",
+      "Liabilities = Assets + Capital",
+      "Assets = Revenue + Equity"
+    ],
+    "answer": "Assets = Liabilities + Capital"
+  },
+  {
+    "question": "Which market deals with long-term financial instruments?",
+    "options": [
+      "Money Market",
+      "Capital Market",
+      "Stock Market",
+      "Forex Market"
+    ],
+    "answer": "Capital Market"
+  },
+  {
+    "question": "Which type of business organization has unlimited liability?",
+    "options": [
+      "Private Limited Company",
+      "Public Limited Company",
+      "Sole Proprietorship",
+      "Joint Stock Company"
+    ],
+    "answer": "Sole Proprietorship"
+  },
+  {
+    "question": "Who is the father of Economics?",
+    "options": [
+      "Adam Smith",
+      "Milton Friedman",
+      "John Keynes",
+      "David Ricardo"
+    ],
+    "answer": "Adam Smith"
+  },
+  {
+    "question": "Which document is prepared first in accounting?",
+    "options": [
+      "Ledger",
+      "Trial Balance",
+      "Journal",
+      "Balance Sheet"
+    ],
+    "answer": "Journal"
+  },
+  {
+    "question": "Which concept assumes business will continue operating in the future?",
+    "options": [
+      "Going Concern",
+      "Accrual Concept",
+      "Cost Concept",
+      "Matching Concept"
+    ],
+    "answer": "Going Concern"
+  },
+  {
+    "question": "What is barter system?",
+    "options": [
+      "Buying on credit",
+      "Using money",
+      "Exchanging goods for goods",
+      "Using debit cards"
+    ],
+    "answer": "Exchanging goods for goods"
+  },
+  {
+    "question": "Which is a feature of partnership firm?",
+    "options": [
+      "Unlimited liability",
+      "One owner",
+      "Legal entity",
+      "Limited liability"
+    ],
+    "answer": "Unlimited liability"
+  },
+  {
+    "question": "In which book are transactions recorded first?",
+    "options": [
+      "Ledger",
+      "Journal",
+      "Balance Sheet",
+      "Trial Balance"
+    ],
+    "answer": "Journal"
+  },
+  {
+    "question": "Which is not a part of the 4Ps of marketing?",
+    "options": [
+      "Price",
+      "Place",
+      "Promotion",
+      "Purchase"
+    ],
+    "answer": "Purchase"
+  },
+  {
+    "question": "Which of these is a short-term source of finance?",
+    "options": [
+      "Debentures",
+      "Equity Shares",
+      "Trade Credit",
+      "Public Deposits"
+    ],
+    "answer": "Trade Credit"
+  },
+  {
+    "question": "Which form of business has the highest risk?",
+    "options": [
+      "Partnership",
+      "Private Ltd.",
+      "Public Ltd.",
+      "Sole Proprietorship"
+    ],
+    "answer": "Sole Proprietorship"
+  },
+  {
+    "question": "Cash Book is a type of:",
+    "options": [
+      "Ledger",
+      "Trial Balance",
+      "Journal",
+      "Final Account"
+    ],
+    "answer": "Journal"
+  },
+  {
+    "question": "Which one is a capital receipt?",
+    "options": [
+      "Sale of goods",
+      "Interest received",
+      "Loan taken",
+      "Commission"
+    ],
+    "answer": "Loan taken"
+  },
+  {
+    "question": "Which is not a direct tax?",
+    "options": [
+      "Wealth Tax",
+      "Property Tax",
+      "Income Tax",
+      "GST"
+    ],
+    "answer": "GST"
+  },
+  {
+    "question": "A trial balance checks the:",
+    "options": [
+      "Financial health",
+      "Accuracy of transactions",
+      "Arithmetical accuracy",
+      "Inventory stock"
+    ],
+    "answer": "Arithmetical accuracy"
+  },
+  {
+    "question": "When supply increases and demand remains same, price:",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Remains same",
+      "Cannot say"
+    ],
+    "answer": "Decreases"
+  },
+  {
+    "question": "What is meant by capital employed?",
+    "options": [
+      "Fixed assets",
+      "Net working capital",
+      "Total assets - current liabilities",
+      "Revenue"
+    ],
+    "answer": "Total assets - current liabilities"
+  },
+  {
+    "question": "Which is not an asset?",
+    "options": [
+      "Cash",
+      "Debtors",
+      "Creditors",
+      "Furniture"
+    ],
+    "answer": "Creditors"
+  },
+  {
+    "question": "What is meant by opportunity cost?",
+    "options": [
+      "Cost of the chosen alternative",
+      "Total cost",
+      "Cost of next best alternative foregone",
+      "Future cost"
+    ],
+    "answer": "Cost of next best alternative foregone"
+  }
+]

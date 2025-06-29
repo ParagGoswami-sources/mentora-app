@@ -1,0 +1,457 @@
+{
+  "test_category": "Psychometric",
+  "factor": "Personality",
+  "description": "Assesses personality traits to guide academic and career choices for students in 10th, 11th/12th, and UG levels.",
+  "questions": [
+    {
+      "question_id": "PERS_001",
+      "question_text": "How would you describe your approach to meeting new people?",
+      "options": [
+        {"option_id": "A", "text": "I enjoy meeting new people and feel energized by social interactions."},
+        {"option_id": "B", "text": "I am comfortable but prefer small groups or one-on-one interactions."},
+        {"option_id": "C", "text": "I find it draining and prefer to keep to myself."},
+        {"option_id": "D", "text": "It depends on the situation and my mood."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Extroversion", "score": 4},
+        "B": {"trait": "Ambiversion", "score": 3},
+        "C": {"trait": "Introversion", "score": 1},
+        "D": {"trait": "Ambiversion", "score": 2}
+      },
+      "explanation": "High extroversion may suit collaborative fields like BBA or Mass Communication; introversion aligns with independent paths like BCA or B.Tech."
+    },
+    {
+      "question_id": "PERS_002",
+      "question_text": "How do you feel about trying new activities or subjects?",
+      "options": [
+        {"option_id": "A", "text": "I love exploring new ideas and challenges."},
+        {"option_id": "B", "text": "I am open but prefer some familiarity."},
+        {"option_id": "C", "text": "I stick to what I know well."},
+        {"option_id": "D", "text": "I need time to warm up to new things."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Openness", "score": 4},
+        "B": {"trait": "Openness", "score": 3},
+        "C": {"trait": "Openness", "score": 1},
+        "D": {"trait": "Openness", "score": 2}
+      },
+      "explanation": "High openness suits creative fields like BFA or Mass Communication; low openness aligns with structured paths like B.Com or CA."
+    },
+    {
+      "question_id": "PERS_003",
+      "question_text": "How do you approach completing assignments or tasks?",
+      "options": [
+        {"option_id": "A", "text": "I plan carefully and complete tasks on time."},
+        {"option_id": "B", "text": "I work steadily but sometimes procrastinate."},
+        {"option_id": "C", "text": "I often rush to finish at the last minute."},
+        {"option_id": "D", "text": "I prioritize based on urgency and importance."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Conscientiousness", "score": 4},
+        "B": {"trait": "Conscientiousness", "score": 3},
+        "C": {"trait": "Conscientiousness", "score": 1},
+        "D": {"trait": "Conscientiousness", "score": 3}
+      },
+      "explanation": "High conscientiousness is critical for disciplined fields like MBBS or CA; lower scores may suit flexible paths like B.A."
+    },
+    {
+      "question_id": "PERS_004",
+      "question_text": "How do you react when a classmate disagrees with you?",
+      "options": [
+        {"option_id": "A", "text": "I listen and try to understand their perspective."},
+        {"option_id": "B", "text": "I defend my point but remain respectful."},
+        {"option_id": "C", "text": "I find it hard to stay calm during disagreements."},
+        {"option_id": "D", "text": "I avoid arguments and keep my opinions to myself."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Agreeableness", "score": 4},
+        "B": {"trait": "Agreeableness", "score": 3},
+        "C": {"trait": "Agreeableness", "score": 1},
+        "D": {"trait": "Agreeableness", "score": 2}
+      },
+      "explanation": "High agreeableness suits teamwork-oriented fields like BBA or B.Ed; lower scores align with independent roles like B.Sc."
+    },
+    {
+      "question_id": "PERS_005",
+      "question_text": "How do you handle stress during exams or deadlines?",
+      "options": [
+        {"option_id": "A", "text": "I stay calm and manage stress effectively."},
+        {"option_id": "B", "text": "I feel stressed but cope with some effort."},
+        {"option_id": "C", "text": "I often feel overwhelmed and struggle to cope."},
+        {"option_id": "D", "text": "I use specific techniques like deep breathing."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Emotional Stability", "score": 4},
+        "B": {"trait": "Emotional Stability", "score": 3},
+        "C": {"trait": "Emotional Stability", "score": 1},
+        "D": {"trait": "Emotional Stability", "score": 3}
+      },
+      "explanation": "High emotional stability is key for high-pressure fields like MBBS or CA; lower scores may suit less stressful paths like B.A."
+    },
+    {
+      "question_id": "PERS_006",
+      "question_text": "How often do you seek out group activities or team projects?",
+      "options": [
+        {"option_id": "A", "text": "Very often, I thrive in group settings."},
+        {"option_id": "B", "text": "Occasionally, I enjoy a mix of group and solo work."},
+        {"option_id": "C", "text": "Rarely, I prefer working alone."},
+        {"option_id": "D", "text": "It depends on the task."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Extroversion", "score": 4},
+        "B": {"trait": "Ambiversion", "score": 3},
+        "C": {"trait": "Introversion", "score": 1},
+        "D": {"trait": "Ambiversion", "score": 2}
+      },
+      "explanation": "Extroversion supports collaborative careers like Mass Communication; introversion suits solitary fields like BCA."
+    },
+    {
+      "question_id": "PERS_007",
+      "question_text": "How curious are you about learning new concepts?",
+      "options": [
+        {"option_id": "A", "text": "Very curious, I love diving into new topics."},
+        {"option_id": "B", "text": "Somewhat curious, if it’s relevant to my goals."},
+        {"option_id": "C", "text": "Not very curious, I stick to familiar subjects."},
+        {"option_id": "D", "text": "My curiosity depends on the context."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Openness", "score": 4},
+        "B": {"trait": "Openness", "score": 3},
+        "C": {"trait": "Openness", "score": 1},
+        "D": {"trait": "Openness", "score": 2}
+      },
+      "explanation": "High openness is ideal for innovative fields like B.Tech or BFA; low openness suits structured paths like B.Com."
+    },
+    {
+      "question_id": "PERS_008",
+      "question_text": "How do you ensure your work is thorough and accurate?",
+      "options": [
+        {"option_id": "A", "text": "I double-check everything meticulously."},
+        {"option_id": "B", "text": "I check my work but may miss small details."},
+        {"option_id": "C", "text": "I focus on finishing rather than perfecting."},
+        {"option_id": "D", "text": "I balance accuracy with efficiency."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Conscientiousness", "score": 4},
+        "B": {"trait": "Conscientiousness", "score": 3},
+        "C": {"trait": "Conscientiousness", "score": 1},
+        "D": {"trait": "Conscientiousness", "score": 3}
+      },
+      "explanation": "High conscientiousness is essential for precision-driven fields like CA or MBBS."
+    },
+    {
+      "question_id": "PERS_009",
+      "question_text": "How do you respond to a group member not contributing?",
+      "options": [
+        {"option_id": "A", "text": "I encourage them to participate and offer help."},
+        {"option_id": "B", "text": "I address it politely but firmly."},
+        {"option_id": "C", "text": "I ignore it and focus on my work."},
+        {"option_id": "D", "text": "I take over their tasks to ensure completion."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Agreeableness", "score": 4},
+        "B": {"trait": "Agreeableness", "score": 3},
+        "C": {"trait": "Agreeableness", "score": 1},
+        "D": {"trait": "Agreeableness", "score": 2}
+      },
+      "explanation": "High agreeableness benefits team-oriented fields like BBA or B.Ed."
+    },
+    {
+      "question_id": "PERS_010",
+      "question_text": "How do you react to unexpected changes in plans?",
+      "options": [
+        {"option_id": "A", "text": "I adapt quickly and stay calm."},
+        {"option_id": "B", "text": "I adjust but feel some discomfort."},
+        {"option_id": "C", "text": "I find it stressful and struggle to adapt."},
+        {"option_id": "D", "text": "I take time to plan my response."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Emotional Stability", "score": 4},
+        "B": {"trait": "Emotional Stability", "score": 3},
+        "C": {"trait": "Emotional Stability", "score": 1},
+        "D": {"trait": "Emotional Stability", "score": 2}
+      },
+      "explanation": "Emotional stability supports high-pressure fields like MBBS or M.Tech."
+    },
+    {
+      "question_id": "PERS_011",
+      "question_text": "How comfortable are you speaking in front of a group?",
+      "options": [
+        {"option_id": "A", "text": "Very comfortable, I enjoy presenting."},
+        {"option_id": "B", "text": "Somewhat comfortable, with preparation."},
+        {"option_id": "C", "text": "Not comfortable, I avoid it."},
+        {"option_id": "D", "text": "It depends on the audience."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Extroversion", "score": 4},
+        "B": {"trait": "Ambiversion", "score": 3},
+        "C": {"trait": "Introversion", "score": 1},
+        "D": {"trait": "Ambiversion", "score": 2}
+      },
+      "explanation": "Extroversion aids fields requiring public interaction, like Mass Communication or BBA."
+    },
+    {
+      "question_id": "PERS_012",
+      "question_text": "How often do you explore creative solutions to problems?",
+      "options": [
+        {"option_id": "A", "text": "Always, I love thinking outside the box."},
+        {"option_id": "B", "text": "Sometimes, if the situation calls for it."},
+        {"option_id": "C", "text": "Rarely, I prefer proven methods."},
+        {"option_id": "D", "text": "Occasionally, when inspired."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Openness", "score": 4},
+        "B": {"trait": "Openness", "score": 3},
+        "C": {"trait": "Openness", "score": 1},
+        "D": {"trait": "Openness", "score": 2}
+      },
+      "explanation": "High openness suits innovative fields like BFA or B.Tech."
+    },
+    {
+      "question_id": "PERS_013",
+      "question_text": "How do you manage your study schedule?",
+      "options": [
+        {"option_id": "A", "text": "I follow a strict schedule religiously."},
+        {"option_id": "B", "text": "I have a plan but adjust as needed."},
+        {"option_id": "C", "text": "I study when I feel motivated."},
+        {"option_id": "D", "text": "I prioritize urgent tasks first."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Conscientiousness", "score": 4},
+        "B": {"trait": "Conscientiousness", "score": 3},
+        "C": {"trait": "Conscientiousness", "score": 1},
+        "D": {"trait": "Conscientiousness", "score": 3}
+      },
+      "explanation": "High conscientiousness is key for structured fields like CA or MBBS."
+    },
+    {
+      "question_id": "PERS_014",
+      "question_text": "How do you handle conflicts with peers?",
+      "options": [
+        {"option_id": "A", "text": "I seek compromise and mutual understanding."},
+        {"option_id": "B", "text": "I stand my ground but stay respectful."},
+        {"option_id": "C", "text": "I get frustrated and may argue."},
+        {"option_id": "D", "text": "I avoid conflicts entirely."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Agreeableness", "score": 4},
+        "B": {"trait": "Agreeableness", "score": 3},
+        "C": {"trait": "Agreeableness", "score": 1},
+        "D": {"trait": "Agreeableness", "score": 2}
+      },
+      "explanation": "Agreeableness supports collaborative fields like B.Ed or BBA."
+    },
+    {
+      "question_id": "PERS_015",
+      "question_text": "How do you feel after a challenging day?",
+      "options": [
+        {"option_id": "A", "text": "I bounce back quickly and stay positive."},
+        {"option_id": "B", "text": "I feel tired but recover with rest."},
+        {"option_id": "C", "text": "I feel drained and need time to recover."},
+        {"option_id": "D", "text": "I reflect and plan to avoid future stress."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Emotional Stability", "score": 4},
+        "B": {"trait": "Emotional Stability", "score": 3},
+        "C": {"trait": "Emotional Stability", "score": 1},
+        "D": {"trait": "Emotional Stability", "score": 2}
+      },
+      "explanation": "Emotional stability is crucial for high-pressure careers like MBBS or M.Tech."
+    },
+    {
+      "question_id": "PERS_016",
+      "question_text": "How often do you initiate conversations with strangers?",
+      "options": [
+        {"option_id": "A", "text": "Frequently, I enjoy connecting with others."},
+        {"option_id": "B", "text": "Occasionally, if the situation feels right."},
+        {"option_id": "C", "text": "Rarely, I wait for others to approach."},
+        {"option_id": "D", "text": "It depends on my mood."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Extroversion", "score": 4},
+        "B": {"trait": "Ambiversion", "score": 3},
+        "C": {"trait": "Introversion", "score": 1},
+        "D": {"trait": "Ambiversion", "score": 2}
+      },
+      "explanation": "Extroversion suits outgoing fields like Mass Communication; introversion aligns with solitary roles like BCS."
+    },
+    {
+      "question_id": "PERS_017",
+      "question_text": "How interested are you in abstract or theoretical ideas?",
+      "options": [
+        {"option_id": "A", "text": "Very interested, I enjoy deep thinking."},
+        {"option_id": "B", "text": "Somewhat interested, if it’s practical."},
+        {"option_id": "C", "text": "Not interested, I prefer concrete tasks."},
+        {"option_id": "D", "text": "It varies by topic."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Openness", "score": 4},
+        "B": {"trait": "Openness", "score": 3},
+        "C": {"trait": "Openness", "score": 1},
+        "D": {"trait": "Openness", "score": 2}
+      },
+      "explanation": "High openness suits theoretical fields like B.Sc or M.Sc; low openness aligns with practical fields like B.Com."
+    },
+    {
+      "question_id": "PERS_018",
+      "question_text": "How do you approach long-term projects?",
+      "options": [
+        {"option_id": "A", "text": "I break them into manageable tasks and stay organized."},
+        {"option_id": "B", "text": "I work steadily but may lose focus."},
+        {"option_id": "C", "text": "I tackle them as deadlines approach."},
+        {"option_id": "D", "text": "I set milestones and adjust as needed."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Conscientiousness", "score": 4},
+        "B": {"trait": "Conscientiousness", "score": 3},
+        "C": {"trait": "Conscientiousness", "score": 1},
+        "D": {"trait": "Conscientiousness", "score": 3}
+      },
+      "explanation": "High conscientiousness is vital for rigorous fields like MBBS or CA Foundation."
+    },
+    {
+      "question_id": "PERS_019",
+      "question_text": "How do you respond to a friend asking for help?",
+      "options": [
+        {"option_id": "A", "text": "I’m always ready to help without hesitation."},
+        {"option_id": "B", "text": "I help if I have time and resources."},
+        {"option_id": "C", "text": "I prefer to focus on my own tasks."},
+        {"option_id": "D", "text": "I help but set clear boundaries."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Agreeableness", "score": 4},
+        "B": {"trait": "Agreeableness", "score": 3},
+        "C": {"trait": "Agreeableness", "score": 1},
+        "D": {"trait": "Agreeableness", "score": 2}
+      },
+      "explanation": "High agreeableness suits supportive roles like B.Ed or MSW."
+    },
+    {
+      "question_id": "PERS_020",
+      "question_text": "How do you handle criticism from a teacher?",
+      "options": [
+        {"option_id": "A", "text": "I take it constructively and improve."},
+        {"option_id": "B", "text": "I consider it but don’t always agree."},
+        {"option_id": "C", "text": "I feel upset and find it hard to accept."},
+        {"option_id": "D", "text": "I analyze it before responding."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Emotional Stability", "score": 4},
+        "B": {"trait": "Emotional Stability", "score": 3},
+        "C": {"trait": "Emotional Stability", "score": 1},
+        "D": {"trait": "Emotional Stability", "score": 2}
+      },
+      "explanation": "Emotional stability aids in handling feedback in high-stakes fields like MBBS or CA."
+    },
+    {
+      "question_id": "PERS_021",
+      "question_text": "How do you feel about leading a group project?",
+      "options": [
+        {"option_id": "A", "text": "I enjoy taking charge and leading."},
+        {"option_id": "B", "text": "I’m okay leading if needed."},
+        {"option_id": "C", "text": "I prefer following someone else’s lead."},
+        {"option_id": "D", "text": "It depends on the team."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Extroversion", "score": 4},
+        "B": {"trait": "Ambiversion", "score": 3},
+        "C": {"trait": "Introversion", "score": 1},
+        "D": {"trait": "Ambiversion", "score": 2}
+      },
+      "explanation": "Leadership inclination suits management fields like BBA or MBA."
+    },
+    {
+      "question_id": "PERS_022",
+      "question_text": "How often do you imagine new ways to approach tasks?",
+      "options": [
+        {"option_id": "A", "text": "Frequently, I enjoy creative approaches."},
+        {"option_id": "B", "text": "Sometimes, when standard methods fail."},
+        {"option_id": "C", "text": "Rarely, I stick to what works."},
+        {"option_id": "D", "text": "Occasionally, when inspired."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Openness", "score": 4},
+        "B": {"trait": "Openness", "score": 3},
+        "C": {"trait": "Openness", "score": 1},
+        "D": {"trait": "Openness", "score": 2}
+      },
+      "explanation": "Creative thinking aligns with fields like BFA or Mass Communication."
+    },
+    {
+      "question_id": "PERS_023",
+      "question_text": "How do you prepare for exams or assessments?",
+      "options": [
+        {"option_id": "A", "text": "I start early and follow a detailed plan."},
+        {"option_id": "B", "text": "I study regularly but adapt as needed."},
+        {"option_id": "C", "text": "I cram closer to the exam date."},
+        {"option_id": "D", "text": "I focus on key topics first."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Conscientiousness", "score": 4},
+        "B": {"trait": "Conscientiousness", "score": 3},
+        "C": {"trait": "Conscientiousness", "score": 1},
+        "D": {"trait": "Conscientiousness", "score": 3}
+      },
+      "explanation": "High conscientiousness is critical for fields requiring discipline, like MBBS or CA."
+    },
+    {
+      "question_id": "PERS_024",
+      "question_text": "How do you approach helping a struggling classmate?",
+      "options": [
+        {"option_id": "A", "text": "I offer help willingly and patiently."},
+        {"option_id": "B", "text": "I help if asked and have time."},
+        {"option_id": "C", "text": "I focus on my own work instead."},
+        {"option_id": "D", "text": "I help but expect them to try harder."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Agreeableness", "score": 4},
+        "B": {"trait": "Agreeableness", "score": 3},
+        "C": {"trait": "Agreeableness", "score": 1},
+        "D": {"trait": "Agreeableness", "score": 2}
+      },
+      "explanation": "High agreeableness suits supportive roles like B.Ed or MSW."
+    },
+    {
+      "question_id": "PERS_025",
+      "question_text": "How do you cope with failure or setbacks?",
+      "options": [
+        {"option_id": "A", "text": "I learn from it and move forward quickly."},
+        {"option_id": "B", "text": "I reflect and try to improve."},
+        {"option_id": "C", "text": "I feel discouraged and take time to recover."},
+        {"option_id": "D", "text": "I seek advice to overcome it."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Emotional Stability", "score": 4},
+        "B": {"trait": "Emotional Stability", "score": 3},
+        "C": {"trait": "Emotional Stability", "score": 1},
+        "D": {"trait": "Emotional Stability", "score": 2}
+      },
+      "explanation": "Emotional stability is key for resilient fields like MBBS or M.Tech."
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+[
+  {
+    "question": "Which number logically replaces the question mark? 3, 6, 12, 24, ?",
+    "options": [
+      "36",
+      "40",
+      "48",
+      "50"
+    ],
+    "correct_answer": "48",
+    "category": "Reasoning"
+  },
+  {
+    "question": "Find the odd one out: Apple, Banana, Carrot, Mango",
+    "options": [
+      "Apple",
+      "Banana",
+      "Carrot",
+      "Mango"
+    ],
+    "correct_answer": "Carrot",
+    "category": "Reasoning"
+  },
+  {
+    "question": "If in a code, CAT = DBU, what is DOG?",
+    "options": [
+      "EPH",
+      "DPI",
+      "EPH",
+      "EOH"
+    ],
+    "correct_answer": "EPH",
+    "category": "Reasoning"
+  },
+  {
+    "question": "Which word is the odd one out? Blue, Green, Yellow, Triangle",
+    "options": [
+      "Blue",
+      "Green",
+      "Yellow",
+      "Triangle"
+    ],
+    "correct_answer": "Triangle",
+    "category": "Reasoning"
+  },
+  {
+    "question": "What comes next: Z, X, V, T, ?",
+    "options": [
+      "R",
+      "S",
+      "Q",
+      "U"
+    ],
+    "correct_answer": "R",
+    "category": "Reasoning"
+  },
+  {
+    "question": "Choose the word which is different from the rest: Pen, Pencil, Eraser, Table",
+    "options": [
+      "Pen",
+      "Pencil",
+      "Eraser",
+      "Table"
+    ],
+    "correct_answer": "Table",
+    "category": "Reasoning"
+  },
+  {
+    "question": "How many sides does a nonagon have?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct_answer": "9",
+    "category": "Reasoning"
+  },
+  {
+    "question": "If Monday is the 1st day of the month, what day will be the 15th?",
+    "options": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "correct_answer": "Monday",
+    "category": "Reasoning"
+  },
+  {
+    "question": "Which figure completes the pattern: \u25a2 \u25a2 \u25b2 \u25a2 \u25a2 \u25b2 \u25a2 \u25a2 ?",
+    "options": [
+      "\u25b2",
+      "\u25a2",
+      "\u25cf",
+      "\u25a0"
+    ],
+    "correct_answer": "\u25b2",
+    "category": "Reasoning"
+  },
+  {
+    "question": "What comes next in the series: 1, 4, 9, 16, ?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "36"
+    ],
+    "correct_answer": "25",
+    "category": "Reasoning"
+  },
+  {
+    "question": "Which number is missing? 15, 13, ?, 9, 7",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "14"
+    ],
+    "correct_answer": "11",
+    "category": "Reasoning"
+  },
+  {
+    "question": "If COW is coded as 3-15-23, how is DOG coded?",
+    "options": [
+      "4-15-7",
+      "4-16-8",
+      "5-15-7",
+      "4-14-6"
+    ],
+    "correct_answer": "4-15-7",
+    "category": "Reasoning"
+  },
+  {
+    "question": "Which of the following is not a type of triangle?",
+    "options": [
+      "Equilateral",
+      "Isosceles",
+      "Parallelogram",
+      "Scalene"
+    ],
+    "correct_answer": "Parallelogram",
+    "category": "Reasoning"
+  },
+  {
+    "question": "Identify the next in the pattern: AB, CD, EF, ?",
+    "options": [
+      "FG",
+      "GH",
+      "IJ",
+      "GH"
+    ],
+    "correct_answer": "GH",
+    "category": "Reasoning"
+  },
+  {
+    "question": "Which number is the square root of 144?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correct_answer": "12",
+    "category": "Reasoning"
+  }
+]

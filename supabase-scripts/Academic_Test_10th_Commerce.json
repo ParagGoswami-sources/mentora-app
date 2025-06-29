@@ -1,0 +1,548 @@
+{
+  "test_category": "Academic",
+  "class": "10th Standard",
+  "stream": "Commerce",
+  "description": "Assesses General Knowledge, Science, and History for 10th-grade students in the Commerce stream to guide academic and career choices.",
+  "questions": [
+    {
+      "question_id": "ACAD_10COM_001",
+      "question_text": "What is the currency of the United States?",
+      "options": [
+        {"option_id": "A", "text": "Dollar"},
+        {"option_id": "B", "text": "Euro"},
+        {"option_id": "C", "text": "Pound"},
+        {"option_id": "D", "text": "Yen"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "The US Dollar is the currency of the United States. Knowledge of global currencies is essential for Commerce streams (B.Com, CA)."
+    },
+    {
+      "question_id": "ACAD_10COM_002",
+      "question_text": "Who is the current Finance Minister of India (as of May 2025)?",
+      "options": [
+        {"option_id": "A", "text": "Nirmala Sitharaman"},
+        {"option_id": "B", "text": "Piyush Goyal"},
+        {"option_id": "C", "text": "Arun Jaitley"},
+        {"option_id": "D", "text": "Rajnath Singh"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Nirmala Sitharaman is the Finance Minister. Awareness of economic leadership suits Commerce streams (BBA, CA)."
+    },
+    {
+      "question_id": "ACAD_10COM_003",
+      "question_text": "Which city is the financial capital of India?",
+      "options": [
+        {"option_id": "A", "text": "Delhi"},
+        {"option_id": "B", "text": "Mumbai"},
+        {"option_id": "C", "text": "Kolkata"},
+        {"option_id": "D", "text": "Chennai"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Mumbai is India’s financial capital. This knowledge is foundational for Commerce streams (B.Com, BMS)."
+    },
+    {
+      "question_id": "ACAD_10COM_004",
+      "question_text": "What does GST stand for in the context of Indian taxation?",
+      "options": [
+        {"option_id": "A", "text": "General Sales Tax"},
+        {"option_id": "B", "text": "Goods and Services Tax"},
+        {"option_id": "C", "text": "Global Service Tax"},
+        {"option_id": "D", "text": "Government Subsidy Tax"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "GST stands for Goods and Services Tax. Taxation knowledge is crucial for Commerce streams (CA, B.Com)."
+    },
+    {
+      "question_id": "ACAD_10COM_005",
+      "question_text": "Which organization regulates the stock market in India?",
+      "options": [
+        {"option_id": "A", "text": "RBI"},
+        {"option_id": "B", "text": "SEBI"},
+        {"option_id": "C", "text": "IRDAI"},
+        {"option_id": "D", "text": "NSE"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "SEBI (Securities and Exchange Board of India) regulates the stock market. Financial regulation knowledge suits Commerce streams (BMS, CA)."
+    },
+    {
+      "question_id": "ACAD_10COM_006",
+      "question_text": "What is the capital of the United Kingdom?",
+      "options": [
+        {"option_id": "A", "text": "Paris"},
+        {"option_id": "B", "text": "London"},
+        {"option_id": "C", "text": "Berlin"},
+        {"option_id": "D", "text": "Dublin"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "London is the capital of the UK. Global geography knowledge supports Commerce streams (BBA, international business)."
+    },
+    {
+      "question_id": "ACAD_10COM_007",
+      "question_text": "Which international organization promotes global trade?",
+      "options": [
+        {"option_id": "A", "text": "WHO"},
+        {"option_id": "B", "text": "WTO"},
+        {"option_id": "C", "text": "UNESCO"},
+        {"option_id": "D", "text": "UNICEF"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "The WTO (World Trade Organization) promotes global trade. Trade knowledge is key for Commerce streams (BBA, B.Com)."
+    },
+    {
+      "question_id": "ACAD_10COM_008",
+      "question_text": "What is the largest stock exchange in India?",
+      "options": [
+        {"option_id": "A", "text": "BSE"},
+        {"option_id": "B", "text": "NSE"},
+        {"option_id": "C", "text": "MCX"},
+        {"option_id": "D", "text": "CSE"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "The NSE (National Stock Exchange) is India’s largest stock exchange. Financial market knowledge suits Commerce streams (BMS, CA)."
+    },
+    {
+      "question_id": "ACAD_10COM_009",
+      "question_text": "Which Indian state is known as the ‘Silicon Valley of India’?",
+      "options": [
+        {"option_id": "A", "text": "Maharashtra"},
+        {"option_id": "B", "text": "Karnataka"},
+        {"option_id": "C", "text": "Telangana"},
+        {"option_id": "D", "text": "Tamil Nadu"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Karnataka (Bengaluru) is the ‘Silicon Valley of India.’ Industry knowledge is relevant for Commerce streams (BBA, BMS)."
+    },
+    {
+      "question_id": "ACAD_10COM_010",
+      "question_text": "What does RBI stand for in India’s financial system?",
+      "options": [
+        {"option_id": "A", "text": "Reserve Bank of India"},
+        {"option_id": "B", "text": "Revenue Board of India"},
+        {"option_id": "C", "text": "Regional Bank of India"},
+        {"option_id": "D", "text": "Rural Banking Institute"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "RBI stands for Reserve Bank of India. Banking knowledge is essential for Commerce streams (CA, B.Com)."
+    },
+    {
+      "question_id": "ACAD_10COM_011",
+      "question_text": "What is the primary source of energy for household electricity in India?",
+      "options": [
+        {"option_id": "A", "text": "Solar"},
+        {"option_id": "B", "text": "Coal"},
+        {"option_id": "C", "text": "Wind"},
+        {"option_id": "D", "text": "Hydro"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Coal is the primary energy source for electricity in India. Energy knowledge is relevant for Commerce streams (BBA, energy markets)."
+    },
+    {
+      "question_id": "ACAD_10COM_012",
+      "question_text": "What gas is released during combustion of fossil fuels?",
+      "options": [
+        {"option_id": "A", "text": "Oxygen"},
+        {"option_id": "B", "text": "Carbon Dioxide"},
+        {"option_id": "C", "text": "Nitrogen"},
+        {"option_id": "D", "text": "Helium"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Carbon Dioxide is released during combustion. Environmental science knowledge suits Commerce streams (B.Com, sustainability)."
+    },
+    {
+      "question_id": "ACAD_10COM_013",
+      "question_text": "Which technology is used for contactless payments?",
+      "options": [
+        {"option_id": "A", "text": "Bluetooth"},
+        {"option_id": "B", "text": "NFC"},
+        {"option_id": "C", "text": "Wi-Fi"},
+        {"option_id": "D", "text": "Infrared"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "NFC (Near Field Communication) enables contactless payments. Technology knowledge is key for Commerce streams (BMS, fintech)."
+    },
+    {
+      "question_id": "ACAD_10COM_014",
+      "question_text": "What is the main source of renewable energy in India?",
+      "options": [
+        {"option_id": "A", "text": "Solar"},
+        {"option_id": "B", "text": "Coal"},
+        {"option_id": "C", "text": "Natural Gas"},
+        {"option_id": "D", "text": "Nuclear"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Solar is a major renewable energy source in India. Energy knowledge supports Commerce streams (BBA, renewable markets)."
+    },
+    {
+      "question_id": "ACAD_10COM_015",
+      "question_text": "Which device converts solar energy into electricity?",
+      "options": [
+        {"option_id": "A", "text": "Battery"},
+        {"option_id": "B", "text": "Solar Panel"},
+        {"option_id": "C", "text": "Generator"},
+        {"option_id": "D", "text": "Turbine"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Solar panels convert solar energy to electricity. This knowledge is relevant for Commerce streams (BBA, sustainability)."
+    },
+    {
+      "question_id": "ACAD_10COM_016",
+      "question_text": "What is the primary function of a barcode scanner?",
+      "options": [
+        {"option_id": "A", "text": "Print labels"},
+        {"option_id": "B", "text": "Read product codes"},
+        {"option_id": "C", "text": "Store data"},
+        {"option_id": "D", "text": "Connect to Wi-Fi"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Barcode scanners read product codes. Technology knowledge suits Commerce streams (BMS, retail management)."
+    },
+    {
+      "question_id": "ACAD_10COM_017",
+      "question_text": "Which gas contributes most to the greenhouse effect?",
+      "options": [
+        {"option_id": "A", "text": "Oxygen"},
+        {"option_id": "B", "text": "Carbon Dioxide"},
+        {"option_id": "C", "text": "Nitrogen"},
+        {"option_id": "D", "text": "Argon"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Carbon Dioxide is the main greenhouse gas. Environmental science is relevant for Commerce streams (B.Com, CSR)."
+    },
+    {
+      "question_id": "ACAD_10COM_018",
+      "question_text": "What does LED stand for in lighting technology?",
+      "options": [
+        {"option_id": "A", "text": "Light Emitting Diode"},
+        {"option_id": "B", "text": "Laser Energy Device"},
+        {"option_id": "C", "text": "Low Energy Display"},
+        {"option_id": "D", "text": "Light Efficiency Detector"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "LED stands for Light Emitting Diode. Technology knowledge supports Commerce streams (BBA, product management)."
+    },
+    {
+      "question_id": "ACAD_10COM_019",
+      "question_text": "Which natural resource is used to produce paper?",
+      "options": [
+        {"option_id": "A", "text": "Iron"},
+        {"option_id": "B", "text": "Wood"},
+        {"option_id": "C", "text": "Coal"},
+        {"option_id": "D", "text": "Oil"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Wood is used to produce paper. Resource knowledge is relevant for Commerce streams (B.Com, supply chain)."
+    },
+    {
+      "question_id": "ACAD_10COM_020",
+      "question_text": "What is the primary use of a spreadsheet software?",
+      "options": [
+        {"option_id": "A", "text": "Word processing"},
+        {"option_id": "B", "text": "Data analysis"},
+        {"option_id": "C", "text": "Graphic design"},
+        {"option_id": "D", "text": "Web browsing"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Spreadsheets are used for data analysis. IT knowledge is essential for Commerce streams (BMS, CA)."
+    },
+    {
+      "question_id": "ACAD_10COM_021",
+      "question_text": "Who was the founder of the Maratha Empire?",
+      "options": [
+        {"option_id": "A", "text": "Shivaji Maharaj"},
+        {"option_id": "B", "text": "Aurangzeb"},
+        {"option_id": "C", "text": "Akbar"},
+        {"option_id": "D", "text": "Bajirao I"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Shivaji Maharaj founded the Maratha Empire. Historical knowledge supports Commerce students in understanding economic history."
+    },
+    {
+      "question_id": "ACAD_10COM_022",
+      "question_text": "In which year was the Reserve Bank of India established?",
+      "options": [
+        {"option_id": "A", "text": "1935"},
+        {"option_id": "B", "text": "1947"},
+        {"option_id": "C", "text": "1950"},
+        {"option_id": "D", "text": "1921"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The RBI was established in 1935. Financial history is crucial for Commerce streams (CA, B.Com)."
+    },
+    {
+      "question_id": "ACAD_10COM_023",
+      "question_text": "Which British policy led to the growth of indigo plantations in India?",
+      "options": [
+        {"option_id": "A", "text": "Permanent Settlement"},
+        {"option_id": "B", "text": "Ryotwari System"},
+        {"option_id": "C", "text": "Mahalwari System"},
+        {"option_id": "D", "text": "Doctrine of Lapse"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Permanent Settlement encouraged indigo plantations. Economic history knowledge suits Commerce streams (B.Com)."
+    },
+    {
+      "question_id": "ACAD_10COM_024",
+      "question_text": "Who was the first Governor-General of independent India?",
+      "options": [
+        {"option_id": "A", "text": "Lord Mountbatten"},
+        {"option_id": "B", "text": "C. Rajagopalachari"},
+        {"option_id": "C", "text": "Lord Dalhousie"},
+        {"option_id": "D", "text": "Warren Hastings"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "C. Rajagopalachari was the first Indian Governor-General. Historical knowledge is relevant for Commerce streams."
+    },
+    {
+      "question_id": "ACAD_10COM_025",
+      "question_text": "Which event marked the start of the French Revolution?",
+      "options": [
+        {"option_id": "A", "text": "Storming of the Bastille"},
+        {"option_id": "B", "text": "Execution of Louis XVI"},
+        {"option_id": "C", "text": "Reign of Terror"},
+        {"option_id": "D", "text": "Tennis Court Oath"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Storming of the Bastille (1789) marked the French Revolution’s start. Global history supports Commerce streams (BBA, global trade)."
+    },
+    {
+      "question_id": "ACAD_10COM_026",
+      "question_text": "Which dynasty ruled India during the Delhi Sultanate?",
+      "options": [
+        {"option_id": "A", "text": "Mughal"},
+        {"option_id": "B", "text": "Lodi"},
+        {"option_id": "C", "text": "Maurya"},
+        {"option_id": "D", "text": "Gupta"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Lodi dynasty was part of the Delhi Sultanate. Medieval history knowledge suits Commerce streams (B.Com)."
+    },
+    {
+      "question_id": "ACAD_10COM_027",
+      "question_text": "In which year was the East India Company established?",
+      "options": [
+        {"option_id": "A", "text": "1600"},
+        {"option_id": "B", "text": "1757"},
+        {"option_id": "C", "text": "1857"},
+        {"option_id": "D", "text": "1498"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The East India Company was established in 1600. Colonial trade history is key for Commerce streams (BBA, B.Com)."
+    },
+    {
+      "question_id": "ACAD_10COM_028",
+      "question_text": "Who launched the Swadeshi Movement in 1905?",
+      "options": [
+        {"option_id": "A", "text": "Bal Gangadhar Tilak"},
+        {"option_id": "B", "text": "Mahatma Gandhi"},
+        {"option_id": "C", "text": "Lala Lajpat Rai"},
+        {"option_id": "D", "text": "Jawaharlal Nehru"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Bal Gangadhar Tilak was a key figure in the Swadeshi Movement. Economic nationalism knowledge suits Commerce streams."
+    },
+    {
+      "question_id": "ACAD_10COM_029",
+      "question_text": "Which war ended with the Treaty of Versailles?",
+      "options": [
+        {"option_id": "A", "text": "World War I"},
+        {"option_id": "B", "text": "World War II"},
+        {"option_id": "C", "text": "Napoleonic Wars"},
+        {"option_id": "D", "text": "American Civil War"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "World War I ended with the Treaty of Versailles (1919). Global history is relevant for Commerce streams (BBA, trade)."
+    },
+    {
+      "question_id": "ACAD_10COM_030",
+      "question_text": "Who was the first Indian to win the Nobel Prize in Economics?",
+      "options": [
+        {"option_id": "A", "text": "Amartya Sen"},
+        {"option_id": "B", "text": "Raghuram Rajan"},
+        {"option_id": "C", "text": "Abhijit Banerjee"},
+        {"option_id": "D", "text": "Manmohan Singh"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Amartya Sen won the Nobel Prize in Economics in 1998. Economic history is crucial for Commerce streams (B.Com, CA)."
+    }
+  ]
+}

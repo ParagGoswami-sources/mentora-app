@@ -1,0 +1,306 @@
+{
+  "stream": "UG",
+  "course": "BCA",
+  "questions": [
+    {
+      "question": "Which of the following is a non-volatile memory?",
+      "options": [
+        "RAM",
+        "ROM",
+        "Cache",
+        "Register"
+      ],
+      "answer": "ROM"
+    },
+    {
+      "question": "Which language is primarily used for web development?",
+      "options": [
+        "Python",
+        "C",
+        "HTML",
+        "Java"
+      ],
+      "answer": "HTML"
+    },
+    {
+      "question": "Which sorting algorithm has the best average time complexity?",
+      "options": [
+        "Bubble Sort",
+        "Quick Sort",
+        "Selection Sort",
+        "Insertion Sort"
+      ],
+      "answer": "Quick Sort"
+    },
+    {
+      "question": "What is the full form of SQL?",
+      "options": [
+        "Structured Question Language",
+        "Structured Query Language",
+        "Simple Query Language",
+        "Standard Question Language"
+      ],
+      "answer": "Structured Query Language"
+    },
+    {
+      "question": "Which of the following is a database management system?",
+      "options": [
+        "MySQL",
+        "Linux",
+        "Python",
+        "HTML"
+      ],
+      "answer": "MySQL"
+    },
+    {
+      "question": "What does HTTP stand for?",
+      "options": [
+        "HyperText Transfer Protocol",
+        "HyperText Translate Protocol",
+        "HighText Transfer Protocol",
+        "HyperText Transition Protocol"
+      ],
+      "answer": "HyperText Transfer Protocol"
+    },
+    {
+      "question": "Which data structure uses FIFO (First In First Out)?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Tree",
+        "Graph"
+      ],
+      "answer": "Queue"
+    },
+    {
+      "question": "Which OS is open source?",
+      "options": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "iOS"
+      ],
+      "answer": "Linux"
+    },
+    {
+      "question": "In C, which operator is used for address-of?",
+      "options": [
+        "*",
+        "&",
+        "#",
+        "%"
+      ],
+      "answer": "&"
+    },
+    {
+      "question": "What is the output of 4 + 3 * 2 in programming?",
+      "options": [
+        "14",
+        "10",
+        "7",
+        "16"
+      ],
+      "answer": "10"
+    },
+    {
+      "question": "Which of the following is not a programming paradigm?",
+      "options": [
+        "Procedural",
+        "Object-Oriented",
+        "Functional",
+        "Compiling"
+      ],
+      "answer": "Compiling"
+    },
+    {
+      "question": "Which protocol is used to send emails?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "SMTP",
+        "IMAP"
+      ],
+      "answer": "SMTP"
+    },
+    {
+      "question": "Which command is used to view contents of a directory in Linux?",
+      "options": [
+        "cd",
+        "ls",
+        "pwd",
+        "mkdir"
+      ],
+      "answer": "ls"
+    },
+    {
+      "question": "In HTML, which tag is used for creating a hyperlink?",
+      "options": [
+        "<p>",
+        "<link>",
+        "<a>",
+        "<href>"
+      ],
+      "answer": "<a>"
+    },
+    {
+      "question": "Which of the following is a front-end framework?",
+      "options": [
+        "Laravel",
+        "Django",
+        "React",
+        "Flask"
+      ],
+      "answer": "React"
+    },
+    {
+      "question": "Which symbol is used for comments in Python?",
+      "options": [
+        "//",
+        "#",
+        "/* */",
+        "<!-- -->"
+      ],
+      "answer": "#"
+    },
+    {
+      "question": "Which of these is not a valid data type in Python?",
+      "options": [
+        "list",
+        "int",
+        "char",
+        "tuple"
+      ],
+      "answer": "char"
+    },
+    {
+      "question": "Which keyword is used to define a function in Python?",
+      "options": [
+        "define",
+        "func",
+        "def",
+        "function"
+      ],
+      "answer": "def"
+    },
+    {
+      "question": "Which tool is used for version control?",
+      "options": [
+        "Docker",
+        "Git",
+        "VS Code",
+        "NPM"
+      ],
+      "answer": "Git"
+    },
+    {
+      "question": "What is the extension of JavaScript files?",
+      "options": [
+        ".js",
+        ".java",
+        ".py",
+        ".html"
+      ],
+      "answer": ".js"
+    },
+    {
+      "question": "Which of the following is a relational database?",
+      "options": [
+        "MongoDB",
+        "Firebase",
+        "PostgreSQL",
+        "Neo4j"
+      ],
+      "answer": "PostgreSQL"
+    },
+    {
+      "question": "What is the function of an operating system?",
+      "options": [
+        "Run software",
+        "Manage hardware",
+        "Provide UI",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Which tag is used to display an image in HTML?",
+      "options": [
+        "<img>",
+        "<image>",
+        "<src>",
+        "<pic>"
+      ],
+      "answer": "<img>"
+    },
+    {
+      "question": "Which loop checks the condition after executing the loop body once?",
+      "options": [
+        "for",
+        "while",
+        "do-while",
+        "foreach"
+      ],
+      "answer": "do-while"
+    },
+    {
+      "question": "Which of these is not a storage class in C?",
+      "options": [
+        "auto",
+        "register",
+        "static",
+        "double"
+      ],
+      "answer": "double"
+    },
+    {
+      "question": "Which is not an IDE?",
+      "options": [
+        "VS Code",
+        "PyCharm",
+        "Notepad++",
+        "MySQL"
+      ],
+      "answer": "MySQL"
+    },
+    {
+      "question": "Which CSS property controls the text size?",
+      "options": [
+        "font-style",
+        "text-size",
+        "font-size",
+        "size"
+      ],
+      "answer": "font-size"
+    },
+    {
+      "question": "Which one is a backend technology?",
+      "options": [
+        "React",
+        "Vue",
+        "Node.js",
+        "Angular"
+      ],
+      "answer": "Node.js"
+    },
+    {
+      "question": "Which company developed the Python language?",
+      "options": [
+        "Google",
+        "Microsoft",
+        "Python Software Foundation",
+        "None of these"
+      ],
+      "answer": "Python Software Foundation"
+    },
+    {
+      "question": "Which component connects a computer to a network?",
+      "options": [
+        "CPU",
+        "NIC",
+        "RAM",
+        "ROM"
+      ],
+      "answer": "NIC"
+    }
+  ]
+}

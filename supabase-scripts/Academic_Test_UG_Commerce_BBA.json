@@ -1,0 +1,459 @@
+{
+  "test_category": "Academic",
+  "class": "Undergraduate",
+  "stream": "Commerce",
+  "course": "BBA",
+  "description": "Assesses General Knowledge, Commerce, and History for undergraduate students pursuing BBA to guide academic and career choices.",
+  "questions": [
+    {
+      "question_id": "ACAD_UGBBA_001",
+      "question_text": "Which Indian body regulates higher education institutions offering BBA programs?",
+      "options": [
+        {"option_id": "A", "text": "University Grants Commission"},
+        {"option_id": "B", "text": "All India Council for Technical Education"},
+        {"option_id": "C", "text": "National Assessment and Accreditation Council"},
+        {"option_id": "D", "text": "Securities and Exchange Board of India"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "UGC regulates higher education. Regulatory knowledge is essential for BBA (Education Policy)."
+    },
+    {
+      "question_id": "ACAD_UGBBA_002",
+      "question_text": "Which Indian city is known as a hub for management education, hosting IIMs?",
+      "options": [
+        {"option_id": "A", "text": "Ahmedabad"},
+        {"option_id": "B", "text": "Chennai"},
+        {"option_id": "C", "text": "Hyderabad"},
+        {"option_id": "D", "text": "Pune"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Ahmedabad hosts IIM Ahmedabad. Institutional knowledge is key for BBA (Management Education)."
+    },
+    {
+      "question_id": "ACAD_UGBBA_003",
+      "question_text": "What does the acronym ‘FDI’ stand for in business?",
+      "options": [
+        {"option_id": "A", "text": "Foreign Direct Investment"},
+        {"option_id": "B", "text": "Financial Development Index"},
+        {"option_id": "C", "text": "Fiscal Deficit Indicator"},
+        {"option_id": "D", "text": "Foreign Debt Investment"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "FDI refers to Foreign Direct Investment. Economic knowledge supports BBA (International Business)."
+    },
+    {
+      "question_id": "ACAD_UGBBA_004",
+      "question_text": "Which Indian institute is renowned for BBA programs, like NMIMS Mumbai?",
+      "options": [
+        {"option_id": "A", "text": "Narsee Monjee Institute of Management Studies"},
+        {"option_id": "B", "text": "Indian Institute of Science"},
+        {"option_id": "C", "text": "National Institute of Technology"},
+        {"option_id": "D", "text": "All India Institute of Medical Sciences"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "NMIMS is renowned for BBA programs. Institutional knowledge is vital for BBA students."
+    },
+    {
+      "question_id": "ACAD_UGBBA_005",
+      "question_text": "Which global organization promotes international trade, impacting business policies?",
+      "options": [
+        {"option_id": "A", "text": "World Health Organization"},
+        {"option_id": "B", "text": "World Trade Organization"},
+        {"option_id": "C", "text": "International Monetary Fund"},
+        {"option_id": "D", "text": "United Nations Educational, Scientific and Cultural Organization"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "WTO promotes international trade. Global business knowledge is key for BBA (International Business)."
+    },
+    {
+      "question_id": "ACAD_UGBBA_006",
+      "question_text": "Which Indian state is known for its startup ecosystem, like Bengaluru’s Silicon Valley?",
+      "options": [
+        {"option_id": "A", "text": "Karnataka"},
+        {"option_id": "B", "text": "Rajasthan"},
+        {"option_id": "C", "text": "Uttar Pradesh"},
+        {"option_id": "D", "text": "West Bengal"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Karnataka’s Bengaluru is a startup hub. Entrepreneurial knowledge supports BBA (Entrepreneurship)."
+    },
+    {
+      "question_id": "ACAD_UGBBA_007",
+      "question_text": "Which Indian scheme supports startups, like Startup India?",
+      "options": [
+        {"option_id": "A", "text": "Startup India"},
+        {"option_id": "B", "text": "Digital India"},
+        {"option_id": "C", "text": "Make in India"},
+        {"option_id": "D", "text": "Skill India"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Startup India supports entrepreneurship. Policy knowledge is essential for BBA (Entrepreneurship)."
+    },
+    {
+      "question_id": "ACAD_UGBBA_008",
+      "question_text": "Which Indian company is known for its management training programs, like Tata Group?",
+      "options": [
+        {"option_id": "A", "text": "Tata Group"},
+        {"option_id": "B", "text": "Infosys"},
+        {"option_id": "C", "text": "Reliance Industries"},
+        {"option_id": "D", "text": "Wipro"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Tata Group is known for management training. Corporate knowledge is vital for BBA (Human Resource Management)."
+    },
+    {
+      "question_id": "ACAD_UGBBA_009",
+      "question_text": "Which global business magazine is known for its company rankings, like Forbes?",
+      "options": [
+        {"option_id": "A", "text": "Time"},
+        {"option_id": "B", "text": "Forbes"},
+        {"option_id": "C", "text": "Newsweek"},
+        {"option_id": "D", "text": "The Economist"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Forbes ranks companies globally. Business media knowledge supports BBA (Business Environment)."
+    },
+    {
+      "question_id": "ACAD_UGBBA_010",
+      "question_text": "Which Indian city hosts the headquarters of the Confederation of Indian Industry (CII)?",
+      "options": [
+        {"option_id": "A", "text": "Mumbai"},
+        {"option_id": "B", "text": "New Delhi"},
+        {"option_id": "C", "text": "Bengaluru"},
+        {"option_id": "D", "text": "Kolkata"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "CII is headquartered in New Delhi. Industry knowledge is key for BBA (Business Policy)."
+    },
+    {
+      "question_id": "ACAD_UGBBA_011",
+      "question_text": "What is the primary focus of marketing management?",
+      "options": [
+        {"option_id": "A", "text": "Managing financial accounts"},
+        {"option_id": "B", "text": "Promoting and selling products or services"},
+        {"option_id": "C", "text": "Designing production processes"},
+        {"option_id": "D", "text": "Auditing company records"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Marketing management promotes products. Marketing knowledge is crucial for BBA (Marketing)."
+    },
+    {
+      "question_id": "ACAD_UGBBA_012",
+      "question_text": "What does SWOT analysis stand for in business strategy?",
+      "options": [
+        {"option_id": "A", "text": "Sales, Workflow, Operations, Targets"},
+        {"option_id": "B", "text": "Strengths, Weaknesses, Opportunities, Threats"},
+        {"option_id": "C", "text": "Strategy, Workplan, Objectives, Trends"},
+        {"option_id": "D", "text": "Systems, Workforce, Outputs, Tasks"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "SWOT analyzes Strengths, Weaknesses, Opportunities, Threats. Strategic knowledge is essential for BBA (Strategic Management)."
+    },
+    {
+      "question_id": "ACAD_UGBBA_013",
+      "question_text": "What is the primary role of human resource management?",
+      "options": [
+        {"option_id": "A", "text": "Manage employee recruitment and welfare"},
+        {"option_id": "B", "text": "Develop marketing campaigns"},
+        {"option_id": "C", "text": "Oversee financial investments"},
+        {"option_id": "D", "text": "Design product prototypes"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "HRM manages recruitment and welfare. HR knowledge is key for BBA (Human Resource Management)."
+    },
+    {
+      "question_id": "ACAD_UGBBA_014",
+      "question_text": "What is the term for a business owned by a single individual?",
+      "options": [
+        {"option_id": "A", "text": "Partnership"},
+        {"option_id": "B", "text": "Sole Proprietorship"},
+        {"option_id": "C", "text": "Corporation"},
+        {"option_id": "D", "text": "Cooperative"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Sole Proprietorship is owned by one person. Business structure knowledge is vital for BBA (Entrepreneurship)."
+    },
+    {
+      "question_id": "ACAD_UGBBA_015",
+      "question_text": "What is the primary purpose of a business plan?",
+      "options": [
+        {"option_id": "A", "text": "Track daily sales"},
+        {"option_id": "B", "text": "Outline business goals and strategies"},
+        {"option_id": "C", "text": "Record employee attendance"},
+        {"option_id": "D", "text": "Design product packaging"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "A business plan outlines goals and strategies. Planning knowledge is essential for BBA (Business Strategy)."
+    },
+    {
+      "question_id": "ACAD_UGBBA_016",
+      "question_text": "What does CRM stand for in business?",
+      "options": [
+        {"option_id": "A", "text": "Customer Relationship Management"},
+        {"option_id": "B", "text": "Corporate Risk Management"},
+        {"option_id": "C", "text": "Cost Reduction Mechanism"},
+        {"option_id": "D", "text": "Client Revenue Model"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "CRM manages customer relationships. Customer knowledge is key for BBA (Marketing)."
+    },
+    {
+      "question_id": "ACAD_UGBBA_017",
+      "question_text": "What is the term for the process of dividing a market into distinct groups of buyers?",
+      "options": [
+        {"option_id": "A", "text": "Market Segmentation"},
+        {"option_id": "B", "text": "Product Differentiation"},
+        {"option_id": "C", "text": "Supply Chain Management"},
+        {"option_id": "D", "text": "Financial Forecasting"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Market Segmentation divides buyers into groups. Marketing knowledge is vital for BBA (Marketing)."
+    },
+    {
+      "question_id": "ACAD_UGBBA_018",
+      "question_text": "What is the primary focus of supply chain management?",
+      "options": [
+        {"option_id": "A", "text": "Managing the flow of goods and services"},
+        {"option_id": "B", "text": "Creating financial reports"},
+        {"option_id": "C", "text": "Designing advertisements"},
+        {"option_id": "D", "text": "Recruiting employees"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Supply chain management oversees goods flow. Operations knowledge is essential for BBA (Operations Management)."
+    },
+    {
+      "question_id": "ACAD_UGBBA_019",
+      "question_text": "What is the term for a company’s unique selling proposition?",
+      "options": [
+        {"option_id": "A", "text": "Brand Equity"},
+        {"option_id": "B", "text": "Unique Selling Proposition"},
+        {"option_id": "C", "text": "Market Share"},
+        {"option_id": "D", "text": "Profit Margin"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 1},
+        "B": {"trait": "Commerce", "score": 4},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "USP is a company’s unique offering. Marketing knowledge is key for BBA (Marketing)."
+    },
+    {
+      "question_id": "ACAD_UGBBA_020",
+      "question_text": "What is the primary purpose of organizational behavior studies?",
+      "options": [
+        {"option_id": "A", "text": "Analyze employee behavior and motivation"},
+        {"option_id": "B", "text": "Calculate financial profits"},
+        {"option_id": "C", "text": "Develop new products"},
+        {"option_id": "D", "text": "Conduct market surveys"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Commerce", "score": 4},
+        "B": {"trait": "Commerce", "score": 1},
+        "C": {"trait": "Commerce", "score": 1},
+        "D": {"trait": "Commerce", "score": 1}
+      },
+      "explanation": "Organizational behavior studies employee motivation. Behavioral knowledge is vital for BBA (Human Resource Management)."
+    },
+    {
+      "question_id": "ACAD_UGBBA_021",
+      "question_text": "In which year was the Indian Institute of Management (IIM) Ahmedabad established?",
+      "options": [
+        {"option_id": "A", "text": "1961"},
+        {"option_id": "B", "text": "1951"},
+        {"option_id": "C", "text": "1971"},
+        {"option_id": "D", "text": "1981"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "IIM Ahmedabad was established in 1961. Institutional history is relevant for BBA (Management Education)."
+    },
+    {
+      "question_id": "ACAD_UGBBA_022",
+      "question_text": "Who founded the Tata Group, a major Indian conglomerate?",
+      "options": [
+        {"option_id": "A", "text": "Jamsetji Tata"},
+        {"option_id": "B", "text": "Ratan Tata"},
+        {"option_id": "C", "text": "J.R.D. Tata"},
+        {"option_id": "D", "text": "Cyrus Mistry"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Jamsetji Tata founded the Tata Group in 1868. Corporate history is key for BBA (Business History)."
+    },
+    {
+      "question_id": "ACAD_UGBBA_023",
+      "question_text": "In which year was the Companies Act, governing Indian businesses, enacted?",
+      "options": [
+        {"option_id": "A", "text": "1956"},
+        {"option_id": "B", "text": "1946"},
+        {"option_id": "C", "text": "1966"},
+        {"option_id": "D", "text": "1936"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Companies Act was enacted in 1956. Legal history is relevant for BBA (Business Law)."
+    },
+    {
+      "question_id": "ACAD_UGBBA_024",
+      "question_text": "In which year was the World Trade Organization (WTO) established?",
+      "options": [
+        {"option_id": "A", "text": "1995"},
+        {"option_id": "B", "text": "1985"},
+        {"option_id": "C", "text": "2005"},
+        {"option_id": "D", "text": "1975"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "WTO was established in 1995. Trade history is key for BBA (International Business)."
+    },
+    {
+      "question_id": "ACAD_UGBBA_025",
+      "question_text": "Who developed the principles of scientific management?",
+      "options": [
+        {"option_id": "A", "text": "Frederick Taylor"},
+        {"option_id": "B", "text": "Henry Fayol"},
+        {"option_id": "C", "text": "Elton Mayo"},
+        {"option_id": "D", "text": "Peter Drucker"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Frederick Taylor developed scientific management in the early 1900s. Management history is relevant for BBA (Management Theory)."
+    }
+  ]
+}

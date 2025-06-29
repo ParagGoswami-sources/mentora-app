@@ -1,0 +1,549 @@
+{
+  "test_category": "Academic",
+  "class": "11th/12th Standard",
+  "stream": "Arts",
+  "course": "BFA",
+  "description": "Assesses General Knowledge, Arts, and History for 11th/12th-grade students in the Arts stream pursuing BFA to guide academic and career choices.",
+  "questions": [
+    {
+      "question_id": "ACAD_11BFA_001",
+      "question_text": "Which museum in Paris is famous for housing the Mona Lisa?",
+      "options": [
+        {"option_id": "A", "text": "Louvre Museum"},
+        {"option_id": "B", "text": "Musée d'Orsay"},
+        {"option_id": "C", "text": "Centre Pompidou"},
+        {"option_id": "D", "text": "Musée Rodin"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "The Louvre Museum houses the Mona Lisa. Art institution knowledge is essential for BFA (Art History)."
+    },
+    {
+      "question_id": "ACAD_11BFA_002",
+      "question_text": "Which Indian city is known for its vibrant street art and mural festivals?",
+      "options": [
+        {"option_id": "A", "text": "Delhi"},
+        {"option_id": "B", "text": "Mumbai"},
+        {"option_id": "C", "text": "Bengaluru"},
+        {"option_id": "D", "text": "Kolkata"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Mumbai is known for street art, especially in areas like Bandra. Urban art knowledge is key for BFA (Visual Arts)."
+    },
+    {
+      "question_id": "ACAD_11BFA_003",
+      "question_text": "Which country is associated with the traditional art form of origami?",
+      "options": [
+        {"option_id": "A", "text": "China"},
+        {"option_id": "B", "text": "Japan"},
+        {"option_id": "C", "text": "Korea"},
+        {"option_id": "D", "text": "Thailand"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Origami is a Japanese art form. Global art knowledge supports BFA (Applied Arts)."
+    },
+    {
+      "question_id": "ACAD_11BFA_004",
+      "question_text": "Which Indian state is famous for its Madhubani painting tradition?",
+      "options": [
+        {"option_id": "A", "text": "Bihar"},
+        {"option_id": "B", "text": "Rajasthan"},
+        {"option_id": "C", "text": "Gujarat"},
+        {"option_id": "D", "text": "Odisha"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Madhubani painting originates from Bihar. Folk art knowledge is vital for BFA (Visual Arts)."
+    },
+    {
+      "question_id": "ACAD_11BFA_005",
+      "question_text": "Which Indian institute is renowned for its fine arts programs, such as Sir J.J. School of Art?",
+      "options": [
+        {"option_id": "A", "text": "Sir J.J. School of Art, Mumbai"},
+        {"option_id": "B", "text": "National Institute of Design, Ahmedabad"},
+        {"option_id": "C", "text": "Indian Institute of Technology, Kanpur"},
+        {"option_id": "D", "text": "Jawaharlal Nehru University, Delhi"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Sir J.J. School of Art is renowned for fine arts. Institutional knowledge is key for BFA aspirants."
+    },
+    {
+      "question_id": "ACAD_11BFA_006",
+      "question_text": "Which city is home to the Uffizi Gallery, a major art museum?",
+      "options": [
+        {"option_id": "A", "text": "Rome"},
+        {"option_id": "B", "text": "Florence"},
+        {"option_id": "C", "text": "Venice"},
+        {"option_id": "D", "text": "Milan"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "The Uffizi Gallery is in Florence. Art history knowledge supports BFA (Art History)."
+    },
+    {
+      "question_id": "ACAD_11BFA_007",
+      "question_text": "What is the traditional Indian art form of miniature painting associated with Rajasthan?",
+      "options": [
+        {"option_id": "A", "text": "Pattachitra"},
+        {"option_id": "B", "text": "Mughal Miniature"},
+        {"option_id": "C", "text": "Rajput Painting"},
+        {"option_id": "D", "text": "Tanjore Painting"}
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 4},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Rajput painting is a Rajasthani miniature art form. Traditional art knowledge is essential for BFA (Visual Arts)."
+    },
+    {
+      "question_id": "ACAD_11BFA_008",
+      "question_text": "Which country is known for its Aboriginal dot painting tradition?",
+      "options": [
+        {"option_id": "A", "text": "Australia"},
+        {"option_id": "B", "text": "New Zealand"},
+        {"option_id": "C", "text": "Canada"},
+        {"option_id": "D", "text": "South Africa"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Aboriginal dot painting is from Australia. Indigenous art knowledge is key for BFA (Art History)."
+    },
+    {
+      "question_id": "ACAD_11BFA_009",
+      "question_text": "Which Indian festival is celebrated with rangoli art designs?",
+      "options": [
+        {"option_id": "A", "text": "Holi"},
+        {"option_id": "B", "text": "Diwali"},
+        {"option_id": "C", "text": "Raksha Bandhan"},
+        {"option_id": "D", "text": "Navratri"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Diwali is celebrated with rangoli. Cultural art knowledge is vital for BFA (Applied Arts)."
+    },
+    {
+      "question_id": "ACAD_11BFA_010",
+      "question_text": "Which city hosts the Venice Biennale, a major international art exhibition?",
+      "options": [
+        {"option_id": "A", "text": "Paris"},
+        {"option_id": "B", "text": "Venice"},
+        {"option_id": "C", "text": "Berlin"},
+        {"option_id": "D", "text": "New York"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "The Venice Biennale is held in Venice. Contemporary art knowledge supports BFA (Visual Arts)."
+    },
+    {
+      "question_id": "ACAD_11BFA_011",
+      "question_text": "What is the primary medium used in sculpture?",
+      "options": [
+        {"option_id": "A", "text": "Paint"},
+        {"option_id": "B", "text": "Clay or stone"},
+        {"option_id": "C", "text": "Paper"},
+        {"option_id": "D", "text": "Fabric"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 4},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Sculpture primarily uses clay or stone. Sculptural knowledge is crucial for BFA (Sculpture)."
+    },
+    {
+      "question_id": "ACAD_11BFA_012",
+      "question_text": "Who painted the famous artwork ‘Starry Night’?",
+      "options": [
+        {"option_id": "A", "text": "Pablo Picasso"},
+        {"option_id": "B", "text": "Vincent van Gogh"},
+        {"option_id": "C", "text": "Claude Monet"},
+        {"option_id": "D", "text": "Henri Matisse"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 4},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Vincent van Gogh painted ‘Starry Night’. Art history knowledge is essential for BFA (Painting)."
+    },
+    {
+      "question_id": "ACAD_11BFA_013",
+      "question_text": "What is the technique of creating images by assembling small pieces of colored glass or tiles?",
+      "options": [
+        {"option_id": "A", "text": "Collage"},
+        {"option_id": "B", "text": "Mosaic"},
+        {"option_id": "C", "text": "Fresco"},
+        {"option_id": "D", "text": "Etching"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 4},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Mosaic uses small pieces of glass or tiles. Technical knowledge is key for BFA (Applied Arts)."
+    },
+    {
+      "question_id": "ACAD_11BFA_014",
+      "question_text": "Which Indian artist is known for his modernist paintings, such as ‘Shantiniketan Triptych’?",
+      "options": [
+        {"option_id": "A", "text": "M.F. Husain"},
+        {"option_id": "B", "text": "Amrita Sher-Gil"},
+        {"option_id": "C", "text": "Jamini Roy"},
+        {"option_id": "D", "text": "Nandalal Bose"}
+      ],
+      "correct_answer": "D",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 1},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 4}
+      },
+      "explanation": "Nandalal Bose created ‘Shantiniketan Triptych’. Indian art knowledge is vital for BFA (Painting)."
+    },
+    {
+      "question_id": "ACAD_11BFA_015",
+      "question_text": "What is the primary focus of graphic design?",
+      "options": [
+        {"option_id": "A", "text": "Creating three-dimensional sculptures"},
+        {"option_id": "B", "text": "Designing visual communication materials"},
+        {"option_id": "C", "text": "Performing classical dance"},
+        {"option_id": "D", "text": "Writing literary texts"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 4},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Graphic design focuses on visual communication. Design knowledge is essential for BFA (Graphic Design)."
+    },
+    {
+      "question_id": "ACAD_11BFA_016",
+      "question_text": "Which art movement is characterized by dream-like scenes and surreal imagery?",
+      "options": [
+        {"option_id": "A", "text": "Impressionism"},
+        {"option_id": "B", "text": "Cubism"},
+        {"option_id": "C", "text": "Surrealism"},
+        {"option_id": "D", "text": "Realism"}
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 1},
+        "C": {"trait": "Arts", "score": 4},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Surrealism features dream-like imagery. Art movement knowledge is key for BFA (Art History)."
+    },
+    {
+      "question_id": "ACAD_11BFA_017",
+      "question_text": "What is the technique of printing using a carved wooden block?",
+      "options": [
+        {"option_id": "A", "text": "Lithography"},
+        {"option_id": "B", "text": "Woodblock printing"},
+        {"option_id": "C", "text": "Screen printing"},
+        {"option_id": "D", "text": "Intaglio"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 4},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Woodblock printing uses carved wood. Printmaking knowledge is vital for BFA (Printmaking)."
+    },
+    {
+      "question_id": "ACAD_11BFA_018",
+      "question_text": "Which Indian classical dance form is also considered a visual art due to its expressive costumes?",
+      "options": [
+        {"option_id": "A", "text": "Bharatanatyam"},
+        {"option_id": "B", "text": "Kathakali"},
+        {"option_id": "C", "text": "Kathak"},
+        {"option_id": "D", "text": "Kuchipudi"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 4},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Kathakali’s expressive costumes make it a visual art. Dance knowledge is key for BFA (Performing Arts)."
+    },
+    {
+      "question_id": "ACAD_11BFA_019",
+      "question_text": "Who is known for the iconic pop art piece ‘Campbell’s Soup Cans’?",
+      "options": [
+        {"option_id": "A", "text": "Andy Warhol"},
+        {"option_id": "B", "text": "Roy Lichtenstein"},
+        {"option_id": "C", "text": "Keith Haring"},
+        {"option_id": "D", "text": "Jean-Michel Basquiat"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 4},
+        "B": {"trait": "Arts", "score": 1},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Andy Warhol created ‘Campbell’s Soup Cans’. Modern art knowledge is essential for BFA (Visual Arts)."
+    },
+    {
+      "question_id": "ACAD_11BFA_020",
+      "question_text": "What is the primary purpose of perspective in drawing?",
+      "options": [
+        {"option_id": "A", "text": "Create abstract patterns"},
+        {"option_id": "B", "text": "Represent three-dimensional space on a flat surface"},
+        {"option_id": "C", "text": "Use vibrant colors"},
+        {"option_id": "D", "text": "Simplify shapes"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 4},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Perspective creates depth in drawings. Technical knowledge is vital for BFA (Drawing)."
+    },
+    {
+      "question_id": "ACAD_11BFA_021",
+      "question_text": "In which century did the Renaissance art movement begin?",
+      "options": [
+        {"option_id": "A", "text": "14th century"},
+        {"option_id": "B", "text": "16th century"},
+        {"option_id": "C", "text": "12th century"},
+        {"option_id": "D", "text": "18th century"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Renaissance began in the 14th century. Art history is relevant for BFA (Art History)."
+    },
+    {
+      "question_id": "ACAD_11BFA_022",
+      "question_text": "Who was the founder of the Bengal School of Art in India?",
+      "options": [
+        {"option_id": "A", "text": "Rabindranath Tagore"},
+        {"option_id": "B", "text": "Abanindranath Tagore"},
+        {"option_id": "C", "text": "Nandalal Bose"},
+        {"option_id": "D", "text": "Jamini Roy"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Abanindranath Tagore founded the Bengal School. Indian art history is key for BFA (Visual Arts)."
+    },
+    {
+      "question_id": "ACAD_11BFA_023",
+      "question_text": "In which year was the Sir J.J. School of Art established in Mumbai?",
+      "options": [
+        {"option_id": "A", "text": "1857"},
+        {"option_id": "B", "text": "1877"},
+        {"option_id": "C", "text": "1837"},
+        {"option_id": "D", "text": "1897"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Sir J.J. School of Art was established in 1857. Institutional history is relevant for BFA."
+    },
+    {
+      "question_id": "ACAD_11BFA_024",
+      "question_text": "Who sculpted the famous statue ‘David’ during the Renaissance?",
+      "options": [
+        {"option_id": "A", "text": "Leonardo da Vinci"},
+        {"option_id": "B", "text": "Michelangelo"},
+        {"option_id": "C", "text": "Raphael"},
+        {"option_id": "D", "text": "Donatello"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Michelangelo sculpted ‘David’. Renaissance art history is key for BFA (Sculpture)."
+    },
+    {
+      "question_id": "ACAD_11BFA_025",
+      "question_text": "In which year did the Impressionism art movement begin?",
+      "options": [
+        {"option_id": "A", "text": "1870s"},
+        {"option_id": "B", "text": "1850s"},
+        {"option_id": "C", "text": "1890s"},
+        {"option_id": "D", "text": "1830s"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Impressionism began in the 1870s. Art movement history is relevant for BFA (Art History)."
+    },
+    {
+      "question_id": "ACAD_11BFA_026",
+      "question_text": "Who was the first Indian woman to exhibit her paintings internationally, born in 1913?",
+      "options": [
+        {"option_id": "A", "text": "Amrita Sher-Gil"},
+        {"option_id": "B", "text": "Anjolie Ela Menon"},
+        {"option_id": "C", "text": "Arpita Singh"},
+        {"option_id": "D", "text": "B. Prabha"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Amrita Sher-Gil exhibited internationally in the 1930s. Indian art history is key for BFA (Painting)."
+    },
+    {
+      "question_id": "ACAD_11BFA_027",
+      "question_text": "In which century did the Mughal miniature painting tradition flourish in India?",
+      "options": [
+        {"option_id": "A", "text": "16th century"},
+        {"option_id": "B", "text": "14th century"},
+        {"option_id": "C", "text": "18th century"},
+        {"option_id": "D", "text": "12th century"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Mughal miniature painting flourished in the 16th century. Indian art history is relevant for BFA (Visual Arts)."
+    },
+    {
+      "question_id": "ACAD_11BFA_028",
+      "question_text": "Who founded the Bauhaus school of art and design in Germany?",
+      "options": [
+        {"option_id": "A", "text": "Walter Gropius"},
+        {"option_id": "B", "text": "Wassily Kandinsky"},
+        {"option_id": "C", "text": "Paul Klee"},
+        {"option_id": "D", "text": "Ludwig Mies van der Rohe"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Walter Gropius founded Bauhaus in 1919. Design history is key for BFA (Applied Arts)."
+    },
+    {
+      "question_id": "ACAD_11BFA_029",
+      "question_text": "In which year was the National Gallery of Modern Art (NGMA) established in India?",
+      "options": [
+        {"option_id": "A", "text": "1954"},
+        {"option_id": "B", "text": "1964"},
+        {"option_id": "C", "text": "1944"},
+        {"option_id": "D", "text": "1974"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "NGMA was established in 1954. Indian art history is relevant for BFA (Art History)."
+    },
+    {
+      "question_id": "ACAD_11BFA_030",
+      "question_text": "Who created the famous fresco ‘The Last Supper’?",
+      "options": [
+        {"option_id": "A", "text": "Leonardo da Vinci"},
+        {"option_id": "B", "text": "Michelangelo"},
+        {"option_id": "C", "text": "Raphael"},
+        {"option_id": "D", "text": "Titian"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Leonardo da Vinci created ‘The Last Supper’. Renaissance art history is key for BFA (Painting)."
+    }
+  ]
+}

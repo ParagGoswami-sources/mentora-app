@@ -1,0 +1,549 @@
+{
+  "test_category": "Academic",
+  "class": "11th/12th Standard",
+  "stream": "Science",
+  "course": "BCA",
+  "description": "Assesses General Knowledge, Science, and History for 11th/12th-grade students in the Science stream pursuing BCA to guide academic and career choices.",
+  "questions": [
+    {
+      "question_id": "ACAD_11BCA_001",
+      "question_text": "What does the acronym 'WWW' stand for in the context of the internet?",
+      "options": [
+        { "option_id": "A", "text": "World Wide Web" },
+        { "option_id": "B", "text": "Web World Wide" },
+        { "option_id": "C", "text": "World Web Window" },
+        { "option_id": "D", "text": "Wide Web World" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 4 },
+        "B": { "trait": "General Knowledge", "score": 1 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "WWW stands for World Wide Web. Internet knowledge is essential for BCA (Computer Applications)."
+    },
+    {
+      "question_id": "ACAD_11BCA_002",
+      "question_text": "Which company developed the Windows operating system?",
+      "options": [
+        { "option_id": "A", "text": "Apple" },
+        { "option_id": "B", "text": "Microsoft" },
+        { "option_id": "C", "text": "Google" },
+        { "option_id": "D", "text": "IBM" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 1 },
+        "B": { "trait": "General Knowledge", "score": 4 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "Microsoft developed Windows. OS knowledge is key for BCA (Software Development)."
+    },
+    {
+      "question_id": "ACAD_11BCA_003",
+      "question_text": "What is the capital city of South Korea, a hub for tech companies like Samsung?",
+      "options": [
+        { "option_id": "A", "text": "Tokyo" },
+        { "option_id": "B", "text": "Seoul" },
+        { "option_id": "C", "text": "Beijing" },
+        { "option_id": "D", "text": "Shanghai" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 1 },
+        "B": { "trait": "General Knowledge", "score": 4 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "Seoul is South Korea’s tech hub. Global tech geography is relevant for BCA (IT Industry)."
+    },
+    {
+      "question_id": "ACAD_11BCA_004",
+      "question_text": "Who is known as the 'Father of the Computer'?",
+      "options": [
+        { "option_id": "A", "text": "Alan Turing" },
+        { "option_id": "B", "text": "Charles Babbage" },
+        { "option_id": "C", "text": "Bill Gates" },
+        { "option_id": "D", "text": "Tim Berners-Lee" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 1 },
+        "B": { "trait": "General Knowledge", "score": 4 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "Charles Babbage designed early computers. Computing history is vital for BCA (Computer Science)."
+    },
+    {
+      "question_id": "ACAD_11BCA_005",
+      "question_text": "What does 'HTTP' stand for in web addresses?",
+      "options": [
+        { "option_id": "A", "text": "HyperText Transfer Protocol" },
+        { "option_id": "B", "text": "High Tech Transport Protocol" },
+        { "option_id": "C", "text": "Hyperlink Text Transmission Process" },
+        { "option_id": "D", "text": "Hosted Text Transfer Program" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 4 },
+        "B": { "trait": "General Knowledge", "score": 1 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "HTTP stands for HyperText Transfer Protocol. Web technology knowledge suits BCA (Web Development)."
+    },
+    {
+      "question_id": "ACAD_11BCA_006",
+      "question_text": "Which Indian city is a major IT hub, home to companies like Infosys and Wipro?",
+      "options": [
+        { "option_id": "A", "text": "Mumbai" },
+        { "option_id": "B", "text": "Bengaluru" },
+        { "option_id": "C", "text": "Kolkata" },
+        { "option_id": "D", "text": "Delhi" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 1 },
+        "B": { "trait": "General Knowledge", "score": 4 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "Bengaluru is an IT hub. Tech industry knowledge is essential for BCA (IT Careers)."
+    },
+    {
+      "question_id": "ACAD_11BCA_007",
+      "question_text": "What is the currency of the United Kingdom?",
+      "options": [
+        { "option_id": "A", "text": "Euro" },
+        { "option_id": "B", "text": "Pound Sterling" },
+        { "option_id": "C", "text": "Dollar" },
+        { "option_id": "D", "text": "Yen" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 1 },
+        "B": { "trait": "General Knowledge", "score": 4 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "Pound Sterling is the UK’s currency. Global knowledge supports BCA in global IT markets."
+    },
+    {
+      "question_id": "ACAD_11BCA_008",
+      "question_text": "Which of the following is a high-level programming language?",
+      "options": [
+        { "option_id": "A", "text": "Python" },
+        { "option_id": "B", "text": "Assembly" },
+        { "option_id": "C", "text": "Machine Code" },
+        { "option_id": "D", "text": "Binary" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 4 },
+        "B": { "trait": "General Knowledge", "score": 1 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "Python is a high-level programming language. Programming knowledge is crucial for BCA (Software Development)."
+    },
+    {
+      "question_id": "ACAD_11BCA_009",
+      "question_text": "What does 'CPU' stand for in a computer system?",
+      "options": [
+        { "option_id": "A", "text": "Central Processing Unit" },
+        { "option_id": "B", "text": "Computer Processing Unit" },
+        { "option_id": "C", "text": "Central Program Utility" },
+        { "option_id": "D", "text": "Core Processing Unit" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 4 },
+        "B": { "trait": "General Knowledge", "score": 1 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "CPU stands for Central Processing Unit. Hardware knowledge is key for BCA (Computer Architecture)."
+    },
+    {
+      "question_id": "ACAD_11BCA_010",
+      "question_text": "Which organization developed the Android operating system?",
+      "options": [
+        { "option_id": "A", "text": "Apple" },
+        { "option_id": "B", "text": "Google" },
+        { "option_id": "C", "text": "Microsoft" },
+        { "option_id": "D", "text": "Samsung" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 1 },
+        "B": { "trait": "General Knowledge", "score": 4 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "Google developed Android. Mobile tech knowledge is relevant for BCA (Mobile App Development)."
+    },
+    {
+      "question_id": "ACAD_11BCA_011",
+      "question_text": "What is the binary equivalent of the decimal number 5?",
+      "options": [
+        { "option_id": "A", "text": "101" },
+        { "option_id": "B", "text": "110" },
+        { "option_id": "C", "text": "100" },
+        { "option_id": "D", "text": "111" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "Science", "score": 4 },
+        "B": { "trait": "Science", "score": 1 },
+        "C": { "trait": "Science", "score": 1 },
+        "D": { "trait": "Science", "score": 1 }
+      },
+      "explanation": "The decimal 5 converts to 101 in binary. Binary arithmetic is essential for BCA (Computer Fundamentals)."
+    },
+    {
+      "question_id": "ACAD_11BCA_012",
+      "question_text": "Which logic gate outputs true only when both inputs are true?",
+      "options": [
+        { "option_id": "A", "text": "OR" },
+        { "option_id": "B", "text": "AND" },
+        { "option_id": "C", "text": "NOT" },
+        { "option_id": "D", "text": "XOR" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "Science", "score": 1 },
+        "B": { "trait": "Science", "score": 4 },
+        "C": { "trait": "Science", "score": 1 },
+        "D": { "trait": "Science", "score": 1 }
+      },
+      "explanation": "The AND gate outputs true only when both inputs are true. Digital electronics knowledge suits BCA (Computer Architecture)."
+    },
+    {
+      "question_id": "ACAD_11BCA_013",
+      "question_text": "What is the primary function of an operating system?",
+      "options": [
+        { "option_id": "A", "text": "Run applications" },
+        { "option_id": "B", "text": "Manage hardware and software resources" },
+        { "option_id": "C", "text": "Create databases" },
+        { "option_id": "D", "text": "Design websites" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "Science", "score": 1 },
+        "B": { "trait": "Science", "score": 4 },
+        "C": { "trait": "Science", "score": 1 },
+        "D": { "trait": "Science", "score": 1 }
+      },
+      "explanation": "An OS manages resources. OS knowledge is vital for BCA (System Administration)."
+    },
+    {
+      "question_id": "ACAD_11BCA_014",
+      "question_text": "Which device is used to connect networks with different protocols?",
+      "options": [
+        { "option_id": "A", "text": "Router" },
+        { "option_id": "B", "text": "Switch" },
+        { "option_id": "C", "text": "Gateway" },
+        { "option_id": "D", "text": "Hub" }
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": { "trait": "Science", "score": 1 },
+        "B": { "trait": "Science", "score": 1 },
+        "C": { "trait": "Science", "score": 4 },
+        "D": { "trait": "Science", "score": 1 }
+      },
+      "explanation": "A gateway connects different networks. Networking knowledge is key for BCA (Network Administration)."
+    },
+    {
+      "question_id": "ACAD_11BCA_015",
+      "question_text": "What is the time complexity of a linear search algorithm?",
+      "options": [
+        { "option_id": "A", "text": "O(1)" },
+        { "option_id": "B", "text": "O(n)" },
+        { "option_id": "C", "text": "O(log n)" },
+        { "option_id": "D", "text": "O(n^2)" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "Science", "score": 1 },
+        "B": { "trait": "Science", "score": 4 },
+        "C": { "trait": "Science", "score": 1 },
+        "D": { "trait": "Science", "score": 1 }
+      },
+      "explanation": "Linear search has O(n) complexity. Algorithm knowledge is essential for BCA (Programming)."
+    },
+    {
+      "question_id": "ACAD_11BCA_016",
+      "question_text": "Which type of memory is volatile and used for temporary storage?",
+      "options": [
+        { "option_id": "A", "text": "ROM" },
+        { "option_id": "B", "text": "RAM" },
+        { "option_id": "C", "text": "Hard Disk" },
+        { "option_id": "D", "text": "SSD" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "Science", "score": 1 },
+        "B": { "trait": "Science", "score": 4 },
+        "C": { "trait": "Science", "score": 1 },
+        "D": { "trait": "Science", "score": 1 }
+      },
+      "explanation": "RAM is volatile memory. Hardware knowledge suits BCA (Computer Systems)."
+    },
+    {
+      "question_id": "ACAD_11BCA_017",
+      "question_text": "What is the main purpose of a firewall in a network?",
+      "options": [
+        { "option_id": "A", "text": "Increase network speed" },
+        { "option_id": "B", "text": "Protect against unauthorized access" },
+        { "option_id": "C", "text": "Store data" },
+        { "option_id": "D", "text": "Run applications" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "Science", "score": 1 },
+        "B": { "trait": "Science", "score": 4 },
+        "C": { "trait": "Science", "score": 1 },
+        "D": { "trait": "Science", "score": 1 }
+      },
+      "explanation": "A firewall protects networks. Cybersecurity knowledge is vital for BCA (Network Security)."
+    },
+    {
+      "question_id": "ACAD_11BCA_018",
+      "question_text": "Which data structure uses the Last-In-First-Out (LIFO) principle?",
+      "options": [
+        { "option_id": "A", "text": "Queue" },
+        { "option_id": "B", "text": "Stack" },
+        { "option_id": "C", "text": "Array" },
+        { "option_id": "D", "text": "Linked List" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "Science", "score": 1 },
+        "B": { "trait": "Science", "score": 4 },
+        "C": { "trait": "Science", "score": 1 },
+        "D": { "trait": "Science", "score": 1 }
+      },
+      "explanation": "A stack uses LIFO. Data structure knowledge is key for BCA (Programming)."
+    },
+    {
+      "question_id": "ACAD_11BCA_019",
+      "question_text": "What does SQL stand for in database management?",
+      "options": [
+        { "option_id": "A", "text": "Structured Query Language" },
+        { "option_id": "B", "text": "System Query Logic" },
+        { "option_id": "C", "text": "Sequential Query Language" },
+        { "option_id": "D", "text": "Standardized Query Loop" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "Science", "score": 4 },
+        "B": { "trait": "Science", "score": 1 },
+        "C": { "trait": "Science", "score": 1 },
+        "D": { "trait": "Science", "score": 1 }
+      },
+      "explanation": "SQL stands for Structured Query Language. Database knowledge is essential for BCA (Database Management)."
+    },
+    {
+      "question_id": "ACAD_11BCA_020",
+      "question_text": "Which protocol is used to send emails?",
+      "options": [
+        { "option_id": "A", "text": "FTP" },
+        { "option_id": "B", "text": "SMTP" },
+        { "option_id": "C", "text": "HTTP" },
+        { "option_id": "D", "text": "TCP" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "Science", "score": 1 },
+        "B": { "trait": "Science", "score": 4 },
+        "C": { "trait": "Science", "score": 1 },
+        "D": { "trait": "Science", "score": 1 }
+      },
+      "explanation": "SMTP is used for sending emails. Networking protocols are key for BCA (Network Administration)."
+    },
+    {
+      "question_id": "ACAD_11BCA_021",
+      "question_text": "In which year was the first electronic computer, ENIAC, completed?",
+      "options": [
+        { "option_id": "A", "text": "1945" },
+        { "option_id": "B", "text": "1955" },
+        { "option_id": "C", "text": "1935" },
+        { "option_id": "D", "text": "1965" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "History", "score": 4 },
+        "B": { "trait": "History", "score": 1 },
+        "C": { "trait": "History", "score": 1 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "ENIAC was completed in 1945. Computer history is relevant for BCA (Computer Science)."
+    },
+    {
+      "question_id": "ACAD_11BCA_022",
+      "question_text": "Who invented the World Wide Web?",
+      "options": [
+        { "option_id": "A", "text": "Tim Berners-Lee" },
+        { "option_id": "B", "text": "Bill Gates" },
+        { "option_id": "C", "text": "Steve Jobs" },
+        { "option_id": "D", "text": "Mark Zuckerberg" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "History", "score": 4 },
+        "B": { "trait": "History", "score": 1 },
+        "C": { "trait": "History", "score": 1 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "Tim Berners-Lee invented the WWW. Internet history is key for BCA (Web Development)."
+    },
+    {
+      "question_id": "ACAD_11BCA_023",
+      "question_text": "In which year was the Indian IT company Infosys founded?",
+      "options": [
+        { "option_id": "A", "text": "1981" },
+        { "option_id": "B", "text": "1991" },
+        { "option_id": "C", "text": "1971" },
+        { "option_id": "D", "text": "2001" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "History", "score": 4 },
+        "B": { "trait": "History", "score": 1 },
+        "C": { "trait": "History", "score": 1 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "Infosys was founded in 1981. IT industry history is relevant for BCA (IT Careers)."
+    },
+    {
+      "question_id": "ACAD_11BCA_024",
+      "question_text": "Who developed the first commercially successful personal computer, the Altair 8800?",
+      "options": [
+        { "option_id": "A", "text": "IBM" },
+        { "option_id": "B", "text": "Apple" },
+        { "option_id": "C", "text": "MITS" },
+        { "option_id": "D", "text": "Microsoft" }
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": { "trait": "History", "score": 1 },
+        "B": { "trait": "History", "score": 1 },
+        "C": { "trait": "History", "score": 4 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "MITS developed the Altair 8800. PC history is key for BCA (Computer Systems)."
+    },
+    {
+      "question_id": "ACAD_11BCA_025",
+      "question_text": "In which year was the programming language C developed?",
+      "options": [
+        { "option_id": "A", "text": "1972" },
+        { "option_id": "B", "text": "1982" },
+        { "option_id": "C", "text": "1962" },
+        { "option_id": "D", "text": "1992" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "History", "score": 4 },
+        "B": { "trait": "History", "score": 1 },
+        "C": { "trait": "History", "score": 1 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "C was developed in 1972. Programming history is relevant for BCA (Software Development)."
+    },
+    {
+      "question_id": "ACAD_11BCA_026",
+      "question_text": "Who co-founded Apple Inc. alongside Steve Jobs?",
+      "options": [
+        { "option_id": "A", "text": "Steve Wozniak" },
+        { "option_id": "B", "text": "Bill Gates" },
+        { "option_id": "C", "text": "Larry Page" },
+        { "option_id": "D", "text": "Elon Musk" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "History", "score": 4 },
+        "B": { "trait": "History", "score": 1 },
+        "C": { "trait": "History", "score": 1 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "Steve Wozniak co-founded Apple. Tech industry history is key for BCA (IT Innovation)."
+    },
+    {
+      "question_id": "ACAD_11BCA_027",
+      "question_text": "In which year was the first email sent?",
+      "options": [
+        { "option_id": "A", "text": "1971" },
+        { "option_id": "B", "text": "1981" },
+        { "option_id": "C", "text": "1961" },
+        { "option_id": "D", "text": "1991" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "History", "score": 4 },
+        "B": { "trait": "History", "score": 1 },
+        "C": { "trait": "History", "score": 1 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "The first email was sent in 1971. Internet history is relevant for BCA (Networking)."
+    },
+    {
+      "question_id": "ACAD_11BCA_028",
+      "question_text": "Which Indian mathematician contributed significantly to computer science through his work on algorithms?",
+      "options": [
+        { "option_id": "A", "text": "Srinivasa Ramanujan" },
+        { "option_id": "B", "text": "Narendra Karmarkar" },
+        { "option_id": "C", "text": "Aryabhata" },
+        { "option_id": "D", "text": "Bhaskara II" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "History", "score": 1 },
+        "B": { "trait": "History", "score": 4 },
+        "C": { "trait": "History", "score": 1 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "Narendra Karmarkar developed the Karmarkar algorithm. Math history is key for BCA (Algorithms)."
+    },
+    {
+      "question_id": "ACAD_11BCA_029",
+      "question_text": "In which year was the first version of the Linux kernel released?",
+      "options": [
+        { "option_id": "A", "text": "1991" },
+        { "option_id": "B", "text": "1981" },
+        { "option_id": "C", "text": "2001" },
+        { "option_id": "D", "text": "1971" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "History", "score": 4 },
+        "B": { "trait": "History", "score": 1 },
+        "C": { "trait": "History", "score": 1 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "Linux was first released in 1991. OS history is relevant for BCA (System Administration)."
+    },
+    {
+      "question_id": "ACAD_11BCA_030",
+      "question_text": "Who developed the first graphical web browser, Mosaic?",
+      "options": [
+        { "option_id": "A", "text": "Marc Andreessen" },
+        { "option_id": "B", "text": "Tim Berners-Lee" },
+        { "option_id": "C", "text": "Larry Page" },
+        { "option_id": "D", "text": "Sergey Brin" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "History", "score": 4 },
+        "B": { "trait": "History", "score": 1 },
+        "C": { "trait": "History", "score": 1 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "Marc Andreessen developed Mosaic. Web history is key for BCA (Web Development)."
+    }
+  ]
+}

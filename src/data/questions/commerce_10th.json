@@ -1,0 +1,152 @@
+[
+  {
+    "question": "What is the primary purpose of a bank?",
+    "options": [
+      "A) To manufacture goods",
+      "B) To provide loans and manage money",
+      "C) To regulate traffic",
+      "D) To deliver packages"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which term refers to money earned from business activities?",
+    "options": [
+      "A) Expense",
+      "B) Capital",
+      "C) Revenue",
+      "D) Liability"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which of the following is considered an asset?",
+    "options": [
+      "A) Loan",
+      "B) Equipment",
+      "C) Rent",
+      "D) Salary"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "In commerce, what does 'demand' refer to?",
+    "options": [
+      "A) Price of a product",
+      "B) Consumer\u2019s desire and ability to purchase goods",
+      "C) Seller\u2019s motivation",
+      "D) Tax rates"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which is an example of a service industry?",
+    "options": [
+      "A) Car manufacturing",
+      "B) Farming",
+      "C) Banking",
+      "D) Mining"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is profit?",
+    "options": [
+      "A) Money spent",
+      "B) Loss incurred",
+      "C) Excess of revenue over expenses",
+      "D) Tax paid"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What is a shareholder?",
+    "options": [
+      "A) A bank manager",
+      "B) A government employee",
+      "C) A person owning shares of a company",
+      "D) A supplier"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What does GST stand for?",
+    "options": [
+      "A) Gross Sale Tax",
+      "B) Goods and Services Tax",
+      "C) General State Tax",
+      "D) Government Sales Tariff"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following is NOT a function of money?",
+    "options": [
+      "A) Medium of exchange",
+      "B) Store of value",
+      "C) Unit of account",
+      "D) Source of energy"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "What is 'barter system'?",
+    "options": [
+      "A) Buying goods on credit",
+      "B) Exchanging goods without using money",
+      "C) Importing goods",
+      "D) Selling online"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "What is a budget?",
+    "options": [
+      "A) Money saved in a bank",
+      "B) A financial plan",
+      "C) Price of an item",
+      "D) Loan repayment"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which one is a type of market?",
+    "options": [
+      "A) Online",
+      "B) Bank",
+      "C) Classroom",
+      "D) Library"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which of these is a consumer right?",
+    "options": [
+      "A) Right to vote",
+      "B) Right to free education",
+      "C) Right to safety",
+      "D) Right to employment"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "What does 'investment' mean in commerce?",
+    "options": [
+      "A) Spending on luxuries",
+      "B) Donating to charity",
+      "C) Putting money into ventures expecting returns",
+      "D) Paying taxes"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which of these is a mode of e-commerce?",
+    "options": [
+      "A) TV",
+      "B) Newspaper",
+      "C) Website",
+      "D) Radio"
+    ],
+    "answer": "C"
+  }
+]

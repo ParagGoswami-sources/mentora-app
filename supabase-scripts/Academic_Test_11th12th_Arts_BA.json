@@ -1,0 +1,549 @@
+{
+  "test_category": "Academic",
+  "class": "11th/12th Standard",
+  "stream": "Arts",
+  "course": "B.A",
+  "description": "Assesses General Knowledge, Arts, and History for 11th/12th-grade students in the Arts stream pursuing B.A to guide academic and career choices.",
+  "questions": [
+    {
+      "question_id": "ACAD_11BA_001",
+      "question_text": "Which international organization promotes peace and security, relevant for political science studies?",
+      "options": [
+        {"option_id": "A", "text": "United Nations"},
+        {"option_id": "B", "text": "World Trade Organization"},
+        {"option_id": "C", "text": "International Monetary Fund"},
+        {"option_id": "D", "text": "World Health Organization"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "The United Nations promotes peace and security. Global governance knowledge is essential for B.A (Political Science)."
+    },
+    {
+      "question_id": "ACAD_11BA_002",
+      "question_text": "Which Indian city is known as a cultural hub, famous for its literature festivals?",
+      "options": [
+        {"option_id": "A", "text": "Jaipur"},
+        {"option_id": "B", "text": "Mumbai"},
+        {"option_id": "C", "text": "Chennai"},
+        {"option_id": "D", "text": "Delhi"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Jaipur hosts the Jaipur Literature Festival. Cultural knowledge is key for B.A (Literature)."
+    },
+    {
+      "question_id": "ACAD_11BA_003",
+      "question_text": "What is the official language of Brazil, relevant for linguistic studies?",
+      "options": [
+        {"option_id": "A", "text": "Spanish"},
+        {"option_id": "B", "text": "Portuguese"},
+        {"option_id": "C", "text": "French"},
+        {"option_id": "D", "text": "English"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Portuguese is Brazil’s official language. Linguistic knowledge supports B.A (Linguistics)."
+    },
+    {
+      "question_id": "ACAD_11BA_004",
+      "question_text": "Which Indian state is renowned for its classical dance form Kathak?",
+      "options": [
+        {"option_id": "A", "text": "Uttar Pradesh"},
+        {"option_id": "B", "text": "Tamil Nadu"},
+        {"option_id": "C", "text": "Kerala"},
+        {"option_id": "D", "text": "Odisha"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Kathak originates from Uttar Pradesh. Cultural arts knowledge is vital for B.A (Performing Arts)."
+    },
+    {
+      "question_id": "ACAD_11BA_005",
+      "question_text": "Which university in India is famous for its humanities programs, such as JNU?",
+      "options": [
+        {"option_id": "A", "text": "Jawaharlal Nehru University"},
+        {"option_id": "B", "text": "Indian Institute of Technology Delhi"},
+        {"option_id": "C", "text": "Indian Institute of Science"},
+        {"option_id": "D", "text": "National Institute of Technology"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "JNU is renowned for humanities. Academic knowledge is key for B.A aspirants."
+    },
+    {
+      "question_id": "ACAD_11BA_006",
+      "question_text": "Which country is associated with the philosopher Confucius, relevant for philosophical studies?",
+      "options": [
+        {"option_id": "A", "text": "Japan"},
+        {"option_id": "B", "text": "China"},
+        {"option_id": "C", "text": "Korea"},
+        {"option_id": "D", "text": "Vietnam"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Confucius was from China. Philosophical knowledge supports B.A (Philosophy)."
+    },
+    {
+      "question_id": "ACAD_11BA_007",
+      "question_text": "What does the acronym ‘UNESCO’ stand for, relevant for cultural studies?",
+      "options": [
+        {"option_id": "A", "text": "United Nations Educational, Scientific and Cultural Organization"},
+        {"option_id": "B", "text": "United Nations Economic and Social Council"},
+        {"option_id": "C", "text": "Universal Network for Sustainable Communities"},
+        {"option_id": "D", "text": "United Nations Environment and Science Organization"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "UNESCO promotes education and culture. Cultural knowledge is essential for B.A (Cultural Studies)."
+    },
+    {
+      "question_id": "ACAD_11BA_008",
+      "question_text": "Which city is known as the cultural capital of France, famous for its art museums?",
+      "options": [
+        {"option_id": "A", "text": "Paris"},
+        {"option_id": "B", "text": "Lyon"},
+        {"option_id": "C", "text": "Marseille"},
+        {"option_id": "D", "text": "Nice"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Paris is France’s cultural capital. Art history knowledge is key for B.A (Art History)."
+    },
+    {
+      "question_id": "ACAD_11BA_009",
+      "question_text": "Which Indian festival is associated with the epic Ramayana, relevant for literary studies?",
+      "options": [
+        {"option_id": "A", "text": "Holi"},
+        {"option_id": "B", "text": "Diwali"},
+        {"option_id": "C", "text": "Eid"},
+        {"option_id": "D", "text": "Onam"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Diwali is linked to the Ramayana. Literary knowledge is vital for B.A (Literature)."
+    },
+    {
+      "question_id": "ACAD_11BA_010",
+      "question_text": "Which Indian state is known for its classical music tradition, Hindustani Gharanas?",
+      "options": [
+        {"option_id": "A", "text": "Uttar Pradesh"},
+        {"option_id": "B", "text": "Karnataka"},
+        {"option_id": "C", "text": "Andhra Pradesh"},
+        {"option_id": "D", "text": "West Bengal"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Uttar Pradesh is known for Hindustani Gharanas. Music knowledge supports B.A (Performing Arts)."
+    },
+    {
+      "question_id": "ACAD_11BA_011",
+      "question_text": "What is the primary focus of sociology as a discipline?",
+      "options": [
+        {"option_id": "A", "text": "Study of individual psychology"},
+        {"option_id": "B", "text": "Study of society and social behavior"},
+        {"option_id": "C", "text": "Study of economic systems"},
+        {"option_id": "D", "text": "Study of political ideologies"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 4},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Sociology studies social behavior. Sociological knowledge is crucial for B.A (Sociology)."
+    },
+    {
+      "question_id": "ACAD_11BA_012",
+      "question_text": "Who wrote the novel ‘Pride and Prejudice’, a key text in English literature?",
+      "options": [
+        {"option_id": "A", "text": "Charlotte Brontë"},
+        {"option_id": "B", "text": "Jane Austen"},
+        {"option_id": "C", "text": "Emily Brontë"},
+        {"option_id": "D", "text": "Virginia Woolf"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 4},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Jane Austen wrote ‘Pride and Prejudice’. Literary knowledge is essential for B.A (English Literature)."
+    },
+    {
+      "question_id": "ACAD_11BA_013",
+      "question_text": "What is the main focus of political science?",
+      "options": [
+        {"option_id": "A", "text": "Study of governance and political systems"},
+        {"option_id": "B", "text": "Study of ancient civilizations"},
+        {"option_id": "C", "text": "Study of economic policies"},
+        {"option_id": "D", "text": "Study of environmental changes"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 4},
+        "B": {"trait": "Arts", "score": 1},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Political science studies governance. Political knowledge is key for B.A (Political Science)."
+    },
+    {
+      "question_id": "ACAD_11BA_014",
+      "question_text": "Which Indian poet wrote ‘Gitanjali’, a Nobel Prize-winning work?",
+      "options": [
+        {"option_id": "A", "text": "Sarojini Naidu"},
+        {"option_id": "B", "text": "Rabindranath Tagore"},
+        {"option_id": "C", "text": "Aurobindo Ghosh"},
+        {"option_id": "D", "text": "Harivansh Rai Bachchan"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 4},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Rabindranath Tagore wrote ‘Gitanjali’. Literary knowledge is vital for B.A (Literature)."
+    },
+    {
+      "question_id": "ACAD_11BA_015",
+      "question_text": "What is the study of human behavior and mental processes called?",
+      "options": [
+        {"option_id": "A", "text": "Sociology"},
+        {"option_id": "B", "text": "Psychology"},
+        {"option_id": "C", "text": "Anthropology"},
+        {"option_id": "D", "text": "Philosophy"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 4},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Psychology studies human behavior. Psychological knowledge is essential for B.A (Psychology)."
+    },
+    {
+      "question_id": "ACAD_11BA_016",
+      "question_text": "Which Indian classical dance form is known for its narrative storytelling?",
+      "options": [
+        {"option_id": "A", "text": "Bharatanatyam"},
+        {"option_id": "B", "text": "Kathakali"},
+        {"option_id": "C", "text": "Odissi"},
+        {"option_id": "D", "text": "Manipuri"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 4},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Kathakali is known for storytelling. Dance knowledge is key for B.A (Performing Arts)."
+    },
+    {
+      "question_id": "ACAD_11BA_017",
+      "question_text": "What is the primary focus of philosophy as a discipline?",
+      "options": [
+        {"option_id": "A", "text": "Study of economic systems"},
+        {"option_id": "B", "text": "Study of fundamental questions about existence"},
+        {"option_id": "C", "text": "Study of political structures"},
+        {"option_id": "D", "text": "Study of physical sciences"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 4},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Philosophy studies existence and knowledge. Philosophical knowledge is vital for B.A (Philosophy)."
+    },
+    {
+      "question_id": "ACAD_11BA_018",
+      "question_text": "Which Indian language is associated with the classical literature ‘Tirukkural’?",
+      "options": [
+        {"option_id": "A", "text": "Tamil"},
+        {"option_id": "B", "text": "Sanskrit"},
+        {"option_id": "C", "text": "Telugu"},
+        {"option_id": "D", "text": "Malayalam"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 4},
+        "B": {"trait": "Arts", "score": 1},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "‘Tirukkural’ is a Tamil classic. Linguistic knowledge is essential for B.A (Literature)."
+    },
+    {
+      "question_id": "ACAD_11BA_019",
+      "question_text": "What is the study of past human societies and cultures called?",
+      "options": [
+        {"option_id": "A", "text": "Geography"},
+        {"option_id": "B", "text": "History"},
+        {"option_id": "C", "text": "Economics"},
+        {"option_id": "D", "text": "Sociology"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 4},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "History studies past societies. Historical knowledge is key for B.A (History)."
+    },
+    {
+      "question_id": "ACAD_11BA_020",
+      "question_text": "Which Indian musical instrument is associated with Pandit Ravi Shankar?",
+      "options": [
+        {"option_id": "A", "text": "Tabla"},
+        {"option_id": "B", "text": "Sitar"},
+        {"option_id": "C", "text": "Veena"},
+        {"option_id": "D", "text": "Flute"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Arts", "score": 1},
+        "B": {"trait": "Arts", "score": 4},
+        "C": {"trait": "Arts", "score": 1},
+        "D": {"trait": "Arts", "score": 1}
+      },
+      "explanation": "Pandit Ravi Shankar played the sitar. Music knowledge is vital for B.A (Performing Arts)."
+    },
+    {
+      "question_id": "ACAD_11BA_021",
+      "question_text": "In which year was the Indian National Congress founded?",
+      "options": [
+        {"option_id": "A", "text": "1885"},
+        {"option_id": "B", "text": "1895"},
+        {"option_id": "C", "text": "1875"},
+        {"option_id": "D", "text": "1905"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Indian National Congress was founded in 1885. Political history is relevant for B.A (History)."
+    },
+    {
+      "question_id": "ACAD_11BA_022",
+      "question_text": "Who was the first woman Prime Minister of India?",
+      "options": [
+        {"option_id": "A", "text": "Sonia Gandhi"},
+        {"option_id": "B", "text": "Indira Gandhi"},
+        {"option_id": "C", "text": "Sarojini Naidu"},
+        {"option_id": "D", "text": "Pratibha Patil"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Indira Gandhi was India’s first woman PM (1966). Political history is key for B.A (Political Science)."
+    },
+    {
+      "question_id": "ACAD_11BA_023",
+      "question_text": "In which year was the United Nations established?",
+      "options": [
+        {"option_id": "A", "text": "1945"},
+        {"option_id": "B", "text": "1935"},
+        {"option_id": "C", "text": "1955"},
+        {"option_id": "D", "text": "1925"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The UN was established in 1945. Global history is relevant for B.A (International Relations)."
+    },
+    {
+      "question_id": "ACAD_11BA_024",
+      "question_text": "Who wrote the ancient Indian text ‘Arthashastra’?",
+      "options": [
+        {"option_id": "A", "text": "Kalidasa"},
+        {"option_id": "B", "text": "Chanakya"},
+        {"option_id": "C", "text": "Valmiki"},
+        {"option_id": "D", "text": "Vyasa"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Chanakya wrote ‘Arthashastra’. Ancient history is key for B.A (History)."
+    },
+    {
+      "question_id": "ACAD_11BA_025",
+      "question_text": "In which year did India adopt its Constitution?",
+      "options": [
+        {"option_id": "A", "text": "1950"},
+        {"option_id": "B", "text": "1947"},
+        {"option_id": "C", "text": "1949"},
+        {"option_id": "D", "text": "1952"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "India’s Constitution was adopted in 1950. Constitutional history is relevant for B.A (Political Science)."
+    },
+    {
+      "question_id": "ACAD_11BA_026",
+      "question_text": "Who led the Dandi Salt March in 1930?",
+      "options": [
+        {"option_id": "A", "text": "Jawaharlal Nehru"},
+        {"option_id": "B", "text": "Mahatma Gandhi"},
+        {"option_id": "C", "text": "Subhas Chandra Bose"},
+        {"option_id": "D", "text": "Sardar Patel"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Mahatma Gandhi led the Dandi Salt March. Freedom struggle history is key for B.A (History)."
+    },
+    {
+      "question_id": "ACAD_11BA_027",
+      "question_text": "In which year was the Magna Carta signed, a key document in political history?",
+      "options": [
+        {"option_id": "A", "text": "1215"},
+        {"option_id": "B", "text": "1315"},
+        {"option_id": "C", "text": "1115"},
+        {"option_id": "D", "text": "1415"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Magna Carta was signed in 1215. Global political history is relevant for B.A (Political Science)."
+    },
+    {
+      "question_id": "ACAD_11BA_028",
+      "question_text": "Who was the first Emperor of the Maurya Dynasty in ancient India?",
+      "options": [
+        {"option_id": "A", "text": "Ashoka"},
+        {"option_id": "B", "text": "Chandragupta Maurya"},
+        {"option_id": "C", "text": "Bindusara"},
+        {"option_id": "D", "text": "Samudragupta"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Chandragupta Maurya founded the Maurya Dynasty. Ancient history is key for B.A (History)."
+    },
+    {
+      "question_id": "ACAD_11BA_029",
+      "question_text": "In which year did the French Revolution begin?",
+      "options": [
+        {"option_id": "A", "text": "1789"},
+        {"option_id": "B", "text": "1779"},
+        {"option_id": "C", "text": "1799"},
+        {"option_id": "D", "text": "1769"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The French Revolution began in 1789. Global history is relevant for B.A (History)."
+    },
+    {
+      "question_id": "ACAD_11BA_030",
+      "question_text": "Who was the first Governor-General of independent India?",
+      "options": [
+        {"option_id": "A", "text": "Lord Mountbatten"},
+        {"option_id": "B", "text": "C. Rajagopalachari"},
+        {"option_id": "C", "text": "Jawaharlal Nehru"},
+        {"option_id": "D", "text": "Sardar Patel"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Lord Mountbatten was the first Governor-General in 1947. Post-independence history is key for B.A (History)."
+    }
+  ]
+}

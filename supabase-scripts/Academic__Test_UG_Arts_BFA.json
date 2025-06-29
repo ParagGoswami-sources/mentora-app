@@ -1,0 +1,549 @@
+{
+  "test_category": "Academic",
+  "class": "Undergraduate",
+  "stream": "Arts",
+  "course": "BFA",
+  "description": "Assesses General Knowledge, Humanities, and History for undergraduate students pursuing BFA to guide academic and career choices in fine arts.",
+  "questions": [
+    {
+      "question_id": "ACAD_UGBFA_001",
+      "question_text": "Which Indian body oversees fine arts education, including BFA programs?",
+      "options": [
+        {"option_id": "A", "text": "University Grants Commission"},
+        {"option_id": "B", "text": "National Board of Accreditation"},
+        {"option_id": "C", "text": "All India Council for Technical Education"},
+        {"option_id": "D", "text": "National Medical Commission"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "UGC oversees BFA programs. Regulatory knowledge is essential for BFA (Arts Education)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_002",
+      "question_text": "Which Indian city is known for its fine arts heritage, hosting Sir JJ School of Art?",
+      "options": [
+        {"option_id": "A", "text": "Mumbai"},
+        {"option_id": "B", "text": "Bhopal"},
+        {"option_id": "C", "text": "Chandigarh"},
+        {"option_id": "D", "text": "Guwahati"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Mumbai hosts Sir JJ School of Art. Regional knowledge is key for BFA (Art History)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_003",
+      "question_text": "What does the term ‘chiaroscuro’ refer to in fine arts?",
+      "options": [
+        {"option_id": "A", "text": "Contrast between light and dark"},
+        {"option_id": "B", "text": "Use of vibrant colors"},
+        {"option_id": "C", "text": "Three-dimensional modeling"},
+        {"option_id": "D", "text": "Abstract line patterns"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Chiaroscuro is light-dark contrast. Technical knowledge supports BFA (Painting)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_004",
+      "question_text": "Which Indian institute is renowned for BFA programs, like Faculty of Fine Arts, MSU Baroda?",
+      "options": [
+        {"option_id": "A", "text": "Faculty of Fine Arts, MSU Baroda"},
+        {"option_id": "B", "text": "Indian Institute of Science, Bengaluru"},
+        {"option_id": "C", "text": "National Institute of Technology, Trichy"},
+        {"option_id": "D", "text": "Christian Medical College, Vellore"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "MSU Baroda is renowned for BFA. Institutional knowledge is vital for BFA students."
+    },
+    {
+      "question_id": "ACAD_UGBFA_005",
+      "question_text": "Which global organization promotes arts and culture, like UNESCO?",
+      "options": [
+        {"option_id": "A", "text": "United Nations Educational, Scientific and Cultural Organization"},
+        {"option_id": "B", "text": "World Trade Organization"},
+        {"option_id": "C", "text": "International Labour Organization"},
+        {"option_id": "D", "text": "World Health Organization"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "UNESCO promotes arts. Global knowledge is key for BFA (Cultural Preservation)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_006",
+      "question_text": "Which Indian state is known for its fine arts, hosting Kalakshetra Foundation?",
+      "options": [
+        {"option_id": "A", "text": "Tamil Nadu"},
+        {"option_id": "B", "text": "Uttar Pradesh"},
+        {"option_id": "C", "text": "Rajasthan"},
+        {"option_id": "D", "text": "Odisha"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Tamil Nadu hosts Kalakshetra. Regional knowledge supports BFA (Performing Arts)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_007",
+      "question_text": "Which Indian initiative promotes traditional arts, like Sangeet Natak Akademi?",
+      "options": [
+        {"option_id": "A", "text": "Sangeet Natak Akademi"},
+        {"option_id": "B", "text": "Ayushman Bharat"},
+        {"option_id": "C", "text": "Startup India"},
+        {"option_id": "D", "text": "Digital India"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Sangeet Natak Akademi promotes arts. Policy knowledge is essential for BFA (Art Promotion)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_008",
+      "question_text": "Which Indian organization preserves art heritage, like National Gallery of Modern Art?",
+      "options": [
+        {"option_id": "A", "text": "National Gallery of Modern Art"},
+        {"option_id": "B", "text": "Indian Council of Medical Research"},
+        {"option_id": "C", "text": "National Testing Agency"},
+        {"option_id": "D", "text": "Defence Research and Development Organisation"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "NGMA preserves art. Organizational knowledge is vital for BFA (Art Curation)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_009",
+      "question_text": "Which global artist is known for the ‘Mona Lisa’?",
+      "options": [
+        {"option_id": "A", "text": "Leonardo da Vinci"},
+        {"option_id": "B", "text": "Michelangelo"},
+        {"option_id": "C", "text": "Raphael"},
+        {"option_id": "D", "text": "Donatello"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Da Vinci painted the ‘Mona Lisa’. Art history knowledge supports BFA (Painting)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_010",
+      "question_text": "Which Indian city hosts the Lalit Kala Akademi headquarters?",
+      "options": [
+        {"option_id": "A", "text": "New Delhi"},
+        {"option_id": "B", "text": "Bengaluru"},
+        {"option_id": "C", "text": "Kolkata"},
+        {"option_id": "D", "text": "Chennai"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Lalit Kala Akademi is in New Delhi. Organizational knowledge is key for BFA (Visual Arts)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_011",
+      "question_text": "What is the primary purpose of perspective in visual arts?",
+      "options": [
+        {"option_id": "A", "text": "Create depth and realism"},
+        {"option_id": "B", "text": "Enhance color vibrancy"},
+        {"option_id": "C", "text": "Simplify abstract forms"},
+        {"option_id": "D", "text": "Reduce canvas size"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Perspective creates depth. Technical knowledge is crucial for BFA (Painting)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_012",
+      "question_text": "Who is known for the ‘Starry Night’ painting?",
+      "options": [
+        {"option_id": "A", "text": "Vincent van Gogh"},
+        {"option_id": "B", "text": "Claude Monet"},
+        {"option_id": "C", "text": "Pablo Picasso"},
+        {"option_id": "D", "text": "Edvard Munch"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Van Gogh painted ‘Starry Night’. Art history knowledge is essential for BFA (Painting)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_013",
+      "question_text": "What is the primary focus of sculpture in fine arts?",
+      "options": [
+        {"option_id": "A", "text": "Three-dimensional form creation"},
+        {"option_id": "B", "text": "Two-dimensional illustration"},
+        {"option_id": "C", "text": "Digital animation"},
+        {"option_id": "D", "text": "Sound design"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Sculpture focuses on 3D forms. Technical knowledge is key for BFA (Sculpture)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_014",
+      "question_text": "What is the primary purpose of a color wheel in art?",
+      "options": [
+        {"option_id": "A", "text": "Guide color relationships"},
+        {"option_id": "B", "text": "Measure canvas dimensions"},
+        {"option_id": "C", "text": "Create abstract patterns"},
+        {"option_id": "D", "text": "Analyze light intensity"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Color wheel guides color use. Technical knowledge is vital for BFA (Visual Arts)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_015",
+      "question_text": "Who is known as the pioneer of Indian modern art, often associated with Bengal School?",
+      "options": [
+        {"option_id": "A", "text": "Abanindranath Tagore"},
+        {"option_id": "B", "text": "Raja Ravi Varma"},
+        {"option_id": "C", "text": "Amrita Sher-Gil"},
+        {"option_id": "D", "text": "M.F. Husain"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Abanindranath led the Bengal School. Art history knowledge is essential for BFA (Indian Art)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_016",
+      "question_text": "What is the primary focus of impressionism in painting?",
+      "options": [
+        {"option_id": "A", "text": "Capture light and atmosphere"},
+        {"option_id": "B", "text": "Geometric abstraction"},
+        {"option_id": "C", "text": "Realistic portraiture"},
+        {"option_id": "D", "text": "Narrative storytelling"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Impressionism captures light. Art movement knowledge is key for BFA (Painting)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_017",
+      "question_text": "What is the primary purpose of a sketch in fine arts?",
+      "options": [
+        {"option_id": "A", "text": "Plan and visualize compositions"},
+        {"option_id": "B", "text": "Apply final colors"},
+        {"option_id": "C", "text": "Create digital animations"},
+        {"option_id": "D", "text": "Frame completed artworks"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Sketches plan compositions. Technical knowledge is vital for BFA (Drawing)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_018",
+      "question_text": "Who is known for the ‘Guernica’ painting, reflecting anti-war themes?",
+      "options": [
+        {"option_id": "A", "text": "Pablo Picasso"},
+        {"option_id": "B", "text": "Salvador Dalí"},
+        {"option_id": "C", "text": "Henri Matisse"},
+        {"option_id": "D", "text": "Marc Chagall"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Picasso painted ‘Guernica’. Art history knowledge is essential for BFA (Modern Art)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_019",
+      "question_text": "What is the primary focus of miniature painting in Indian art?",
+      "options": [
+        {"option_id": "A", "text": "Detailed and small-scale artwork"},
+        {"option_id": "B", "text": "Large-scale murals"},
+        {"option_id": "C", "text": "Abstract digital art"},
+        {"option_id": "D", "text": "Realistic landscapes"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Miniature painting is detailed and small. Art history knowledge is key for BFA (Indian Art)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_020",
+      "question_text": "What is the primary purpose of composition in visual arts?",
+      "options": [
+        {"option_id": "A", "text": "Arrange elements for balance"},
+        {"option_id": "B", "text": "Select paint types"},
+        {"option_id": "C", "text": "Analyze art history"},
+        {"option_id": "D", "text": "Create sound effects"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Humanities", "score": 4},
+        "B": {"trait": "Humanities", "score": 1},
+        "C": {"trait": "Humanities", "score": 1},
+        "D": {"trait": "Humanities", "score": 1}
+      },
+      "explanation": "Composition arranges elements. Technical knowledge is vital for BFA (Visual Arts)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_021",
+      "question_text": "In which year was the Sir JJ School of Art established in Mumbai?",
+      "options": [
+        {"option_id": "A", "text": "1857"},
+        {"option_id": "B", "text": "1847"},
+        {"option_id": "C", "text": "1867"},
+        {"option_id": "D", "text": "1837"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Sir JJ School was established in 1857. Institutional history is relevant for BFA (Art Education)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_022",
+      "question_text": "Who founded the Renaissance art movement, known for ‘The Last Supper’?",
+      "options": [
+        {"option_id": "A", "text": "Leonardo da Vinci"},
+        {"option_id": "B", "text": "Titian"},
+        {"option_id": "C", "text": "Giotto"},
+        {"option_id": "D", "text": "Botticelli"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Da Vinci shaped the Renaissance. Art history is key for BFA (Painting)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_023",
+      "question_text": "In which year was the National Gallery of Modern Art (NGMA) established in India?",
+      "options": [
+        {"option_id": "A", "text": "1954"},
+        {"option_id": "B", "text": "1944"},
+        {"option_id": "C", "text": "1964"},
+        {"option_id": "D", "text": "1934"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "NGMA was established in 1954. Institutional history is key for BFA (Art Curation)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_024",
+      "question_text": "In which year was the Lalit Kala Akademi founded in India?",
+      "options": [
+        {"option_id": "A", "text": "1954"},
+        {"option_id": "B", "text": "1944"},
+        {"option_id": "C", "text": "1964"},
+        {"option_id": "D", "text": "1934"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Lalit Kala Akademi was founded in 1954. Institutional history is key for BFA (Visual Arts)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_025",
+      "question_text": "Who pioneered cubism, known for fragmented forms in art?",
+      "options": [
+        {"option_id": "A", "text": "Pablo Picasso"},
+        {"option_id": "B", "text": "Claude Monet"},
+        {"option_id": "C", "text": "Gustav Klimt"},
+        {"option_id": "D", "text": "Wassily Kandinsky"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Picasso pioneered cubism. Art history is key for BFA (Modern Art)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_026",
+      "question_text": "In which year was Kalakshetra Foundation established in Chennai?",
+      "options": [
+        {"option_id": "A", "text": "1936"},
+        {"option_id": "B", "text": "1926"},
+        {"option_id": "C", "text": "1946"},
+        {"option_id": "D", "text": "1916"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Kalakshetra was founded in 1936. Institutional history is key for BFA (Performing Arts)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_027",
+      "question_text": "Who painted the famous ‘Sistine Chapel’ ceiling?",
+      "options": [
+        {"option_id": "A", "text": "Michelangelo"},
+        {"option_id": "B", "text": "Raphael"},
+        {"option_id": "C", "text": "Titian"},
+        {"option_id": "D", "text": "Caravaggio"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Michelangelo painted the Sistine Chapel. Art history is key for BFA (Painting)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_028",
+      "question_text": "In which year was the Bengal School of Art formally established?",
+      "options": [
+        {"option_id": "A", "text": "1907"},
+        {"option_id": "B", "text": "1897"},
+        {"option_id": "C", "text": "1917"},
+        {"option_id": "D", "text": "1887"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Bengal School emerged in 1907. Art history is key for BFA (Indian Art)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_029",
+      "question_text": "Who founded the Bauhaus school, influencing modern art and design?",
+      "options": [
+        {"option_id": "A", "text": "Walter Gropius"},
+        {"option_id": "B", "text": "Le Corbusier"},
+        {"option_id": "C", "text": "Frank Lloyd Wright"},
+        {"option_id": "D", "text": "Mies van der Rohe"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Gropius founded Bauhaus in 1919. Art history is key for BFA (Modern Art)."
+    },
+    {
+      "question_id": "ACAD_UGBFA_030",
+      "question_text": "In which year was the Sangeet Natak Akademi established in India?",
+      "options": [
+        {"option_id": "A", "text": "1953"},
+        {"option_id": "B", "text": "1943"},
+        {"option_id": "C", "text": "1963"},
+        {"option_id": "D", "text": "1933"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Sangeet Natak Akademi was founded in 1953. Institutional history is key for BFA (Performing Arts)."
+    }
+  ]
+}

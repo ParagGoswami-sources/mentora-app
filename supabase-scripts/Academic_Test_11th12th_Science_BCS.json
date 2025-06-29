@@ -1,0 +1,549 @@
+{
+  "test_category": "Academic",
+  "class": "11th/12th Standard",
+  "stream": "Science",
+  "course": "BCS",
+  "description": "Assesses General Knowledge, Science, and History for 11th/12th-grade students in the Science stream pursuing BCS to guide academic and career choices.",
+  "questions": [
+    {
+      "question_id": "ACAD_11BCS_001",
+      "question_text": "What does the acronym 'URL' stand for in web technology?",
+      "options": [
+        { "option_id": "A", "text": "Uniform Resource Locator" },
+        { "option_id": "B", "text": "Universal Reference Link" },
+        { "option_id": "C", "text": "Unique Resource Label" },
+        { "option_id": "D", "text": "Unified Retrieval Location" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 4 },
+        "B": { "trait": "General Knowledge", "score": 1 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "URL stands for Uniform Resource Locator. Web technology knowledge is essential for BCS (Computer Science)."
+    },
+    {
+      "question_id": "ACAD_11BCS_002",
+      "question_text": "Which company is known for developing the Java programming language?",
+      "options": [
+        { "option_id": "A", "text": "Microsoft" },
+        { "option_id": "B", "text": "Sun Microsystems" },
+        { "option_id": "C", "text": "Google" },
+        { "option_id": "D", "text": "Apple" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 1 },
+        "B": { "trait": "General Knowledge", "score": 4 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "Sun Microsystems developed Java. Programming language history is key for BCS (Software Engineering)."
+    },
+    {
+      "question_id": "ACAD_11BCS_003",
+      "question_text": "Which city is the global headquarters of Intel Corporation?",
+      "options": [
+        { "option_id": "A", "text": "San Francisco" },
+        { "option_id": "B", "text": "Santa Clara" },
+        { "option_id": "C", "text": "Seattle" },
+        { "option_id": "D", "text": "Austin" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 1 },
+        "B": { "trait": "General Knowledge", "score": 1 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "Santa Clara hosts Intel's headquarters. Tech industry geography is relevant for BCS (Hardware)."
+    },
+    {
+      "question_id": "ACAD_11BCS_004",
+      "question_text": "Who proposed the concept of the Turing Machine?",
+      "options": [
+        { "option_id": "A", "text": "John von Neumann" },
+        { "option_id": "B", "text": "Alan Turing" },
+        { "option_id": "C", "text": "Charles Babbage" },
+        { "option_id": "D", "text": "Ada Lovelace" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 1 },
+        "B": { "trait": "General Knowledge", "score": 4 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "Alan Turing proposed the Turing Machine. Theoretical computing is vital for BCS (Computer Science Theory)."
+    },
+    {
+      "question_id": "ACAD_11BCS_005",
+      "question_text": "What is the currency of China, a major tech manufacturing hub?",
+      "options": [
+        { "option_id": "A", "text": "Yen" },
+        { "option_id": "B", "text": "Yuan" },
+        { "option_id": "C", "text": "Won" },
+        { "option_id": "D", "text": "Dollar" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 1 },
+        "B": { "trait": "General Knowledge", "score": 4 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "Yuan is China's currency. Global tech market knowledge supports BCS (International IT)."
+    },
+    {
+      "question_id": "ACAD_11BCS_006",
+      "question_text": "Which Indian institute is known for its computer science research, such as the TIFR?",
+      "options": [
+        { "option_id": "A", "text": "Tata Institute of Fundamental Research" },
+        { "option_id": "B", "text": "Indian Institute of Management" },
+        { "option_id": "C", "text": "All India Institute of Medical Sciences" },
+        { "option_id": "D", "text": "Jawaharlal Nehru University" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 4 },
+        "B": { "trait": "General Knowledge", "score": 1 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "TIFR is renowned for computer science research. Research institutions are key for BCS (Advanced Studies)."
+    },
+    {
+      "question_id": "ACAD_11BCS_007",
+      "question_text": "What does 'LAN' stand for in networking?",
+      "options": [
+        { "option_id": "A", "text": "Local Area Network" },
+        { "option_id": "B", "text": "Large Area Network" },
+        { "option_id": "C", "text": "Linked Access Network" },
+        { "option_id": "D", "text": "Long-range Access Network" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 4 },
+        "B": { "trait": "General Knowledge", "score": 1 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "LAN stands for Local Area Network. Networking knowledge is essential for BCS (Computer Networks)."
+    },
+    {
+      "question_id": "ACAD_11BCS_008",
+      "question_text": "Which individual developed the Linux kernel?",
+      "options": [
+        { "option_id": "A", "text": "Red Hat" },
+        { "option_id": "B", "text": "Linus Torvalds" },
+        { "option_id": "C", "text": "Canonical" },
+        { "option_id": "D", "text": "Microsoft" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "History", "score": 1 },
+        "B": { "trait": "History", "score": 4 },
+        "C": { "trait": "History", "score": 1 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "Linus Torvalds, an individual, developed the Linux kernel. OS history is relevant for BCS (Operating Systems)."
+    },
+    {
+      "question_id": "ACAD_11BCS_009",
+      "question_text": "What is the full form of 'IP' in networking?",
+      "options": [
+        { "option_id": "A", "text": "Internet Protocol" },
+        { "option_id": "B", "text": "Internal Process" },
+        { "option_id": "C", "text": "Integrated Platform" },
+        { "option_id": "D", "text": "Information Packet" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 4 },
+        "B": { "trait": "General Knowledge", "score": 1 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "IP stands for Internet Protocol. Networking knowledge is key for BCS (Network Architecture)."
+    },
+    {
+      "question_id": "ACAD_11BCS_010",
+      "question_text": "Which country is home to the tech giant Samsung?",
+      "options": [
+        { "option_id": "A", "text": "Japan" },
+        { "option_id": "B", "text": "South Korea" },
+        { "option_id": "C", "text": "China" },
+        { "option_id": "D", "text": "United States" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "General Knowledge", "score": 1 },
+        "B": { "trait": "General Knowledge", "score": 4 },
+        "C": { "trait": "General Knowledge", "score": 1 },
+        "D": { "trait": "General Knowledge", "score": 1 }
+      },
+      "explanation": "Samsung is based in South Korea. Global tech knowledge supports BCS (International IT)."
+    },
+    {
+      "question_id": "ACAD_11BCS_011",
+      "question_text": "What is the time complexity of a binary search algorithm?",
+      "options": [
+        { "option_id": "A", "text": "O(n)" },
+        { "option_id": "B", "text": "O(log n)" },
+        { "option_id": "C", "text": "O(n^2)" },
+        { "option_id": "D", "text": "O(1)" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "Science", "score": 1 },
+        "B": { "trait": "Science", "score": 4 },
+        "C": { "trait": "Science", "score": 1 },
+        "D": { "trait": "Science", "score": 1 }
+      },
+      "explanation": "Binary search has O(log n) complexity. Algorithm analysis is crucial for BCS (Algorithms)."
+    },
+    {
+      "question_id": "ACAD_11BCS_012",
+      "question_text": "Which data structure is used to implement a graph?",
+      "options": [
+        { "option_id": "A", "text": "Array" },
+        { "option_id": "B", "text": "Stack" },
+        { "option_id": "C", "text": "Adjacency List" },
+        { "option_id": "D", "text": "Queue" }
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": { "trait": "Science", "score": 1 },
+        "B": { "trait": "Science", "score": 1 },
+        "C": { "trait": "Science", "score": 4 },
+        "D": { "trait": "Science", "score": 1 }
+      },
+      "explanation": "Adjacency lists represent graphs. Graph theory is key for BCS (Data Structures)."
+    },
+    {
+      "question_id": "ACAD_11BCS_013",
+      "question_text": "What is the primary function of a compiler?",
+      "options": [
+        { "option_id": "A", "text": "Execute code" },
+        { "option_id": "B", "text": "Translate high-level code to machine code" },
+        { "option_id": "C", "text": "Debug programs" },
+        { "option_id": "D", "text": "Manage memory" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "Science", "score": 1 },
+        "B": { "trait": "Science", "score": 4 },
+        "C": { "trait": "Science", "score": 1 },
+        "D": { "trait": "Science", "score": 1 }
+      },
+      "explanation": "A compiler translates code. Compiler design is vital for BCS (Systems Programming)."
+    },
+    {
+      "question_id": "ACAD_11BCS_014",
+      "question_text": "Which algorithm is used for finding the shortest path in a weighted graph?",
+      "options": [
+        { "option_id": "A", "text": "Depth-First Search" },
+        { "option_id": "B", "text": "Breadth-First Search" },
+        { "option_id": "C", "text": "Dijkstra’s Algorithm" },
+        { "option_id": "D", "text": "Binary Search" }
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": { "trait": "Science", "score": 1 },
+        "B": { "trait": "Science", "score": 1 },
+        "C": { "trait": "Science", "score": 4 },
+        "D": { "trait": "Science", "score": 1 }
+      },
+      "explanation": "Dijkstra's Algorithm finds shortest paths. Graph algorithms are key for BCS (Algorithms)."
+    },
+    {
+      "question_id": "ACAD_11BCS_015",
+      "question_text": "What is the purpose of a hash table?",
+      "options": [
+        { "option_id": "A", "text": "Sort data" },
+        { "option_id": "B", "text": "Store data with fast retrieval" },
+        { "option_id": "C", "text": "Encrypt data" },
+        { "option_id": "D", "text": "Compress data" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "Science", "score": 1 },
+        "B": { "trait": "Science", "score": 4 },
+        "C": { "trait": "Science", "score": 1 },
+        "D": { "trait": "Science", "score": 1 }
+      },
+      "explanation": "Hash tables enable fast data retrieval. Data structures knowledge is essential for BCS (Programming)."
+    },
+    {
+      "question_id": "ACAD_11BCS_016",
+      "question_text": "Which of the following is a non-deterministic polynomial-time problem?",
+      "options": [
+        { "option_id": "A", "text": "Sorting" },
+        { "option_id": "B", "text": "NP-Complete Problem" },
+        { "option_id": "C", "text": "Linear Search" },
+        { "option_id": "D", "text": "Matrix Multiplication" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "Science", "score": 1 },
+        "B": { "trait": "Science", "score": 4 },
+        "C": { "trait": "Science", "score": 1 },
+        "D": { "trait": "Science", "score": 1 }
+      },
+      "explanation": "NP-Complete problems are non-deterministic. Computational complexity is key for BCS (Theory)."
+    },
+    {
+      "question_id": "ACAD_11BCS_017",
+      "question_text": "What is the primary role of the kernel in an operating system?",
+      "options": [
+        { "option_id": "A", "text": "Manage user interface" },
+        { "option_id": "B", "text": "Control hardware resources" },
+        { "option_id": "C", "text": "Run applications" },
+        { "option_id": "D", "text": "Store data" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "Science", "score": 1 },
+        "B": { "trait": "Science", "score": 4 },
+        "C": { "trait": "Science", "score": 1 },
+        "D": { "trait": "Science", "score": 1 }
+      },
+      "explanation": "The kernel controls hardware. OS knowledge is vital for BCS (Operating Systems)."
+    },
+    {
+      "question_id": "ACAD_11BCS_018",
+      "question_text": "Which sorting algorithm has an average time complexity of O(n log n)?",
+      "options": [
+        { "option_id": "A", "text": "Bubble Sort" },
+        { "option_id": "B", "text": "Quick Sort" },
+        { "option_id": "C", "text": "Insertion Sort" },
+        { "option_id": "D", "text": "Selection Sort" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "Science", "score": 1 },
+        "B": { "trait": "Science", "score": 4 },
+        "C": { "trait": "Science", "score": 1 },
+        "D": { "trait": "Science", "score": 1 }
+      },
+      "explanation": "Quick Sort has O(n log n) complexity. Sorting algorithms are key for BCS (Algorithms)."
+    },
+    {
+      "question_id": "ACAD_11BCS_019",
+      "question_text": "What is the purpose of a semaphore in operating systems?",
+      "options": [
+        { "option_id": "A", "text": "Manage memory" },
+        { "option_id": "B", "text": "Synchronize processes" },
+        { "option_id": "C", "text": "Execute code" },
+        { "option_id": "D", "text": "Store data" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "Science", "score": 1 },
+        "B": { "trait": "Science", "score": 4 },
+        "C": { "trait": "Science", "score": 1 },
+        "D": { "trait": "Science", "score": 1 }
+      },
+      "explanation": "Semaphores synchronize processes. Concurrency knowledge is essential for BCS (Operating Systems)."
+    },
+    {
+      "question_id": "ACAD_11BCS_020",
+      "question_text": "Which data structure is used to implement a priority queue?",
+      "options": [
+        { "option_id": "A", "text": "Array" },
+        { "option_id": "B", "text": "Heap" },
+        { "option_id": "C", "text": "Stack" },
+        { "option_id": "D", "text": "Linked List" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "Science", "score": 1 },
+        "B": { "trait": "Science", "score": 4 },
+        "C": { "trait": "Science", "score": 1 },
+        "D": { "trait": "Science", "score": 1 }
+      },
+      "explanation": "Heaps implement priority queues. Data structures knowledge is key for BCS (Programming)."
+    },
+    {
+      "question_id": "ACAD_11BCS_021",
+      "question_text": "In which year was the first programmable computer, Z1, built?",
+      "options": [
+        { "option_id": "A", "text": "1938" },
+        { "option_id": "B", "text": "1948" },
+        { "option_id": "C", "text": "1928" },
+        { "option_id": "D", "text": "1958" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "History", "score": 4 },
+        "B": { "trait": "History", "score": 1 },
+        "C": { "trait": "History", "score": 1 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "The Z1 was built in 1938 by Konrad Zuse. Computer history is relevant for BCS (Computer Science)."
+    },
+    {
+      "question_id": "ACAD_11BCS_022",
+      "question_text": "Who developed the C++ programming language?",
+      "options": [
+        { "option_id": "A", "text": "Bjarne Stroustrup" },
+        { "option_id": "B", "text": "Dennis Ritchie" },
+        { "option_id": "C", "text": "James Gosling" },
+        { "option_id": "D", "text": "Guido van Rossum" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "History", "score": 4 },
+        "B": { "trait": "History", "score": 1 },
+        "C": { "trait": "History", "score": 1 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "Bjarne Stroustrup developed C++. Programming history is key for BCS (Software Development)."
+    },
+    {
+      "question_id": "ACAD_11BCS_023",
+      "question_text": "In which year was the Indian IT company TCS founded?",
+      "options": [
+        { "option_id": "A", "text": "1968" },
+        { "option_id": "B", "text": "1978" },
+        { "option_id": "C", "text": "1958" },
+        { "option_id": "D", "text": "1988" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "History", "score": 4 },
+        "B": { "trait": "History", "score": 1 },
+        "C": { "trait": "History", "score": 1 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "TCS was founded in 1968. IT industry history is relevant for BCS (IT Careers)."
+    },
+    {
+      "question_id": "ACAD_11BCS_024",
+      "question_text": "Who invented the first microprocessor?",
+      "options": [
+        { "option_id": "A", "text": "Intel" },
+        { "option_id": "B", "text": "AMD" },
+        { "option_id": "C", "text": "IBM" },
+        { "option_id": "D", "text": "Texas Instruments" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "History", "score": 4 },
+        "B": { "trait": "History", "score": 1 },
+        "C": { "trait": "History", "score": 1 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "Intel invented the first microprocessor (4004). Hardware history is key for BCS (Computer Architecture)."
+    },
+    {
+      "question_id": "ACAD_11BCS_025",
+      "question_text": "In which year was the Python programming language first released?",
+      "options": [
+        { "option_id": "A", "text": "1991" },
+        { "option_id": "B", "text": "1981" },
+        { "option_id": "C", "text": "2001" },
+        { "option_id": "D", "text": "1971" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "History", "score": 4 },
+        "B": { "trait": "History", "score": 1 },
+        "C": { "trait": "History", "score": 1 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "Python was released in 1991. Programming history is relevant for BCS (Software Development)."
+    },
+    {
+      "question_id": "ACAD_11BCS_026",
+      "question_text": "Who co-founded Microsoft Corporation alongside Bill Gates?",
+      "options": [
+        { "option_id": "A", "text": "Steve Jobs" },
+        { "option_id": "B", "text": "Paul Allen" },
+        { "option_id": "C", "text": "Steve Wozniak" },
+        { "option_id": "D", "text": "Larry Page" }
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": { "trait": "History", "score": 1 },
+        "B": { "trait": "History", "score": 4 },
+        "C": { "trait": "History", "score": 1 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "Paul Allen co-founded Microsoft. Tech industry history is key for BCS (IT Innovation)."
+    },
+    {
+      "question_id": "ACAD_11BCS_027",
+      "question_text": "In which year was the first successful test of ARPANET, a precursor to the internet?",
+      "options": [
+        { "option_id": "A", "text": "1969" },
+        { "option_id": "B", "text": "1979" },
+        { "option_id": "C", "text": "1959" },
+        { "option_id": "D", "text": "1989" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "History", "score": 4 },
+        "B": { "trait": "History", "score": 1 },
+        "C": { "trait": "History", "score": 1 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "ARPANET was tested in 1969. Internet history is relevant for BCS (Networking)."
+    },
+    {
+      "question_id": "ACAD_11BCS_028",
+      "question_text": "Which Indian computer scientist is known for contributions to computational geometry?",
+      "options": [
+        { "option_id": "A", "text": "Narendra Karmarkar" },
+        { "option_id": "B", "text": "Sanjay Ghemawat" },
+        { "option_id": "C", "text": "Srinivasa Ramanujan" },
+        { "option_id": "D", "text": "Anil K. Jain" }
+      ],
+      "correct_answer": "D",
+      "scoring": {
+        "A": { "trait": "History", "score": 1 },
+        "B": { "trait": "History", "score": 1 },
+        "C": { "trait": "History", "score": 1 },
+        "D": { "trait": "History", "score": 4 }
+      },
+      "explanation": "Anil K. Jain contributed to computational geometry. CS history is key for BCS (Research)."
+    },
+    {
+      "question_id": "ACAD_11BCS_029",
+      "question_text": "In which year was the first version of the Unix operating system developed?",
+      "options": [
+        { "option_id": "A", "text": "1970" },
+        { "option_id": "B", "text": "1980" },
+        { "option_id": "C", "text": "1960" },
+        { "option_id": "D", "text": "1990" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "History", "score": 4 },
+        "B": { "trait": "History", "score": 1 },
+        "C": { "trait": "History", "score": 1 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "Unix was developed in 1970. OS history is relevant for BCS (Operating Systems)."
+    },
+    {
+      "question_id": "ACAD_11BCS_030",
+      "question_text": "Who developed the concept of public-key cryptography?",
+      "options": [
+        { "option_id": "A", "text": "Whitfield Diffie and Martin Hellman" },
+        { "option_id": "B", "text": "Alan Turing" },
+        { "option_id": "C", "text": "John von Neumann" },
+        { "option_id": "D", "text": "Claude Shannon" }
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": { "trait": "History", "score": 4 },
+        "B": { "trait": "History", "score": 1 },
+        "C": { "trait": "History", "score": 1 },
+        "D": { "trait": "History", "score": 1 }
+      },
+      "explanation": "Diffie and Hellman developed public-key cryptography. Cryptography history is key for BCS (Cybersecurity)."
+    }
+  ]
+}

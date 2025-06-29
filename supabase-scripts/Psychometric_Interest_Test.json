@@ -1,0 +1,457 @@
+{
+  "test_category": "Psychometric",
+  "factor": "Interest",
+  "description": "Assesses preferences for activities and subjects to guide academic and career choices for students in 10th, 11th/12th, and UG levels.",
+  "questions": [
+    {
+      "question_id": "INT_001",
+      "question_text": "How much do you enjoy conducting scientific experiments?",
+      "options": [
+        {"option_id": "A", "text": "Very much, I love hands-on science."},
+        {"option_id": "B", "text": "Somewhat, it’s interesting sometimes."},
+        {"option_id": "C", "text": "Not much, I prefer other activities."},
+        {"option_id": "D", "text": "It depends on the experiment."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Science Interest", "score": 4},
+        "B": {"trait": "Science Interest", "score": 3},
+        "C": {"trait": "Science Interest", "score": 1},
+        "D": {"trait": "Science Interest", "score": 2}
+      },
+      "explanation": "High interest in experiments aligns with Science streams (B.Sc, MBBS, B.Tech) and careers like M.Sc or M.Tech."
+    },
+    {
+      "question_id": "INT_002",
+      "question_text": "How interested are you in analyzing financial data or budgets?",
+      "options": [
+        {"option_id": "A", "text": "Very interested, I enjoy numbers."},
+        {"option_id": "B", "text": "Somewhat interested, if it’s practical."},
+        {"option_id": "C", "text": "Not interested, I find it boring."},
+        {"option_id": "D", "text": "It depends on the context."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Commerce Interest", "score": 4},
+        "B": {"trait": "Commerce Interest", "score": 3},
+        "C": {"trait": "Commerce Interest", "score": 1},
+        "D": {"trait": "Commerce Interest", "score": 2}
+      },
+      "explanation": "Interest in financial analysis suits Commerce (B.Com, CA, CFA) and careers like MBA or M.Com."
+    },
+    {
+      "question_id": "INT_003",
+      "question_text": "Do you enjoy writing essays or stories?",
+      "options": [
+        {"option_id": "A", "text": "Very much, I love expressing ideas."},
+        {"option_id": "B", "text": "Somewhat, it’s okay at times."},
+        {"option_id": "C", "text": "Not really, I avoid writing."},
+        {"option_id": "D", "text": "It depends on the topic."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Arts Interest", "score": 4},
+        "B": {"trait": "Arts Interest", "score": 3},
+        "C": {"trait": "Arts Interest", "score": 1},
+        "D": {"trait": "Arts Interest", "score": 2}
+      },
+      "explanation": "Writing interest aligns with Arts (B.A, Mass Communication) and careers like M.A or journalism."
+    },
+    {
+      "question_id": "INT_004",
+      "question_text": "How much do you enjoy coding or programming?",
+      "options": [
+        {"option_id": "A", "text": "A lot, I find it exciting."},
+        {"option_id": "B", "text": "Somewhat, it’s challenging but fun."},
+        {"option_id": "C", "text": "Not much, it’s not for me."},
+        {"option_id": "D", "text": "It depends on the project."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Technology Interest", "score": 4},
+        "B": {"trait": "Technology Interest", "score": 3},
+        "C": {"trait": "Technology Interest", "score": 1},
+        "D": {"trait": "Technology Interest", "score": 2}
+      },
+      "explanation": "Interest in coding suits Science (BCA, BCS, B.Tech) and careers like MCA or M.Sc IT."
+    },
+    {
+      "question_id": "INT_005",
+      "question_text": "How interested are you in managing teams or projects?",
+      "options": [
+        {"option_id": "A", "text": "Very interested, I like leading."},
+        {"option_id": "B", "text": "Somewhat interested, if needed."},
+        {"option_id": "C", "text": "Not interested, I prefer individual tasks."},
+        {"option_id": "D", "text": "It depends on the team."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Management Interest", "score": 4},
+        "B": {"trait": "Management Interest", "score": 3},
+        "C": {"trait": "Management Interest", "score": 1},
+        "D": {"trait": "Management Interest", "score": 2}
+      },
+      "explanation": "Management interest aligns with Commerce (BBA, BMS) and careers like MBA or MMS."
+    },
+    {
+      "question_id": "INT_006",
+      "question_text": "Do you enjoy studying biology or human anatomy?",
+      "options": [
+        {"option_id": "A", "text": "Very much, it fascinates me."},
+        {"option_id": "B", "text": "Somewhat, it’s interesting."},
+        {"option_id": "C", "text": "Not really, I prefer other subjects."},
+        {"option_id": "D", "text": "It depends on the topic."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Science Interest", "score": 4},
+        "B": {"trait": "Science Interest", "score": 3},
+        "C": {"trait": "Science Interest", "score": 1},
+        "D": {"trait": "Science Interest", "score": 2}
+      },
+      "explanation": "Interest in biology suits Science (MBBS, B.Sc) and careers like M.Sc."
+    },
+    {
+      "question_id": "INT_007",
+      "question_text": "How much do you enjoy learning about business strategies?",
+      "options": [
+        {"option_id": "A", "text": "A lot, I find it engaging."},
+        {"option_id": "B", "text": "Somewhat, it’s useful to know."},
+        {"option_id": "C", "text": "Not much, it doesn’t interest me."},
+        {"option_id": "D", "text": "It depends on the strategy."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Commerce Interest", "score": 4},
+        "B": {"trait": "Commerce Interest", "score": 3},
+        "C": {"trait": "Commerce Interest", "score": 1},
+        "D": {"trait": "Commerce Interest", "score": 2}
+      },
+      "explanation": "Business strategy interest suits Commerce (BBA, BMS) and careers like MBA."
+    },
+    {
+      "question_id": "INT_008",
+      "question_text": "How interested are you in creating art or designs?",
+      "options": [
+        {"option_id": "A", "text": "Very interested, I love being creative."},
+        {"option_id": "B", "text": "Somewhat interested, it’s a fun hobby."},
+        {"option_id": "C", "text": "Not interested, I prefer other activities."},
+        {"option_id": "D", "text": "It depends on the medium."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Arts Interest", "score": 4},
+        "B": {"trait": "Arts Interest", "score": 3},
+        "C": {"trait": "Arts Interest", "score": 1},
+        "D": {"trait": "Arts Interest", "score": 2}
+      },
+      "explanation": "Artistic interest aligns with Arts (BFA, B.A) and careers like creative design."
+    },
+    {
+      "question_id": "INT_009",
+      "question_text": "Do you enjoy solving complex mathematical problems?",
+      "options": [
+        {"option_id": "A", "text": "Very much, I find it challenging."},
+        {"option_id": "B", "text": "Somewhat, if I understand the concepts."},
+        {"option_id": "C", "text": "Not really, I avoid math."},
+        {"option_id": "D", "text": "It depends on the problem."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Science Interest", "score": 4},
+        "B": {"trait": "Science Interest", "score": 3},
+        "C": {"trait": "Science Interest", "score": 1},
+        "D": {"trait": "Science Interest", "score": 2}
+      },
+      "explanation": "Math interest suits Science (B.Tech, BCS) and Commerce (CA, CFA)."
+    },
+    {
+      "question_id": "INT_010",
+      "question_text": "How much do you enjoy public speaking or presentations?",
+      "options": [
+        {"option_id": "A", "text": "A lot, I enjoy engaging audiences."},
+        {"option_id": "B", "text": "Somewhat, with preparation."},
+        {"option_id": "C", "text": "Not much, I avoid it."},
+        {"option_id": "D", "text": "It depends on the topic."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Communication Interest", "score": 4},
+        "B": {"trait": "Communication Interest", "score": 3},
+        "C": {"trait": "Communication Interest", "score": 1},
+        "D": {"trait": "Communication Interest", "score": 2}
+      },
+      "explanation": "Public speaking interest suits Arts (Mass Communication) and Commerce (BBA, MBA)."
+    },
+    {
+      "question_id": "INT_011",
+      "question_text": "How interested are you in learning about computer systems?",
+      "options": [
+        {"option_id": "A", "text": "Very interested, I love tech."},
+        {"option_id": "B", "text": "Somewhat interested, it’s useful."},
+        {"option_id": "C", "text": "Not interested, I prefer other fields."},
+        {"option_id": "D", "text": "It depends on the application."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Technology Interest", "score": 4},
+        "B": {"trait": "Technology Interest", "score": 3},
+        "C": {"trait": "Technology Interest", "score": 1},
+        "D": {"trait": "Technology Interest", "score": 2}
+      },
+      "explanation": "Computer systems interest suits Science (BCA, BCS) and careers like MCA or M.Sc IT."
+    },
+    {
+      "question_id": "INT_012",
+      "question_text": "Do you enjoy studying historical events or cultures?",
+      "options": [
+        {"option_id": "A", "text": "Very much, I find it fascinating."},
+        {"option_id": "B", "text": "Somewhat, it’s interesting at times."},
+        {"option_id": "C", "text": "Not really, I prefer other subjects."},
+        {"option_id": "D", "text": "It depends on the period."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Arts Interest", "score": 4},
+        "B": {"trait": "Arts Interest", "score": 3},
+        "C": {"trait": "Arts Interest", "score": 1},
+        "D": {"trait": "Arts Interest", "score": 2}
+      },
+      "explanation": "History interest aligns with Arts (B.A, LLB) and careers like M.A or MSW."
+    },
+    {
+      "question_id": "INT_013",
+      "question_text": "How much do you enjoy working with data or statistics?",
+      "options": [
+        {"option_id": "A", "text": "A lot, I enjoy analyzing data."},
+        {"option_id": "B", "text": "Somewhat, if it’s relevant."},
+        {"option_id": "C", "text": "Not much, I find it tedious."},
+        {"option_id": "D", "text": "It depends on the purpose."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Commerce Interest", "score": 4},
+        "B": {"trait": "Commerce Interest", "score": 3},
+        "C": {"trait": "Commerce Interest", "score": 1},
+        "D": {"trait": "Commerce Interest", "score": 2}
+      },
+      "explanation": "Data analysis interest suits Commerce (CA, CFA) and Science (BCS)."
+    },
+    {
+      "question_id": "INT_014",
+      "question_text": "How interested are you in teaching or mentoring others?",
+      "options": [
+        {"option_id": "A", "text": "Very interested, I enjoy helping others learn."},
+        {"option_id": "B", "text": "Somewhat interested, if I know the subject."},
+        {"option_id": "C", "text": "Not interested, I prefer other roles."},
+        {"option_id": "D", "text": "It depends on the group."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Education Interest", "score": 4},
+        "B": {"trait": "Education Interest", "score": 3},
+        "C": {"trait": "Education Interest", "score": 1},
+        "D": {"trait": "Education Interest", "score": 2}
+      },
+      "explanation": "Teaching interest aligns with Arts (B.Ed) and careers like education or mentoring."
+    },
+    {
+      "question_id": "INT_015",
+      "question_text": "Do you enjoy solving physics-related problems?",
+      "options": [
+        {"option_id": "A", "text": "Very much, I find it exciting."},
+        {"option_id": "B", "text": "Somewhat, it’s challenging."},
+        {"option_id": "C", "text": "Not really, I avoid physics."},
+        {"option_id": "D", "text": "It depends on the topic."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Science Interest", "score": 4},
+        "B": {"trait": "Science Interest", "score": 3},
+        "C": {"trait": "Science Interest", "score": 1},
+        "D": {"trait": "Science Interest", "score": 2}
+      },
+      "explanation": "Physics interest suits Science (B.Tech, B.Sc) and careers like M.Tech."
+    },
+    {
+      "question_id": "INT_016",
+      "question_text": "How much do you enjoy creating marketing campaigns?",
+      "options": [
+        {"option_id": "A", "text": "A lot, I love creative strategies."},
+        {"option_id": "B", "text": "Somewhat, it’s interesting."},
+        {"option_id": "C", "text": "Not much, I prefer other tasks."},
+        {"option_id": "D", "text": "It depends on the product."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Commerce Interest", "score": 4},
+        "B": {"trait": "Commerce Interest", "score": 3},
+        "C": {"trait": "Commerce Interest", "score": 1},
+        "D": {"trait": "Commerce Interest", "score": 2}
+      },
+      "explanation": "Marketing interest suits Commerce (BBA, BMS) and careers like MBA."
+    },
+    {
+      "question_id": "INT_017",
+      "question_text": "How interested are you in performing arts like drama or music?",
+      "options": [
+        {"option_id": "A", "text": "Very interested, I love performing."},
+        {"option_id": "B", "text": "Somewhat interested, it’s fun sometimes."},
+        {"option_id": "C", "text": "Not interested, I prefer other activities."},
+        {"option_id": "D", "text": "It depends on the performance."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Arts Interest", "score": 4},
+        "B": {"trait": "Arts Interest", "score": 3},
+        "C": {"trait": "Arts Interest", "score": 1},
+        "D": {"trait": "Arts Interest", "score": 2}
+      },
+      "explanation": "Performing arts interest aligns with Arts (BFA, B.A) and creative careers."
+    },
+    {
+      "question_id": "INT_018",
+      "question_text": "Do you enjoy learning about software development?",
+      "options": [
+        {"option_id": "A", "text": "Very much, I find it exciting."},
+        {"option_id": "B", "text": "Somewhat, it’s interesting."},
+        {"option_id": "C", "text": "Not really, I prefer other fields."},
+        {"option_id": "D", "text": "It depends on the application."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Technology Interest", "score": 4},
+        "B": {"trait": "Technology Interest", "score": 3},
+        "C": {"trait": "Technology Interest", "score": 1},
+        "D": {"trait": "Technology Interest", "score": 2}
+      },
+      "explanation": "Software development interest suits Science (BCA, BCS) and careers like MCA."
+    },
+    {
+      "question_id": "INT_019",
+      "question_text": "How much do you enjoy organizing events or activities?",
+      "options": [
+        {"option_id": "A", "text": "A lot, I love planning."},
+        {"option_id": "B", "text": "Somewhat, it’s okay."},
+        {"option_id": "C", "text": "Not much, I avoid organizing."},
+        {"option_id": "D", "text": "It depends on the event."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Management Interest", "score": 4},
+        "B": {"trait": "Management Interest", "score": 3},
+        "C": {"trait": "Management Interest", "score": 1},
+        "D": {"trait": "Management Interest", "score": 2}
+      },
+      "explanation": "Event planning interest suits Commerce (BBA, BMS) and careers like MBA."
+    },
+    {
+      "question_id": "INT_020",
+      "question_text": "How interested are you in studying chemistry?",
+      "options": [
+        {"option_id": "A", "text": "Very interested, I love chemical reactions."},
+        {"option_id": "B", "text": "Somewhat interested, it’s okay."},
+        {"option_id": "C", "text": "Not interested, I prefer other subjects."},
+        {"option_id": "D", "text": "It depends on the topic."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Science Interest", "score": 4},
+        "B": {"trait": "Science Interest", "score": 3},
+        "C": {"trait": "Science Interest", "score": 1},
+        "D": {"trait": "Science Interest", "score": 2}
+      },
+      "explanation": "Chemistry interest suits Science (B.Sc, MBBS) and careers like M.Sc."
+    },
+    {
+      "question_id": "INT_021",
+      "question_text": "Do you enjoy learning about economics or markets?",
+      "options": [
+        {"option_id": "A", "text": "Very much, I find it fascinating."},
+        {"option_id": "B", "text": "Somewhat, it’s useful."},
+        {"option_id": "C", "text": "Not really, I prefer other fields."},
+        {"option_id": "D", "text": "It depends on the topic."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Commerce Interest", "score": 4},
+        "B": {"trait": "Commerce Interest", "score": 3},
+        "C": {"trait": "Commerce Interest", "score": 1},
+        "D": {"trait": "Commerce Interest", "score": 2}
+      },
+      "explanation": "Economics interest suits Commerce (B.Com, CA) and careers like MBA or CFA."
+    },
+    {
+      "question_id": "INT_022",
+      "question_text": "How much do you enjoy debating or discussing ideas?",
+      "options": [
+        {"option_id": "A", "text": "A lot, I love engaging in debates."},
+        {"option_id": "B", "text": "Somewhat, if the topic interests me."},
+        {"option_id": "C", "text": "Not much, I avoid debates."},
+        {"option_id": "D", "text": "It depends on the audience."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Communication Interest", "score": 4},
+        "B": {"trait": "Communication Interest", "score": 3},
+        "C": {"trait": "Communication Interest", "score": 1},
+        "D": {"trait": "Communication Interest", "score": 2}
+      },
+      "explanation": "Debating interest suits Arts (Mass Communication, LLB) and Commerce (BBA)."
+    },
+    {
+      "question_id": "INT_023",
+      "question_text": "How interested are you in designing technology solutions?",
+      "options": [
+        {"option_id": "A", "text": "Very interested, I love innovation."},
+        {"option_id": "B", "text": "Somewhat interested, it’s intriguing."},
+        {"option_id": "C", "text": "Not interested, I prefer other fields."},
+        {"option_id": "D", "text": "It depends on the project."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Technology Interest", "score": 4},
+        "B": {"trait": "Technology Interest", "score": 3},
+        "C": {"trait": "Technology Interest", "score": 1},
+        "D": {"trait": "Technology Interest", "score": 2}
+      },
+      "explanation": "Tech design interest suits Science (B.Tech, BCA) and careers like M.Tech."
+    },
+    {
+      "question_id": "INT_024",
+      "question_text": "Do you enjoy helping communities or social causes?",
+      "options": [
+        {"option_id": "A", "text": "Very much, I want to make a difference."},
+        {"option_id": "B", "text": "Somewhat, it’s rewarding."},
+        {"option_id": "C", "text": "Not really, I focus on other goals."},
+        {"option_id": "D", "text": "It depends on the cause."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Social Work Interest", "score": 4},
+        "B": {"trait": "Social Work Interest", "score": 3},
+        "C": {"trait": "Social Work Interest", "score": 1},
+        "D": {"trait": "Social Work Interest", "score": 2}
+      },
+      "explanation": "Social work interest aligns with Arts (B.A, MSW) and careers in social services."
+    },
+    {
+      "question_id": "INT_025",
+      "question_text": "How much do you enjoy researching scientific topics?",
+      "options": [
+        {"option_id": "A", "text": "A lot, I love discovering new knowledge."},
+        {"option_id": "B", "text": "Somewhat, if it’s interesting."},
+        {"option_id": "C", "text": "Not much, I prefer practical tasks."},
+        {"option_id": "D", "text": "It depends on the topic."}
+      ],
+      "correct_answer": null,
+      "scoring": {
+        "A": {"trait": "Science Interest", "score": 4},
+        "B": {"trait": "Science Interest", "score": 3},
+        "C": {"trait": "Science Interest", "score": 1},
+        "D": {"trait": "Science Interest", "score": 2}
+      },
+      "explanation": "Research interest suits Science (B.Sc, MBBS) and careers like M.Sc or M.Tech."
+    }
+  ]
+}

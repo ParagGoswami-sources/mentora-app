@@ -1,0 +1,351 @@
+{
+    "stream": "Science",
+    "class": "11th_12th",
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is the SI unit of electric current?",
+            "options": [
+                "A) Volt",
+                "B) Ohm",
+                "C) Ampere",
+                "D) Coulomb"
+            ],
+            "answer": "C",
+            "stream": "Science",
+            "class_level": "11th_12th"
+        },
+        {
+            "id": 2,
+            "question": "Which gas is most abundant in Earth\u2019s atmosphere?",
+            "options": [
+                "A) Oxygen",
+                "B) Nitrogen",
+                "C) Carbon Dioxide",
+                "D) Hydrogen"
+            ],
+            "answer": "B",
+            "stream": "Science",
+            "class_level": "11th_12th"
+        },
+        {
+            "id": 3,
+            "question": "Which programming language is commonly taught in BCA courses?",
+            "options": [
+                "A) Java",
+                "B) PHP",
+                "C) Python",
+                "D) HTML"
+            ],
+            "answer": "C",
+            "stream": "Science",
+            "class_level": "11th_12th"
+        },
+        {
+            "id": 4,
+            "question": "Which of the following is not a type of chemical bond?",
+            "options": [
+                "A) Ionic",
+                "B) Covalent",
+                "C) Metallic",
+                "D) Nuclear"
+            ],
+            "answer": "D",
+            "stream": "Science",
+            "class_level": "11th_12th"
+        },
+        {
+            "id": 5,
+            "question": "What is the derivative of sin(x)?",
+            "options": [
+                "A) cos(x)",
+                "B) -cos(x)",
+                "C) -sin(x)",
+                "D) tan(x)"
+            ],
+            "answer": "A",
+            "stream": "Science",
+            "class_level": "11th_12th"
+        },
+        {
+            "id": 6,
+            "question": "Which data structure uses FIFO (First In First Out)?",
+            "options": [
+                "A) Stack",
+                "B) Queue",
+                "C) Tree",
+                "D) Graph"
+            ],
+            "answer": "B",
+            "stream": "Science",
+            "class_level": "11th_12th"
+        },
+        {
+            "id": 7,
+            "question": "Which planet has the highest gravity in the solar system?",
+            "options": [
+                "A) Earth",
+                "B) Saturn",
+                "C) Jupiter",
+                "D) Mars"
+            ],
+            "answer": "C",
+            "stream": "Science",
+            "class_level": "11th_12th"
+        },
+        {
+            "id": 8,
+            "question": "In electronics, what does LED stand for?",
+            "options": [
+                "A) Light Emitting Device",
+                "B) Low Energy Device",
+                "C) Light Emitting Diode",
+                "D) Linear Energy Device"
+            ],
+            "answer": "C",
+            "stream": "Science",
+            "class_level": "11th_12th"
+        },
+        {
+            "id": 9,
+            "question": "Which organelle is known as the powerhouse of the cell?",
+            "options": [
+                "A) Nucleus",
+                "B) Ribosome",
+                "C) Mitochondria",
+                "D) Endoplasmic Reticulum"
+            ],
+            "answer": "C",
+            "stream": "Science",
+            "class_level": "11th_12th"
+        },
+        {
+            "id": 10,
+            "question": "What is the chemical formula for glucose?",
+            "options": [
+                "A) C2H6O",
+                "B) CH4",
+                "C) C6H12O6",
+                "D) CO2"
+            ],
+            "answer": "C",
+            "stream": "Science",
+            "class_level": "11th_12th"
+        },
+        {
+            "id": 11,
+            "question": "Which of these is not an operating system?",
+            "options": [
+                "A) Linux",
+                "B) Windows",
+                "C) Python",
+                "D) macOS"
+            ],
+            "answer": "C",
+            "stream": "Science",
+            "class_level": "11th_12th"
+        },
+        {
+            "id": 12,
+            "question": "Which law gives the relationship between current, voltage, and resistance?",
+            "options": [
+                "A) Newton's Law",
+                "B) Ohm\u2019s Law",
+                "C) Boyle\u2019s Law",
+                "D) Hooke\u2019s Law"
+            ],
+            "answer": "B",
+            "stream": "Science",
+            "class_level": "11th_12th"
+        },
+        {
+            "id": 13,
+            "question": "What is Newton\u2019s third law of motion?",
+            "options": [
+                "A) F = ma",
+                "B) For every action, there is an equal and opposite reaction",
+                "C) An object in motion stays in motion",
+                "D) Energy is conserved"
+            ],
+            "answer": "B",
+            "stream": "Science",
+            "class_level": "11th_12th"
+        },
+        {
+            "id": 14,
+            "question": "Which of these is a computer input device?",
+            "options": [
+                "A) Monitor",
+                "B) Printer",
+                "C) Keyboard",
+                "D) Speaker"
+            ],
+            "answer": "C",
+            "stream": "Science",
+            "class_level": "11th_12th"
+        },
+        {
+            "id": 15,
+            "question": "Which method is used to find roots of quadratic equations?",
+            "options": [
+                "A) Differentiation",
+                "B) Integration",
+                "C) Factorization",
+                "D) Matrix Multiplication"
+            ],
+            "answer": "C",
+            "stream": "Science",
+            "class_level": "11th_12th"
+        },
+        {
+            "question": "What is the function of ribosomes in a cell?",
+            "options": [
+                "Respiration",
+                "Protein synthesis",
+                "DNA replication",
+                "Cell division"
+            ],
+            "answer": "Protein synthesis"
+        },
+        {
+            "question": "Which law explains the relationship between current, voltage, and resistance?",
+            "options": [
+                "Newton's Law",
+                "Ohm's Law",
+                "Boyle's Law",
+                "Hooke's Law"
+            ],
+            "answer": "Ohm's Law"
+        },
+        {
+            "question": "Which part of the electromagnetic spectrum is used in remote sensing?",
+            "options": [
+                "Gamma rays",
+                "Ultraviolet",
+                "Infrared",
+                "X-rays"
+            ],
+            "answer": "Infrared"
+        },
+        {
+            "question": "What is the SI unit of Force?",
+            "options": [
+                "Pascal",
+                "Newton",
+                "Joule",
+                "Watt"
+            ],
+            "answer": "Newton"
+        },
+        {
+            "question": "Which element is most abundant in the Earth's crust?",
+            "options": [
+                "Iron",
+                "Oxygen",
+                "Silicon",
+                "Aluminum"
+            ],
+            "answer": "Oxygen"
+        },
+        {
+            "question": "Which gas is evolved during photosynthesis?",
+            "options": [
+                "Carbon dioxide",
+                "Nitrogen",
+                "Oxygen",
+                "Hydrogen"
+            ],
+            "answer": "Oxygen"
+        },
+        {
+            "question": "Which hormone regulates the metabolism in the human body?",
+            "options": [
+                "Insulin",
+                "Thyroxine",
+                "Adrenaline",
+                "Cortisol"
+            ],
+            "answer": "Thyroxine"
+        },
+        {
+            "question": "Which instrument is used to measure atmospheric pressure?",
+            "options": [
+                "Thermometer",
+                "Barometer",
+                "Hygrometer",
+                "Anemometer"
+            ],
+            "answer": "Barometer"
+        },
+        {
+            "question": "What is the pH of neutral water at 25\u00b0C?",
+            "options": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "answer": "7"
+        },
+        {
+            "question": "Which vitamin is produced by the human body in sunlight?",
+            "options": [
+                "Vitamin A",
+                "Vitamin B12",
+                "Vitamin C",
+                "Vitamin D"
+            ],
+            "answer": "Vitamin D"
+        },
+        {
+            "question": "Which process converts liquid into vapor without boiling?",
+            "options": [
+                "Boiling",
+                "Condensation",
+                "Evaporation",
+                "Sublimation"
+            ],
+            "answer": "Evaporation"
+        },
+        {
+            "question": "Which subatomic particle has no charge?",
+            "options": [
+                "Proton",
+                "Electron",
+                "Neutron",
+                "Quark"
+            ],
+            "answer": "Neutron"
+        },
+        {
+            "question": "Which gas is responsible for the greenhouse effect?",
+            "options": [
+                "Oxygen",
+                "Nitrogen",
+                "Carbon dioxide",
+                "Hydrogen"
+            ],
+            "answer": "Carbon dioxide"
+        },
+        {
+            "question": "What is the main constituent of natural gas?",
+            "options": [
+                "Ethane",
+                "Propane",
+                "Methane",
+                "Butane"
+            ],
+            "answer": "Methane"
+        },
+        {
+            "question": "Which part of the human brain controls voluntary actions?",
+            "options": [
+                "Cerebellum",
+                "Medulla",
+                "Cerebrum",
+                "Thalamus"
+            ],
+            "answer": "Cerebrum"
+        }
+    ]
+}

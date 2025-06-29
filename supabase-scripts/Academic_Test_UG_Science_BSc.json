@@ -1,0 +1,549 @@
+{
+  "test_category": "Academic",
+  "class": "Undergraduate",
+  "stream": "Science",
+  "course": "B.Sc",
+  "description": "Assesses General Knowledge, Science, and History for undergraduate students pursuing B.Sc to guide academic and career choices in core sciences.",
+  "questions": [
+    {
+      "question_id": "ACAD_UGBSC_001",
+      "question_text": "Which Indian body regulates higher education in science, including B.Sc programs?",
+      "options": [
+        {"option_id": "A", "text": "University Grants Commission"},
+        {"option_id": "B", "text": "All India Council for Technical Education"},
+        {"option_id": "C", "text": "National Medical Commission"},
+        {"option_id": "D", "text": "Bar Council of India"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "UGC regulates higher education, including B.Sc. Regulatory knowledge is essential for B.Sc (Education Governance)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_002",
+      "question_text": "Which Indian city is known for science education, hosting institutes like IISc?",
+      "options": [
+        {"option_id": "A", "text": "Bengaluru"},
+        {"option_id": "B", "text": "Jaipur"},
+        {"option_id": "C", "text": "Patna"},
+        {"option_id": "D", "text": "Indore"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Bengaluru hosts IISc, a science hub. Regional knowledge is key for B.Sc (Scientific Research)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_003",
+      "question_text": "What does the acronym ‘DNA’ stand for in biology?",
+      "options": [
+        {"option_id": "A", "text": "Deoxyribonucleic Acid"},
+        {"option_id": "B", "text": "Dioxyribonucleic Acid"},
+        {"option_id": "C", "text": "Dynamic Nucleic Acid"},
+        {"option_id": "D", "text": "Deoxyribonucleotide Antigen"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "DNA is Deoxyribonucleic Acid. Genetic knowledge supports B.Sc (Biology)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_004",
+      "question_text": "Which Indian institute is renowned for B.Sc programs, like St. Stephen’s College?",
+      "options": [
+        {"option_id": "A", "text": "St. Stephen’s College, Delhi"},
+        {"option_id": "B", "text": "Indian Institute of Technology, Bombay"},
+        {"option_id": "C", "text": "National Law School, Bengaluru"},
+        {"option_id": "D", "text": "Film and Television Institute, Pune"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "St. Stephen’s is renowned for B.Sc. Institutional knowledge is vital for B.Sc students."
+    },
+    {
+      "question_id": "ACAD_UGBSC_005",
+      "question_text": "Which global organization sets standards for scientific measurements, like SI units?",
+      "options": [
+        {"option_id": "A", "text": "International Bureau of Weights and Measures"},
+        {"option_id": "B", "text": "World Trade Organization"},
+        {"option_id": "C", "text": "International Monetary Fund"},
+        {"option_id": "D", "text": "United Nations Environment Programme"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "BIPM sets SI unit standards. Measurement knowledge is key for B.Sc (Physics/Chemistry)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_006",
+      "question_text": "Which Indian state is known for its science research institutes, like TIFR Mumbai?",
+      "options": [
+        {"option_id": "A", "text": "Maharashtra"},
+        {"option_id": "B", "text": "Assam"},
+        {"option_id": "C", "text": "Haryana"},
+        {"option_id": "D", "text": "Jharkhand"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Maharashtra hosts TIFR. Regional knowledge supports B.Sc (Scientific Research)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_007",
+      "question_text": "Which Indian initiative promotes scientific research, like INSPIRE?",
+      "options": [
+        {"option_id": "A", "text": "Innovation in Science Pursuit for Inspired Research"},
+        {"option_id": "B", "text": "Make in India"},
+        {"option_id": "C", "text": "Digital India"},
+        {"option_id": "D", "text": "Skill India"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "INSPIRE promotes science research. Policy knowledge is essential for B.Sc (Research Funding)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_008",
+      "question_text": "Which Indian organization leads space research, like ISRO?",
+      "options": [
+        {"option_id": "A", "text": "Indian Space Research Organisation"},
+        {"option_id": "B", "text": "Defence Research and Development Organisation"},
+        {"option_id": "C", "text": "Council of Scientific and Industrial Research"},
+        {"option_id": "D", "text": "Indian Council of Agricultural Research"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "ISRO leads space research. Organizational knowledge is vital for B.Sc (Physics/Astronomy)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_009",
+      "question_text": "Which global scientist is known for the theory of relativity?",
+      "options": [
+        {"option_id": "A", "text": "Albert Einstein"},
+        {"option_id": "B", "text": "Isaac Newton"},
+        {"option_id": "C", "text": "Galileo Galilei"},
+        {"option_id": "D", "text": "Niels Bohr"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Einstein developed relativity. Scientific knowledge supports B.Sc (Physics)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_010",
+      "question_text": "Which Indian city hosts the headquarters of the Council of Scientific and Industrial Research (CSIR)?",
+      "options": [
+        {"option_id": "A", "text": "New Delhi"},
+        {"option_id": "B", "text": "Mumbai"},
+        {"option_id": "C", "text": "Kolkata"},
+        {"option_id": "D", "text": "Hyderabad"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "CSIR is headquartered in New Delhi. Organizational knowledge is key for B.Sc (Scientific Research)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_011",
+      "question_text": "What is the primary source of energy for Earth’s climate system?",
+      "options": [
+        {"option_id": "A", "text": "Solar radiation"},
+        {"option_id": "B", "text": "Geothermal heat"},
+        {"option_id": "C", "text": "Nuclear fission"},
+        {"option_id": "D", "text": "Ocean currents"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Solar radiation drives climate. Physics knowledge is crucial for B.Sc (Physics)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_012",
+      "question_text": "What is the chemical formula for glucose?",
+      "options": [
+        {"option_id": "A", "text": "C6H12O6"},
+        {"option_id": "B", "text": "C12H22O11"},
+        {"option_id": "C", "text": "C2H5OH"},
+        {"option_id": "D", "text": "CH4"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Glucose is C6H12O6. Chemistry knowledge is essential for B.Sc (Chemistry)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_013",
+      "question_text": "What is the process by which plants convert light energy into chemical energy?",
+      "options": [
+        {"option_id": "A", "text": "Photosynthesis"},
+        {"option_id": "B", "text": "Respiration"},
+        {"option_id": "C", "text": "Transpiration"},
+        {"option_id": "D", "text": "Fermentation"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Photosynthesis converts light energy. Biology knowledge is key for B.Sc (Biology)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_014",
+      "question_text": "What is the SI unit of force?",
+      "options": [
+        {"option_id": "A", "text": "Newton"},
+        {"option_id": "B", "text": "Joule"},
+        {"option_id": "C", "text": "Watt"},
+        {"option_id": "D", "text": "Pascal"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Force is measured in Newtons. Physics knowledge is vital for B.Sc (Physics)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_015",
+      "question_text": "What is the primary function of enzymes in biological systems?",
+      "options": [
+        {"option_id": "A", "text": "Catalyze chemical reactions"},
+        {"option_id": "B", "text": "Store genetic information"},
+        {"option_id": "C", "text": "Transport oxygen"},
+        {"option_id": "D", "text": "Produce energy"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Enzymes catalyze reactions. Biochemistry knowledge is essential for B.Sc (Biology)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_016",
+      "question_text": "What is the atomic number of carbon?",
+      "options": [
+        {"option_id": "A", "text": "6"},
+        {"option_id": "B", "text": "8"},
+        {"option_id": "C", "text": "12"},
+        {"option_id": "D", "text": "14"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Carbon’s atomic number is 6. Chemistry knowledge is key for B.Sc (Chemistry)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_017",
+      "question_text": "What is the primary source of genetic variation in populations?",
+      "options": [
+        {"option_id": "A", "text": "Mutation"},
+        {"option_id": "B", "text": "Photosynthesis"},
+        {"option_id": "C", "text": "Mitosis"},
+        {"option_id": "D", "text": "Osmosis"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Mutation drives genetic variation. Genetics knowledge is vital for B.Sc (Biology)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_018",
+      "question_text": "What is the primary purpose of the periodic table?",
+      "options": [
+        {"option_id": "A", "text": "Organize elements by properties"},
+        {"option_id": "B", "text": "Calculate molecular weights"},
+        {"option_id": "C", "text": "Measure electrical conductivity"},
+        {"option_id": "D", "text": "Predict weather patterns"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "The periodic table organizes elements. Chemistry knowledge is essential for B.Sc (Chemistry)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_019",
+      "question_text": "What is the primary function of mitochondria in cells?",
+      "options": [
+        {"option_id": "A", "text": "Produce energy"},
+        {"option_id": "B", "text": "Store genetic material"},
+        {"option_id": "C", "text": "Synthesize proteins"},
+        {"option_id": "D", "text": "Regulate cell division"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Mitochondria produce energy. Cell biology knowledge is key for B.Sc (Biology)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_020",
+      "question_text": "What is the SI unit of electric charge?",
+      "options": [
+        {"option_id": "A", "text": "Coulomb"},
+        {"option_id": "B", "text": "Ampere"},
+        {"option_id": "C", "text": "Volt"},
+        {"option_id": "D", "text": "Ohm"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Electric charge is measured in Coulombs. Physics knowledge is vital for B.Sc (Physics)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_021",
+      "question_text": "In which year was the Indian Institute of Science (IISc) established?",
+      "options": [
+        {"option_id": "A", "text": "1909"},
+        {"option_id": "B", "text": "1899"},
+        {"option_id": "C", "text": "1919"},
+        {"option_id": "D", "text": "1929"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "IISc was established in 1909. Institutional history is relevant for B.Sc (Scientific Research)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_022",
+      "question_text": "Who discovered the structure of DNA?",
+      "options": [
+        {"option_id": "A", "text": "James Watson and Francis Crick"},
+        {"option_id": "B", "text": "Gregor Mendel"},
+        {"option_id": "C", "text": "Charles Darwin"},
+        {"option_id": "D", "text": "Louis Pasteur"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Watson and Crick discovered DNA’s structure in 1953. Scientific history is key for B.Sc (Biology)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_023",
+      "question_text": "In which year was the Indian Space Research Organisation (ISRO) founded?",
+      "options": [
+        {"option_id": "A", "text": "1969"},
+        {"option_id": "B", "text": "1959"},
+        {"option_id": "C", "text": "1979"},
+        {"option_id": "D", "text": "1949"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "ISRO was founded in 1969. Organizational history is relevant for B.Sc (Physics/Astronomy)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_024",
+      "question_text": "Who formulated the laws of motion?",
+      "options": [
+        {"option_id": "A", "text": "Isaac Newton"},
+        {"option_id": "B", "text": "Albert Einstein"},
+        {"option_id": "C", "text": "Galileo Galilei"},
+        {"option_id": "D", "text": "Nikola Tesla"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Newton formulated motion laws in 1687. Scientific history is key for B.Sc (Physics)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_025",
+      "question_text": "In which year was the periodic table first published by Dmitri Mendeleev?",
+      "options": [
+        {"option_id": "A", "text": "1869"},
+        {"option_id": "B", "text": "1859"},
+        {"option_id": "C", "text": "1879"},
+        {"option_id": "D", "text": "1849"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Mendeleev published the periodic table in 1869. Scientific history is key for B.Sc (Chemistry)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_026",
+      "question_text": "In which year was the Council of Scientific and Industrial Research (CSIR) established?",
+      "options": [
+        {"option_id": "A", "text": "1942"},
+        {"option_id": "B", "text": "1932"},
+        {"option_id": "C", "text": "1952"},
+        {"option_id": "D", "text": "1922"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "CSIR was established in 1942. Organizational history is key for B.Sc (Scientific Research)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_027",
+      "question_text": "Who discovered penicillin?",
+      "options": [
+        {"option_id": "A", "text": "Alexander Fleming"},
+        {"option_id": "B", "text": "Marie Curie"},
+        {"option_id": "C", "text": "Rosalind Franklin"},
+        {"option_id": "D", "text": "Edward Jenner"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Fleming discovered penicillin in 1928. Scientific history is key for B.Sc (Biology)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_028",
+      "question_text": "In which year was the Tata Institute of Fundamental Research (TIFR) founded?",
+      "options": [
+        {"option_id": "A", "text": "1945"},
+        {"option_id": "B", "text": "1935"},
+        {"option_id": "C", "text": "1955"},
+        {"option_id": "D", "text": "1925"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "TIFR was founded in 1945. Institutional history is key for B.Sc (Scientific Research)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_029",
+      "question_text": "Who proposed the theory of evolution by natural selection?",
+      "options": [
+        {"option_id": "A", "text": "Charles Darwin"},
+        {"option_id": "B", "text": "Gregor Mendel"},
+        {"option_id": "C", "text": "Louis Pasteur"},
+        {"option_id": "D", "text": "Robert Hooke"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Darwin proposed evolution in 1859. Scientific history is key for B.Sc (Biology)."
+    },
+    {
+      "question_id": "ACAD_UGBSC_030",
+      "question_text": "In which year was the first successful launch of an Indian satellite, Aryabhata?",
+      "options": [
+        {"option_id": "A", "text": "1975"},
+        {"option_id": "B", "text": "1965"},
+        {"option_id": "C", "text": "1985"},
+        {"option_id": "D", "text": "1955"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Aryabhata was launched in 1975. Space history is key for B.Sc (Physics/Astronomy)."
+    }
+  ]
+}

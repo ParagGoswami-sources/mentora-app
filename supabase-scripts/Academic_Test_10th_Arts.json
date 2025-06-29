@@ -1,0 +1,548 @@
+{
+  "test_category": "Academic",
+  "class": "10th Standard",
+  "stream": "Arts",
+  "description": "Assesses General Knowledge, Science, and History for 10th-grade students in the Arts stream to guide academic and career choices.",
+  "questions": [
+    {
+      "question_id": "ACAD_10ART_001",
+      "question_text": "Which is the largest museum in the world?",
+      "options": [
+        {"option_id": "A", "text": "Louvre Museum"},
+        {"option_id": "B", "text": "British Museum"},
+        {"option_id": "C", "text": "Metropolitan Museum of Art"},
+        {"option_id": "D", "text": "Vatican Museums"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "The Louvre Museum in Paris is the largest. Cultural knowledge is key for Arts streams (BFA, B.A)."
+    },
+    {
+      "question_id": "ACAD_10ART_002",
+      "question_text": "Who is the current President of India (as of May 2025)?",
+      "options": [
+        {"option_id": "A", "text": "Droupadi Murmu"},
+        {"option_id": "B", "text": "Ram Nath Kovind"},
+        {"option_id": "C", "text": "Pranab Mukherjee"},
+        {"option_id": "D", "text": "A.P.J. Abdul Kalam"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 4},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Droupadi Murmu is the President. Civic awareness suits Arts streams (B.A, Mass Communication)."
+    },
+    {
+      "question_id": "ACAD_10ART_003",
+      "question_text": "What is the capital city of Brazil?",
+      "options": [
+        {"option_id": "A", "text": "Rio de Janeiro"},
+        {"option_id": "B", "text": "São Paulo"},
+        {"option_id": "C", "text": "Brasília"},
+        {"option_id": "D", "text": "Salvador"}
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 4},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Brasília is the capital of Brazil. Geography knowledge supports Arts streams (B.A Geography, Mass Communication)."
+    },
+    {
+      "question_id": "ACAD_10ART_004",
+      "question_text": "Which Indian dance form originates from Tamil Nadu?",
+      "options": [
+        {"option_id": "A", "text": "Kathak"},
+        {"option_id": "B", "text": "Bharatanatyam"},
+        {"option_id": "C", "text": "Odissi"},
+        {"option_id": "D", "text": "Kathakali"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Bharatanatyam originates from Tamil Nadu. Cultural knowledge is essential for Arts streams (BFA, B.A)."
+    },
+    {
+      "question_id": "ACAD_10ART_005",
+      "question_text": "Who painted the ‘Mona Lisa’?",
+      "options": [
+        {"option_id": "A", "text": "Vincent van Gogh"},
+        {"option_id": "B", "text": "Leonardo da Vinci"},
+        {"option_id": "C", "text": "Pablo Picasso"},
+        {"option_id": "D", "text": "Claude Monet"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Leonardo da Vinci painted the ‘Mona Lisa.’ Art history knowledge suits Arts streams (BFA, B.A)."
+    },
+    {
+      "question_id": "ACAD_10ART_006",
+      "question_text": "What is the official language of Argentina?",
+      "options": [
+        {"option_id": "A", "text": "Portuguese"},
+        {"option_id": "B", "text": "Spanish"},
+        {"option_id": "C", "text": "French"},
+        {"option_id": "D", "text": "English"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Spanish is the official language of Argentina. Linguistic knowledge supports Arts streams (B.A, Mass Communication)."
+    },
+    {
+      "question_id": "ACAD_10ART_007",
+      "question_text": "Which Indian festival is known as the ‘Festival of Lights’?",
+      "options": [
+        {"option_id": "A", "text": "Holi"},
+        {"option_id": "B", "text": "Diwali"},
+        {"option_id": "C", "text": "Eid"},
+        {"option_id": "D", "text": "Navratri"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Diwali is the ‘Festival of Lights.’ Cultural knowledge is vital for Arts streams (B.A, B.Ed)."
+    },
+    {
+      "question_id": "ACAD_10ART_008",
+      "question_text": "Who wrote the Indian epic ‘Mahabharata’?",
+      "options": [
+        {"option_id": "A", "text": "Valmiki"},
+        {"option_id": "B", "text": "Vyasa"},
+        {"option_id": "C", "text": "Tulsidas"},
+        {"option_id": "D", "text": "Kalidasa"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "Vyasa is credited with the ‘Mahabharata.’ Literary knowledge suits Arts streams (B.A, B.Ed)."
+    },
+    {
+      "question_id": "ACAD_10ART_009",
+      "question_text": "Which international organization focuses on cultural preservation?",
+      "options": [
+        {"option_id": "A", "text": "WHO"},
+        {"option_id": "B", "text": "UNESCO"},
+        {"option_id": "C", "text": "WTO"},
+        {"option_id": "D", "text": "IMF"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 4},
+        "C": {"trait": "General Knowledge", "score": 1},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "UNESCO promotes cultural preservation. This knowledge is relevant for Arts streams (BFA, B.A)."
+    },
+    {
+      "question_id": "ACAD_10ART_010",
+      "question_text": "What is the largest desert in the world?",
+      "options": [
+        {"option_id": "A", "text": "Sahara"},
+        {"option_id": "B", "text": "Gobi"},
+        {"option_id": "C", "text": "Antarctic"},
+        {"option_id": "D", "text": "Kalahari"}
+      ],
+      "correct_answer": "C",
+      "scoring": {
+        "A": {"trait": "General Knowledge", "score": 1},
+        "B": {"trait": "General Knowledge", "score": 1},
+        "C": {"trait": "General Knowledge", "score": 4},
+        "D": {"trait": "General Knowledge", "score": 1}
+      },
+      "explanation": "The Antarctic Desert is the largest. Geography knowledge supports Arts streams (B.A Geography)."
+    },
+    {
+      "question_id": "ACAD_10ART_011",
+      "question_text": "What is the primary source of energy for Earth’s climate?",
+      "options": [
+        {"option_id": "A", "text": "Moon"},
+        {"option_id": "B", "text": "Sun"},
+        {"option_id": "C", "text": "Wind"},
+        {"option_id": "D", "text": "Ocean"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "The Sun drives Earth’s climate. Environmental science knowledge suits Arts streams (B.A, environmental studies)."
+    },
+    {
+      "question_id": "ACAD_10ART_012",
+      "question_text": "Which gas is most responsible for global warming?",
+      "options": [
+        {"option_id": "A", "text": "Oxygen"},
+        {"option_id": "B", "text": "Carbon Dioxide"},
+        {"option_id": "C", "text": "Nitrogen"},
+        {"option_id": "D", "text": "Helium"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Carbon Dioxide contributes most to global warming. This knowledge is relevant for Arts streams (B.A, sustainability)."
+    },
+    {
+      "question_id": "ACAD_10ART_013",
+      "question_text": "What technology is used in digital photography?",
+      "options": [
+        {"option_id": "A", "text": "Film"},
+        {"option_id": "B", "text": "CCD Sensor"},
+        {"option_id": "C", "text": "Magnetic Tape"},
+        {"option_id": "D", "text": "Thermal Printer"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "CCD sensors are used in digital photography. Technology knowledge suits Arts streams (BFA, Mass Communication)."
+    },
+    {
+      "question_id": "ACAD_10ART_014",
+      "question_text": "Which natural resource is used to make glass?",
+      "options": [
+        {"option_id": "A", "text": "Sand"},
+        {"option_id": "B", "text": "Coal"},
+        {"option_id": "C", "text": "Iron"},
+        {"option_id": "D", "text": "Wood"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "Science", "score": 4},
+        "B": {"trait": "Science", "score": 1},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Sand is used to make glass. Material science knowledge supports Arts streams (BFA, design)."
+    },
+    {
+      "question_id": "ACAD_10ART_015",
+      "question_text": "What is the primary function of a microphone?",
+      "options": [
+        {"option_id": "A", "text": "Amplify sound"},
+        {"option_id": "B", "text": "Convert sound to electrical signals"},
+        {"option_id": "C", "text": "Play music"},
+        {"option_id": "D", "text": "Record video"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Microphones convert sound to electrical signals. Technology knowledge is key for Arts streams (Mass Communication)."
+    },
+    {
+      "question_id": "ACAD_10ART_016",
+      "question_text": "Which renewable energy source uses wind turbines?",
+      "options": [
+        {"option_id": "A", "text": "Solar"},
+        {"option_id": "B", "text": "Wind"},
+        {"option_id": "C", "text": "Hydro"},
+        {"option_id": "D", "text": "Geothermal"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Wind turbines generate wind energy. Environmental science suits Arts streams (B.A, sustainability)."
+    },
+    {
+      "question_id": "ACAD_10ART_017",
+      "question_text": "What is the main component of air we breathe?",
+      "options": [
+        {"option_id": "A", "text": "Oxygen"},
+        {"option_id": "B", "text": "Nitrogen"},
+        {"option_id": "C", "text": "Carbon Dioxide"},
+        {"option_id": "D", "text": "Argon"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Nitrogen is the main component of air. Basic science knowledge supports Arts streams (B.A)."
+    },
+    {
+      "question_id": "ACAD_10ART_018",
+      "question_text": "Which device is used to project images on a screen?",
+      "options": [
+        {"option_id": "A", "text": "Printer"},
+        {"option_id": "B", "text": "Projector"},
+        {"option_id": "C", "text": "Scanner"},
+        {"option_id": "D", "text": "Monitor"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Projectors display images on screens. Technology knowledge is relevant for Arts streams (B.Ed, Mass Communication)."
+    },
+    {
+      "question_id": "ACAD_10ART_019",
+      "question_text": "What is the primary source of natural gas?",
+      "options": [
+        {"option_id": "A", "text": "Trees"},
+        {"option_id": "B", "text": "Fossil Fuels"},
+        {"option_id": "C", "text": "Water"},
+        {"option_id": "D", "text": "Sand"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Natural gas comes from fossil fuels. Resource knowledge suits Arts streams (B.A, environmental studies)."
+    },
+    {
+      "question_id": "ACAD_10ART_020",
+      "question_text": "Which software is commonly used for video editing?",
+      "options": [
+        {"option_id": "A", "text": "Microsoft Word"},
+        {"option_id": "B", "text": "Adobe Premiere"},
+        {"option_id": "C", "text": "Excel"},
+        {"option_id": "D", "text": "PowerPoint"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "Science", "score": 1},
+        "B": {"trait": "Science", "score": 4},
+        "C": {"trait": "Science", "score": 1},
+        "D": {"trait": "Science", "score": 1}
+      },
+      "explanation": "Adobe Premiere is used for video editing. Media technology knowledge is key for Arts streams (Mass Communication)."
+    },
+    {
+      "question_id": "ACAD_10ART_021",
+      "question_text": "Who was the founder of the Gupta Dynasty?",
+      "options": [
+        {"option_id": "A", "text": "Chandragupta I"},
+        {"option_id": "B", "text": "Samudragupta"},
+        {"option_id": "C", "text": "Ashoka"},
+        {"option_id": "D", "text": "Harsha"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Chandragupta I founded the Gupta Dynasty. Ancient history knowledge is crucial for Arts streams (B.A History)."
+    },
+    {
+      "question_id": "ACAD_10ART_022",
+      "question_text": "In which year was the Indian Constitution adopted?",
+      "options": [
+        {"option_id": "A", "text": "1947"},
+        {"option_id": "B", "text": "1949"},
+        {"option_id": "C", "text": "1950"},
+        {"option_id": "D", "text": "1948"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Indian Constitution was adopted in 1949. Constitutional history suits Arts streams (B.A Political Science)."
+    },
+    {
+      "question_id": "ACAD_10ART_023",
+      "question_text": "Who was the leader of the Non-Cooperation Movement in India?",
+      "options": [
+        {"option_id": "A", "text": "Mahatma Gandhi"},
+        {"option_id": "B", "text": "Jawaharlal Nehru"},
+        {"option_id": "C", "text": "Subhas Chandra Bose"},
+        {"option_id": "D", "text": "Lala Lajpat Rai"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Gandhi led the Non-Cooperation Movement. Modern history knowledge supports Arts streams (B.A History)."
+    },
+    {
+      "question_id": "ACAD_10ART_024",
+      "question_text": "Which ancient Indian university was a center of learning?",
+      "options": [
+        {"option_id": "A", "text": "Nalanda"},
+        {"option_id": "B", "text": "Taxila"},
+        {"option_id": "C", "text": "Vikramshila"},
+        {"option_id": "D", "text": "All of the above"}
+      ],
+      "correct_answer": "D",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 4}
+      },
+      "explanation": "Nalanda, Taxila, and Vikramshila were ancient universities. Educational history is relevant for Arts streams (B.Ed)."
+    },
+    {
+      "question_id": "ACAD_10ART_025",
+      "question_text": "Which event sparked World War I?",
+      "options": [
+        {"option_id": "A", "text": "Assassination of Archduke Franz Ferdinand"},
+        {"option_id": "B", "text": "Invasion of Poland"},
+        {"option_id": "C", "text": "Sinking of the Lusitania"},
+        {"option_id": "D", "text": "Russian Revolution"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The assassination of Archduke Franz Ferdinand sparked WWI. Global history suits Arts streams (B.A History)."
+    },
+    {
+      "question_id": "ACAD_10ART_026",
+      "question_text": "Who was the first Mughal Emperor in India?",
+      "options": [
+        {"option_id": "A", "text": "Akbar"},
+        {"option_id": "B", "text": "Babur"},
+        {"option_id": "C", "text": "Aurangzeb"},
+        {"option_id": "D", "text": "Shah Jahan"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Babur was the first Mughal Emperor. Medieval history knowledge supports Arts streams (B.A)."
+    },
+    {
+      "question_id": "ACAD_10ART_027",
+      "question_text": "Which Indian freedom fighter wrote ‘Gitanjali’?",
+      "options": [
+        {"option_id": "A", "text": "Rabindranath Tagore"},
+        {"option_id": "B", "text": "Bankim Chandra Chatterjee"},
+        {"option_id": "C", "text": "Sarojini Naidu"},
+        {"option_id": "D", "text": "Aurobindo Ghosh"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Rabindranath Tagore wrote ‘Gitanjali.’ Literary history is key for Arts streams (B.A, BFA)."
+    },
+    {
+      "question_id": "ACAD_10ART_028",
+      "question_text": "In which year did the Jallianwala Bagh massacre occur?",
+      "options": [
+        {"option_id": "A", "text": "1919"},
+        {"option_id": "B", "text": "1921"},
+        {"option_id": "C", "text": "1905"},
+        {"option_id": "D", "text": "1930"}
+      ],
+      "correct_answer": "A",
+      "scoring": {
+        "A": {"trait": "History", "score": 4},
+        "B": {"trait": "History", "score": 1},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Jallianwala Bagh massacre occurred in 1919. Modern history knowledge suits Arts streams (B.A)."
+    },
+    {
+      "question_id": "ACAD_10ART_029",
+      "question_text": "Which ancient civilization is known for the Pyramids of Giza?",
+      "options": [
+        {"option_id": "A", "text": "Mesopotamian"},
+        {"option_id": "B", "text": "Egyptian"},
+        {"option_id": "C", "text": "Indus Valley"},
+        {"option_id": "D", "text": "Chinese"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "The Egyptian civilization built the Pyramids of Giza. Ancient history is relevant for Arts streams (B.A)."
+    },
+    {
+      "question_id": "ACAD_10ART_030",
+      "question_text": "Who was the first woman to become Prime Minister of India?",
+      "options": [
+        {"option_id": "A", "text": "Sonia Gandhi"},
+        {"option_id": "B", "text": "Indira Gandhi"},
+        {"option_id": "C", "text": "Sushma Swaraj"},
+        {"option_id": "D", "text": "Pratibha Patil"}
+      ],
+      "correct_answer": "B",
+      "scoring": {
+        "A": {"trait": "History", "score": 1},
+        "B": {"trait": "History", "score": 4},
+        "C": {"trait": "History", "score": 1},
+        "D": {"trait": "History", "score": 1}
+      },
+      "explanation": "Indira Gandhi was India’s first woman Prime Minister. Political history supports Arts streams (B.A, Mass Communication)."
+    }
+  ]
+}

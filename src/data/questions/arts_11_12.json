@@ -1,0 +1,306 @@
+{
+  "stream": "11th_12th",
+  "category": "Arts",
+  "questions": [
+    {
+      "question": "Who wrote the play 'Macbeth'?",
+      "options": [
+        "William Shakespeare",
+        "Oscar Wilde",
+        "Jane Austen",
+        "George Orwell"
+      ],
+      "answer": "William Shakespeare"
+    },
+    {
+      "question": "Which form of art uses movement and body language to express emotions?",
+      "options": [
+        "Dance",
+        "Sculpture",
+        "Painting",
+        "Photography"
+      ],
+      "answer": "Dance"
+    },
+    {
+      "question": "Which of the following is a famous painting by Leonardo da Vinci?",
+      "options": [
+        "The Starry Night",
+        "The Scream",
+        "Mona Lisa",
+        "Girl with a Pearl Earring"
+      ],
+      "answer": "Mona Lisa"
+    },
+    {
+      "question": "Who is known as the 'Father of Indian Cinema'?",
+      "options": [
+        "Satyajit Ray",
+        "Raj Kapoor",
+        "Dadasaheb Phalke",
+        "Bimal Roy"
+      ],
+      "answer": "Dadasaheb Phalke"
+    },
+    {
+      "question": "Which of these is a form of traditional Indian classical dance?",
+      "options": [
+        "Hip-Hop",
+        "Bharatanatyam",
+        "Jazz",
+        "Contemporary"
+      ],
+      "answer": "Bharatanatyam"
+    },
+    {
+      "question": "Which novel begins with 'It is a truth universally acknowledged...'?",
+      "options": [
+        "Pride and Prejudice",
+        "Emma",
+        "Great Expectations",
+        "Jane Eyre"
+      ],
+      "answer": "Pride and Prejudice"
+    },
+    {
+      "question": "What is the primary purpose of an editorial in a newspaper?",
+      "options": [
+        "To entertain",
+        "To advertise",
+        "To inform",
+        "To express opinion"
+      ],
+      "answer": "To express opinion"
+    },
+    {
+      "question": "Which of these art movements is known for abstract forms and geometric shapes?",
+      "options": [
+        "Cubism",
+        "Realism",
+        "Impressionism",
+        "Romanticism"
+      ],
+      "answer": "Cubism"
+    },
+    {
+      "question": "In which language was the Mahabharata originally written?",
+      "options": [
+        "Sanskrit",
+        "Pali",
+        "Tamil",
+        "Prakrit"
+      ],
+      "answer": "Sanskrit"
+    },
+    {
+      "question": "What does the term 'Renaissance' literally mean?",
+      "options": [
+        "Rebirth",
+        "Reform",
+        "Revolution",
+        "Reflection"
+      ],
+      "answer": "Rebirth"
+    },
+    {
+      "question": "Which Indian freedom fighter was also a poet and wrote 'Where the mind is without fear'?",
+      "options": [
+        "Rabindranath Tagore",
+        "Subhash Chandra Bose",
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru"
+      ],
+      "answer": "Rabindranath Tagore"
+    },
+    {
+      "question": "Who is the author of 'The God of Small Things'?",
+      "options": [
+        "Arundhati Roy",
+        "Jhumpa Lahiri",
+        "Chetan Bhagat",
+        "Anita Desai"
+      ],
+      "answer": "Arundhati Roy"
+    },
+    {
+      "question": "Which of these is NOT a genre of literature?",
+      "options": [
+        "Narrative",
+        "Drama",
+        "Lyrical",
+        "Arithmetic"
+      ],
+      "answer": "Arithmetic"
+    },
+    {
+      "question": "What is the term for the study of signs and symbols in language and art?",
+      "options": [
+        "Sociology",
+        "Semiotics",
+        "Philology",
+        "Ethics"
+      ],
+      "answer": "Semiotics"
+    },
+    {
+      "question": "Who painted 'The Starry Night'?",
+      "options": [
+        "Pablo Picasso",
+        "Claude Monet",
+        "Vincent van Gogh",
+        "Leonardo da Vinci"
+      ],
+      "answer": "Vincent van Gogh"
+    },
+    {
+      "question": "Which Indian dancer is known for popularizing Odissi dance?",
+      "options": [
+        "Yamini Krishnamurthy",
+        "Sonal Mansingh",
+        "Mallika Sarabhai",
+        "Rukmini Devi Arundale"
+      ],
+      "answer": "Sonal Mansingh"
+    },
+    {
+      "question": "Which of these is a traditional form of Indian painting?",
+      "options": [
+        "Madhubani",
+        "Cubism",
+        "Impressionism",
+        "Surrealism"
+      ],
+      "answer": "Madhubani"
+    },
+    {
+      "question": "What does a 'biography' depict?",
+      "options": [
+        "A person's life",
+        "Science theories",
+        "Fairy tales",
+        "Fantasy stories"
+      ],
+      "answer": "A person's life"
+    },
+    {
+      "question": "Which language is known for its epic poem 'The Iliad'?",
+      "options": [
+        "Greek",
+        "Latin",
+        "Hebrew",
+        "Arabic"
+      ],
+      "answer": "Greek"
+    },
+    {
+      "question": "Who is considered the pioneer of modern Indian art?",
+      "options": [
+        "Raja Ravi Varma",
+        "M.F. Husain",
+        "Jamini Roy",
+        "Amrita Sher-Gil"
+      ],
+      "answer": "Raja Ravi Varma"
+    },
+    {
+      "question": "Which type of communication includes body language and gestures?",
+      "options": [
+        "Non-verbal",
+        "Verbal",
+        "Written",
+        "Digital"
+      ],
+      "answer": "Non-verbal"
+    },
+    {
+      "question": "Who wrote 'Waiting for Godot'?",
+      "options": [
+        "Samuel Beckett",
+        "George Orwell",
+        "T.S. Eliot",
+        "Arthur Miller"
+      ],
+      "answer": "Samuel Beckett"
+    },
+    {
+      "question": "Which is a famous Indian folk theatre form?",
+      "options": [
+        "Yakshagana",
+        "Kabuki",
+        "Commedia dell'arte",
+        "Noh"
+      ],
+      "answer": "Yakshagana"
+    },
+    {
+      "question": "Which of these is not a traditional Indian music style?",
+      "options": [
+        "Jazz",
+        "Dhrupad",
+        "Thumri",
+        "Khayal"
+      ],
+      "answer": "Jazz"
+    },
+    {
+      "question": "Who is considered the first female poet of Indian literature?",
+      "options": [
+        "Mahadevi Varma",
+        "Lal Ded",
+        "Avvaiyar",
+        "Maitreyi"
+      ],
+      "answer": "Maitreyi"
+    },
+    {
+      "question": "What type of lens does a photographer use for wide-angle shots?",
+      "options": [
+        "Wide-angle lens",
+        "Zoom lens",
+        "Macro lens",
+        "Prime lens"
+      ],
+      "answer": "Wide-angle lens"
+    },
+    {
+      "question": "Which ancient language was used in South Indian classical literature?",
+      "options": [
+        "Tamil",
+        "Pali",
+        "Sanskrit",
+        "Prakrit"
+      ],
+      "answer": "Tamil"
+    },
+    {
+      "question": "Which philosopher is famous for 'Cogito, ergo sum'?",
+      "options": [
+        "Ren\u00e9 Descartes",
+        "Socrates",
+        "Plato",
+        "Kant"
+      ],
+      "answer": "Ren\u00e9 Descartes"
+    },
+    {
+      "question": "Who is known as the first Indian woman to win a Booker Prize?",
+      "options": [
+        "Arundhati Roy",
+        "Kiran Desai",
+        "Anita Desai",
+        "Kamala Das"
+      ],
+      "answer": "Arundhati Roy"
+    },
+    {
+      "question": "Which of these is a principle of journalism?",
+      "options": [
+        "Bias",
+        "Accuracy",
+        "Secrecy",
+        "Sensationalism"
+      ],
+      "answer": "Accuracy"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "class": "10th",
+  "stream": "All",
+  "subject": "Basic Math",
+  "questions": [
+    {
+      "question": "What is the value of (3 + 5) \u00d7 2?",
+      "options": [
+        "11",
+        "13",
+        "16",
+        "18"
+      ],
+      "answer": "16"
+    },
+    {
+      "question": "What is the square root of 144?",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "answer": "12"
+    },
+    {
+      "question": "Solve: 25% of 200 is?",
+      "options": [
+        "25",
+        "40",
+        "50",
+        "60"
+      ],
+      "answer": "50"
+    },
+    {
+      "question": "What is 3/4 of 64?",
+      "options": [
+        "48",
+        "46",
+        "42",
+        "36"
+      ],
+      "answer": "48"
+    },
+    {
+      "question": "Which of the following is a prime number?",
+      "options": [
+        "21",
+        "27",
+        "29",
+        "33"
+      ],
+      "answer": "29"
+    },
+    {
+      "question": "What is the value of \u03c0 (up to 2 decimal places)?",
+      "options": [
+        "3.12",
+        "3.14",
+        "3.16",
+        "3.18"
+      ],
+      "answer": "3.14"
+    },
+    {
+      "question": "Simplify: 5\u00b2 + 2\u00b3",
+      "options": [
+        "33",
+        "35",
+        "37",
+        "39"
+      ],
+      "answer": "33"
+    },
+    {
+      "question": "How many degrees are in a right angle?",
+      "options": [
+        "45",
+        "60",
+        "90",
+        "180"
+      ],
+      "answer": "90"
+    },
+    {
+      "question": "What is the LCM of 4 and 6?",
+      "options": [
+        "12",
+        "18",
+        "24",
+        "30"
+      ],
+      "answer": "12"
+    },
+    {
+      "question": "Which of these is a factor of 81?",
+      "options": [
+        "5",
+        "6",
+        "9",
+        "10"
+      ],
+      "answer": "9"
+    },
+    {
+      "question": "Find the missing number: 5, 10, 20, __, 80",
+      "options": [
+        "30",
+        "35",
+        "40",
+        "50"
+      ],
+      "answer": "40"
+    },
+    {
+      "question": "What is 0.75 as a fraction?",
+      "options": [
+        "3/4",
+        "1/2",
+        "2/3",
+        "1/4"
+      ],
+      "answer": "3/4"
+    },
+    {
+      "question": "How many sides does a hexagon have?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": "6"
+    },
+    {
+      "question": "What is 15% of 300?",
+      "options": [
+        "30",
+        "35",
+        "40",
+        "45"
+      ],
+      "answer": "45"
+    },
+    {
+      "question": "Convert 0.2 into a percentage.",
+      "options": [
+        "2%",
+        "10%",
+        "20%",
+        "200%"
+      ],
+      "answer": "20%"
+    }
+  ]
+}
