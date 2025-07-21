@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useCallback, useMemo } from "react";
 import {
   View,
   Text,
@@ -18,7 +18,10 @@ import { LinearGradient } from "expo-linear-gradient";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { useTheme } from '../context/ThemeContext';
 import { supabase } from '../context/SupabaseContext';
+import { useStudent } from '../context/StudentContext';
+import { useTestProgress } from '../context/TestProgressContext';
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { useBackHandler, useNavigationTracking } from '../context/NavigationContext';
 
 type SignUpScreenProp = NativeStackNavigationProp<RootStackParamList, "SignUp">;
 
@@ -36,6 +39,10 @@ export default function SignUpScreen() {
   const navigation = useNavigation<SignUpScreenProp>();
   const { getThemeColors } = useTheme();
   const colors = getThemeColors();
+  const { clearStudentData } = useStudent();
+  const { reloadTestsForUser } = useTestProgress();
+  const { setPreventBackToLogin } = useNavigationTracking();
+  const { goBackSafe } = useBackHandler(navigation, 'SignUp');
   
   const [loading, setLoading] = useState(false);
   const [step, setStep] = useState(1); // Multi-step signup
@@ -58,9 +65,16 @@ export default function SignUpScreen() {
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
 
-  const updateFormData = (field: string, value: string) => {
-    setFormData(prev => ({ ...prev, [field]: value }));
-  };
+  const updateFormData = useCallback((field: string, value: string) => {
+    setFormData(prev => {
+      // Only update if value actually changed
+      if (prev[field as keyof typeof prev] === value) return prev;
+      return { ...prev, [field]: value };
+    });
+  }, []);
+
+  // Memoize the state list for better performance
+  const stateData = useMemo(() => INDIAN_STATES, []);
 
   const validateStep1 = () => {
     const { name, username, email, phone, password, confirmPassword } = formData;
@@ -183,10 +197,22 @@ export default function SignUpScreen() {
       await AsyncStorage.setItem("userEmail", formData.email.trim().toLowerCase());
       await AsyncStorage.setItem('lastLoginTime', Date.now().toString());
       
+      // Clear any existing student context and load test data for new user
+      clearStudentData();
+      await reloadTestsForUser(); // Load test data for this specific user
+      
+      // Enable back navigation prevention after successful signup
+      setPreventBackToLogin(true);
+      
       Alert.alert(
         "Success", 
         "Account created successfully!", 
-        [{ text: "OK", onPress: () => navigation.navigate("MainApp", { userName: formData.name }) }]
+        [{ text: "OK", onPress: () => {
+          navigation.reset({
+            index: 0,
+            routes: [{ name: "MainApp", params: { userName: formData.name } }],
+          });
+        }}]
       );
 
     } catch (error) {
@@ -211,6 +237,9 @@ export default function SignUpScreen() {
           value={formData.name}
           onChangeText={(text) => updateFormData("name", text)}
           autoCapitalize="words"
+          autoCorrect={false}
+          autoComplete="name"
+          returnKeyType="next"
         />
       </View>
 
@@ -223,6 +252,9 @@ export default function SignUpScreen() {
           value={formData.username}
           onChangeText={(text) => updateFormData("username", text)}
           autoCapitalize="none"
+          autoCorrect={false}
+          autoComplete="username"
+          returnKeyType="next"
         />
       </View>
 
@@ -236,6 +268,9 @@ export default function SignUpScreen() {
           onChangeText={(text) => updateFormData("email", text)}
           keyboardType="email-address"
           autoCapitalize="none"
+          autoCorrect={false}
+          autoComplete="email"
+          returnKeyType="next"
         />
       </View>
 
@@ -248,6 +283,9 @@ export default function SignUpScreen() {
           value={formData.phone}
           onChangeText={(text) => updateFormData("phone", text)}
           keyboardType="phone-pad"
+          autoCorrect={false}
+          autoComplete="tel"
+          returnKeyType="next"
         />
       </View>
 
@@ -260,6 +298,9 @@ export default function SignUpScreen() {
           value={formData.password}
           onChangeText={(text) => updateFormData("password", text)}
           secureTextEntry={!showPassword}
+          autoCorrect={false}
+          autoComplete="password"
+          returnKeyType="next"
         />
         <TouchableOpacity onPress={() => setShowPassword(!showPassword)} style={styles.eyeIcon}>
           <MaterialCommunityIcons 
@@ -279,6 +320,9 @@ export default function SignUpScreen() {
           value={formData.confirmPassword}
           onChangeText={(text) => updateFormData("confirmPassword", text)}
           secureTextEntry={!showConfirmPassword}
+          autoCorrect={false}
+          autoComplete="password"
+          returnKeyType="done"
         />
         <TouchableOpacity onPress={() => setShowConfirmPassword(!showConfirmPassword)} style={styles.eyeIcon}>
           <MaterialCommunityIcons 
@@ -409,22 +453,29 @@ export default function SignUpScreen() {
         <MaterialCommunityIcons name="map-marker" size={20} color={colors.primary} style={styles.inputIcon} />
         <View style={styles.dropdown}>
           <Text style={[styles.dropdownLabel, { color: colors.text }]}>State:</Text>
-          <ScrollView style={styles.stateDropdown} nestedScrollEnabled>
-            {INDIAN_STATES.map((state) => (
+          <ScrollView 
+            style={styles.stateDropdown}
+            showsVerticalScrollIndicator={true}
+            nestedScrollEnabled={true}
+          >
+            {stateData.map((state) => (
               <TouchableOpacity
                 key={state}
                 style={[
-                  styles.dropdownOption,
-                  formData.state === state && styles.dropdownSelected
+                  styles.stateListItem,
+                  formData.state === state && styles.stateListItemSelected
                 ]}
                 onPress={() => updateFormData("state", state)}
               >
                 <Text style={[
-                  styles.dropdownText,
+                  styles.stateListText,
                   { color: formData.state === state ? "white" : colors.text }
                 ]}>
                   {state}
                 </Text>
+                {formData.state === state && (
+                  <MaterialCommunityIcons name="check" size={16} color="white" />
+                )}
               </TouchableOpacity>
             ))}
           </ScrollView>
@@ -458,20 +509,27 @@ export default function SignUpScreen() {
       <KeyboardAvoidingView 
         style={styles.container} 
         behavior={Platform.OS === "ios" ? "padding" : "height"}
+        keyboardVerticalOffset={Platform.OS === "ios" ? 0 : 20}
       >
-        <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
-          <View style={styles.header}>
-            <TouchableOpacity style={styles.backIcon} onPress={() => navigation.goBack()}>
-              <MaterialCommunityIcons name="arrow-left" size={24} color={colors.text} />
-            </TouchableOpacity>
-            <Text style={[styles.headerTitle, { color: colors.text }]}>Sign Up</Text>
-            <View style={styles.stepIndicator}>
-              <View style={[styles.stepDot, step >= 1 && styles.stepDotActive]} />
-              <View style={[styles.stepLine, step >= 2 && styles.stepLineActive]} />
-              <View style={[styles.stepDot, step >= 2 && styles.stepDotActive]} />
-            </View>
+        <View style={styles.header}>
+          <TouchableOpacity style={styles.backIcon} onPress={() => goBackSafe()}>
+            <MaterialCommunityIcons name="arrow-left" size={24} color={colors.text} />
+          </TouchableOpacity>
+          <Text style={[styles.headerTitle, { color: colors.text }]}>Sign Up</Text>
+          <View style={styles.stepIndicator}>
+            <View style={[styles.stepDot, step >= 1 && styles.stepDotActive]} />
+            <View style={[styles.stepLine, step >= 2 && styles.stepLineActive]} />
+            <View style={[styles.stepDot, step >= 2 && styles.stepDotActive]} />
           </View>
+        </View>
 
+        <ScrollView 
+          style={styles.scrollView} 
+          contentContainerStyle={styles.scrollContainer}
+          showsVerticalScrollIndicator={false}
+          keyboardShouldPersistTaps="handled"
+          bounces={false}
+        >
           <View style={styles.content}>
             {step === 1 ? renderStep1() : renderStep2()}
           </View>
@@ -499,6 +557,10 @@ const styles = StyleSheet.create({
   },
   scrollView: {
     flex: 1,
+  },
+  scrollContainer: {
+    flexGrow: 1,
+    paddingBottom: 20,
   },
   header: {
     flexDirection: "row",
@@ -540,6 +602,7 @@ const styles = StyleSheet.create({
   content: {
     flex: 1,
     paddingHorizontal: 20,
+    paddingBottom: 20,
   },
   stepContainer: {
     flex: 1,
@@ -601,7 +664,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
   dropdownContainer: {
-    marginBottom: 20,
+    marginBottom: 25, // Extra margin to prevent overlap
   },
   dropdown: {
     backgroundColor: "rgba(255, 255, 255, 0.1)",
@@ -623,6 +686,8 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     paddingVertical: 8,
     paddingHorizontal: 12,
+    justifyContent: "center",
+    alignItems: "center",
   },
   dropdownSelected: {
     backgroundColor: "#667eea",
@@ -633,6 +698,26 @@ const styles = StyleSheet.create({
   },
   stateDropdown: {
     maxHeight: 200,
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.1)',
+    borderRadius: 8,
+    marginTop: 8,
+  },
+  stateListItem: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    borderBottomWidth: 1,
+    borderBottomColor: 'rgba(255, 255, 255, 0.05)',
+  },
+  stateListItemSelected: {
+    backgroundColor: "#667eea",
+  },
+  stateListText: {
+    fontSize: 16,
+    flex: 1,
   },
   nextButton: {
     marginTop: 20,

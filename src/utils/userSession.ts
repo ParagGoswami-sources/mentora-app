@@ -48,11 +48,11 @@ export async function getCurrentUserEmail(): Promise<string | null> {
 }
 
 /**
- * Clears all user session data including profile image
+ * Clears all user session data including profile image and test progress
  */
 export async function clearUserSession(): Promise<void> {
   try {
-    // Get current user email before clearing to remove their profile image
+    // Get current user email before clearing to remove their data
     const currentUserEmail = await getCurrentUserEmail();
     
     await AsyncStorage.multiRemove([
@@ -61,9 +61,11 @@ export async function clearUserSession(): Promise<void> {
       'supabase.auth.token'
     ]);
     
-    // Clear user-specific profile image
+    // Clear user-specific data
     if (currentUserEmail) {
       await AsyncStorage.removeItem(`profileImage_${currentUserEmail}`);
+      await AsyncStorage.removeItem(`completedTests_${currentUserEmail}`);
+      await AsyncStorage.removeItem(`completedTests_${currentUserEmail}_academicTotal`);
     }
   } catch (error) {
     console.error('Error clearing user session:', error);
@@ -117,5 +119,25 @@ export async function setCurrentUserEmail(email: string): Promise<void> {
     await AsyncStorage.setItem("userEmail", email);
   } catch (error) {
     console.error('Error setting current user email:', error);
+  }
+}
+
+/**
+ * Clears all test progress data (for debugging purposes)
+ */
+export async function clearAllTestData(): Promise<void> {
+  try {
+    const keys = await AsyncStorage.getAllKeys();
+    const testKeys = keys.filter(key => 
+      key.includes('completedTests_') || 
+      key.includes('_academicTotal')
+    );
+    
+    if (testKeys.length > 0) {
+      await AsyncStorage.multiRemove(testKeys);
+      console.log('Cleared test data keys:', testKeys);
+    }
+  } catch (error) {
+    console.error('Error clearing all test data:', error);
   }
 }

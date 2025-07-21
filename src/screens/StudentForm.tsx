@@ -23,7 +23,7 @@ import { supabase } from '../context/SupabaseContext';
 
 type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
 
-// Remove this old code block:
+// Using shared supabase client from context
 /*
 const supabaseAnonKey =
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRqeGR1dXdud3h1YXN4a2F2dWx2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTAzOTc5NDgsImV4cCI6MjA2NTk3Mzk0OH0.dxlJLyUZmWnGU8NgPX4ulcgnpH39tS2f3s5MIXgNJ78";

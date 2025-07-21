@@ -1,5 +1,6 @@
 import React from "react";
-import { NavigationContainer } from "@react-navigation/native";
+import { BackHandler, Alert } from "react-native";
+import { NavigationContainer, useFocusEffect } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import { PageProvider } from "../context/PageContext";
@@ -53,6 +54,33 @@ function MainAppDrawer({
   route: { params?: { userName?: string; phone?: string; email?: string } };
 }) {
   const { getThemeColors } = useTheme();
+  
+  // Handle back button press for all drawer screens
+  useFocusEffect(
+    React.useCallback(() => {
+      const backHandler = BackHandler.addEventListener('hardwareBackPress', () => {
+        Alert.alert(
+          'Exit App',
+          'Are you sure you want to exit?',
+          [
+            {
+              text: 'Cancel',
+              onPress: () => null,
+              style: 'cancel',
+            },
+            {
+              text: 'Exit',
+              onPress: () => BackHandler.exitApp(),
+            },
+          ],
+          { cancelable: false }
+        );
+        return true; // Prevent default behavior
+      });
+
+      return () => backHandler.remove();
+    }, [])
+  );
   // const { areAllExamsCompleted } = useTestProgress(); // No longer needed - Performance always visible
   const colors = getThemeColors() || {
     background: "#1a1a2e",

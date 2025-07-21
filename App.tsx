@@ -4,6 +4,7 @@ import Navigation from "./src/navigation/Navigation";
 import { StudentProvider } from "./src/context/StudentContext";
 import { TestProgressProvider } from "./src/context/TestProgressContext";
 import { ThemeProvider } from "./src/context/ThemeContext";
+import { NavigationProvider } from "./src/context/NavigationContext";
 
 export default function App() {
   return (
@@ -11,7 +12,9 @@ export default function App() {
       <ThemeProvider>
         <StudentProvider>
           <TestProgressProvider>
-            <Navigation />
+            <NavigationProvider>
+              <Navigation />
+            </NavigationProvider>
           </TestProgressProvider>
         </StudentProvider>
       </ThemeProvider>

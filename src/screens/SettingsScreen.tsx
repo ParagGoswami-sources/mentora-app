@@ -21,6 +21,7 @@ import { useTestProgress } from "../context/TestProgressContext";
 import { supabase } from "../context/SupabaseContext";
 import { clearUserSession, getCurrentUserEmail } from "../utils/userSession";
 import { useTheme } from "../context/ThemeContext";
+import { useNavigationTracking } from "../context/NavigationContext";
 
 interface AppSettings {
   notifications: {
@@ -76,6 +77,7 @@ export default function SettingsScreen() {
   const navigation = useNavigation();
   const { studentData, setStudentData } = useStudent();
   const { resetProgress } = useTestProgress();
+  const { resetNavigationState } = useNavigationTracking();
   const { 
     settings: themeSettings, 
     updateAppearance, 
@@ -86,6 +88,7 @@ export default function SettingsScreen() {
   const [loading, setLoading] = useState(false);
   const [showEditProfile, setShowEditProfile] = useState(false);
   const [showChangePassword, setShowChangePassword] = useState(false);
+  const [showLogoutModal, setShowLogoutModal] = useState(false);
   
   const [editForm, setEditForm] = useState({
     name: '',
@@ -378,6 +381,7 @@ export default function SettingsScreen() {
             try {
               await clearUserSession();
               if (setStudentData) setStudentData(null);
+              resetNavigationState();
               navigation.reset({
                 index: 0,
                 routes: [{ name: 'Login' as never }],
@@ -391,14 +395,29 @@ export default function SettingsScreen() {
     );
   };
 
+  const handleLogoutAfterReset = async () => {
+    try {
+      await clearUserSession();
+      if (setStudentData) setStudentData(null);
+      resetNavigationState();
+      setShowLogoutModal(false);
+      navigation.reset({
+        index: 0,
+        routes: [{ name: 'Login' as never }],
+      });
+    } catch (error) {
+      console.error('Error during logout:', error);
+    }
+  };
+
   const resetAppData = () => {
     Alert.alert(
       'Reset App Data',
-      'This will clear all your test progress, schedules, and settings. Are you sure?',
+      'This will clear all your test progress, schedules, and settings. You will be logged out automatically. Are you sure?',
       [
         { text: 'Cancel', style: 'cancel' },
         {
-          text: 'Reset',
+          text: 'Reset & Logout',
           style: 'destructive',
           onPress: async () => {
             try {
@@ -425,7 +444,8 @@ export default function SettingsScreen() {
                 // Reset only test progress context (keep student data)
                 await resetProgress(); // Clear test progress context only
                 
-                Alert.alert('Success', 'Exam history and test progress has been reset. Your profile remains unchanged.');
+                // Show stylish logout notification
+                setShowLogoutModal(true);
               }
             } catch (error) {
               console.error('Error resetting exam data:', error);
@@ -789,6 +809,55 @@ export default function SettingsScreen() {
             </LinearGradient>
           </View>
         </Modal>
+
+        {/* Stylish Logout Modal */}
+        <Modal
+          visible={showLogoutModal}
+          transparent={true}
+          animationType="fade"
+          onRequestClose={() => setShowLogoutModal(false)}
+        >
+          <View style={styles.logoutModalOverlay}>
+            <LinearGradient
+              colors={["#667eea", "#764ba2", "#f093fb"]}
+              style={styles.logoutModalContent}
+            >
+              <View style={styles.logoutIconContainer}>
+                <LinearGradient
+                  colors={["#4CAF50", "#45a049"]}
+                  style={styles.checkIconBg}
+                >
+                  <Text style={styles.checkIcon}>✓</Text>
+                </LinearGradient>
+              </View>
+              
+              <Text style={styles.logoutModalTitle}>Reset Complete!</Text>
+              <Text style={styles.logoutModalMessage}>
+                Your data has been successfully reset.{'\n'}
+                You will now be logged out for security.
+              </Text>
+              
+              <TouchableOpacity
+                style={styles.logoutContinueButton}
+                onPress={handleLogoutAfterReset}
+              >
+                <LinearGradient
+                  colors={["#FF6B6B", "#FF8787"]}
+                  style={styles.logoutButtonGradient}
+                >
+                  <Text style={styles.logoutContinueText}>Continue to Login</Text>
+                  <Text style={styles.logoutArrow}>→</Text>
+                </LinearGradient>
+              </TouchableOpacity>
+              
+              <View style={styles.logoutDecoration}>
+                <View style={styles.decorationDot} />
+                <View style={styles.decorationDot} />
+                <View style={styles.decorationDot} />
+              </View>
+            </LinearGradient>
+          </View>
+        </Modal>
       </LinearGradient>
     </ScreenTemplate>
   );
@@ -1084,5 +1153,96 @@ const styles = {
   },
   primaryButtonText: {
     color: '#fff',
+  },
+  // Stylish Logout Modal Styles
+  logoutModalOverlay: {
+    flex: 1,
+    backgroundColor: 'rgba(0, 0, 0, 0.8)',
+    justifyContent: 'center' as const,
+    alignItems: 'center' as const,
+    padding: 20,
+  },
+  logoutModalContent: {
+    borderRadius: 25,
+    padding: 30,
+    alignItems: 'center' as const,
+    minWidth: 300,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 10 },
+    shadowOpacity: 0.3,
+    shadowRadius: 20,
+    elevation: 10,
+  },
+  logoutIconContainer: {
+    marginBottom: 20,
+  },
+  checkIconBg: {
+    width: 80,
+    height: 80,
+    borderRadius: 40,
+    justifyContent: 'center' as const,
+    alignItems: 'center' as const,
+    shadowColor: '#4CAF50',
+    shadowOffset: { width: 0, height: 5 },
+    shadowOpacity: 0.3,
+    shadowRadius: 10,
+    elevation: 8,
+  },
+  checkIcon: {
+    fontSize: 40,
+    color: 'white',
+    fontWeight: 'bold' as const,
+  },
+  logoutModalTitle: {
+    fontSize: 28,
+    fontWeight: 'bold' as const,
+    color: 'white',
+    marginBottom: 15,
+    textAlign: 'center' as const,
+  },
+  logoutModalMessage: {
+    fontSize: 16,
+    color: 'rgba(255, 255, 255, 0.9)',
+    textAlign: 'center' as const,
+    lineHeight: 24,
+    marginBottom: 30,
+  },
+  logoutContinueButton: {
+    borderRadius: 25,
+    overflow: 'hidden' as const,
+    marginBottom: 20,
+    shadowColor: '#FF6B6B',
+    shadowOffset: { width: 0, height: 5 },
+    shadowOpacity: 0.3,
+    shadowRadius: 10,
+    elevation: 8,
+  },
+  logoutButtonGradient: {
+    flexDirection: 'row' as const,
+    alignItems: 'center' as const,
+    justifyContent: 'center' as const,
+    paddingVertical: 15,
+    paddingHorizontal: 30,
+  },
+  logoutContinueText: {
+    fontSize: 18,
+    fontWeight: 'bold' as const,
+    color: 'white',
+    marginRight: 10,
+  },
+  logoutArrow: {
+    fontSize: 20,
+    color: 'white',
+    fontWeight: 'bold' as const,
+  },
+  logoutDecoration: {
+    flexDirection: 'row' as const,
+    gap: 8,
+  },
+  decorationDot: {
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+    backgroundColor: 'rgba(255, 255, 255, 0.3)',
   },
 };

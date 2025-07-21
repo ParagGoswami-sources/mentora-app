@@ -311,6 +311,7 @@ export default function AptitudeTestScreen() {
             exam_type: studentData?.educationType === "School" 
               ? `Class_${studentData.class}_${studentData.stream || 'General'}` 
               : `UG_${studentData?.course || studentData?.stream || 'General'}`,
+            test_title: "Aptitude Test", // Add proper test title
             score: score,
             total_questions: examState.questions.length,
             percentage: percentage,

@@ -44,7 +44,6 @@ const Page1 = ({ onNext }: Page1Props) => {
         </TouchableOpacity>
       </View>
     </ImageBackground>
-    
   );
 };
 

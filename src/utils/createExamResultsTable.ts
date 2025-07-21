@@ -42,7 +42,7 @@ export async function createExamResultsTableDirect(): Promise<{ success: boolean
     console.log('🚀 Creating exam_results table with SQL...');
     
     // First check if table already exists
-    const { data: existingTable, error: checkError } = await supabase
+    const { data: _existingTable, error: checkError } = await supabase
       .from('exam_results')
       .select('id')
       .limit(1);
@@ -56,7 +56,7 @@ export async function createExamResultsTableDirect(): Promise<{ success: boolean
     console.log('🔧 Table does not exist, attempting to create...');
     
     // Use the SQL editor approach via RPC
-    const { data, error } = await supabase.rpc('exec_sql', {
+    const { data: _data, error } = await supabase.rpc('exec_sql', {
       sql: EXAM_RESULTS_TABLE_SQL
     });
     
@@ -85,7 +85,7 @@ export async function createExamResultsTableDirect(): Promise<{ success: boolean
 export async function verifyExamResultsTable(): Promise<{ exists: boolean; structure?: any; error?: any }> {
   try {
     // Check if table exists and get its structure
-    const { data, error } = await supabase
+    const { data: _data, error } = await supabase
       .from('exam_results')
       .select('*')
       .limit(1);
@@ -106,54 +106,7 @@ export async function verifyExamResultsTable(): Promise<{ exists: boolean; struc
   }
 }
 
-export async function testExamResultsTable(): Promise<{ success: boolean; error?: any }> {
-  try {
-    console.log('🧪 Testing exam_results table...');
-    
-    // Try to insert a test record
-    const testResult = {
-      student_email: 'test@example.com',
-      exam_type: 'Psychometric_Aptitude_Test',
-      test_title: 'Aptitude Test',
-      score: 15,
-      total_questions: 25,
-      percentage: 60.00,
-      time_taken: 1200, // 20 minutes
-      answers: {
-        'APT_001': { selected: 'B', correct: 'B', isCorrect: true },
-        'APT_002': { selected: 'A', correct: 'B', isCorrect: false }
-      },
-      started_at: new Date().toISOString(),
-    };
-    
-    const { data, error: insertError } = await supabase
-      .from('exam_results')
-      .insert(testResult)
-      .select();
-      
-    if (insertError) {
-      console.error('❌ Failed to insert test record:', insertError);
-      return { success: false, error: insertError };
-    }
-    
-    console.log('✅ Test record inserted successfully:', data?.[0]?.id);
-    
-    // Clean up test record
-    if (data?.[0]?.id) {
-      await supabase
-        .from('exam_results')
-        .delete()
-        .eq('id', data[0].id);
-      console.log('🧹 Test record cleaned up');
-    }
-    
-    return { success: true };
-    
-  } catch (error) {
-    console.error('❌ Test failed:', error);
-    return { success: false, error };
-  }
-}
+// Test function removed - not used in production
 
 export function getExamResultsTableSQL(): string {
   return EXAM_RESULTS_TABLE_SQL;

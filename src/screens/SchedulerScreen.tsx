@@ -43,6 +43,8 @@ export default function SchedulerScreen() {
   const [selectedDay, setSelectedDay] = useState<WeekDay | null>(null);
   const [showAddModal, setShowAddModal] = useState(false);
   const [weakSubjects, setWeakSubjects] = useState<string[]>([]);
+  const [currentWeekStart, setCurrentWeekStart] = useState(new Date());
+  const [autoScheduleGenerated, setAutoScheduleGenerated] = useState(false);
   const [newSession, setNewSession] = useState({
     subject: '',
     time: '',
@@ -73,6 +75,8 @@ export default function SchedulerScreen() {
       // Generate AI suggestions for weak subjects
       if (weakAreas.length > 0) {
         await generateAISuggestions(weakAreas);
+        // Regenerate week view after adding suggestions
+        generateWeek(currentWeekStart);
       }
       
     } catch (error) {
@@ -109,12 +113,12 @@ export default function SchedulerScreen() {
       .map(([subject]) => subject);
   };
 
-  const generateCurrentWeek = () => {
+  const generateWeek = (baseDate: Date = currentWeekStart) => {
     const today = new Date();
     const week: WeekDay[] = [];
     
-    // Start from Monday of current week
-    const startOfWeek = new Date(today);
+    // Start from Monday of the specified week
+    const startOfWeek = new Date(baseDate);
     const day = startOfWeek.getDay();
     const diff = startOfWeek.getDate() - day + (day === 0 ? -6 : 1);
     startOfWeek.setDate(diff);
@@ -138,54 +142,122 @@ export default function SchedulerScreen() {
     }
     
     setCurrentWeek(week);
+    setCurrentWeekStart(startOfWeek);
     
-    // Select today by default
+    // Select today if it's in current week, otherwise select first day
     const todayIndex = week.findIndex(day => day.isToday);
     if (todayIndex !== -1) {
       setSelectedDay(week[todayIndex]);
+    } else if (week.length > 0) {
+      setSelectedDay(week[0]);
     }
   };
 
-  const generateAISuggestions = async (weakAreas: string[]) => {
+  const generateCurrentWeek = () => {
+    generateWeek(new Date());
+  };
+
+  const navigateWeek = (direction: 'prev' | 'next') => {
+    const newWeekStart = new Date(currentWeekStart);
+    newWeekStart.setDate(newWeekStart.getDate() + (direction === 'next' ? 7 : -7));
+    generateWeek(newWeekStart);
+  };
+
+  const jumpToToday = () => {
+    const today = new Date();
+    setCurrentWeekStart(today);
+    generateWeek(today);
+  };
+
+  const generateAutoWeeklySchedule = async (weakAreas: string[]) => {
+    if (autoScheduleGenerated) return; // Don't regenerate if already done
+    
     const suggestions: StudySession[] = [];
     const today = new Date();
     
-    weakAreas.forEach((subject) => {
-      // Suggest sessions for the next few days
-      for (let dayOffset = 1; dayOffset <= 7; dayOffset++) {
+    // Create a comprehensive weekly schedule
+    const scheduleTemplate = [
+      { day: 1, time: '18:00', duration: 60, subjects: ['high-priority'] }, // Monday
+      { day: 2, time: '19:00', duration: 45, subjects: ['medium-priority'] }, // Tuesday
+      { day: 3, time: '17:30', duration: 60, subjects: ['high-priority'] }, // Wednesday
+      { day: 4, time: '18:30', duration: 45, subjects: ['review'] }, // Thursday
+      { day: 5, time: '16:00', duration: 90, subjects: ['intensive'] }, // Friday
+      { day: 6, time: '10:00', duration: 120, subjects: ['project-work'] }, // Saturday
+      { day: 0, time: '15:00', duration: 60, subjects: ['light-review'] }, // Sunday
+    ];
+
+    // Priority subjects based on test performance
+    const highPrioritySubjects = weakAreas.slice(0, 2); // Top 2 weak areas
+    const mediumPrioritySubjects = weakAreas.slice(2, 4); // Next 2 weak areas
+    const allSubjects = [...highPrioritySubjects, ...mediumPrioritySubjects];
+
+    // Generate for next 4 weeks
+    for (let weekOffset = 0; weekOffset < 4; weekOffset++) {
+      scheduleTemplate.forEach((template) => {
         const sessionDate = new Date(today);
+        const dayOffset = (template.day - today.getDay() + 7) % 7 + (weekOffset * 7);
         sessionDate.setDate(today.getDate() + dayOffset);
-        
-        if (dayOffset <= 3) { // High priority for first 3 days
-          suggestions.push({
-            id: `suggestion_${subject}_${dayOffset}`,
-            subject,
-            date: sessionDate.toISOString().split('T')[0],
-            time: dayOffset === 1 ? '18:00' : '19:00', // Vary times
-            duration: 45,
-            priority: 'high',
-            completed: false,
-            type: 'suggested',
-            notes: `AI Recommendation: Focus on ${subject} - identified as weak area`
-          });
+
+        // Skip past dates
+        if (sessionDate < today) return;
+
+        let subject = 'General Study';
+        let priority: 'high' | 'medium' | 'low' = 'medium';
+        let notes = 'Scheduled study session';
+
+        // Assign subjects based on template type
+        if (template.subjects.includes('high-priority') && highPrioritySubjects.length > 0) {
+          subject = highPrioritySubjects[weekOffset % highPrioritySubjects.length];
+          priority = 'high';
+          notes = `Focus session for ${subject} - identified as weak area`;
+        } else if (template.subjects.includes('medium-priority') && mediumPrioritySubjects.length > 0) {
+          subject = mediumPrioritySubjects[weekOffset % mediumPrioritySubjects.length];
+          priority = 'medium';
+          notes = `Practice session for ${subject}`;
+        } else if (template.subjects.includes('intensive') && allSubjects.length > 0) {
+          subject = allSubjects[weekOffset % allSubjects.length];
+          priority = 'high';
+          notes = `Intensive study session for ${subject}`;
+        } else if (template.subjects.includes('review')) {
+          subject = allSubjects.length > 0 ? allSubjects[Math.floor(Math.random() * allSubjects.length)] : 'General Review';
+          priority = 'low';
+          notes = 'Review and practice session';
         }
-      }
-    });
-    
+
+        suggestions.push({
+          id: `auto_${subject}_${sessionDate.getTime()}`,
+          subject,
+          date: sessionDate.toISOString().split('T')[0],
+          time: template.time,
+          duration: template.duration,
+          priority,
+          completed: false,
+          type: 'suggested',
+          notes
+        });
+      });
+    }
+
     // Add suggestions to sessions if they don't already exist
     const existingSessionKeys = new Set(
       sessions.map(s => `${s.subject}_${s.date}_${s.time}`)
     );
-    
+
     const newSuggestions = suggestions.filter(s => 
       !existingSessionKeys.has(`${s.subject}_${s.date}_${s.time}`)
     );
-    
+
     if (newSuggestions.length > 0) {
       const updatedSessions = [...sessions, ...newSuggestions];
       setSessions(updatedSessions);
       await saveSessions(updatedSessions);
+      setAutoScheduleGenerated(true);
     }
+  };
+
+  const generateAISuggestions = async (weakAreas: string[]) => {
+    // Generate comprehensive weekly schedule instead of just suggestions
+    await generateAutoWeeklySchedule(weakAreas);
   };
 
   const loadSessions = async () => {
@@ -235,6 +307,9 @@ export default function SchedulerScreen() {
     setSessions(updatedSessions);
     await saveSessions(updatedSessions);
     
+    // Refresh week view
+    generateWeek(currentWeekStart);
+    
     // Schedule notification reminder (15 minutes before session)
     try {
       const sessionDateTime = new Date(`${session.date}T${session.time}`);
@@ -274,7 +349,7 @@ export default function SchedulerScreen() {
     
     setSessions(updatedSessions);
     await saveSessions(updatedSessions);
-    generateCurrentWeek();
+    generateWeek(currentWeekStart);
   };
 
   const deleteSession = async (sessionId: string) => {
@@ -290,7 +365,7 @@ export default function SchedulerScreen() {
             const updatedSessions = sessions.filter(s => s.id !== sessionId);
             setSessions(updatedSessions);
             await saveSessions(updatedSessions);
-            generateCurrentWeek();
+            generateWeek(currentWeekStart);
           }
         }
       ]
@@ -371,7 +446,35 @@ export default function SchedulerScreen() {
 
           {/* Week View */}
           <View style={styles.weekSection}>
-            <Text style={styles.sectionTitle}>📅 This Week</Text>
+            <View style={styles.weekHeader}>
+              <TouchableOpacity 
+                style={styles.weekNavButton}
+                onPress={() => navigateWeek('prev')}
+              >
+                <Text style={styles.weekNavText}>← Prev</Text>
+              </TouchableOpacity>
+              
+              <View style={styles.weekTitleContainer}>
+                <Text style={styles.sectionTitle}>
+                  📅 {currentWeek.length > 0 && 
+                    `${currentWeek[0].date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })} - ${currentWeek[6].date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}`
+                  }
+                </Text>
+                <TouchableOpacity 
+                  style={styles.todayButton}
+                  onPress={jumpToToday}
+                >
+                  <Text style={styles.todayButtonText}>Today</Text>
+                </TouchableOpacity>
+              </View>
+              
+              <TouchableOpacity 
+                style={styles.weekNavButton}
+                onPress={() => navigateWeek('next')}
+              >
+                <Text style={styles.weekNavText}>Next →</Text>
+              </TouchableOpacity>
+            </View>
             
             <ScrollView horizontal showsHorizontalScrollIndicator={false}>
               <View style={styles.weekContainer}>
@@ -724,6 +827,43 @@ const styles = StyleSheet.create({
   // Week View
   weekSection: {
     marginBottom: 25,
+  },
+  weekHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 15,
+    paddingHorizontal: 10,
+  },
+  weekNavButton: {
+    backgroundColor: 'rgba(255, 255, 255, 0.1)',
+    paddingHorizontal: 15,
+    paddingVertical: 8,
+    borderRadius: 20,
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.2)',
+  },
+  weekNavText: {
+    color: '#667eea',
+    fontSize: 14,
+    fontWeight: '600',
+  },
+  weekTitleContainer: {
+    flex: 1,
+    alignItems: 'center',
+    paddingHorizontal: 10,
+  },
+  todayButton: {
+    backgroundColor: '#667eea',
+    paddingHorizontal: 12,
+    paddingVertical: 4,
+    borderRadius: 10,
+    marginTop: 5,
+  },
+  todayButtonText: {
+    color: 'white',
+    fontSize: 12,
+    fontWeight: 'bold',
   },
   weekContainer: {
     flexDirection: 'row',

@@ -17,7 +17,7 @@ import { LinearGradient } from "expo-linear-gradient";
 import ScreenTemplate from "../components/ScreenTemplate";
 import { supabase } from "../context/SupabaseContext";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { useNavigation, NavigationProp } from "@react-navigation/native";
+import { useNavigation, NavigationProp, useFocusEffect } from "@react-navigation/native";
 import { useTheme } from "../context/ThemeContext";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
@@ -49,6 +49,12 @@ export default function ProfileScreen() {
   useEffect(() => {
     fetchStudentData();
   }, []);
+
+  useFocusEffect(
+    React.useCallback(() => {
+      fetchStudentData();
+    }, [])
+  );
 
   const fetchStudentData = async () => {
     try {

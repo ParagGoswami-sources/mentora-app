@@ -29,6 +29,7 @@ import { supabase } from "../context/SupabaseContext";
 import { loginWithoutEmailConfirmation, signUpWithoutConfirmation } from "../utils/authConfig";
 import { useStudent } from "../context/StudentContext";
 import { useTestProgress } from "../context/TestProgressContext";
+import { useNavigationTracking } from "../context/NavigationContext";
 
 const { width, height } = Dimensions.get("window");
 const NUM_STARS = 30;
@@ -56,6 +57,7 @@ export default function LoginScreen() {
   const navigation = useNavigation<LoginScreenProp>();
   const { clearStudentData } = useStudent();
   const { reloadTestsForUser } = useTestProgress();
+  const { setPreventBackToLogin, clearHistory } = useNavigationTracking();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
@@ -273,10 +275,17 @@ export default function LoginScreen() {
       clearStudentData();
       await reloadTestsForUser(); // Load test data for this specific user
 
-      navigation.navigate("MainApp", {
-        userName: studentData.name,
-        phone: studentData.phone,
-        email: studentData.email,
+      // Clear navigation history and prevent back to login
+      clearHistory();
+      setPreventBackToLogin(true);
+
+      navigation.reset({
+        index: 0,
+        routes: [{ name: "MainApp", params: {
+          userName: studentData.name,
+          phone: studentData.phone,
+          email: studentData.email,
+        }}],
       });
     } catch (error) {
       console.error("Login error:", error);
